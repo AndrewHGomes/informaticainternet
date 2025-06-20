@@ -56,8 +56,7 @@ const GestaoDaInformacao = () => {
               gestão eficiente da informação estão sendo muito procuradas pelas
               organizações.
             </p>
-
-            <h3>Sistema</h3>
+            <h4>Sistema</h4>
             <p>
               É possível perceber que a gestão da informação é um assunto
               extenso e complexo, pois envolve organizar os dados, armazenar e
@@ -90,7 +89,7 @@ const GestaoDaInformacao = () => {
               sistema, pois é composta por elementos que precisam estar
               organizados para que agreguem valor para uma organização.
             </p>
-            <h3>Podemos classificar os sistemas como:</h3>
+            <h4>Podemos classificar os sistemas como:</h4>
             <ul>
               <li>
                 <h4>Simples ou complexo:</h4>
@@ -141,14 +140,14 @@ const GestaoDaInformacao = () => {
               de elementos organizados, que disponibilizam informações
               relevantes para os gestores.
             </p>
-            <h3>Podemos entender sistema da informação como sendo:</h3>
+            <h4>Podemos entender sistema da informação como sendo:</h4>
             <ul>
               <li>Entrada de dados;</li>
               <li>Processamento de informações;</li>
               <li>Saída de conhecimento.</li>
             </ul>
 
-            <h3>Elementos de um sistema de informação</h3>
+            <h4>Elementos de um sistema de informação</h4>
             <p>
               Para compreender melhor os elementos que compõem um sistema de
               informação, vamos discutir o que são dados, informação e
@@ -281,7 +280,7 @@ const GestaoDaInformacao = () => {
               produtos, com base no gosto deles, ou ainda, criar campanhas de
               vendas baseadas nas preferências dos clientes.
             </p>
-            <h3>Hierarquia da gestão da informação:</h3>
+            <h4>Hierarquia da gestão da informação:</h4>
             <p>Isso tudo se torna um ciclo contínuo, uma corrente.</p>
             <ol>
               <li>
@@ -314,7 +313,7 @@ const GestaoDaInformacao = () => {
                 </ul>
               </li>
             </ol>
-            <h3>Tipos de informação e conhecimento</h3>
+            <h4>Tipos de informação e conhecimento</h4>
             <p>
               Até aqui entendemos o que são sistemas de informação, como eles
               são compostos e discutimos as características de cada elemento que
@@ -368,7 +367,7 @@ const GestaoDaInformacao = () => {
                 </ul>
               </li>
             </ul>
-            <h3>Tipos de informação</h3>
+            <h4>Tipos de informação</h4>
             <p>As informações podem ainda ser formais ou informais.</p>
             <ul>
               <li>
@@ -399,7 +398,7 @@ const GestaoDaInformacao = () => {
               informações, tanto formais quanto informais, para melhor apoiar a
               gestão da organização.
             </p>
-            <h3>Tipos de conhecimento</h3>
+            <h4>Tipos de conhecimento</h4>
             <p>
               Quanto mais madura for uma organização, melhor uso ela faz das
               suas informações, assim como gera conhecimento com base neste uso.
@@ -459,7 +458,7 @@ const GestaoDaInformacao = () => {
               </q>
               <cite>Strauhs Et Al (2012, P.26)</cite>
             </blockquote>
-            <h3>Movimento do dado</h3>
+            <h4>Movimento do dado</h4>
             <p>
               A evolução do dado até a geração de conhecimento requer uma
               análise detalhada do que se espera destes dados, de como eles
@@ -472,7 +471,7 @@ const GestaoDaInformacao = () => {
               informação útil. Logo, este primeiro movimento de transformação do
               dado em informação requer a definição da utilidade do dado.
             </p>
-            <h3>Categorização</h3>
+            <h4>Categorização</h4>
             <ul>
               <li>Demanda e análise matemática ou estatística dos dados;</li>
               <li>Possibilita a síntese/condensação e análise dos dados.</li>
@@ -561,7 +560,7 @@ const GestaoDaInformacao = () => {
               como lidar com a informação presente em todos os momentos da nossa
               vida.
             </p>
-            <h3>Diferença entre Técnica e Tecnologia</h3>
+            <h4>Diferença entre Técnica e Tecnologia</h4>
             <p>
               Antes de aprofundar nos sistemas de informação, é importante
               relembrar dois conceitos que, embora por vezes usados como
@@ -594,7 +593,7 @@ const GestaoDaInformacao = () => {
                 </ul>
               </li>
             </ul>
-            <h3>O que são Sistemas de Informação (SI)?</h3>
+            <h4>O que são Sistemas de Informação (SI)?</h4>
             <p>
               Um **Sistema de Informação** pode ser tanto automatizado (apoiado
               em Tecnologia da Informação - TI) quanto manual. Ele abrange
@@ -649,7 +648,7 @@ const GestaoDaInformacao = () => {
               clientes, pois precisam garantir que estejam preparadas para lidar
               com essa dinâmica.
             </p>
-            <h3>As Dimensões de um Sistema de Informação</h3>
+            <h4>As Dimensões de um Sistema de Informação</h4>
             <p>
               Os sistemas de informação são construídos sobre três dimensões
               interdependentes: a organizacional, a das pessoas e a da
@@ -749,7 +748,7 @@ const GestaoDaInformacao = () => {
               ter capacidade de atender à organização em todas as suas
               necessidades.
             </p>
-            <h3>Classificação dos Sistemas de Informação por Tipo</h3>
+            <h4>Classificação dos Sistemas de Informação por Tipo</h4>
             <p>
               Além das dimensões, os sistemas de informação são classificados
               por tipo, e cada um é projetado para atender a diferentes
@@ -813,7 +812,7 @@ const GestaoDaInformacao = () => {
                 </ul>
               </li>
             </ul>
-            <h3>Como a Tecnologia da Informação (TI) Apoia Esses Sistemas</h3>
+            <h4>Como a Tecnologia da Informação (TI) Apoia Esses Sistemas</h4>
             <h4>Definição de TI:</h4>
             <p>
               A **Tecnologia da Informação** é um conjunto de atividades e
@@ -868,11 +867,10 @@ const GestaoDaInformacao = () => {
                 </ul>
               </li>
             </ul>
-
-            <h3>
+            <h4>
               Características das Formas de Troca de Informações no Cenário
               Digital
-            </h3>
+            </h4>
             <p>
               Com a era digital e o incremento dos negócios eletrônicos, os
               sistemas de informação precisam se adaptar a uma nova realidade de
@@ -948,74 +946,119 @@ const GestaoDaInformacao = () => {
           <div>
             <h3>A Gestão da Informação</h3>
             <p>
-              O uso eficaz da informação disponível é condição vital para o
-              sucesso de qualquer organização. Por isso, devemos estar
-              preparados para fazer uma gestão eficiente dessas informações que
-              apoiam a tomada de decisão das organizações.
+              O uso eficaz da informação disponível é uma{" "}
+              <strong>
+                condição vital para o sucesso de qualquer organização
+              </strong>
+              . Por isso, devemos estar preparados para fazer uma{" "}
+              <strong>gestão eficiente dessas informações</strong>, pois elas
+              apoiam diretamente a tomada de decisão das organizações.
             </p>
             <h4>O que significa estar vivendo na Sociedade da Informação?</h4>
             <p>
-              O volume das informações que circula dentro das empresas está cada
-              vez maior, e é fundamental fazer uma gestão eficiente dessas
-              informações, de forma que seja possível armazená-las e acessá-las
-              sempre que for preciso. Na T.I., a Gestão da Informação é
-              fundamental para alimentar todas as demais áreas da empresa com
-              informações relevantes, organizadas e de fácil acesso. Um
-              profissional de T.I. que tem conhecimento sobre Gestão de T.I. é
-              capaz de catalogar, discutir, armazanar, organizar e distribuir as
-              informações, mesmo em grandes volumes.
+              Atualmente, o volume de informações que circula dentro das
+              empresas está cada vez maior. É fundamental, portanto, fazer uma{" "}
+              <strong>gestão eficiente dessas informações</strong> para que seja
+              possível armazená-las e acessá-las sempre que for preciso. Na área
+              de Tecnologia da Informação (T.I.), a Gestão da Informação é
+              crucial para{" "}
+              <strong>
+                alimentar todas as demais áreas da empresa com dados relevantes,
+                organizados e de fácil acesso
+              </strong>
+              . Um profissional de T.I. com conhecimento em Gestão da Informação
+              é capaz de{" "}
+              <strong>
+                catalogar, analisar, armazenar, organizar e distribuir as
+                informações
+              </strong>
+              , mesmo em grandes volumes.
             </p>
             <h4>IMPORTANTE:</h4>
             <p>
-              A informação é um ativo da empresa, precisa ser cuidada e tratada
-              de forma adequada para que funcione bem. Ela também é um recurso,
-              precisa ser gerenciada para estar sempre disponível para atender
-              às necessidades da empresa.
+              A informação é um <strong>ativo valioso da empresa</strong>, e
+              precisa ser cuidada e tratada de forma adequada para que funcione
+              bem. Ela também é um <strong>recurso essencial</strong>, que deve
+              ser gerenciado para estar sempre disponível, atendendo às
+              necessidades da organização.
             </p>
-            <h3>Gestão adequada das informações</h3>
-            <h4>Depende de:</h4>
+            <h4>Gestão Adequada das Informações</h4>
+            <h4>A gestão adequada da informação depende de:</h4>
             <ul>
-              <li>Rotina;</li>
-              <li>Pessoas especializadas;</li>
-              <li>Ferramentas adequadas.</li>
-            </ul>
-            <p>
-              Logo, a gestão da informação é um processo organizacional que
-              precisa ser bem gerido.
-            </p>
-            <h4>Fluxo da informação é composto por:</h4>
-            <ul>
-              <li>Pessoas;</li>
-              <li>Fontes de informação;</li>
-              <li>Tecnologias utilizadas;</li>
-              <li>Produtos e serviços;</li>
-            </ul>
-            <p>
-              Assim, temos como a informação e o conhecimento são obtidos,
-              distribuídos e utilizados pela organização.
-            </p>
-            <h4>Gestão eficiente da informação:</h4>
-            <ul>
-              <li>Processos bem definidos;</li>
-              <li>Pessoas bem treinadas e comprometidas;</li>
-            </ul>
-            <p>Isso gera:</p>
-            <ul>
-              <li>Disciplina do armazenamento correto;</li>
-              <li>Acesso seguro;</li>
               <li>
-                Disponibilização no momento correto e para as pessoas corretas.
+                <strong>Rotinas bem estabelecidas</strong>;
+              </li>
+              <li>
+                <strong>Pessoas especializadas</strong> e capacitadas;
+              </li>
+              <li>
+                <strong>Ferramentas adequadas</strong> para o tratamento e
+                armazenamento.
               </li>
             </ul>
-            <h4>Passo a passo da Gestão da Informação:</h4>
+            <p>
+              Logo, a gestão da informação é um processo organizacional contínuo
+              que <strong>precisa ser muito bem gerenciado</strong>.
+            </p>
+            <h4>O Fluxo da Informação é composto por:</h4>
             <ul>
               <li>
-                Entender as necessidades de informação das diversas áreas de uma
-                organização;
+                <strong>Pessoas</strong>: os usuários e geradores da informação;
               </li>
-              <li>Analizar e processar essas informações;</li>
               <li>
-                Disponibilizá-las para resolver os problemas organizacionais.
+                <strong>Fontes de informação</strong>: de onde os dados são
+                coletados;
+              </li>
+              <li>
+                <strong>Tecnologias utilizadas</strong>: sistemas e softwares
+                que processam a informação;
+              </li>
+              <li>
+                <strong>Produtos e serviços</strong>: como a informação é
+                entregue e utilizada.
+              </li>
+            </ul>
+            <p>
+              Assim, conseguimos entender como a informação e o conhecimento são
+              obtidos, distribuídos e utilizados por toda a organização.
+            </p>
+            <h4>Para uma Gestão Eficiente da Informação, são necessários:</h4>
+            <ul>
+              <li>
+                <strong>Processos bem definidos</strong>;
+              </li>
+              <li>
+                <strong>Pessoas bem treinadas e comprometidas</strong> com a
+                qualidade e o uso da informação.
+              </li>
+            </ul>
+            <p>Isso gera, como resultado:</p>
+            <ul>
+              <li>
+                <strong>Disciplina no armazenamento correto</strong> dos dados;
+              </li>
+              <li>
+                <strong>Acesso seguro</strong> às informações;
+              </li>
+              <li>
+                <strong>Disponibilização no momento correto</strong> e para as
+                pessoas certas.
+              </li>
+            </ul>
+            <h4>O Passo a Passo da Gestão da Informação envolve:</h4>
+            <ul>
+              <li>
+                <strong>Entender as necessidades de informação</strong> das
+                diversas áreas da organização;
+              </li>
+              <li>
+                <strong>Analisar e processar</strong> essas informações;
+              </li>
+              <li>
+                <strong>
+                  Disponibilizá-las para resolver os problemas organizacionais
+                </strong>
+                .
               </li>
             </ul>
             <p>
@@ -1023,163 +1066,230 @@ const GestaoDaInformacao = () => {
               organizada nas seguintes fases:
             </p>
             <ul>
-              <li>Determinação das exigências de informação;</li>
-              <li>Coleta da informação;</li>
-              <li>Distribuição da informação;</li>
-              <li>Utilização da informação.</li>
+              <li>
+                <strong>Determinação das exigências de informação</strong>;
+              </li>
+              <li>
+                <strong>Coleta da informação</strong>;
+              </li>
+              <li>
+                <strong>Distribuição da informação</strong>;
+              </li>
+              <li>
+                <strong>Utilização da informação</strong>.
+              </li>
             </ul>
             <p>
-              De acordo com Choo (2006), temos um melhor detalhamento com a
-              gestão do conhecimento:
+              Já segundo Choo (2006), em um detalhamento mais aprofundado com a
+              gestão do conhecimento, temos:
             </p>
             <ul>
-              <li>Necessidade da informação;</li>
-              <li>Aquisição da informação;</li>
-              <li>Organização e armazenamento da informação;</li>
-              <li>Produtos e serviços da informação;</li>
-              <li>Distribuição da informação;</li>
-              <li>Utilização da informação;</li>
-              <li>Comportamento adaptativo.</li>
+              <li>
+                <strong>Necessidade da informação</strong>;
+              </li>
+              <li>
+                <strong>Aquisição da informação</strong>;
+              </li>
+              <li>
+                <strong>Organização e armazenamento da informação</strong>;
+              </li>
+              <li>
+                <strong>Produtos e serviços da informação</strong>;
+              </li>
+              <li>
+                <strong>Distribuição da informação</strong>;
+              </li>
+              <li>
+                <strong>Utilização da informação</strong>;
+              </li>
+              <li>
+                <strong>Comportamento adaptativo</strong>.
+              </li>
             </ul>
             <h4>Vamos compreender o objetivo de cada uma dessas fases:</h4>
             <ul>
               <li>
-                Levantamento das informações que são necessárias para cada uma
-                das áreas da organização;
+                <strong>Levantamento das informações necessárias</strong> para
+                cada área da organização é o ponto de partida;
               </li>
               <li>
-                É preciso conhecer o negócio para fazer a gestão de clientes,
-                fornecedores, concorrentes e todas as demais informações
-                necessárias para manter a empresa em funcionamento;
+                É crucial <strong>conhecer o negócio</strong> para gerir
+                informações sobre clientes, fornecedores, concorrentes e tudo o
+                mais que a empresa precisa para funcionar;
               </li>
               <li>
-                É preciso saber quem precisa da informação e quais são as
-                informações essenciais;
+                É preciso saber <strong>quem precisa da informação</strong> e
+                quais são as <strong>informações essenciais</strong>;
               </li>
               <li>
-                É preciso avaliar se a qualidade da informação está adequada à
-                necessidade;
+                A <strong>qualidade da informação</strong> deve ser avaliada
+                para garantir que está adequada à necessidade;
               </li>
-              <li>É preciso identificar onde está a informação;</li>
               <li>
-                É preciso conhecer por que e como as informação devem ser
-                coletadas.
+                É preciso{" "}
+                <strong>identificar onde a informação está localizada</strong>;
+              </li>
+              <li>
+                É fundamental saber{" "}
+                <strong>
+                  por que e como as informações devem ser coletadas
+                </strong>
+                .
               </li>
             </ul>
             <p>
-              Quanto mais crítico for no armazenamento das informações
-              essenciais, melhor será o sistema de Gestão da Informação. A
-              qualidade da informação é muito importante para uma tomada de
-              decisão assertiva.
+              Quanto mais crítico for o armazenamento das informações
+              essenciais, melhor será o sistema de Gestão da Informação. A{" "}
+              <strong>qualidade da informação é muito importante</strong> para
+              uma tomada de decisão assertiva.
             </p>
-            <h4>Atrapalham a boa gestão da informação:</h4>
+            <h4>Fatores que Atrapalham a Boa Gestão da Informação:</h4>
             <ul>
-              <li>Falta de exatidão;</li>
-              <li>Formato errado;</li>
-              <li>Falta de confiabilidade;</li>
-              <li>Dificuldade de utilização</li>
+              <li>
+                <strong>Falta de exatidão</strong> nos dados;
+              </li>
+              <li>
+                <strong>Formato errado</strong> ou inadequado;
+              </li>
+              <li>
+                <strong>Falta de confiabilidade</strong> na fonte ou no dado;
+              </li>
+              <li>
+                <strong>Dificuldade de utilização</strong> e acesso.
+              </li>
             </ul>
-            <p>Tudo isso pode gerar sérios problemas para as organizações.</p>
+            <p>
+              Tudo isso pode gerar <strong>sérios problemas</strong> para as
+              organizações.
+            </p>
             <p>
               As informações podem ser obtidas tanto dentro das organizações
-              quanto fora delas. As que estão dentro precisam ser divulgadas
-              para que não se perca tempo buscando informações já disponíveis.
-              As pessoas que buscam informação fora da organização precisam ter
-              certeza, senso de responsabilidade, e isso de maneira rápida,
-              direta e confiável, a fim de agilizar a Gestão.
+              quanto fora delas. As informações internas precisam ser bem
+              divulgadas para que não se perca tempo buscando o que já está
+              disponível. As pessoas que buscam informações externas precisam
+              ter <strong>certeza e senso de responsabilidade</strong>, agindo
+              de maneira rápida, direta e confiável, a fim de agilizar a Gestão.
             </p>
             <blockquote>
               <q>
-                A vantagem competitiva surge da habilidade de identifificar
+                A vantagem competitiva surge da habilidade de identificar
                 atores, assuntos e fontes de informação relevantes que permitam
-                a compreensão das implicações das mudanças ambientais anunciadas
+                a compreensão das implicações das mudanças ambientais
+                anunciadas.
               </q>
               <cite>Strauhs et al (2012, P. 27)</cite>
             </blockquote>
-            <h4>Podem mudar a necessidade de informação:</h4>
+            <h4>Podem Mudar a Necessidade de Informação:</h4>
             <ul>
-              <li>Mudanças econômicas;</li>
-              <li>Evoluções no mercado;</li>
-              <li>Demanda de clientes;</li>
-              <li>Mudanças sociais ou políticas.</li>
+              <li>
+                <strong>Mudanças econômicas</strong>;
+              </li>
+              <li>
+                <strong>Evoluções no mercado</strong>;
+              </li>
+              <li>
+                <strong>Demanda dos clientes</strong>;
+              </li>
+              <li>
+                <strong>Mudanças sociais ou políticas</strong>.
+              </li>
             </ul>
             <p>
-              Ou seja, a gestão da informação é algo sistêmico, que não acaba,
-              mas está em constante evolução.
+              Ou seja, a gestão da informação é algo{" "}
+              <strong>sistêmico e dinâmico</strong>, que não se encerra, mas
+              está em constante evolução.
             </p>
-            <h3>Organização e armazenamento das informações</h3>
+            <h4>Organização e Armazenamento das Informações</h4>
             <p>
-              A forma de organizar e armazenar a informação deve ser flexível,
-              para atender as necessidades específicas de seus usuários. Uma
-              mesma informação pode ser necessária e útil para mais de um
-              usuário.
+              A forma de organizar e armazenar a informação deve ser{" "}
+              <strong>flexível</strong>, para atender às necessidades
+              específicas de seus usuários. É importante lembrar que uma mesma
+              informação pode ser necessária e útil para mais de um usuário.
             </p>
             <p>É preciso cuidar das diferenças entre:</p>
             <ul>
-              <li>Categorias;</li>
-              <li>Terminologias;</li>
-              <li>Linguagem;</li>
-              <li>Forma de indexação.</li>
+              <li>
+                <strong>Categorias</strong>;
+              </li>
+              <li>
+                <strong>Terminologias</strong>;
+              </li>
+              <li>
+                <strong>Linguagem</strong>;
+              </li>
+              <li>
+                <strong>Forma de indexação</strong>.
+              </li>
             </ul>
             <p>
-              Logo, o compartilhamento da informação requer padronização e
-              conscientização dos usuários sobre a necessidade de manter as
-              regras definidas para garantir que a informação seja compreendida
-              e usada por todos.
+              Portanto, o compartilhamento da informação requer{" "}
+              <strong>padronização e conscientização</strong> dos usuários sobre
+              a necessidade de manter as regras definidas. Isso garante que a
+              informação seja compreendida e usada por todos, de forma
+              eficiente.
             </p>
             <h4>O que é um banco de dados?</h4>
             <p>
-              Um conjunto de arquivos relacionados entre si que armazena dados
-              sobre pessoas, lugares ou coisas. É uma coleção organizada de
-              dados que se relacionam para criar algum sentido, para criar
-              informação.
+              Um banco de dados é um{" "}
+              <strong>conjunto de arquivos relacionados entre si</strong> que
+              armazena dados sobre pessoas, lugares ou coisas. É uma{" "}
+              <strong>coleção organizada de dados</strong> que se conectam para
+              criar sentido, ou seja, para gerar informação.
             </p>
-            <h4>Modelagem de dados</h4>
+            <h4>Modelagem de Dados:</h4>
             <ul>
               <li>
-                Envolve a identificação dos objetos de dados, que são uma
-                representação do dado, sua dimensão - largura, altura e
-                profundidade;
+                Envolve a <strong>identificação dos objetos de dados</strong>,
+                que representam o dado em si e suas dimensões (largura, altura e
+                profundidade);
               </li>
               <li>
-                Envolve os atributos dos dados, suas propriedades - cor, modelo,
-                ano, etc;
+                Aborda os <strong>atributos dos dados</strong>, que são suas
+                propriedades (cor, modelo, ano, etc.);
               </li>
               <li>
-                Envolve o tipo, o formato - numérico, alfanumérico, booleano,
-                etc;
+                Define o <strong>tipo e o formato</strong> dos dados (numérico,
+                alfanumérico, booleano, etc.);
               </li>
               <li>
-                Envolve os possíveis relacionamentos entre eles, quantidade de
-                ocorrências possíveis entre um par de dados - cardinalidade.
+                Estabelece os <strong>possíveis relacionamentos</strong> entre
+                os dados, incluindo a quantidade de ocorrências possíveis entre
+                um par de dados (cardinalidade).
               </li>
             </ul>
-            <h3>Distribuição e utilização da informação</h3>
-            <h4>Informação pode ser tratada como:</h4>
+            <h4>Distribuição e Utilização da Informação</h4>
+            <h4>A informação pode ser tratada como:</h4>
             <ul>
               <li>
-                <h4>Produto:</h4>
+                <h4>
+                  <strong>Produto</strong>:
+                </h4>
+                <ul>
+                  <li>
+                    Pode ser produzida, armazenada e avaliada para garantir que
+                    esteja <strong>correta e completa</strong>. O foco aqui é na
+                    sua geração e integridade.
+                  </li>
+                </ul>
               </li>
-              <ul>
-                <li>
-                  Pode ser produzida, armazenada e avaliada para garantir se
-                  está correta e completa.
-                </li>
-              </ul>
               <li>
-                <h4>Serviço:</h4>
+                <h4>
+                  <strong>Serviço</strong>:
+                </h4>
+                <ul>
+                  <li>
+                    O foco está no <strong>uso que se dá à informação</strong>.
+                    É avaliada com base na <strong>facilidade de acesso</strong>{" "}
+                    e na possibilidade de mudança de formato e de relacionamento
+                    com outras informações.
+                  </li>
+                </ul>
               </li>
-              <ul>
-                <li>
-                  O foco está no uso que se dá à informação. É avaliada com base
-                  na facilidade de acesso e na possibilidade de mudança de
-                  formato e de relacionamento com outras informações.
-                </li>
-              </ul>
             </ul>
             <p>
-              Muitas empresas tratam a informação como produto e serviço,
-              garantindo flexibilidade e confiabilidade na hora do uso.
+              Muitas empresas tratam a informação tanto como produto quanto como
+              serviço, garantindo{" "}
+              <strong>flexibilidade e confiabilidade</strong> na hora do uso.
             </p>
             <blockquote>
               <q>
@@ -1193,54 +1303,78 @@ const GestaoDaInformacao = () => {
             </blockquote>
             <h4>IMPORTANTE:</h4>
             <p>
-              O fácil acesso possibilita que os processos sejam executados e que
-              as tomadas de decisão sejam diretas e assertivas. Porém, é preciso
-              garantir que apenas pessoas autorizadas tenham acesso a tais
-              informações, evitando o risco de divulgação de informações
-              confidenciais e estratégias fora da organização.
+              O <strong>fácil acesso</strong> possibilita que os processos sejam
+              executados e que as tomadas de decisão sejam diretas e assertivas.
+              Porém, é crucial{" "}
+              <strong>
+                garantir que apenas pessoas autorizadas tenham acesso
+              </strong>{" "}
+              a tais informações, evitando o risco de divulgação de dados
+              confidenciais e estratégias fora da organização. A segurança da
+              informação é fundamental.
             </p>
-            <h3>Comportamento adaptativo</h3>
+            <h4>Comportamento Adaptativo</h4>
             <p>
               Aqui, é preciso que o modelo de dados tenha sido construído de
-              forma flexível, permitindo a criação de novas tabelas e de novos
-              relacionamentos. Quanto mais independência existir entre os
-              objetos de dados, mais fácil será criar novos atributos e novos
-              relacionamentos entre esses objetos.
+              forma <strong>flexível</strong>, permitindo a criação de novas
+              tabelas e de novos relacionamentos. Quanto mais independência
+              existir entre os objetos de dados, mais fácil será criar novos
+              atributos e novas conexões entre esses objetos.
             </p>
             <p>
-              Também é importante garantir a padronização de nomes e conceitos,
-              para evitar duplicações e planejar o reúso das informações.
+              Também é importante garantir a{" "}
+              <strong>padronização de nomes e conceitos</strong>, para evitar
+              duplicações e planejar o reúso das informações.
             </p>
             <h4>Onde a T.I. se encaixa em tudo isso?</h4>
             <p>
-              Ela apoia a Gestão da Informação com tecnologia, para facilitar e
-              trazer eficiência à recuperação rápida das informações. Torna
-              possível combinar hardware e software para agilizar e facilitar a
-              armazenamento e o acesso às informações.
+              A Tecnologia da Informação (T.I.) é o{" "}
+              <strong>alicerce que apoia a Gestão da Informação</strong>,
+              fornecendo a tecnologia para facilitar e trazer eficiência na
+              recuperação rápida dos dados. Ela torna possível combinar hardware
+              e software para agilizar e facilitar o armazenamento e o acesso às
+              informações.
             </p>
             <p>
-              Também é responsável por desenvolver procedimentos e rotinas para
-              otimizar:
+              A T.I. também é responsável por desenvolver{" "}
+              <strong>procedimentos e rotinas</strong> para otimizar:
             </p>
             <ul>
-              <li>A criação;</li>
-              <li>O fluxo;</li>
-              <li>A aprendizagem;</li>
-              <li>A proteção;</li>
-              <li>O compartilhamento das informações.</li>
+              <li>
+                A <strong>criação</strong> de informações;
+              </li>
+              <li>
+                O <strong>fluxo</strong> e a movimentação dessas informações;
+              </li>
+              <li>
+                A <strong>aprendizagem</strong> e o uso do conhecimento gerado;
+              </li>
+              <li>
+                A <strong>proteção</strong> dos dados;
+              </li>
+              <li>
+                O <strong>compartilhamento</strong> seguro e eficiente das
+                informações.
+              </li>
             </ul>
           </div>
           <div>
             <h3>Gestão do Conhecimento</h3>
             <p>
               O grande ganho competitivo das organizações ocorre quando elas
-              conseguem sistematizar a Gestão da Informação e a Gestão do
-              Conhecimento.
+              conseguem{" "}
+              <strong>
+                sistematizar a Gestão da Informação e a Gestão do Conhecimento
+              </strong>
+              . Essa integração é o que realmente impulsiona o sucesso.
             </p>
-            <h3>O que é Gestão do Conhecimento?</h3>
+            <h4>O que é Gestão do Conhecimento?</h4>
             <p>
-              Um conceito amplo, que engloba uma série de ações para possiblitar
-              que o conhecimento disponível seja identificado e analisado.
+              É um conceito abrangente que engloba diversas ações para que o{" "}
+              <strong>
+                conhecimento disponível seja identificado, analisado e utilizado
+              </strong>{" "}
+              de forma estratégica.
             </p>
             <blockquote>
               <q>
@@ -1248,7 +1382,7 @@ const GestaoDaInformacao = () => {
                 o nome dado ao conjunto de tecnologias e processos cujo objetivo
                 é apoiar a criação, a transferência e a aplicação do
                 conhecimento nas organizações. O conhecimento e a Gestão do
-                Conhecimento são conceitos complexos
+                Conhecimento são conceitos complexos.
               </q>
               <cite>Wikipedia (on-line)</cite>
             </blockquote>
@@ -1256,164 +1390,244 @@ const GestaoDaInformacao = () => {
               <q>
                 É a disciplina que promove, com visão integrada, o gerenciamento
                 e o compartilhamento de todo ativo de informação possuído pela
-                empresa, em documentos, pessoas, etc
+                empresa, em documentos, pessoas, etc.
               </q>
               <cite>Gartner Group (on-line)</cite>
             </blockquote>
             <p>
-              As pessoas "sabem" o que precisa ser feito, e isso é muito
-              subjetivo, pois a organização passa a depender de seus
-              profissionais para que tarefas sejam realizadas, e também treinar
-              novos profissionais que vão apoiar o crescimento e a evolução da
-              empresa. Então, o conhecimento faz parte do ser humano. Ele é o
-              dententor do conhecimento, e evolui esse conhecimento conforme
-              aprimora sua forma de executar o trabalho.
+              Muitas vezes, as pessoas "sabem" o que precisa ser feito, e isso é
+              um conhecimento que pode ser subjetivo. A organização passa a
+              depender de seus profissionais não só para a execução de tarefas,
+              mas também para <strong>treinar novos membros</strong>, apoiando o
+              crescimento e a evolução da empresa. O conhecimento, portanto, é
+              inerente ao ser humano. Cada indivíduo é o{" "}
+              <strong>detentor de seu conhecimento</strong> e o aprimora
+              conforme melhora sua forma de executar o trabalho.
             </p>
             <h4>Gestão da Informação X Gestão do Conhecimento:</h4>
             <p>
-              Não são sinônimos, são assuntos que se complementam, que se
-              completam.
+              É importante entender que <strong>não são sinônimos</strong>. São,
+              na verdade, conceitos que se{" "}
+              <strong>complementam e se completam</strong>.
             </p>
             <ul>
               <li>
-                <h4>Gestão da Informação:</h4>
+                <h4>
+                  <strong>Gestão da Informação:</strong>
+                </h4>
+                <ul>
+                  <li>
+                    Permite <strong>organizar e facilitar o acesso</strong> às
+                    informações;
+                  </li>
+                  <li>
+                    Possibilita a <strong>criação de conhecimento</strong> a
+                    partir dos dados;
+                  </li>
+                  <li>
+                    Se preocupa em{" "}
+                    <strong>
+                      identificar, armazenar, analisar e disponibilizar
+                    </strong>{" "}
+                    a informação correta e relevante.
+                  </li>
+                </ul>
               </li>
-              <ul>
-                <li>Permite organizar e facilitar o acesso às informações;</li>
-                <li>Possibilita a criação de conhecimento;</li>
-                <li>
-                  Se preocupa em identificar, armazenar, analisar e
-                  disponibilizar a informação correta e relevante.
-                </li>
-              </ul>
               <li>
-                <h4>Gestão do Conhecimento:</h4>
+                <h4>
+                  <strong>Gestão do Conhecimento:</strong>
+                </h4>
+                <ul>
+                  <li>
+                    A geração e o uso do conhecimento são fortemente
+                    influenciados pela{" "}
+                    <strong>cultura dos profissionais</strong>. Eles buscam
+                    formas de produzir conhecimento com base na integração de
+                    novas informações às experiências vividas no dia a dia do
+                    trabalho, criando assim novas informações que, por sua vez,
+                    alimentarão novos conhecimentos. É um{" "}
+                    <strong>ciclo contínuo de aprendizado e aplicação</strong>.
+                  </li>
+                </ul>
               </li>
-              <ul>
-                <li>
-                  A geração e o uso do conhecimento são influenciados pela
-                  cultura dos profissionais, que buscam formas de produzir
-                  conhecimento com base na integração de novas informações às
-                  experiências vividas no dia a dia do trabalho, criando novas
-                  informações que vão alimentar novos conhecimentos.
-                </li>
-              </ul>
             </ul>
-            <h3>Gestão Adequada do Conhecimento</h3>
+            <h4>Gestão Adequada do Conhecimento</h4>
             <p>
-              Segundo Nonaka e Takeuchi (1997), o conhecimento pode ser tácito
-              ou explícito:
+              Segundo Nonaka e Takeuchi (1997), o conhecimento pode ser de dois
+              tipos: <strong>tácito</strong> ou <strong>explícito</strong>.
             </p>
             <ul>
               <li>
-                <h4>Tácito:</h4>
+                <h4>
+                  <strong>Tácito:</strong>
+                </h4>
+                <ul>
+                  <li>
+                    É o <strong>conhecimento individual</strong>, aquele que
+                    está na "cabeça" das pessoas. Corresponde ao que elas já
+                    sabem fazer de forma "automática" por terem repetido a
+                    tarefa várias vezes. É um tipo de conhecimento{" "}
+                    <strong>difícil de gerenciar</strong>, pois, frequentemente,
+                    os próprios detentores não conseguem explicá-lo, apenas
+                    executá-lo.
+                  </li>
+                </ul>
               </li>
-              <ul>
-                <li>
-                  Conhecimento individual, que está na "cabeça" das pessoas. O
-                  que já sabem fazer por fazerem repetidas vezes, no
-                  "automático". É difícil de gerenciar, pois frequentemente não
-                  sabem explicar, apenas fazer.
-                </li>
-              </ul>
               <li>
-                <h4>Explícito:</h4>
-              </li>
-              <ul>
-                <li>
-                  Conhecimento público, conhecido por todos. Já passou de tácito
-                  para explícito através de explicação e transmissão desse
-                  conhecimento para outros.
-                </li>
-              </ul>
-            </ul>
-            <p>
-              Nenhum conhecimento é criado explícito. Primeiro ele é tácito,
-              depois é explicado e transmitido, e se torna explícito. Logo,
-              entendemos que quanto mais explícito estiver o conhecimento, mais
-              independente de pessoas será o funcionamento da empresa. O
-              importante é que o conhecimento seja divulgado e que mais pessoas
-              conheçam e saibam o que fazer.
-            </p>
-            <p>
-              Conhecimento tácito não é criado de um dia para o outro, depende
-              de:
-            </p>
-            <ul>
-              <li>Experiências individuais vividas;</li>
-              <li>Valores familiares;</li>
-              <li>Cultura do grupo em que está inserido;</li>
-              <li>Educação formal e informal;</li>
-              <li>
-                É criado com base no reflexo das ações das pessoas no seu
-                ambiente.
+                <h4>
+                  <strong>Explícito:</strong>
+                </h4>
+                <ul>
+                  <li>
+                    É o <strong>conhecimento público</strong>, conhecido por
+                    todos. Ele já passou do estado tácito para o explícito por
+                    meio de explicação e transmissão para outras pessoas.
+                    Geralmente, é registrado em manuais, procedimentos ou
+                    sistemas.
+                  </li>
+                </ul>
               </li>
             </ul>
             <p>
-              A ação de divulgar conhecimento tácito é o que o torna explícito,
-              em algo tangível que pode ser compartilhado. Isso não ocorre de
-              forma linear, de uma só vez, ocorre de forma interativa, gradual,
-              conforme o relacionamento entre as pessoas.
+              É fundamental compreender que{" "}
+              <strong>nenhum conhecimento é criado explícito</strong>. Primeiro,
+              ele é tácito; só depois é explicado, transmitido e então se torna
+              explícito. Por isso, quanto mais <strong>explícito</strong>{" "}
+              estiver o conhecimento,{" "}
+              <strong>mais independente de pessoas</strong> será o funcionamento
+              da empresa. O importante é que o conhecimento seja divulgado e que
+              mais pessoas conheçam e saibam o que fazer.
             </p>
-            <h4>Espiral do conhecimento:</h4>
+            <p>
+              O conhecimento tácito não é criado da noite para o dia, ele
+              depende de:
+            </p>
             <ul>
               <li>
-                <h4>Socialização:</h4>
+                <strong>Experiências individuais vividas</strong>;
               </li>
-              <ul>
-                <li>
-                  Transformação do conhecimento tácito de uma pessoa em
-                  conhecimento tácito de outra. Quando alguém ensina para outro
-                  determinada tarefa. O que está aprendendo repete, imita, mas
-                  ainda não criou sua forma de fazer.
-                </li>
-              </ul>
               <li>
-                <h4>Externalização:</h4>
+                <strong>Valores familiares</strong>;
               </li>
-              <ul>
-                <li>
-                  Transformação do conhecimento tácito em conhecimento
-                  explícito. Quando a pessoa aprendeu a nova tarefa, discutiu
-                  sobre ela, criou sua forma de executá-la, consegue explicá-la
-                  e externalizar seu novo conhecimento. Tudo isso com base na
-                  comparação, na repetição e na criação da sua própria forma de
-                  executar a tarefa.
-                </li>
-              </ul>
               <li>
-                <h4>Combinação:</h4>
+                <strong>Cultura do grupo</strong> em que a pessoa está inserida;
               </li>
-              <ul>
-                <li>
-                  Transformação do conhecimento explícito de uma pessoa em
-                  conhecimento explícito de outra. A forma de execução de uma
-                  tarefa é feita através do compartilhamento entre duas pessoas,
-                  que analisam diferentes formas, combinam seus jeitos e geram
-                  uma forma melhor de executar a tarefa. Melhoria contínua.
-                </li>
-              </ul>
               <li>
-                <h4>Internalização:</h4>
+                <strong>Educação formal e informal</strong>;
               </li>
-              <ul>
-                <li>
-                  Transformação do conhecimento explícito em conhecimento
-                  tácito. Quem está aprendendo uma nova tarefa, precisa
-                  analisá-la para compreender e internalizar esse novo
-                  conhecimento. Feito isso, o novo conhecimento passa a fazer
-                  sentido, e a pessoa entende o que e porque está fazendo
-                  aquilo.
-                </li>
-              </ul>
+              <li>
+                É construído com base no{" "}
+                <strong>reflexo das ações das pessoas no seu ambiente</strong>.
+              </li>
             </ul>
-            <h4>Dificultam a constução/transformação de conhecimento:</h4>
+            <p>
+              A ação de <strong>divulgar o conhecimento tácito</strong> é o que
+              o torna explícito, transformando-o em algo tangível que pode ser
+              compartilhado. Isso não ocorre de forma linear ou de uma só vez,
+              mas sim de maneira <strong>interativa e gradual</strong>, conforme
+              o relacionamento e a colaboração entre as pessoas.
+            </p>
+            <h4>Espiral do Conhecimento (Modelo SECI de Nonaka e Takeuchi):</h4>
+            <p>
+              Este modelo descreve como o conhecimento é criado e expandido em
+              uma organização, através de quatro modos de conversão:
+            </p>
             <ul>
-              <li>Medo de perder o cargo para outra pessoa;</li>
-              <li>Dificuldade de se expressar e ensinar;</li>
-              <li>Falta de tempo.</li>
+              <li>
+                <h4>
+                  <strong>Socialização:</strong>
+                </h4>
+                <ul>
+                  <li>
+                    É a{" "}
+                    <strong>
+                      transformação do conhecimento tácito de uma pessoa em
+                      conhecimento tácito de outra
+                    </strong>
+                    . Acontece quando alguém ensina a outro uma determinada
+                    tarefa através da observação e da prática. Quem está
+                    aprendendo repete e imita, mas ainda não criou sua própria
+                    forma de fazer. É o "aprender fazendo".
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <h4>
+                  <strong>Externalização:</strong>
+                </h4>
+                <ul>
+                  <li>
+                    Consiste na{" "}
+                    <strong>
+                      transformação do conhecimento tácito em conhecimento
+                      explícito
+                    </strong>
+                    . Isso ocorre quando a pessoa que aprendeu uma nova tarefa a
+                    discute, analisa, e consegue explicar sua forma de
+                    executá-la, tornando seu novo conhecimento acessível e
+                    formalizado. Tudo isso se baseia na comparação, repetição e
+                    na criação de um método próprio para a tarefa.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <h4>
+                  <strong>Combinação:</strong>
+                </h4>
+                <ul>
+                  <li>
+                    É a{" "}
+                    <strong>
+                      transformação do conhecimento explícito de uma pessoa em
+                      conhecimento explícito de outra
+                    </strong>{" "}
+                    (ou de outros). A forma de execução de uma tarefa é
+                    aprimorada através do compartilhamento e análise entre
+                    diferentes pessoas, que combinam seus conhecimentos e geram
+                    uma forma melhor de executar a tarefa. É a{" "}
+                    <strong>melhoria contínua</strong> através da integração de
+                    saberes.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <h4>
+                  <strong>Internalização:</strong>
+                </h4>
+                <ul>
+                  <li>
+                    Corresponde à{" "}
+                    <strong>
+                      transformação do conhecimento explícito em conhecimento
+                      tácito
+                    </strong>
+                    . Quem está aprendendo uma nova tarefa precisa analisá-la
+                    para compreendê-la e internalizar esse novo conhecimento.
+                    Feito isso, o novo conhecimento passa a fazer sentido, e a
+                    pessoa entende o que e por que está fazendo aquilo,
+                    incorporando-o à sua prática.
+                  </li>
+                </ul>
+              </li>
             </ul>
-            <h3>Organização do conhecimento</h3>
+            <h4>
+              Fatores que Dificultam a Construção/Transformação de Conhecimento:
+            </h4>
+            <ul>
+              <li>
+                <strong>Medo de perder o cargo</strong> para outra pessoa
+                (cultura de não compartilhamento);
+              </li>
+              <li>
+                <strong>Dificuldade de se expressar e ensinar</strong> o próprio
+                conhecimento;
+              </li>
+              <li>
+                <strong>Falta de tempo</strong> e prioridade para o
+                compartilhamento.
+              </li>
+            </ul>
+            <h4>Organização do Conhecimento</h4>
             <blockquote>
               <q>
                 O papel da Gestão do conhecimento nas organizações é
@@ -1423,504 +1637,622 @@ const GestaoDaInformacao = () => {
               </q>
             </blockquote>
             <p>
-              A Gestão do Conhecimento envolve uma infraestrutura física e
-              digital adequada e um processo para incentivar a troca do
-              conhecimento entre as pessoas. Ou seja, um processo definido, o
-              apoio da T.I., automatizando o armazenamento e o acesso ao
-              conhecimento e a colaboração das pessoas para transformar
+              A Gestão do Conhecimento envolve uma{" "}
+              <strong>infraestrutura física e digital adequada</strong> e um
+              processo para <strong>incentivar a troca de conhecimento</strong>{" "}
+              entre as pessoas. Isso significa ter um processo definido, o{" "}
+              <strong>apoio da T.I.</strong> (automatizando o armazenamento e o
+              acesso ao conhecimento) e a{" "}
+              <strong>colaboração ativa das pessoas</strong> para transformar o
               conhecimento tácito em explícito.
             </p>
-            <h4>Principais objetivos da Gestão do Conhecimento:</h4>
+            <h4>Principais Objetivos da Gestão do Conhecimento:</h4>
             <ul>
-              <li>Aprendizado organizacional;</li>
-              <li>Desenvolvimento de novas competências;</li>
-              <li>Mapeamento;</li>
-              <li>Codificação;</li>
-              <li>Compartilhamento entre os profissionais.</li>
+              <li>
+                Fomentar o <strong>aprendizado organizacional</strong>;
+              </li>
+              <li>
+                Estimular o{" "}
+                <strong>desenvolvimento de novas competências</strong>;
+              </li>
+              <li>
+                Garantir o <strong>mapeamento</strong> do conhecimento
+                existente;
+              </li>
+              <li>
+                Promover a <strong>codificação</strong> (registro) do
+                conhecimento;
+              </li>
+              <li>
+                Incentivar o <strong>compartilhamento</strong> entre os
+                profissionais.
+              </li>
             </ul>
             <p>
-              A maneira de organizar toda a informação disponível é criar um
-              "repositório" onde as experiências possam ser armazenadas, criando
-              uma memória organizacional, que poderá ser acessada a qualquer
-              momento. Essa criação de "repositório" é função da T.I., que cria
-              um banco de dados para armazenar informações relevantes e
-              importantes da organização.
+              A melhor maneira de organizar toda a informação disponível é criar
+              um "repositório" onde as experiências possam ser armazenadas,
+              formando uma <strong>memória organizacional</strong> que poderá
+              ser acessada a qualquer momento. Essa criação de "repositório" é
+              uma função essencial da T.I., que desenvolve bancos de dados para
+              armazenar informações relevantes e importantes da organização.
             </p>
             <p>
-              Uma outra forma é criar mapas do conhecimento, que podem ser
-              automatizados através de softwares ou manuais através de quadros
-              informativos, painéis com procedimentos operacionais ou por meio
-              de treinamentos contínuos.
+              Outra forma eficaz é criar <strong>mapas do conhecimento</strong>,
+              que podem ser automatizados por softwares ou elaborados
+              manualmente através de quadros informativos, painéis com
+              procedimentos operacionais ou por meio de treinamentos contínuos.
             </p>
-            <h3>Técnicas de compartilhamento do conhecimento</h3>
+
+            <h4>Técnicas de Compartilhamento do Conhecimento</h4>
             <p>
-              Strauhs et al (2012) discute a importância de criar uma memória
-              organizacional com o objetivo de capturar, disseminar e reutilizar
-              as informações de projetos já realizados.
-              <q>Nada se cria, tudo se copia</q>. Até mesmo o que deu errado
-              deve ser analisado, com o propósito de aprender e de não cometer o
-              mesmo erro novamente.
+              Strauhs et al (2012) discute a importância de criar uma{" "}
+              <strong>memória organizacional</strong> com o objetivo de
+              capturar, disseminar e reutilizar as informações de projetos já
+              realizados. É como o ditado popular: "Nada se cria, tudo se
+              copia". Inclusive, o que deu errado deve ser analisado, com o
+              propósito de{" "}
+              <strong>aprender e evitar cometer o mesmo erro novamente</strong>.
             </p>
-            <h4>Algumas técnicas:</h4>
+            <h4>Algumas técnicas importantes:</h4>
             <ul>
               <li>
-                <h4>Reunião de lições aprendidas:</h4>
+                <h4>
+                  <strong>
+                    Reunião de lições aprendidas (Lessons Learned):
+                  </strong>
+                </h4>
+                <ul>
+                  <li>
+                    Deve ser realizada ao final de um projeto, ou
+                    periodicamente, para{" "}
+                    <strong>identificar e discutir pontos importantes</strong>.
+                    Podem ser situações que deram certo ou que apresentaram
+                    problemas. O objetivo é fazer uma{" "}
+                    <strong>análise crítica</strong> do trabalho realizado e dos
+                    resultados obtidos, registrando o que funcionou para
+                    replicar e o que falhou para evitar.
+                  </li>
+                </ul>
               </li>
-              <ul>
-                <li>
-                  Deve ser realizada ao final de um projeto, ou de tempos em
-                  tempos, para identificar e discutir pontos importantes no
-                  projeto. Podem ser situações que deram certo ou que deram
-                  errado. É fazer uma análise crítica do trabalho realizado e
-                  dos resultados obtidos. Registrar o que deu certo para poder
-                  repetir, e o que deu errado para evitar.
-                </li>
-              </ul>
               <li>
-                <h4>Portal de compartilhamento:</h4>
+                <h4>
+                  <strong>Portal de compartilhamento:</strong>
+                </h4>
+                <ul>
+                  <li>
+                    Os profissionais são incentivados a "alimentar" esse portal
+                    com informações relevantes, fornecendo **feedback** sobre
+                    possíveis melhorias, explicando os motivos e os ganhos
+                    esperados. As melhorias são analisadas por um grupo
+                    específico, que decide quais serão implantadas, sempre com
+                    foco em{" "}
+                    <strong>melhorar o desempenho organizacional</strong>.
+                  </li>
+                </ul>
               </li>
-              <ul>
-                <li>
-                  Os profissionais são incentivados a "alimentar" esse portal
-                  com informações relevantes, dando feedback de possíveis
-                  melhorias, explicando os motivos e ganhos dessas melhorias. As
-                  melhorias são analisadas por um grupo específico, que dicide
-                  quais implantar, com foco em melhorar o desempenho
-                  organizacional.
-                </li>
-              </ul>
               <li>
-                <h4>Comunidade de práticas:</h4>
+                <h4>
+                  <strong>Comunidade de Práticas (CoP):</strong>
+                </h4>
+                <ul>
+                  <li>
+                    Possuem um <strong>objetivo específico</strong> e um tempo
+                    predeterminado, visando analisar um problema e buscar a
+                    melhor solução. É importante que essa comunidade seja{" "}
+                    <strong>multidisciplinar</strong> e que se forme de maneira
+                    espontânea, com profissionais se oferecendo voluntariamente
+                    para a solução do problema.
+                  </li>
+                </ul>
               </li>
-              <ul>
-                <li>
-                  Tem um objetivo específico, por um tempo predeterminado, e
-                  visam analisar um problema e buscar a melhor solução. É
-                  importante que essa comunidade seja multidisciplinar e se
-                  forme de maneira espontânea, com profissionais se oferecendo
-                  para a solução do problema.
-                </li>
-              </ul>
             </ul>
-            <h3>Gestão do Conhecimento e Inovação</h3>
+            <h4>Gestão do Conhecimento e Inovação</h4>
             <p>
-              Uma empresa que aprende é uma empresa que melhora seu desempenho,
-              que é mais competitiva, que está o tempo todo se reinventando e
-              fazendo melhor o seu trabalho. Isto é inovar: buscar fazer melhor
-              a cada dia!
+              Uma empresa que aprende continuamente é uma empresa que{" "}
+              <strong>melhora seu desempenho</strong>, tornando-se mais
+              competitiva e constantemente se reinventando. Isso é{" "}
+              <strong>inovar</strong>: buscar fazer melhor a cada dia!
             </p>
             <p>
-              Um gestor de uma organização deve estar atento a promover a
-              aprendizagem organizacional, pelo incentivo ao compartilhamento do
-              conhecimento.
+              Um gestor de uma organização deve estar{" "}
+              <strong>atento a promover a aprendizagem organizacional</strong>,
+              incentivando ativamente o compartilhamento do conhecimento.
             </p>
-            <h4>Algumas habilidades de um gestor para incentivar:</h4>
+            <h4>
+              Algumas habilidades essenciais de um gestor para incentivar o
+              conhecimento:
+            </h4>
             <ul>
-              <li>Fazer uso intenso do diálogo;</li>
-              <li>Construir parcerias com seus subordinados;</li>
               <li>
-                Capacidade de superar desafios para promover mudanças no
-                comportamento das pessoas;
+                Fazer <strong>uso intenso do diálogo</strong>;
               </li>
               <li>
-                Valorizar a diversidade de formação e de conhecimento, para que
-                os mais experiêntes se sintam motivados a ensinar os novatos, e
-                os novatos não se sintam constrangidos em aprender com os mais
-                experiêntes;
+                <strong>Construir parcerias</strong> e confiança com seus
+                subordinados;
               </li>
               <li>
-                Buscar o apoio da T.I. para facilitar o armazenamento, a
-                disseminação e o uso do conhecimento acumulado;
+                Ter a <strong>capacidade de superar desafios</strong> para
+                promover mudanças no comportamento das pessoas, quebrando
+                resistências;
               </li>
               <li>
-                Ser criativo para estar constantemente buscando formas
-                interessantes de capturar e armazenar organizadamente o
+                <strong>
+                  Valorizar a diversidade de formação e de conhecimento
+                </strong>
+                , para que os mais experientes se sintam motivados a ensinar os
+                novatos, e os novatos não se sintam constrangidos em aprender
+                com os mais experientes;
+              </li>
+              <li>
+                <strong>Buscar o apoio da T.I.</strong> para facilitar o
+                armazenamento, a disseminação e o uso do conhecimento acumulado;
+              </li>
+              <li>
+                Ser <strong>criativo</strong> para estar constantemente buscando
+                formas interessantes de capturar e armazenar organizadamente o
                 conhecimento criado ao longo do tempo.
               </li>
             </ul>
             <p>
-              A Gestão do Conhecimento não é algo isolado, mas um processo que
-              se relaciona com toda a cadeia produtiva, podendo acumular
-              conhecimento ao longo do funcionamento da empresa.
+              A Gestão do Conhecimento não é algo isolado, mas sim um{" "}
+              <strong>processo interconectado</strong> que se relaciona com toda
+              a cadeia produtiva, permitindo que a empresa acumule e utilize
+              conhecimento continuamente ao longo de seu funcionamento.
             </p>
           </div>
           <div>
             <h3>Segurança da Informação</h3>
             <p>
-              A Gestão da Informação é um processo composto por várias etapas e
-              não é algo estático, pois novas necessidades de informação surgem
-              a todo momento. Essas informações bem trabalhadas, organizadas,
-              são um grande bem para qualquer empresa. Daí a necessidade da
-              segurança da informação.
+              A Gestão da Informação é um processo contínuo e dinâmico, sempre
+              com novas necessidades de informação surgindo. Informações bem
+              trabalhadas e organizadas são um <strong>ativo valioso</strong>{" "}
+              para qualquer empresa, e é por isso que a **segurança da
+              informação** se torna essencial.
             </p>
             <p>
-              Cada vez mais as empresas estão contratando profissionais
-              especializados em segurança da informação, seja para buscar
-              soluções seguras para seus negócios, seja para tentar encontrar
-              falhas ou vulnerabilidades.
+              Cada vez mais, as empresas estão contratando profissionais
+              **especializados em segurança da informação**. O objetivo é buscar
+              soluções seguras para seus negócios e, também, identificar falhas
+              ou vulnerabilidades antes que sejam exploradas.
             </p>
             <p>
-              Quando falamos em segurança da informação, existe uma norma que é
-              especializada no assunto e direciona as boas práticas para
-              minimizar riscos, é a norma ISO/IEC 27000. Ela diz respeito a
-              riscos associados à atividades de computação, interconexão entre
-              computadores e demais aspéctos físicos e humanos. É importante
-              definir uma política de segurança para os controles lógicos e
-              físicos necessários para assegurar um determinado nível de
-              disponibilidade dos sistemas, confiabilidade dos dados e servir de
-              referência para ações de treinamento dos usuários e demais
-              procedimentos de segurança. Porém, não existe segurança absoluta,
-              sempre existiram vulnerabilidades.
+              Quando falamos em segurança da informação, a **norma ISO/IEC
+              27000** é a grande referência. Ela direciona as boas práticas para
+              minimizar riscos associados a atividades de computação,
+              interconexão entre computadores e outros aspectos físicos e
+              humanos. É crucial definir uma **política de segurança** para os
+              controles lógicos e físicos, garantindo um determinado nível de
+              **disponibilidade dos sistemas** e **confiabilidade dos dados**.
+              Essa política também serve de base para treinamentos de usuários e
+              outros procedimentos de segurança. No entanto, é importante
+              ressaltar que a **segurança absoluta não existe**; sempre haverá
+              vulnerabilidades.
             </p>
             <p>
-              As normas ISO/IEC 27000 estruturam o Sistema de Gestão de
-              Segurança da Informação (SGSI). As mais conhecidas são as ISO
-              27001 e 27002. Todas as normas 27000 juntas cuidam de assuntos
-              relacionados à segurança de dados digitais ou sistemas de
-              armazenamento eletrônico. O SGSI busca uma forma segura para todos
-              os tipos de dados e informações de uma empresa e possui atributos
-              básicos como confidencialidade, integridade e disponibilidade.
+              As normas ISO/IEC 27000 estruturam o **Sistema de Gestão de
+              Segurança da Informação (SGSI)**. As mais conhecidas são a ISO
+              27001 e a 27002. Juntas, todas as normas 27000 cuidam da segurança
+              de dados digitais e sistemas de armazenamento eletrônico. O SGSI
+              busca garantir a segurança para todos os tipos de dados e
+              informações de uma empresa, baseando-se em três atributos básicos:
+              **confidencialidade, integridade e disponibilidade**.
             </p>
             <p>
               Os conceitos de segurança da informação vão além de questões
-              tecnológicas, podem envolver:
+              puramente tecnológicas, podendo envolver:
             </p>
             <ul>
-              <li>Danos materiais;</li>
-              <li>Vazamento de informações;</li>
-              <li>Violação da integridade;</li>
-              <li>Uso indevido de recusos e dados;</li>
-              <li>Interceptação de informações;</li>
-              <li>Interrupção de serviços.</li>
+              <li>**Danos materiais**;</li>
+              <li>**Vazamento de informações**;</li>
+              <li>**Violação da integridade** dos dados;</li>
+              <li>**Uso indevido de recursos e dados**;</li>
+              <li>**Interceptação de informações**;</li>
+              <li>**Interrupção de serviços**.</li>
             </ul>
-            <h3>Confidencialidade, Integridade e Disponibilidade</h3>
-            <p>Até o momento sabemos sobre:</p>
+            <h4>Confidencialidade, Integridade e Disponibilidade (C-I-D)</h4>
+            <p>Até o momento, já aprendemos sobre:</p>
             <ul>
               <li>O que é um sistema;</li>
               <li>Sistemas de informação;</li>
               <li>Gestão da informação;</li>
               <li>
-                Importância de uma informação completa e correta no momento do
+                A importância de uma informação completa e correta no momento do
                 uso;
               </li>
               <li>Gestão adequada do conhecimento.</li>
             </ul>
             <p>
-              Agora vamos discutir sobre alguns conceitos básicos sobre
-              segurança da informação:
+              Agora, vamos aprofundar nos **conceitos básicos da segurança da
+              informação**:
             </p>
             <ul>
               <li>
-                <h4>Ativo de informação:</h4>
+                <h4>
+                  <strong>Ativo de informação:</strong>
+                </h4>
+                <ul>
+                  <li>
+                    Qualquer elemento que tenha **valor** para uma empresa. Isso
+                    inclui dados, sistemas, hardware, software, pessoas e até
+                    mesmo a reputação.
+                  </li>
+                </ul>
               </li>
-              <ul>
-                <li>Qualquer elemento que tenha valor para uma empresa.</li>
-              </ul>
               <li>
-                <h4>Valor do ativo:</h4>
+                <h4>
+                  <strong>Valor do ativo:</strong>
+                </h4>
+                <ul>
+                  <li>
+                    É a quantificação da **perda** de um determinado ativo caso
+                    sua confidencialidade, integridade ou disponibilidade sejam
+                    comprometidas.
+                  </li>
+                </ul>
               </li>
-              <ul>
-                <li>
-                  Quantificação de perda de determinado ativo quando esse tem
-                  sua confidencialidade, integridade ou disponibilidade
-                  afetadas.
-                </li>
-              </ul>
               <li>
-                <h4>Vulnerabilidade:</h4>
+                <h4>
+                  <strong>Vulnerabilidade:</strong>
+                </h4>
+                <ul>
+                  <li>
+                    É uma **falha ou fraqueza** no ambiente que pode ser
+                    explorada para ameaçar um ativo. Pense em uma porta
+                    destrancada.
+                  </li>
+                </ul>
               </li>
-              <ul>
-                <li>Falha no ambiente que ameace algum ativo.</li>
-              </ul>
               <li>
-                <h4>Ameaça:</h4>
+                <h4>
+                  <strong>Ameaça:</strong>
+                </h4>
+                <ul>
+                  <li>
+                    É a **possibilidade** de que uma vulnerabilidade seja
+                    explorada. No exemplo da porta, seria um ladrão tentando
+                    entrar.
+                  </li>
+                </ul>
               </li>
-              <ul>
-                <li>Possibilidade de exploração de uma vulnerabilidade.</li>
-              </ul>
               <li>
-                <h4>Impacto:</h4>
+                <h4>
+                  <strong>Impacto:</strong>
+                </h4>
+                <ul>
+                  <li>
+                    É o **resultado negativo** da concretização de uma ameaça
+                    que explorou uma vulnerabilidade. Se o ladrão entrar e
+                    roubar, isso é o impacto.
+                  </li>
+                </ul>
               </li>
-              <ul>
-                <li>
-                  Resultado da concretização de uma ameaça contra a
-                  vulnerabilidade de um ativo.
-                </li>
-              </ul>
             </ul>
             <p>
-              O objetivo principal da segurança da informação é tomar um
-              conjunto de medidas para garantir os princípios básicos e
-              preservar informações de uma organização ou indivíduo, de acordo
-              com necessidades específicas.
+              O objetivo principal da segurança da informação é implementar um
+              conjunto de medidas para **garantir os princípios básicos** e
+              preservar as informações de uma organização ou indivíduo, de
+              acordo com suas necessidades específicas.
             </p>
             <h4>Esses princípios são:</h4>
             <ul>
               <li>
-                <h4>Confidencialidade:</h4>
+                <h4>
+                  <strong>Confidencialidade:</strong>
+                </h4>
+                <ul>
+                  <li>
+                    Princípio que garante que os dados de uma empresa sejam
+                    **acessados somente por pessoas autorizadas**. Uma conversa
+                    informal em local público sobre assuntos de trabalho
+                    confidenciais, por exemplo, pode ser uma grave quebra de
+                    confidencialidade.
+                  </li>
+                </ul>
               </li>
-              <ul>
-                <li>
-                  Princípio que garante que os dados disponíveis em uma empresa
-                  somente sejam acessados por pessoas autorizadas. Até mesmo uma
-                  simples conversa em lugares públicos sobre assuntos
-                  confidenciais de trabalho pode ser um problema muito sério.
-                </li>
-              </ul>
               <li>
-                <h4>Integridade:</h4>
+                <h4>
+                  <strong>Integridade:</strong>
+                </h4>
+                <ul>
+                  <li>
+                    Princípio que garante que dados e programas de computador
+                    (código) sejam **modificados apenas por pessoas ou
+                    atividades autorizadas**. Ele considera todas as possíveis
+                    causas de modificação, incluindo falhas de hardware e
+                    software, eventos ambientais e intervenção humana. O grande
+                    desafio aqui é identificar problemas, pois uma informação
+                    acessada pode parecer completa e confiável, mas estar
+                    incorreta ou inconsistente, gerando sérias confusões para os
+                    negócios.
+                  </li>
+                </ul>
               </li>
-              <ul>
-                <li>
-                  Princípio que garante que dados e programas de computador
-                  (código) somente sejam modificados por pessoas ou atividades
-                  autorizadas. Ainda considera todas as possíveis causas de
-                  modificação, incluindo falhas de hardware e software, eventos
-                  ambientais e intervenção humana. O grande problema é a
-                  dificuldade de encontrar o problema, pois uma informação
-                  acessada pode estar completa e aparentemente confiável, só que
-                  errada ou inconsistente, o que gera muita confusão para os
-                  negócios.
-                </li>
-              </ul>
               <li>
-                <h4>Disponibilidade:</h4>
+                <h4>
+                  <strong>Disponibilidade:</strong>
+                </h4>
+                <ul>
+                  <li>
+                    Princípio que garante que a informação esteja **disponível
+                    para o acesso de pessoas e meios autorizados no momento em
+                    que for requisitada**. Casos clássicos de falta de
+                    disponibilidade incluem "sistemas fora do ar", perdas de
+                    documentos ou impossibilidade de acessar informações
+                    cruciais.
+                  </li>
+                </ul>
               </li>
-              <ul>
-                <li>
-                  Princípio que garante que a informação esteja disponível para
-                  o acesso de pessoas e meios autorizados no momento em que
-                  forem requisitadas. Alguns casos clássicos de falta de
-                  disponibilidade podem ser entendidos como "sistemas fora do
-                  ar", perdas de documentos ou perda de acesso à informação.
-                </li>
-              </ul>
             </ul>
             <p>
-              A segurança da informação não está relacionada somente com
-              sistemas de informação e dispositivos computacionais, mas a
-              qualquer ativo que tenha informação. Assim, instalar um antivírus
-              e inserir controle de acesso em todos os sistemas da empresa, são
-              medidas de segurança.
+              A segurança da informação não se limita a sistemas de informação e
+              dispositivos computacionais, mas abrange **qualquer ativo que
+              contenha informação**. Assim, instalar um antivírus e implementar
+              controle de acesso em todos os sistemas da empresa são medidas de
+              segurança digital, mas a segurança vai além.
             </p>
-            <h4>Outros ativos que devem ter proteção:</h4>
+            <h4>Outros ativos que também precisam de proteção:</h4>
             <ul>
               <li>
-                <h4>Pessoas:</h4>
+                <h4>
+                  <strong>Pessoas:</strong>
+                </h4>
+                <ul>
+                  <li>
+                    Um funcionário adquire muitas informações confidenciais que
+                    precisam ser preservadas. Portanto, solicitar que ele assine
+                    um **termo de confidencialidade** é uma medida de segurança
+                    fundamental.
+                  </li>
+                </ul>
               </li>
-              <ul>
-                <li>
-                  Um funcionário adquire muitas informações confidenciais que
-                  precisam ser preservadas. Portanto, solicitar que este
-                  funcionário assine um termo de confidencialidade é uma medida
-                  de segurança.
-                </li>
-              </ul>
               <li>
-                <h4>Documentos impressos:</h4>
+                <h4>
+                  <strong>Documentos impressos:</strong>
+                </h4>
+                <ul>
+                  <li>
+                    Em uma empresa, é comum ter documentos administrativos como
+                    boletos, notas fiscais, cópias de contracheque, etc. Se
+                    esses documentos forem extraviados ou vazados, podem
+                    resultar em sérios impactos, como multas e processos
+                    judiciais. Administrar tudo isso através de **inventários**
+                    que registram e controlam esses ativos é uma forma de
+                    segurança.
+                  </li>
+                </ul>
               </li>
-              <ul>
-                <li>
-                  É normal em uma empresa ter documentos administrativos como
-                  boletos, notas fiscais, cópias de contracheque, etc. Isso pode
-                  ser extraviado ou vazado, resultando em sérios impactos como
-                  multas e processos judiciais. Então, administrar tudo isso
-                  através de inventários que registram todo o controle desses
-                  ativos é uma forma de segurança.
-                </li>
-              </ul>
               <li>
-                <h4>Ambientes:</h4>
+                <h4>
+                  <strong>Ambientes físicos:</strong>
+                </h4>
+                <ul>
+                  <li>
+                    Alguns ambientes da empresa podem expor informações de altos
+                    níveis de confidencialidade, ou são críticos para a
+                    integridade e disponibilidade. Nesses locais, o acesso deve
+                    ser restrito **somente a pessoas autorizadas**. Isso também
+                    é uma forma crucial de segurança.
+                  </li>
+                </ul>
               </li>
-              <ul>
-                <li>
-                  Alguns ambientes de uma empresa nos quais podem ser expostas
-                  informações de altos níveis de confidencialidade, outros
-                  ambientes relacionados a integridade e disponibilidade, devem
-                  acessados somente por pessoas autorizadas. Isso também é uma
-                  forma de segurança.
-                </li>
-              </ul>
             </ul>
-            <h3>Vulnerabilidade e Cibersegurança</h3>
+            <h4>Vulnerabilidade e Cibersegurança</h4>
             <ul>
               <li>
-                <h4>Vulnerabilidade:</h4>
+                <h4>
+                  <strong>Vulnerabilidade:</strong>
+                </h4>
+                <ul>
+                  <li>
+                    São **fragilidades** que podem causar danos presentes ou
+                    futuros para pessoas e organizações. É uma fraqueza em um
+                    ativo ou grupo de ativos que pode ser explorada por uma ou
+                    mais ameaças.
+                  </li>
+                </ul>
               </li>
-              <ul>
-                <li>
-                  São fragilidades que podem provocar danos presentes ou futuros
-                  para as pessoas e as organizações. É uma fragilidade de um
-                  ativo ou grupo de ativos que pode ser explorada por uma ou
-                  mais ameaças.
-                </li>
-              </ul>
               <li>
-                <h4>Ameaça:</h4>
+                <h4>
+                  <strong>Ameaça:</strong>
+                </h4>
+                <ul>
+                  <li>
+                    São **agentes externos** ao ativo de informação que exploram
+                    as vulnerabilidades para gerar a quebra de um ou mais dos
+                    três princípios básicos da segurança da informação
+                    (Confidencialidade, Integridade, Disponibilidade).
+                  </li>
+                </ul>
               </li>
-              <ul>
-                <li>
-                  São agentes externos ao ativo de informação que exploram as
-                  vulnerabilidades para gerar a quebra de um ou mais dos três
-                  princípios básicos da segurança da informação
-                  (Confidencialidade, integridade, disponibilidade)
-                </li>
-              </ul>
               <li>
-                <h4>Incidente:</h4>
+                <h4>
+                  <strong>Incidente:</strong>
+                </h4>
+                <ul>
+                  <li>
+                    É a **ocorrência de um evento** que pode interromper os
+                    processos do negócio, resultando da concretização de uma
+                    ameaça que explorou uma vulnerabilidade.
+                  </li>
+                </ul>
               </li>
-              <ul>
-                <li>
-                  É a ocorrência de um evento que possa interromper os processos
-                  do negócio.
-                </li>
-              </ul>
             </ul>
-            <h4>Alguns aspectos da vulnerabilidade:</h4>
+            <h4>Alguns aspectos comuns de vulnerabilidade:</h4>
             <ul>
               <li>
                 Instalações físicas desprotegidas contra incêndios, inundações
                 ou outros desastres naturais;
               </li>
               <li>Materiais inadequados empregados nas construções;</li>
-              <li>Ausência de políticas de segurança para RH;</li>
+              <li>Ausência de políticas de segurança para Recursos Humanos;</li>
               <li>
-                Funcionários sem treinamento e insatisfeitos nos locais de
-                trabalho;
+                Funcionários sem treinamento adequado e insatisfeitos nos locais
+                de trabalho;
               </li>
               <li>Ausência de procedimentos de utilização de equipamentos;</li>
               <li>
-                Equipamentos sem manutenção adequada e sem restrições para
-                utilização;
+                Equipamentos sem manutenção adequada e sem restrições de uso;
               </li>
-              <li>Softwares desatualizados e sem licença de funcionamento;</li>
+              <li>Softwares desatualizados e sem licença de funcionamento.</li>
             </ul>
             <h4>Vulnerabilidade com base em sua origem:</h4>
             <ul>
-              <li>Naturais;</li>
-              <li>Organizacionais;</li>
-              <li>Físicas</li>
-              <li>De hardware</li>
-              <li>De software;</li>
-              <li>Meios de armazenamento;</li>
-              <li>Humanas;</li>
-              <li>Nas comunicações.</li>
+              <li>Naturais (desastres, etc.);</li>
+              <li>Organizacionais (falta de processos, políticas);</li>
+              <li>Físicas (infraestrutura, acesso);</li>
+              <li>De hardware (falhas em equipamentos);</li>
+              <li>De software (bugs, desatualização);</li>
+              <li>Meios de armazenamento (mídias, discos);</li>
+              <li>Humanas (erros, negligência, má-fé);</li>
+              <li>Nas comunicações (redes, protocolos).</li>
             </ul>
-            <p>Logo, vulnerabilidade tem uma sequência:</p>
+            <p>Portanto, a sequência lógica é:</p>
             <ol>
               <li>
-                <h4>Vulnerabilidade:</h4>
+                <h4>
+                  <strong>Vulnerabilidade:</strong>
+                </h4>
+                <ul>
+                  <li>
+                    É a fraqueza existente que **pode ser explorada** por uma
+                    ameaça;
+                  </li>
+                </ul>
               </li>
-              <ul>
-                <li>que pode ser explorada por uma ameaça;</li>
-              </ul>
               <li>
-                <h4>Ameaça:</h4>
+                <h4>
+                  <strong>Ameaça:</strong>
+                </h4>
+                <ul>
+                  <li>
+                    É o agente que **pode se concretizar** em um incidente ao
+                    explorar a vulnerabilidade;
+                  </li>
+                </ul>
               </li>
-              <ul>
-                <li>que pode se concretizar em um incidente;</li>
-              </ul>
               <li>
-                <h4>Incidente:</h4>
+                <h4>
+                  <strong>Incidente:</strong>
+                </h4>
+                <ul>
+                  <li>
+                    É o **resultado** da concretização da ameaça que explorou a
+                    vulnerabilidade, causando um evento indesejado.
+                  </li>
+                </ul>
               </li>
-              <ul>
-                <li>
-                  resultado da concretização da ameaça que explorou a
-                  vulnerabilidade.
-                </li>
-              </ul>
             </ol>
             <h4>Conceito de cibersegurança ou segurança cibernética:</h4>
             <p>
-              É a prática de proteger informações e dados que chegam à
-              organização, vindas de fontes externas por meio de protocolos de
+              É a prática de **proteger informações e dados que chegam à
+              organização de fontes externas** por meio de protocolos de
               internet. É a segurança cibernética que busca proteger a rede das
-              empresas de invasões externas. Logo, nem tudo que é segurança da
-              informação envolve a cibersegurança, mas toda cibersegurança
-              envolve a segurança da informação.
+              empresas de invasões externas. É importante notar que nem tudo que
+              é segurança da informação envolve a cibersegurança, mas **toda
+              cibersegurança envolve a segurança da informação**. A
+              cibersegurança é um subset da segurança da informação, focada no
+              ambiente digital e de rede.
             </p>
-            <h4>Algumas boas práticas das empresas:</h4>
+            <h4>Algumas boas práticas das empresas em cibersegurança:</h4>
             <ul>
-              <li>Evitar e combater ataques virtuais;</li>
+              <li>Evitar e **combater ataques virtuais**;</li>
               <li>
-                Identificar e recuperar vulnerabilidades nos sistemas de T.I.;
+                **Identificar e recuperar vulnerabilidades** nos sistemas de
+                T.I.;
               </li>
-              <li>Proteger dados armazenados virtualmente;</li>
-              <li>Determinar regras para gestão das informações;</li>
-              <li>Controlar o acesso de usuários aos dados corporativos.</li>
+              <li>**Proteger dados armazenados virtualmente**;</li>
+              <li>
+                **Determinar regras para gestão** das informações digitais;
+              </li>
+              <li>
+                **Controlar o acesso de usuários** aos dados corporativos.
+              </li>
             </ul>
-            <h3>Segurança digital</h3>
+            <h3>Segurança Digital</h3>
             <p>
-              As ameaças aumentam quase que na mesma proporção que as inovações.
-              As informações de uma empresa, sejam digitais ou não, estão no
-              centro de qualquer negócio, sendo um valoroso ativo e um
-              diferencial competitivo.
+              As ameaças aumentam quase na mesma proporção que as inovações
+              tecnológicas. As informações de uma empresa, sejam digitais ou
+              não, estão no centro de qualquer negócio, sendo um **valoroso
+              ativo e um diferencial competitivo**.
             </p>
             <p>
-              É impossível ter segurança total das ameaças à segurança da
-              informação por causa da constante dinâmica da inovação na evolução
-              de hardwares e softwares. Por isso é necessário priorizar o que é
-              mais importante e possui maior risco para a empresa.
+              É impossível ter **segurança total** contra todas as ameaças à
+              segurança da informação devido à constante dinâmica da inovação em
+              hardware e software. Por isso, é necessário **priorizar o que é
+              mais importante** e possui maior risco para a empresa, focando os
+              esforços de segurança nos pontos mais críticos.
             </p>
-            <h3>Lei Geral de Proteção de Dados Pessoais (LGPD ou LGPDP)</h3>
+            <h4>Lei Geral de Proteção de Dados Pessoais (LGPD ou LGPDP)</h4>
             <p>
-              Lei 13.709/2018 é a legislação que regula as atividades de
-              tratamento de dados pessoais e que também altera os atigos 7º e
-              16º do Marco Civil da Internet. A lei busca criar um cenário de
-              segurança jurídica, com a padronização de normas e práticas, para
-              promover a proteção, de forma igualitária e dentro do país e no
-              mundo, aos dados pessoais de todo cidadão que esteja no Brasil.
-              Ainda estabelece que não importa se a sede de uma organização está
-              localizada no Brasil ou no exterior. Havendo processamento de
-              informações de pessoas, brasileiras ou não, que estão no
-              território nacional, a lei deve ser cumprida pela empresa. Pela
-              lei, é permitido compartilhar dados com organismos internacionais
-              e com outros países, mas para que isso ocorra, devem ser seguidos
-              protocolos seguros que cumpram as exigencias legais.
+              A **Lei 13.709/2018** é a legislação brasileira que regula as
+              atividades de tratamento de dados pessoais. Ela também altera os
+              artigos 7º e 16º do Marco Civil da Internet. O objetivo da LGPD é
+              criar um cenário de **segurança jurídica**, padronizando normas e
+              práticas para promover a proteção, de forma igualitária e dentro
+              do país e no mundo, aos dados pessoais de todo cidadão que esteja
+              no Brasil.
             </p>
-            <h4>Alguns aspectos importantes são:</h4>
+            <p>
+              A lei estabelece que **não importa se a sede de uma organização
+              está localizada no Brasil ou no exterior**. Se houver
+              processamento de informações de pessoas (brasileiras ou não) que
+              estão no território nacional, a lei deve ser cumprida pela
+              empresa. É permitido compartilhar dados com organismos
+              internacionais e com outros países, mas para que isso ocorra,
+              devem ser seguidos **protocolos seguros** que cumpram as
+              exigências legais da LGPD.
+            </p>
+            <h4>Alguns aspectos importantes da LGPD:</h4>
             <ul>
               <li>
-                <h4>Consentimento:</h4>
+                <h4>
+                  <strong>Consentimento:</strong>
+                </h4>
+                <ul>
+                  <li>
+                    Envolve a **autorização expressa do cidadão/cliente** para
+                    que seus dados pessoais possam ser tratados pelas empresas.
+                    Sem esse consentimento claro, o tratamento é ilegal.
+                  </li>
+                </ul>
               </li>
-              <ul>
-                <li>
-                  Envolve o consentimento do cidadão/cliente para que os dados
-                  pessoais possam ser tratados pelas empresas;
-                </li>
-              </ul>
               <li>
-                <h4>Automatização com autorização:</h4>
+                <h4>
+                  <strong>
+                    Direitos do titular e automatização com autorização:
+                  </strong>
+                </h4>
+                <ul>
+                  <li>
+                    A LGPD permite que os clientes solicitem que seus dados
+                    sejam **deletados**, revoguem um consentimento previamente
+                    dado, ou solicitem a **transferência de seus dados** para
+                    outro fornecedor de serviços. Isso empodera o titular dos
+                    dados.
+                  </li>
+                </ul>
               </li>
-              <ul>
-                <li>
-                  Permite aos clientes solicitar que dados sejam deletados,
-                  solicitar revogação de um consentimento, solicitar
-                  transferência de dados para outro fornecedor de serviços;
-                </li>
-              </ul>
             </ul>
             <p>
-              A garantia do cumprimento da lei é feito pala ANPD (Autoridade
-              Nacional de Proteção de Dados Pessoais), que regula e orienta,
-              preventivamente, sobre como aplicar a lei, fiscaliza as empresas e
-              puni ao notar descumprimento da lei.
+              A garantia do cumprimento da lei é feita pela **ANPD (Autoridade
+              Nacional de Proteção de Dados Pessoais)**. A ANPD atua regulando e
+              orientando preventivamente sobre como aplicar a lei, fiscalizando
+              as empresas e aplicando punições quando há descumprimento.
             </p>
           </div>
           <div>
-            <h3>Inteligência do Negócio</h3>
+            <h3>Inteligência do Negócio (Business Intelligence - BI)</h3>
             <p>
-              Devido à competitividade, a exigência do mercado tem se voltado a
-              novas formas de utilizar os dados organizados. É fundamental e
-              importante que essas novas formas tragam mais valor aos negócios.
-              Com isso, as empresas estão buscando o que o mercado chama de
-              Inteligência dos Negócios ou Business Intelligence (BI), que é uma
-              forma inteligente de identificar e tratar as falhas e manter o
-              negócio competitivo.
+              Devido à crescente **competitividade do mercado**, as empresas
+              buscam novas maneiras de utilizar seus dados organizados para
+              gerar mais valor. É nesse cenário que surge o conceito de
+              **Inteligência de Negócios** ou **Business Intelligence (BI)**. O
+              BI é uma abordagem inteligente para identificar e tratar falhas,
+              mantendo o negócio competitivo no mercado.
             </p>
             <p>
-              Esse conceito também é conhecido como Inteligência Empresarial e
-              abrange todos os setores da empresa, tais como:
+              Também conhecido como Inteligência Empresarial, o BI abrange
+              **todos os setores da empresa**, como:
             </p>
             <ul>
               <li>Financeiro;</li>
@@ -1936,294 +2268,330 @@ const GestaoDaInformacao = () => {
               <li>Tecnologias.</li>
             </ul>
             <p>
-              O BI é capaz de transformar grandes quantidades de dados
-              desorganizados e sem sentido em informações essenciais para uma
-              boa gestão e principalmente para a tomada de decisão. Seu
+              Ele é capaz de transformar grandes quantidades de **dados
+              desorganizados e sem sentido** em **informações essenciais** para
+              uma boa gestão e, principalmente, para a tomada de decisões. Seu
               principal objetivo é utilizar esse conjunto de técnicas e
-              ferramentas para oferecer suporte à tomada de decisão e ao
-              monitoramento de resultados dos investimentos da empresa.
+              ferramentas para **oferecer suporte à tomada de decisão** e ao
+              **monitoramento dos resultados** dos investimentos da empresa.
             </p>
             <p>
               Dessa forma, o BI permite agrupar e explorar informações para
-              descobrir vantagens para o negócio, apoiando na interpretação e
-              análise de dados e informações, identificando oportunidades e
-              riscos.
+              descobrir **vantagens competitivas** para o negócio, apoiando a
+              interpretação e análise de dados e informações, e identificando
+              **oportunidades e riscos**.
             </p>
-            <p>O bom funcionamento do BI depende de integrar:</p>
+            <p>O bom funcionamento do BI depende da integração entre:</p>
             <ul>
-              <li>O negócio;</li>
-              <li>A gestão;</li>
-              <li>A TI.</li>
+              <li>O **Negócio**;</li>
+              <li>A **Gestão**;</li>
+              <li>A **TI** (Tecnologia da Informação).</li>
             </ul>
             <h4>
-              O BI é muito flexível em captar e obter informações e oferecer
-              apoio nas decisões de forma inteligente, estejam as informações e
-              dados onde estiverem.
+              O BI é muito flexível na captação e obtenção de informações,
+              oferecendo apoio inteligente às decisões, independentemente de
+              onde os dados e informações estejam armazenados.
             </h4>
             <p>
-              Resumindo, o BI pode ser entendido com um processo orientado por
-              tecnologia para analisar dados e apresentar informações
-              organizadas e úteis para apoiar a alta gestão das empresas a tomar
-              decisões de negócios. O que possibilita isso é uma variedade de
-              ferramentas, aplicativos e metodologias que permitem coletar dados
-              de sistemas internos e fontes externas, usando até inteligência
-              artificial para realizar análises e desenvolver consultas
-              coerentes com a necessidade do negócio.
+              Em resumo, o BI pode ser entendido como um **processo orientado
+              por tecnologia** para analisar dados e apresentar informações
+              organizadas e úteis, apoiando a alta gestão das empresas na tomada
+              de decisões de negócios. Isso é possível através de uma variedade
+              de ferramentas, aplicativos e metodologias que permitem coletar
+              dados de sistemas internos e fontes externas, utilizando até mesmo
+              **inteligência artificial** para realizar análises e desenvolver
+              consultas coerentes com a necessidade do negócio.
             </p>
-            <h3>Big Data</h3>
+            <h4>Big Data</h4>
             <p>
-              É um termo utilizado para tratar grandes conjuntos de dados que
-              precisam ser processados e armazenados para depois serem usados. É
-              um conceito para identificar dados com maior variedade que chegam
-              em volumes crescentes e com velocidade cada vez maior. Esse
-              conceito foi iniado com 3Vs:
+              **Big Data** é um termo utilizado para descrever **grandes
+              conjuntos de dados** que precisam ser processados e armazenados
+              para serem posteriormente utilizados. É um conceito que identifica
+              dados com maior variedade, que chegam em volumes crescentes e com
+              velocidade cada vez maior. Inicialmente, esse conceito foi
+              definido por **3 Vs**:
             </p>
             <ul>
-              <li>Velocidade;</li>
-              <li>Volume;</li>
-              <li>Variedade.</li>
+              <li>**Volume**;</li>
+              <li>**Velocidade**;</li>
+              <li>**Variedade**.</li>
             </ul>
             <p>
-              Mas por conta das necessidades das empresas e do mercado, o
-              conceito evoluiu para 5Vs:
+              Porém, devido às necessidades das empresas e do mercado, o
+              conceito evoluiu para **5 Vs**:
             </p>
             <ul>
               <li>
-                <h4>Volume</h4>
+                <h4>
+                  <strong>Volume</strong>
+                </h4>
+                <ul>
+                  <li>
+                    Refere-se à **quantidade de dados**. Com Big Data, é
+                    possível processar volumes massivos de dados, incluindo os
+                    não estruturados. Isso exige otimização no armazenamento e
+                    processamento dessa enorme quantidade de informação.
+                  </li>
+                </ul>
               </li>
-              <ul>
-                <li>
-                  A quantidade de dados é o que importa. Com Big Data é possível
-                  processar grandes volumes de dados não estruturados. Isso
-                  envolve pensar em maneiras de otimizar o armazenamento e o
-                  processamento deste enorme volume de dados.
-                </li>
-              </ul>
               <li>
-                <h4>Variedade</h4>
+                <h4>
+                  <strong>Variedade</strong>
+                </h4>
+                <ul>
+                  <li>
+                    Representa os **diversos tipos de dados disponíveis**, de
+                    fontes e extensões variadas, podendo incluir texto, áudio e
+                    vídeo. Enquanto dados tradicionais (estruturados) se
+                    encaixam em bancos de dados relacionais, dados não
+                    estruturados ou semiestruturados (como textos livres ou
+                    mídias) exigem pré-processamento adicional para extrair
+                    significado e dar suporte a metadados, o que aumenta a
+                    complexidade de armazenamento e processamento.
+                  </li>
+                </ul>
               </li>
-              <ul>
-                <li>
-                  São os vários tipos de dados disponíveis, de fontes e
-                  extensões diversas, podendo variar entre texto, áudio e vídeo.
-                  Os tipos de dados tradicionais podem ser estruturados e se
-                  adequam perfeitamente a um banco de dados relacional, mas os
-                  dados não estruturados ou semiestruturados, como texto, áudio
-                  e vídeo, exigem um pre-processamento adicional para obter
-                  significado e dar suporte a metadados, o que aumenta também a
-                  complexidade do armazenamento e do processamento.
-                </li>
-              </ul>
               <li>
-                <h4>Velocidade</h4>
+                <h4>
+                  <strong>Velocidade</strong>
+                </h4>
+                <ul>
+                  <li>
+                    Foca na **taxa mais rápida** na qual os dados são recebidos,
+                    processados e gerenciados. Podemos melhorar a velocidade
+                    transmitindo os dados diretamente para a memória (em vez de
+                    gravar no disco) e utilizando produtos inteligentes
+                    habilitados para internet que operam em tempo real. Isso
+                    exige um trabalho dedicado, mas garante maior agilidade.
+                  </li>
+                </ul>
               </li>
-              <ul>
-                <li>
-                  O foco é a taxa mais rápida na qual os dados são recebidos,
-                  processados e administrados. Podemos melhorar a velocidade
-                  transmitindo os dados diretamente para a memória, em vez de
-                  gravar no disco, utilizar produtos inteligentes habilitados
-                  para internet que operam em tempo real. Isso tudo exige um
-                  trabalho dedicado, mas garante maior velocidade.
-                </li>
-              </ul>
               <li>
-                <h4>Veracidade</h4>
+                <h4>
+                  <strong>Veracidade</strong>
+                </h4>
+                <ul>
+                  <li>
+                    Devido às fontes variadas e complexas, foi crucial inserir o
+                    conceito de **veracidade** para garantir a **fonte e a
+                    qualidade dos dados**, pois eles devem ser confiáveis. É
+                    preciso checar dados inconsistentes ou até mesmo a
+                    disseminação de fake news. Os riscos causados por dados não
+                    confiáveis podem ser imensos para os negócios.
+                  </li>
+                </ul>
               </li>
-              <ul>
-                <li>
-                  Como as fontes são variadas e complexas, foi necessário
-                  inserir o conceito de veracidade para garantir a fonte e a
-                  qualidade dos dados, pois eles devem ser confiáveis. É preciso
-                  checar a questão de dados inconsistentes ou até mesmo fake
-                  news. Os riscos causados por dados não confiáveis podem ser
-                  imensos para os negócios.
-                </li>
-              </ul>
               <li>
-                <h4>Valor</h4>
+                <h4>
+                  <strong>Valor</strong>
+                </h4>
+                <ul>
+                  <li>
+                    O Big Data se tornou tão necessário que o conceito de
+                    **valor** foi criado. Ele está relacionado com os
+                    **benefícios** que as soluções de Big Data trazem para as
+                    empresas. É fundamental que os dados processados e
+                    disponibilizados sejam coerentes e úteis para a necessidade
+                    do negócio, agregando, assim, valor à empresa.
+                  </li>
+                </ul>
               </li>
-              <ul>
-                <li>
-                  O Big Data se tornou tão necessário que o conceito de valor
-                  foi criado. Está relacionado com os benefícios que as soluções
-                  de Big Data estão trazendo para as empresas. É preciso que os
-                  dados processados e disponibilizados sejam coerentes e úteis
-                  para a necessidade do negócio, dessa forma, será agregado
-                  valor para a empresa.
-                </li>
-              </ul>
             </ul>
             <h4>Em resumo, Big Data é:</h4>
             <p>
               Um conjunto de dados maior e mais complexo, envolvendo novas
               fontes e tipos de dados. Esses conjuntos de dados costumam ser tão
               volumosos que um software tradicional de processamento não seria
-              capaz de genrenciar. O grande objetivo desses volumosos dados é
-              poder resolver problemas de negócios que as empresas não
-              conseguiriam resolver antes dos Big Data.
+              capaz de gerenciar. O grande objetivo desses volumosos dados é
+              **resolver problemas de negócios que as empresas não conseguiriam
+              resolver antes do Big Data**.
             </p>
-            <h3>Data Warehouse</h3>
+            <h4>Data Warehouse (DW)</h4>
             <p>
-              Traduzido seria armazém de dados. É uma organização de bancos de
-              dados para análise e Business Intelligence. Podemos entender como
-              um depósito de dados digitais, com o objetivo de armazenar
-              informações classificadas e organizadas de uma empresa,
-              possibilitar análises e criação de relatórios que ajudam na tomada
-              de decisão estratégica. Possui uma arquitetura e um projeto
-              técnico voltados para o processamento e o armazenamento de altos
-              volumes de dados. É muito relacionado com Big Data.
+              Traduzido como "armazém de dados", um **Data Warehouse** é uma
+              organização de bancos de dados voltada para **análise e Business
+              Intelligence**. Podemos entendê-lo como um **depósito de dados
+              digitais**, cujo objetivo é armazenar informações classificadas e
+              organizadas de uma empresa, possibilitando análises e a criação de
+              relatórios que ajudam na **tomada de decisão estratégica**. Possui
+              uma arquitetura e um projeto técnico dedicados ao processamento e
+              armazenamento de **altos volumes de dados**, sendo muito
+              relacionado com o conceito de Big Data.
             </p>
             <p>
-              Trata de um sistema de armazenamento de dados, recebendo
-              informações de diferentes fontes, internas e externas, que
-              alimenta o BI de uma empresa, e é usado para uma efetiva gestão.
+              O DW é um sistema de armazenamento de dados que recebe informações
+              de **diferentes fontes (internas e externas)**, alimenta o BI de
+              uma empresa e é usado para uma gestão efetiva.
             </p>
             <h4>OLAP - Online Analytical Processing:</h4>
             <p>
-              É uma das ferramentas mais usadas hoje em dia para exploração de
-              um Data Warehouse. Ele possibilita alterar e analisar grandes
-              quantidades de dados em várias perspectivas diferentes. Pode ser
-              aplicado em áreas muito distintas. Uma das que mais se utilizam
-              dessa ferramenta é a área financeira para apoio em análises,
-              fluxos de caixa, contas, orçamentos, passando por marketing,
-              apoiando a análise de preço e volumes de mercado, indo até os
-              processos de vendas, com previsões de faturamento, lucro e
-              quantidade de clientes, entre outros.
+              É uma das ferramentas mais usadas atualmente para a exploração de
+              um Data Warehouse. O OLAP permite alterar e analisar grandes
+              quantidades de dados sob **várias perspectivas diferentes**. Pode
+              ser aplicado em áreas muito distintas. Por exemplo, a área
+              financeira o utiliza para apoiar análises de fluxos de caixa,
+              contas e orçamentos; o marketing, para análises de preço e volumes
+              de mercado; e os processos de vendas, com previsões de
+              faturamento, lucro e quantidade de clientes, entre outros.
             </p>
             <h4>Vantagens e Desvantagens do Data Warehouse:</h4>
             <ul>
               <li>
-                <h4>Vantagens:</h4>
+                <h4>
+                  <strong>Vantagens:</strong>
+                </h4>
+                <ul>
+                  <li>
+                    Várias inconsistências nos dados podem ser **identificadas e
+                    solucionadas antes** que sejam carregadas, o que facilita a
+                    execução da análise e a geração de relatórios;
+                  </li>
+                  <li>
+                    Contribui para o processo de tomada de decisão, por meio de
+                    relatórios de tendências, de exceção e relatórios que
+                    comparam **objetivos previstos versus desempenho real**.
+                  </li>
+                </ul>
               </li>
-              <ul>
-                <li>
-                  Várias inconsistências podem ser identificadas e solucionadas
-                  antes de os dados serem carregados, o que facilita a execução
-                  da análise e de relatórios;
-                </li>
-                <li>
-                  Contribui para o processo de tomada de decisão, por meio de
-                  relatórios de tendências, de exceção e relatórios que mostram
-                  os objetivos previstos versus desempenho real.
-                </li>
-              </ul>
               <li>
-                <h4>Desvantagens:</h4>
+                <h4>
+                  <strong>Desvantagens:</strong>
+                </h4>
+                <ul>
+                  <li>
+                    Não é a solução mais adequada para **dados não
+                    estruturados**, por se tratar de uma organização muitas
+                    vezes pautada em bancos de dados tradicionais;
+                  </li>
+                  <li>
+                    Podem ter **custos elevados** de implementação e manutenção;
+                  </li>
+                  <li>
+                    Podem ficar **rapidamente desatualizados** devido à alta
+                    velocidade da tecnologia e à constante evolução dos dados.
+                  </li>
+                </ul>
               </li>
-              <ul>
-                <li>
-                  Não é a solução adequada para dados não estruturados, por se
-                  tratar de uma organização pautada, muitas vezes, em bancos de
-                  dados tradicionais;
-                </li>
-                <li>Podem ter custos elevados;</li>
-                <li>
-                  Podem ficar ultrapassados com alguma rapidez, por conta da
-                  velocidade da tecnologia.
-                </li>
-              </ul>
             </ul>
             <p>
-              Para resumir, Data Warehouse pode ser entendido como um banco de
+              Para resumir, o Data Warehouse pode ser entendido como um banco de
               dados com capacidade de armazenar e organizar um grande volume de
-              dados, sendo responsável por criar análise e organizar relatórios
-              por meio de informações históricas, que podem ajudar as empresas a
-              obterem previsões e auxiliar na tomada de decisões importantes.
+              dados. Ele é responsável por criar análises e organizar relatórios
+              por meio de **informações históricas**, que podem ajudar as
+              empresas a obterem previsões e auxiliar na tomada de decisões
+              importantes.
             </p>
-            <h3>Data Mining</h3>
+            <h4>Data Mining (Mineração de Dados)</h4>
             <p>
-              É uma estratégia de marketing muito usada pelas empresas para
-              oferecer produtos que te interessam através de informações
-              coletadas, processadas e utilizadas por essas empresas. Em
-              português, a Mineração de Dados auxilia a identificar e coletar
-              dados e descartar ruídos, ou seja, coletar dados relevantes e
-              descartar dados irrelevantes.
-            </p>
-            <p>
-              Esses sistemas são muito importantes no mundo dos negócios, pois
-              estão preparados para lidar com grandes volumes de informações
-              disponibilizadas por todos e para todos na internet. São sistemas
-              computacionais criados para processar em volume cada vez maior de
-              informações. Seu principal objetivo é vasculhar grandes
-              repositórios de dados e tentar descobrir se há algum conhecimento
-              escondido neles.
+              **Data Mining** é uma estratégia muito utilizada pelas empresas,
+              especialmente em marketing, para oferecer produtos que te
+              interessam com base em informações coletadas, processadas e
+              utilizadas. Em português, a **Mineração de Dados** auxilia a
+              identificar e coletar dados relevantes, descartando "ruídos"
+              (dados irrelevantes).
             </p>
             <p>
-              Quando se consegue fazer ligações entre as informações e se
-              descobre os relacionamentos, é possível definir estratégias para
-              otimizar os resultados financeiros das empresas, prevendo
-              projeções futuras. Data Mining tem o propósito identificar padrões
-              existentes, as consistências e o relacionamento entre os dados.
-              Identificados esses pontos, é possível transformar os dados em
-              conhecimento para ser usado em decisões estratégicas.
+              Esses sistemas são extremamente importantes no mundo dos negócios,
+              pois estão preparados para lidar com **grandes volumes de
+              informações** disponibilizadas na internet. São sistemas
+              computacionais criados para processar um volume cada vez maior de
+              dados. Seu principal objetivo é **vasculhar grandes repositórios
+              de dados** e tentar descobrir algum **conhecimento oculto** neles.
             </p>
             <p>
-              Minerar dados é mais do que analisar grandes quantidades de
-              informações, envolve descobrir a relação entre as informações.
-              Para ser efetivo, o Data Mining precisa ser um processo executado
-              em todas as áreas da empresa e cumprir algumas fases:
+              Quando se consegue fazer **ligações entre as informações** e
+              descobrir os **relacionamentos** existentes, é possível definir
+              estratégias para otimizar os resultados financeiros das empresas,
+              prevendo projeções futuras. O Data Mining tem o propósito de
+              identificar **padrões existentes, consistências e o relacionamento
+              entre os dados**. Identificados esses pontos, é possível
+              transformar os dados em **conhecimento acionável** para ser usado
+              em decisões estratégicas.
+            </p>
+            <p>
+              Minar dados é mais do que analisar grandes quantidades de
+              informações; envolve **descobrir a relação intrínseca entre
+              elas**. Para ser efetivo, o Data Mining precisa ser um processo
+              executado em todas as áreas da empresa e cumprir algumas fases:
             </p>
             <ul>
               <li>
-                <h4>Identificação do problema:</h4>
+                <h4>
+                  <strong>Identificação do problema:</strong>
+                </h4>
+                <ul>
+                  <li>
+                    Fase responsável por **definir um objetivo** claro a ser
+                    alcançado com a análise dos dados.
+                  </li>
+                </ul>
               </li>
-              <ul>
-                <li>
-                  Fase responsável por definir um objetivo a ser alcançado.
-                </li>
-              </ul>
               <li>
-                <h4>Descoberta do conhecimento:</h4>
+                <h4>
+                  <strong>Descoberta do conhecimento:</strong>
+                </h4>
+                <ul>
+                  <li>
+                    Fase responsável por **identificar as relações entre os
+                    dados** utilizando procedimentos de Inteligência Artificial
+                    (IA) para realizar as análises.
+                  </li>
+                </ul>
               </li>
-              <ul>
-                <li>
-                  Fase responsável por identificar as relações entre os dados
-                  com procedimentos de IA para realizar as análises.
-                </li>
-              </ul>
               <li>
-                <h4>Análise das relações descobertas:</h4>
+                <h4>
+                  <strong>Análise das relações descobertas:</strong>
+                </h4>
+                <ul>
+                  <li>
+                    Fase onde a **inteligência sobre as relações descobertas** é
+                    aprofundada, seja manualmente ou com o auxílio de IA.
+                  </li>
+                </ul>
               </li>
-              <ul>
-                <li>
-                  Fase onde está a inteligência de relações descobertas, o que é
-                  feito manualmente ou também com IA.
-                </li>
-              </ul>
               <li>
-                <h4>Uso das relações descobertas:</h4>
+                <h4>
+                  <strong>Uso das relações descobertas:</strong>
+                </h4>
+                <ul>
+                  <li>
+                    É o momento em que as empresas **aplicam as descobertas**
+                    feitas para gerir seu negócio e tomar decisões estratégicas.
+                  </li>
+                </ul>
               </li>
-              <ul>
-                <li>
-                  É quando as empresas usam as descobertas feitas para gerir seu
-                  negócio e tomar as decisões.
-                </li>
-              </ul>
               <li>
-                <h4>Avaliação dos resultados:</h4>
+                <h4>
+                  <strong>Avaliação dos resultados:</strong>
+                </h4>
+                <ul>
+                  <li>
+                    Fase em que se verifica se as descobertas foram realmente
+                    **úteis para o negócio** ou se ainda falta alguma informação
+                    para atingir o objetivo definido na primeira fase. Este é um
+                    ciclo de melhoria contínua.
+                  </li>
+                </ul>
               </li>
-              <ul>
-                <li>
-                  Fase em que se verifica se as descobertas foram realmente
-                  úteis para o negócio ou se falta ainda alguma informação para
-                  atingir o objetivo que foi definido na 1ª fase.
-                </li>
-              </ul>
             </ul>
-            <h3>Tomada de decisão</h3>
+            <h4>Tomada de Decisão</h4>
             <p>
-              Com o auxílio de sistemas complexos que fazem coletas e análises
-              de dados para disponibilizar informações relevantes, os gestores
-              tomam decisões. As empresas que se destacam é porque tomaram
-              decisões mais assertivas e mais rapidamente. Dados reias,
-              organizados, etc, fazem as empresas descartarem informações
-              irrelevantes para escolherem as melhores alternativas. Todas as
-              técnicas até aqui se complementam entre si, e tem por objetivo
-              facilitar a disponibilização de informação coerente e relevante
-              para agregar valor ao negócio, apoiando na sustentabilidade e
-              manutenção das empresas. O futuro e a estabilidade de uma
-              organização dependem disso.
+              Com o auxílio de sistemas complexos que coletam e analisam dados
+              para disponibilizar informações relevantes, os gestores podem
+              tomar decisões mais eficazes. As empresas que se destacam no
+              mercado geralmente o fazem por tomarem **decisões mais assertivas
+              e rápidas**. Dados reais, organizados e relevantes permitem que as
+              empresas descartem informações irrelevantes para escolherem as
+              **melhores alternativas**.
+            </p>
+            <p>
+              Todas as técnicas e conceitos abordados (Business Intelligence,
+              Big Data, Data Warehouse e Data Mining) se complementam, e têm
+              como objetivo facilitar a disponibilização de **informações
+              coerentes e relevantes** para agregar valor ao negócio, apoiando
+              na **sustentabilidade e manutenção das empresas**. O futuro e a
+              estabilidade de uma organização dependem diretamente da sua
+              capacidade de transformar dados em decisões inteligentes.
             </p>
           </div>
         </>

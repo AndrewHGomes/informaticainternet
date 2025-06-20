@@ -110,7 +110,7 @@ const Introducao = () => {
                 informações.
               </li>
             </ul>
-            <h3>Onde um Técnico em Informática para Internet Pode Atuar?</h3>
+            <h4>Onde um Técnico em Informática para Internet Pode Atuar?</h4>
             <p>
               A versatilidade é uma marca registrada deste profissional, que
               pode atuar em duas frentes principais:
@@ -144,7 +144,7 @@ const Introducao = () => {
               cenário demanda um profissional atento aos detalhes e com forte
               senso de responsabilidade.
             </p>
-            <h3>O que é Tecnologia da Informação (T.I.)?</h3>
+            <h4>O que é Tecnologia da Informação (T.I.)?</h4>
             <p>
               A <strong>Tecnologia da Informação (T.I.)</strong> é um vasto
               <strong>
@@ -183,7 +183,7 @@ const Introducao = () => {
               entendimento aprofundado na área, é fundamental dominar alguns
               termos e conceitos essenciais:
             </p>
-            <h3>Conceitos Iniciais Fundamentais:</h3>
+            <h4>Conceitos Iniciais Fundamentais:</h4>
             <ul>
               <li>
                 <h4>Hardware:</h4>
@@ -258,7 +258,7 @@ const Introducao = () => {
                 </ul>
               </li>
             </ul>
-            <h3>Categorias e Tipos de Softwares</h3>
+            <h4>Categorias e Tipos de Softwares</h4>
             <ul>
               <li>
                 <h4>Softwares Genéricos:</h4>
@@ -393,7 +393,7 @@ const Introducao = () => {
                 </ul>
               </li>
             </ul>
-            <h3>A Distinção entre Técnica e Tecnologia</h3>
+            <h4>A Distinção entre Técnica e Tecnologia</h4>
             <ul>
               <li>
                 <h4>Técnica:</h4>
@@ -461,7 +461,7 @@ const Introducao = () => {
                 </ul>
               </li>
             </ul>
-            <h3>Conceito Formal de Internet</h3>
+            <h4>Conceito Formal de Internet</h4>
             <p>
               A Internet é um
               <strong>
@@ -474,7 +474,7 @@ const Introducao = () => {
               <strong>rede de redes</strong> que permite a troca de dados em
               escala planetária.
             </p>
-            <h3>Desenvolvimento Web</h3>
+            <h4>Desenvolvimento Web</h4>
             <p>
               Termo abrangente que descreve todas as atividades envolvidas na
               <strong>
@@ -484,7 +484,7 @@ const Introducao = () => {
               . Isso inclui desde o design visual (front-end) até a programação
               do servidor e banco de dados (back-end).
             </p>
-            <h3>Desenvolvedor Web</h3>
+            <h4>Desenvolvedor Web</h4>
             <p>
               É o profissional especializado na criação de websites e aplicações
               web. Essa função pode se desdobrar em diferentes especialidades,
@@ -527,7 +527,7 @@ const Introducao = () => {
                 área de TI.
               </li>
             </ul>
-            <h3>Código de Ética Profissional em T.I.</h3>
+            <h4>Código de Ética Profissional em T.I.</h4>
             <p>
               O trabalho do técnico em informática para internet não se
               restringe apenas ao aspecto técnico; ele é exercido dentro de uma
@@ -612,10 +612,10 @@ const Introducao = () => {
                 autorizado**, respeitando a segurança e a privacidade.
               </li>
             </ul>
-            <h3>
+            <h4>
               Principais Funções que um Técnico em Informática para Internet
               Pode Exercer:
-            </h3>
+            </h4>
             <ul>
               <li>
                 <strong>Análise</strong>: Entender e decompor problemas
@@ -642,7 +642,7 @@ const Introducao = () => {
                 ele atenda aos requisitos e esteja livre de erros.
               </li>
             </ul>
-            <h3>Capacidades Essenciais para o Profissional de T.I.:</h3>
+            <h4>Capacidades Essenciais para o Profissional de T.I.:</h4>
             <p>
               Além do conhecimento técnico, certas habilidades comportamentais e
               cognitivas são cruciais:
@@ -685,9 +685,9 @@ const Introducao = () => {
                 não-técnicos).
               </li>
             </ul>
-            <h3>
+            <h4>
               Principais Cargos Solicitados pelas Empresas no Mercado de T.I.
-            </h3>
+            </h4>
             <ul>
               <li>
                 <h4>Desenvolvedor de Software ou Programador:</h4>
@@ -844,7 +844,7 @@ const Introducao = () => {
                 </ul>
               </li>
             </ul>
-            <h3>Tipos de Programação e Especializações de Programadores</h3>
+            <h4>Tipos de Programação e Especializações de Programadores</h4>
             <ul>
               <li>
                 <h4>Programação Mobile:</h4>
@@ -958,9 +958,9 @@ const Introducao = () => {
                 </ul>
               </li>
             </ul>
-            <h3>
+            <h4>
               Principais Categorias de Programadores: Onde o Código Ganha Vida
-            </h3>
+            </h4>
             <ul>
               <li>
                 <h4>Programadores Desktop:</h4>
@@ -1022,7 +1022,7 @@ const Introducao = () => {
                 </ul>
               </li>
             </ul>
-            <h3>O Conceito Fundamental de Programação</h3>
+            <h4>O Conceito Fundamental de Programação</h4>
             <p>
               A programação é a arte e a ciência de criar um
               <strong>
@@ -1116,9 +1116,9 @@ const Introducao = () => {
                 </ul>
               </li>
             </ul>
-            <h3>
+            <h4>
               O Ciclo de Vida do Software: Etapas Essenciais do Desenvolvimento
-            </h3>
+            </h4>
             <p>
               O ciclo de vida de software descreve as fases que um sistema
               passa, desde sua concepção até sua desativação:
@@ -1228,9 +1228,9 @@ const Introducao = () => {
               contínua** é uma parte integrante do ciclo de vida, garantindo que
               o software continue relevante e funcional ao longo do tempo.
             </p>
-            <h3>
+            <h4>
               Competências Técnicas Essenciais para o Profissional de T.I.
-            </h3>
+            </h4>
             <ul>
               <li>
                 <h4>Teoria Geral de Sistemas:</h4>
@@ -1286,10 +1286,10 @@ const Introducao = () => {
                 </ul>
               </li>
             </ul>
-            <h3>
+            <h4>
               Competências Comportamentais: O Diferencial no Profissional de
               T.I.
-            </h3>
+            </h4>
             <p>
               Além das habilidades técnicas, o mercado valoriza um conjunto de
               características comportamentais:
@@ -1334,7 +1334,7 @@ const Introducao = () => {
                 responsável e comprometida com a qualidade do trabalho.
               </li>
             </ul>
-            <h3>Perfil de Carreira em T.I.: Generalista vs. Especialista</h3>
+            <h4>Perfil de Carreira em T.I.: Generalista vs. Especialista</h4>
             <p>
               Dentro da T.I., os profissionais tendem a desenvolver perfis que
               se complementam:
@@ -1402,7 +1402,7 @@ const Introducao = () => {
               reflete a alta demanda por profissionais qualificados e as
               inúmeras oportunidades de carreira.
             </p>
-            <h3>Principais Segmentos do Mercado de T.I. Onde Atuar:</h3>
+            <h4>Principais Segmentos do Mercado de T.I. Onde Atuar:</h4>
             <ul>
               <li>
                 <strong>Empresas de desenvolvimento de software</strong>: Criam

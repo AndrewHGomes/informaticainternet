@@ -19,7 +19,7 @@ const Ambientacao = () => {
       </div>
       {abrir && (
         <>
-          <h2>Algumas siglas</h2>
+          <h3>Algumas siglas</h3>
           <ul>
             <li>AVA - Ambiente Virtual de Aprendizagem;</li>
             <li>CMA - Central de Mediação Acadêmica;</li>
