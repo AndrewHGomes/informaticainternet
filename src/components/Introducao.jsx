@@ -139,7 +139,7 @@ const Introducao = () => {
               O técnico em informática para internet precisa possuir
               características e competências muito específicas. Imagine um
               software acessado por milhões de usuários simultaneamente, em
-              navegadores diversos, e a necessidade de garantir uma{" "}
+              navegadores diversos, e a necessidade de garantir uma
               <strong>proteção de segurança robusta e constante</strong>. Este
               cenário demanda um profissional atento aos detalhes e com forte
               senso de responsabilidade.
@@ -150,9 +150,12 @@ const Introducao = () => {
               <strong>
                 conjunto de atividades, ferramentas e soluções
               </strong>{" "}
-              que utilizam a computação e os meios tecnológicos para **facilitar
-              e otimizar a vida das pessoas e o funcionamento das
-              organizações**. Seu propósito primordial é a
+              que utilizam a computação e os meios tecnológicos para
+              <strong>
+                facilitar e otimizar a vida das pessoas e o funcionamento das
+                organizações
+              </strong>
+              . Seu propósito primordial é a
               <strong>
                 produção, o armazenamento seguro, a transmissão eficiente, o
                 acesso facilitado, a segurança e o uso inteligente das
@@ -206,12 +209,15 @@ const Introducao = () => {
                     <strong>
                       conjunto de elementos ou componentes que se
                       inter-relacionam e se organizam
-                    </strong>
+                    </strong>{" "}
                     para funcionar como um todo coeso. No contexto da
-                    informática, é a **interface e a interação entre o hardware
-                    e o software**. Esses componentes trabalham juntos, de forma
-                    integrada, para atingir um objetivo específico ou realizar
-                    uma função complexa.
+                    informática, é a
+                    <strong>
+                      interface e a interação entre o hardware e o software
+                    </strong>
+                    . Esses componentes trabalham juntos, de forma integrada,
+                    para atingir um objetivo específico ou realizar uma função
+                    complexa.
                   </li>
                 </ul>
               </li>
@@ -265,11 +271,11 @@ const Introducao = () => {
                 <ul>
                   <li>
                     São pacotes ou programas desenvolvidos para atender a uma
-                    gama ampla de
+                    gama ampla de{" "}
                     <strong>
                       clientes com problemas ou necessidades semelhantes
                     </strong>
-                    . Sua principal característica é a capacidade de serem
+                    . Sua principal característica é a capacidade de serem{" "}
                     <strong>reaproveitados</strong> e comercializados para
                     diversos usuários, como sistemas operacionais (Windows,
                     macOS), pacotes de escritório (Microsoft Office) ou
@@ -282,12 +288,13 @@ const Introducao = () => {
                 <ul>
                   <li>
                     São programas criados sob medida, desenvolvidos para atender
-                    a um
+                    a um{" "}
                     <strong>
                       cliente ou organização com uma necessidade ou problema
                       particular e exclusivo
                     </strong>
-                    . Eles são **únicos**, feitos sob demanda, e dificilmente
+                    . Eles são
+                    <strong>únicos</strong>, feitos sob demanda, e dificilmente
                     podem ser reaproveitados para outros clientes sem grandes
                     modificações. Exemplos incluem sistemas de gestão de estoque
                     personalizados para uma loja específica.
@@ -298,7 +305,7 @@ const Introducao = () => {
                 <h4>Requisitos (de Software):</h4>
                 <ul>
                   <li>
-                    Descrevem as <strong>funcionalidades e restrições</strong>{" "}
+                    Descrevem as <strong>funcionalidades e restrições</strong>
                     que um software deve possuir ou cumprir para satisfazer as
                     expectativas e necessidades do cliente. São a base do que o
                     software deve fazer e como deve se comportar. Podem ser
@@ -314,7 +321,7 @@ const Introducao = () => {
                     Também conhecido como <strong>software de sistema</strong>,
                     são programas que fornecem a infraestrutura essencial para
                     que outros programas (aplicativos) funcionem. Os mais
-                    conhecidos são os
+                    conhecidos são os{" "}
                     <strong>Sistemas Operacionais (S.O.)</strong>, como Windows,
                     macOS, Linux, Android e iOS, que gerenciam hardware e
                     software.
@@ -329,7 +336,7 @@ const Introducao = () => {
                     <strong>operações comerciais ou administrativas</strong> de
                     empresas. Exemplos incluem sistemas
                     <strong>ERP (Enterprise Resource Planning)</strong> para
-                    gestão integrada,
+                    gestão integrada,{" "}
                     <strong>CRM (Customer Relationship Management)</strong> para
                     gestão de clientes, e softwares de contabilidade ou folha de
                     pagamento.
@@ -341,7 +348,7 @@ const Introducao = () => {
                 <ul>
                   <li>
                     Programas altamente especializados, voltados para a
-                    realização de
+                    realização de{" "}
                     <strong>
                       cálculos matemáticos complexos, simulações, modelagem de
                       dados e análise de fenômenos
@@ -356,7 +363,7 @@ const Introducao = () => {
                 <ul>
                   <li>
                     São programas que controlam sistemas e produtos específicos,
-                    estando <strong>integrados diretamente ao hardware</strong>{" "}
+                    estando <strong>integrados diretamente ao hardware</strong>
                     de um dispositivo. Funcionam como uma "coisa só", otimizados
                     para aquela função, como o software de um forno micro-ondas,
                     de uma smart TV, de sistemas automotivos ou de equipamentos
@@ -383,11 +390,14 @@ const Introducao = () => {
                 <h4>Software de Inteligência Artificial (IA):</h4>
                 <ul>
                   <li>
-                    Programas que utilizam **algoritmos complexos (muitas vezes
-                    não numéricos)** para permitir que máquinas simulem e
-                    executem tarefas que normalmente exigiriam inteligência
-                    humana. Isso inclui aprendizado de máquina, reconhecimento
-                    de padrões, processamento de linguagem natural e sistemas de
+                    Programas que utilizam{" "}
+                    <strong>
+                      algoritmos complexos (muitas vezes não numéricos)
+                    </strong>{" "}
+                    para permitir que máquinas simulem e executem tarefas que
+                    normalmente exigiriam inteligência humana. Isso inclui
+                    aprendizado de máquina, reconhecimento de padrões,
+                    processamento de linguagem natural e sistemas de
                     recomendação.
                   </li>
                 </ul>
@@ -410,7 +420,7 @@ const Introducao = () => {
                 <h4>Tecnologia:</h4>
                 <ul>
                   <li>
-                    Representa a
+                    Representa a{" "}
                     <strong>
                       técnica evoluída, sistematizada e organizada
                     </strong>
@@ -433,10 +443,10 @@ const Introducao = () => {
                 <h4>Usuário:</h4>
                 <ul>
                   <li>
-                    É a
+                    É a{" "}
                     <strong>
                       pessoa que efetivamente interage e utiliza o software
-                    </strong>
+                    </strong>{" "}
                     no dia a dia. As necessidades e a experiência do usuário são
                     o foco principal do desenvolvimento, pois é para ele que o
                     software deve ser otimizado.
@@ -447,14 +457,14 @@ const Introducao = () => {
                 <h4>Cliente:</h4>
                 <ul>
                   <li>
-                    É a
+                    É a{" "}
                     <strong>
                       entidade (pessoa ou empresa) que contrata o
                       desenvolvimento
-                    </strong>
+                    </strong>{" "}
                     do software e é responsável pelo seu financiamento. É quem
                     define os requisitos de negócio e paga pelo produto. É
-                    importante ressaltar que o cliente e o usuário
+                    importante ressaltar que o cliente e o usuário{" "}
                     <strong>nem sempre são a mesma pessoa</strong>,
                     especialmente em projetos corporativos.
                   </li>
@@ -463,14 +473,14 @@ const Introducao = () => {
             </ul>
             <h4>Conceito Formal de Internet</h4>
             <p>
-              A Internet é um
+              A Internet é um{" "}
               <strong>
                 sistema global de redes de computadores interligadas
-              </strong>
+              </strong>{" "}
               que operam através de um conjunto padronizado de protocolos de
               comunicação (o mais conhecido é o TCP/IP). Seu propósito é
               interconectar dispositivos e disponibilizar informações e serviços
-              a usuários em todo o mundo. É, essencialmente, uma{" "}
+              a usuários em todo o mundo. É, essencialmente, uma
               <strong>rede de redes</strong> que permite a troca de dados em
               escala planetária.
             </p>
