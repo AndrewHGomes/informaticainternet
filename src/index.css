@@ -30,9 +30,12 @@ header {
   transition: transform 0.3s ease-in-out;
 }
 
-h2,
-h3 {
+h2 {
   color: #990;
+}
+
+h3 {
+  color: #ff6347;
 }
 
 section {

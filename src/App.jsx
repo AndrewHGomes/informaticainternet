@@ -1,6 +1,7 @@
 import AdministracaoSistemas from "./components/AdministracaoSistemas";
 import Ambientacao from "./components/Ambientacao";
 import GestaoDaInformacao from "./components/GestaoDaInformacao";
+import InterfaceWeb from "./components/InterfaceWeb";
 import Introducao from "./components/Introducao";
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
       <Introducao />
       <GestaoDaInformacao />
       <AdministracaoSistemas />
+      <InterfaceWeb />
     </>
   );
 };
