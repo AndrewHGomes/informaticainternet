@@ -301,6 +301,163 @@ const InterfaceWeb = () => {
           </div>
           <div>
             <h2>Fotografia</h2>
+            <p>
+              A fotografia não começou com uma boa definição, colorida e bonita.
+              Em 1826, o francês <strong>Joseph Niépce</strong> construiu uma
+              máquina que consistia em uma placa metálica revestida de betume,
+              que, em conjunto com uma câmara escura, produzia uma imagem. Em
+              1837, outro francês, <strong>Louis Daguerre</strong>, aperfeiçoou
+              essa máquina e produziu o <strong>daguerreótipo</strong>, um tipo
+              rudimentar de máquina fotográfica (Kubrusly, 2003). De lá pra cá,
+              muitas coisas mudaram. A fotografia, que antes era impressa em um
+              pedaço de vidro, passou a ser impressa em um papel especial.
+              Atualmente, eles nem são mais impressas, são compartilhadas aos
+              montes em redes sociais.
+            </p>
+            <p>
+              Devemos deixar claro que fotografia{" "}
+              <strong>não representa a realidade</strong>. Ela é fruto de uma{" "}
+              <strong>escolha do fotógrafo</strong>, que escolhe o local onde
+              vai fotografar, como vai fotografar e de qual forma vai mostrar o
+              objeto ou pessoa fotografado (sotang, 2013). Como dizia o filósofo{" "}
+              <strong>Vilém Flusser (2011)</strong>, toda fotografia{" "}
+              <strong>é mentirosa</strong>.
+            </p>
+            <p>Temos quatro dimensões que nos rodeiam:</p>
+            <ul>
+              <li>Altura;</li>
+              <li>Largura;</li>
+              <li>Profundidade;</li>
+              <li>Tempo;</li>
+            </ul>
+            <p>
+              Uma foto, por melhor que seja,{" "}
+              <strong>deleta a profundidade e o tempo</strong>. Toda fotografia{" "}
+              <strong>é um instante congelado</strong>, portanto, o tempo é
+              deletado. Qualquer fotografia, seja impressa ou não, também perde
+              sua profundidade. As outras duas dimensões que restaram (altura e
+              largura) são modificadas. Logo, a fotografia{" "}
+              <strong>é a arte do olho</strong> segundo o filósofo{" "}
+              <strong>Water Benjamin (2010)</strong>. Antes, nas artes plásticas
+              como a pintura, o artista precisava de uma coordenação motora
+              fina, agora, o artista precisa posicionar bem a câmera, apertar um
+              botão e saber algumas técnicas.
+            </p>
+            <h3>Simetria</h3>
+            <p>
+              Essa, talvez, seja a coisa mais importante. Não que a fotografia
+              deve ser simétrica, mas até para criar fotografias assimétricas, o
+              fotógrafo precisa conhecer simetria.
+            </p>
+            <p>
+              Em 1202, um matemático chamado <strong>Leonardo Fibonacci</strong>{" "}
+              desenvolveu uma sequência que explicava como muitas coisas na
+              natureza funcionavam. Ele usa a{" "}
+              <strong>
+                soma de dois números anteriores para gerar um terceiro
+              </strong>{" "}
+              e assim sucessivamente. Exemplo: 1 + 2 = 3; 2 + 3 = 5; 3 + 5 = 8;
+              5 + 8 = 13 e assim por diante. Essa sequência acaba gerando
+              graficamente, uma espiral ascendente. A partir de Fibonacci, os
+              fotógrafos foram adaptando sua ideia de simetria, simplificando
+              para um quadrante de <strong>nove quadros</strong>. É uma grade de{" "}
+              <strong>3 quadros por 3 quadros</strong>. Essa opção existe tanto
+              nas câmeras proficionais quanto nos smartphones. Para uma boa foto
+              usando os nove quadros, o elemento de foco deve estar posicionado
+              em um dos quatro encontros entre as linhas do quadrante.
+            </p>
+            <h3>Contraste, Sombra e Cor</h3>
+            <p>
+              Uma outra característica importante é o <strong>contraste</strong>
+              , que é, basicamente,{" "}
+              <strong>
+                colocar em foco algo que seja, de alguma forma, muito diferente
+                do fundo
+              </strong>
+              . Temos até uma certa oposição, mas basta colocar um elemento
+              muito díspar que se destaque do fundo.
+            </p>
+            <p>
+              Outra característica também muito importante e que ressalta
+              lugares e temáticas é o <strong>uso da sombra</strong>, colocando
+              elementos escuros na tela, isso faz{" "}
+              <strong>destacar a luz</strong>. Quando inserimos sombras no
+              enquadramento, deixamos aquilo que está iluminado ainda mais
+              presente.
+            </p>
+            <p>
+              O uso dos <strong>contrastes das cores e tonalidades</strong> em
+              uma foto direcionam o olhar do espectador. Quanto mais
+              contrastantes as cores, mais o leitor vai prestar atenção.
+              Precisamos entender que existem{" "}
+              <strong>
+                cores quentes (derivações de vermelho, laranja e amarelo)
+              </strong>
+              , que transmitem agitação, movimento, mudança, e também{" "}
+              <strong>cores frias (derivações de verde, azul e violeta)</strong>
+              , que indicam calmaria, passividade, serenidade. Quanto à
+              tonalidade, que podem ser mais saturadas ou menos saturadas,
+              podemos dizer que fotos <strong>menos saturadas</strong> (mais
+              escuras), tendem a dar uma aparência mais{" "}
+              <strong>desconfiada, misteriosa</strong>. Já as cores{" "}
+              <strong>mais saturadas</strong> (mais claras), tendem a ser vistas
+              como mais <strong>otimistas, vivas, vibrantes</strong>.
+            </p>
+            <h3>Texturas, Padrões e Reflexos</h3>
+            <p>
+              Quando temos a impressão de uma foto parecer estar "áspera" ou
+              "gosmenta", mesmo que ela esteja sendo vista na tela de um
+              celular, é porque o fotógrafo conseguiu acertar a{" "}
+              <strong>textura</strong> da fotografia.
+            </p>
+            <p>
+              Os <strong>padrões são quaisquer coisas repetitivas</strong> que{" "}
+              <strong>comuniquem uma ideia ou sentimento</strong>. Um bom
+              exemplo são os vitrais coloridos e iluminados, como das igrejas
+              mais antigas.
+            </p>
+            <p>
+              Um fotógrafo pode trabalhar também o <strong>reflexo</strong>, ou
+              seja,{" "}
+              <strong>"duplicar" uma imagem a partir de um espelho</strong>, o
+              que transmite uma impressão de <strong>amplitude</strong> por um
+              lado e <strong>curiosidade</strong> por outro. O observador vai
+              buscar entender qual é o objeto real de foco e qual sua cópia
+              espelhada.
+            </p>
+            <h3>Perpectiva, Forma e Linha</h3>
+            <p>
+              Uma das maiores invenções humanas foi a{" "}
+              <strong>perspectiva</strong>. Explicada e estruturada na{" "}
+              <strong>Renascença</strong>, por volta do século XV, essa forma de
+              percepção de um{" "}
+              <strong>
+                ambiente tridimensional vertido para o bidimensional
+              </strong>{" "}
+              foi e ainda é utilizado não só na fotografia, mas em boa parte das
+              tentativas de bidimensionar um objeto ou espaço tridimensional
+              (Gombrich, 1995). Quando criamos{" "}
+              <strong>linhas imaginárias</strong> que se encontram em um{" "}
+              <strong>ponto de fuga</strong>, estamos gerando uma fotografia que
+              faz uso da perspectiva. O fotógrafo deve saber dirigir o olhar do
+              observador, pois esse deve ter seus olhos conduzidos pelo
+              fotógrafo.
+            </p>
+            <p>
+              Outra técnica que pode ser trabalhada é a da{" "}
+              <strong>forma</strong>, ou seja, destacar{" "}
+              <strong>uma forma em relação às demais</strong> na composição.
+              Fazer com que o leitor se interesse pela forma destacada e como
+              ela funciona na imagem.
+            </p>
+            <p>
+              Também temos a <strong>linha</strong>, o elemento que{" "}
+              <strong>dirige o olhar do observador</strong>. A linha indica os
+              caminhos que os olhos precisam passar, define limites, mostra
+              distâncias e descreve contornos. Existem dois tipos de linhas,{" "}
+              <strong>retas e curvas</strong>. Com elas, os fotógrafos manipulam
+              os olhos do observador sempre em prol da estrutura da composição.
+            </p>
           </div>
         </>
       )}
