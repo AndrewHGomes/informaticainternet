@@ -458,6 +458,92 @@ const InterfaceWeb = () => {
               <strong>retas e curvas</strong>. Com elas, os fotógrafos manipulam
               os olhos do observador sempre em prol da estrutura da composição.
             </p>
+            <h2>Funções do Design</h2>
+            <p>
+              Podemos dizer com segurança que{" "}
+              <strong>tudo ou quase tudo possui um design</strong>, ou seja, o
+              que vemos foi pensado para ser assim. Podemos usar o conceito de{" "}
+              <strong>affordance</strong>, que, para Norman (2006), se refere à
+              capacidade de um objeto material ou virtual deixar claro para que
+              serve. Affordances fornecem fortes indicações para a operação de
+              objetos com apenas uma olhada. Qualquer coisa com um{" "}
+              <strong>bom affordance é fácil de ser compreendida</strong>.
+            </p>
+            <p>
+              O smartphone é algo que <strong>não tem um bom affordance</strong>
+              , pois não conseguimos saber para que serve só de olharmos.{" "}
+              <strong>É aí que entra o design</strong>. Ao contrário do que
+              muita gente pensa, design não significa desenho, e sim{" "}
+              <strong>projeto</strong>.
+            </p>
+            <p>
+              O papel de um designer de projetos web é fornecer um aplicativo ou
+              site com o melhor affordance possível, que seja o mais intuitivo e
+              fácil para o usuário. Além disso, deve ser o mais bonito e
+              agradável possível, para encantar o usuário e mantê-lo em contato
+              com seu produto por mais tempo. Por último, deve ser simbólico o
+              suficiente para que, ao utilizar o produto, a pessoa entenda que
+              ele é mais do que apresenta ser, ou seja, ele tem uma carga
+              simbólica que vai além do que está em suas mãos.
+            </p>
+            <p>
+              Tudo isso começa com um design limpo, um projeto que não seja
+              confuso e que consiga transmitir a maior quantidade possível de
+              informações de forma clara e objetiva. Para isso, precisamos de
+              quatro princípios básicos:
+            </p>
+            <ol>
+              <li>Proximidade;</li>
+              <li>Alinhamento;</li>
+              <li>Repetição;</li>
+              <li>Contraste.</li>
+            </ol>
+            <h3>Proximidade</h3>
+            <p>
+              <strong>
+                As coisas conceitualmente próximas precisam estar visualmente
+                próximas
+              </strong>{" "}
+              (Williams, 2013). Informações que "tem a ver" precisam estar
+              próximas umas das outras, as que não tem tanto a ver, precisam
+              ficar separadas. Esse conceito trata de organizar visualmente a
+              informação. Quanto mais as coisas estão organizadas, mais fácil é
+              entender, se torna mais simples de compreender.
+            </p>
+            <h3>Alinhamento</h3>
+            <p>
+              <strong>
+                Organizar em um certo padrão, com uma certa segurança
+              </strong>{" "}
+              (Williams, 2013). Nenhum elemento de uma página, seja de papel ou
+              online, pode ser colocada de maneira arbitrária. Cada item deve
+              estar visualmente conectado a outro elemento na página. Não se
+              deve "jogar" os elementos nela. O alinhamento nos permite ancorar
+              as coisas em fios invisíveis que as liguem umas às outras.
+            </p>
+            <h3>Repetição</h3>
+            <p>
+              <strong>Repetição gera consistência e antecipação visual.</strong>{" "}
+              (Dondis, 2015). O uso intencional de elementos visuais idênticos
+              ou semelhantes confere unidade e coesão ao design. Por exemplo, o
+              fato de os capítulos dos livros começarem com uma letra diferente
+              faz com que o leitor consiga antever o que está acontecendo: a
+              abertura de um novo capítulo. Quanto mais simples, mais
+              sofisticado e elegante.
+            </p>
+            <blockquote>
+              <q>A simplicidade é o mais alto nível de sofisticação.</q>{" "}
+              <cite>Leonardo da Vinci</cite>
+            </blockquote>
+            <h3>Contraste</h3>
+            <p>
+              <strong>
+                Se um item não é idêntico ao outro, ele deve ser{" "}
+                <ins>muito</ins> diferente
+              </strong>{" "}
+              (Dondis, 2015). Essa é uma regra de ouro do design, onde a palavra{" "}
+              <strong>muito</strong> é a chave.
+            </p>
           </div>
         </>
       )}
