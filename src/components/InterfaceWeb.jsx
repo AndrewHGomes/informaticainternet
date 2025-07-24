@@ -458,6 +458,8 @@ const InterfaceWeb = () => {
               <strong>retas e curvas</strong>. Com elas, os fotógrafos manipulam
               os olhos do observador sempre em prol da estrutura da composição.
             </p>
+          </div>
+          <div>
             <h2>Funções do Design</h2>
             <p>
               Podemos dizer com segurança que{" "}
@@ -471,7 +473,8 @@ const InterfaceWeb = () => {
             </p>
             <p>
               O smartphone é algo que <strong>não tem um bom affordance</strong>
-              , pois não conseguimos saber para que serve só de olharmos.{" "}
+              , pois não conseguimos saber para que serve só de olharmos (Não
+              significa que os softwares do smartphone tenham mal affordance).{" "}
               <strong>É aí que entra o design</strong>. Ao contrário do que
               muita gente pensa, design não significa desenho, e sim{" "}
               <strong>projeto</strong>.
@@ -537,12 +540,122 @@ const InterfaceWeb = () => {
             </blockquote>
             <h3>Contraste</h3>
             <p>
+              <strong></strong>
               <strong>
-                Se um item não é idêntico ao outro, ele deve ser{" "}
+                É quando, no mesmo espaço, temos elementos <ins>muito</ins>{" "}
+                diferentes. Se um item não é idêntico ao outro, ele deve ser{" "}
                 <ins>muito</ins> diferente
               </strong>{" "}
               (Dondis, 2015). Essa é uma regra de ouro do design, onde a palavra{" "}
               <strong>muito</strong> é a chave.
+            </p>
+          </div>
+          <div>
+            <h2>Cores e Tipografia</h2>
+            <h3>Cores</h3>
+            <p>
+              Estamos acostumados a viver em um mundo colorido. Mas como fazer
+              para as cores serem harmoniosas em uma interface?
+            </p>
+            <p>
+              Existem <strong>"dois tipos de cores"</strong>: as luzes e os
+              pigmentos.{" "}
+              <strong>
+                Cores-luz são aquelas formadas pela incidência de qualquer tipo
+                de raio luminoso
+              </strong>
+              , inclusive dos smartphones, televisores, aparelhos de som, etc. A
+              soma de todas as cores-luz resulta em luz branca. Cores-luz seguem
+              o modelo <strong>RGB (Red, Green, Blue)</strong> e é a forma como
+              todos os aparelhos eletroeletrônicos emitem suas cores (Farina,
+              2011). Já as{" "}
+              <strong>
+                cores-pigmento são aquelas produzidas a partir de algum composto
+                químico, extraído da natureza ou forjado em indústrias
+              </strong>
+              . Os pigmentos são percebidos a partir de uma superfície
+              reflexiva, ou seja, uma superfície que reflete aquela cor. A
+              mistura de todos os pigmentos resulta na cor preta. Cores-pigmento
+              seguem o modelo{" "}
+              <strong>CMYK (Cyan, Magenta, Yellow, Black)</strong> e é a forma
+              como todas as coisas são impressas (Dondis, 2015).
+            </p>
+            <p>
+              É importante conhecer e destacar o{" "}
+              <strong>círculo cromático</strong>, que se inicia com as{" "}
+              <strong>cores primárias: vermelho, amarelo e azul</strong>. Não
+              podemos criar as cores primárias por meio de misturas. Mas,
+              misturar uma cor primária com a outra cor primária ao lado,
+              podemos ir criando as cores secundárias. Depois é só ir misturando
+              as cores com as que estão ao seu lado e teremos o círculo
+              cromático.{" "}
+              <strong>
+                Cores complementares são as que estão no extremo oposto do
+                círculo, ou seja, o maior contraste possível
+              </strong>
+              . Temos também as{" "}
+              <strong>
+                tríades, um conjunto de três cores equidistantes que ficam
+                equilibradas
+              </strong>{" "}
+              em qualquer design. Essa combinação se inicia com a escolha de uma
+              cor e criar um <strong>triângulo equilátero</strong>. Outro
+              esquema, seria usar{" "}
+              <strong>
+                cores análogas, que é a combinação das cores ao lado da cor
+                principal
+              </strong>
+              .
+            </p>
+            <h3>Tonalidades, Luzes, Sombras e Temperatura</h3>
+            <p>
+              É bem simples entender sobre <strong>luzes e sombras</strong>. A{" "}
+              <strong>cor pura</strong> é chamada de <strong>matiz</strong>. Ao
+              acrescentar branco a matiz, terá mais luz, ao acrescentar preto a
+              matiz, terá mais sombra. No círculo cromático, na terceira posição
+              de fora para dentro temos as cores matiz, as cores mais externas
+              são sombras da matiz, as cores mais internas são luzes da matiz.
+            </p>
+            <p>
+              As <strong>tonalidades</strong> se referem à qualidade particular
+              de <strong>brilho, profundidade ou pureza</strong> de qualquer
+              cor. Para criar <strong>contraste</strong>, é necessário alterar
+              de forma radical as tonalidades, usar o{" "}
+              <strong>máximo de contraste</strong>.
+            </p>
+            <p>
+              As <strong>temperaturas</strong> das cores podem ser{" "}
+              <strong>quentes ou frias</strong>. Cores quentes são utilizadas
+              para representar calor, intensidade, festa, etc. As cores frias
+              costumam representar elementos frios, noite, calmaria, etc. Cores
+              quentes derivam do vermelho, alaranjado, amarelo. Já as cores
+              frias, derivam do azul, verde roxo.
+            </p>
+            <h3>Tipografia</h3>
+            <p>
+              Também chamada de <strong>fontes</strong>, a{" "}
+              <strong>tipografia</strong> é o{" "}
+              <strong>desenho das letras</strong>. Também é uma das principais
+              partes de um design, seja digital ou impresso. Existem,
+              basicamente, cinco classificações de fontes:
+            </p>
+            <ul>
+              <li>Com serifa;</li>
+              <li>Sem serifa;</li>
+              <li>Monoespaçadas;</li>
+              <li>Script ou Handwriting;</li>
+              <li>Símbolos.</li>
+            </ul>
+            <p>
+              <strong>Serifa</strong> tem uma origem antiga, da época em que
+              pessoas escreviam com penas (pombo, ganso ou pavão, dependendo da
+              condição financeira) e tinteiro. Ao molhar a pena no tinteiro e
+              depois escrever, algumas áreas do papel ficavam mais encharcadas,
+              criando pequenas "bolhas" de tinta. Tempos depois, com a invensão
+              da prensa de Gutenberg, em 1500, percebeu-se que os pequenos
+              prolongamentos das letras contribuíam para leitura no papel, pois
+              "ligavam" uma letra à outra. Em <strong>livros impressos</strong>{" "}
+              é comum ser usado fontes <strong>com serifa</strong>
             </p>
           </div>
         </>
