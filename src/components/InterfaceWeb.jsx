@@ -655,7 +655,73 @@ const InterfaceWeb = () => {
               da prensa de Gutenberg, em 1500, percebeu-se que os pequenos
               prolongamentos das letras contribuíam para leitura no papel, pois
               "ligavam" uma letra à outra. Em <strong>livros impressos</strong>{" "}
-              é comum ser usado fontes <strong>com serifa</strong>
+              (geralmente de literatura, onde a pessoa pretende mergulhar na
+              história) é comum ser usado fontes <strong>com serifa</strong>. Já
+              no computador, smartphones, etc, ou em livros de consulta, é comum
+              serem usadas fontes <strong>sem serifa</strong>, pois naturalmente
+              a tela proporciona uma experiência de leitura pior do que do
+              papel, já que a incidência de iluminação sempre é um complicador
+              para os olhos. Nesses casos, deixam a leitura mais simples pois
+              não trazem tantos adereços.
+            </p>
+            <p>
+              As fontes <strong>monoespaçadas</strong> são usadas em geral para
+              fazer uma <strong>manção a um código de programação</strong>, no
+              caso da informática, ou trazer um aspécto de{" "}
+              <strong>máquina de escrever</strong> para passar uma ideia de
+              coisa velha. São monoespaçadas pois todas as letras possuem o
+              mesmo tamanho, o mesmo espaçamento e a mesma distância em tela.
+            </p>
+            <p>
+              Fontes do tipo <strong>script ou handwriting</strong> são usadas
+              para dar a impressão de que alguma pessoa{" "}
+              <strong>escreveu com as próprias mãos</strong> o texto que está na
+              tela. Já as do tipo <strong>símbolos</strong> são utilizadas
+              apenas como <strong>decoração</strong> (Garfield, 2012).
+            </p>
+            <h3>Características das Fontes</h3>
+            <p>
+              A tipografia pode apresentar várias características. A primeira é
+              o <strong>tamanho</strong>, ou seja, sua posição relativa em
+              relação aos outros elementos do design. Uma fonte de 120 pontos
+              fica gigante em uma folha de papel A4 mas fica minúscula em um
+              outdoor. Cabe ao designer equilibrar a fonte em relação aos outros
+              elementos da composição. É um erro usar uma fonte tão grande que
+              ofusque os demais componentes, assim como é um erro utilizar uma
+              fonte tão pequena que atrapalhe a legibilidade (Williams, 2013).
+            </p>
+            <p>
+              O <strong>peso</strong>, que é a espessura do traço, também á algo
+              a destacar. A maioria das fontes pertence a uma família
+              tipográfica, um conjunto de variações dentro de um mesmo estilo.
+              Dentro dessa variedade, podemos encontrar alguns pesos diferentes.
+            </p>
+            <ul>
+              <li>Extralight;</li>
+              <li>Regular;</li>
+              <li>Itálico;</li>
+              <li>Negrito;</li>
+              <li>Extranegrito.</li>
+            </ul>
+            <p>
+              Basicamente, usamos uma fonte <strong>regular</strong> para textos
+              mais longos, pelo conforto de leitura. Fonte em{" "}
+              <strong>negrito</strong> serve como destaque à mensagem, pois é
+              praticamente impossível ignorá-la. Fonte em{" "}
+              <strong>itálico</strong> são empregadas para dar um ar de
+              sofisticação.
+            </p>
+            <p>
+              A <strong>direção</strong> também é algo muito explorado no design
+              tipográfico. O texto não precisa seguir a disposição tradicional
+              da esquerda para a direita e de cima para baixo.{" "}
+              <strong>
+                Outras formas e direções podem ser usadas para criar impacto
+                visual
+              </strong>
+              . Além disso, as cores das fontes e cores de fundo podem ser
+              modificadas para obter resultados mais interessantes e que causam
+              esse impacto.
             </p>
           </div>
         </>
