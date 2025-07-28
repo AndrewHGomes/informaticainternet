@@ -654,15 +654,16 @@ const InterfaceWeb = () => {
               criando pequenas "bolhas" de tinta. Tempos depois, com a invensão
               da prensa de Gutenberg, em 1500, percebeu-se que os pequenos
               prolongamentos das letras contribuíam para leitura no papel, pois
-              "ligavam" uma letra à outra. Em <strong>livros impressos</strong>{" "}
-              (geralmente de literatura, onde a pessoa pretende mergulhar na
-              história) é comum ser usado fontes <strong>com serifa</strong>. Já
-              no computador, smartphones, etc, ou em livros de consulta, é comum
-              serem usadas fontes <strong>sem serifa</strong>, pois naturalmente
-              a tela proporciona uma experiência de leitura pior do que do
-              papel, já que a incidência de iluminação sempre é um complicador
-              para os olhos. Nesses casos, deixam a leitura mais simples pois
-              não trazem tantos adereços.
+              "ligavam" uma letra à outra. Em <strong>livros impressos</strong>,{" "}
+              geralmente de literatura, onde a pessoa pretende mergulhar na
+              história, é comum ser usado fontes <strong>com serifa</strong>. Já
+              no computador, smartphones, etc, ou em{" "}
+              <strong>livros de consulta</strong>, é comum serem usadas fontes{" "}
+              <strong>sem serifa</strong>, pois naturalmente a tela proporciona
+              uma experiência de leitura pior do que do papel, já que a
+              incidência de iluminação sempre é um complicador para os olhos.
+              Nesses casos, deixam a leitura mais simples pois não trazem tantos
+              adereços.
             </p>
             <p>
               As fontes <strong>monoespaçadas</strong> são usadas em geral para
@@ -723,6 +724,143 @@ const InterfaceWeb = () => {
               modificadas para obter resultados mais interessantes e que causam
               esse impacto.
             </p>
+          </div>
+          <div>
+            <h2>História da UX</h2>
+            <p>
+              Algumas coisas são muito importantes destacar nessa interação
+              entre o humano que está na frente da tela e o que está visualmente
+              aparecendo na tela. Não é algo simples. É difícil e trabalhoso
+              criar uma interface que realmente funciona para que o usuário se
+              sinta confortável para utilizar a interface de forma interessante.
+            </p>
+            <p>
+              A sigla <strong>UX</strong> significa{" "}
+              <strong>User Experience</strong> ou{" "}
+              <strong>Experiência do Usuário</strong>. Esse termo nem sempre foi
+              utilizado assim. Na época que do Memex, por ser algo conceitual,
+              não precisava de maiores expectativas para ser utilizado. Mas,
+              quando surgiu o Eniac, foi necessário algum tipo de interface.
+              Afinal, como uma pessoa poderia conversar com uma máquina lógica?
+              Foi necessária a criação de algo que fizesse a comunicação entre o
+              ser humano aqui fora e a máquina lá dentro. Foi necessária a
+              criação de uma <strong>interface</strong>.
+            </p>
+            <p>
+              As primeiras interfaces eram{" "}
+              <strong>mudanças de cabos e switches</strong>, que, se um operador
+              mudasse para um lado fazia uma coisa, para outro lado, fazia outra
+              coisa. Logo depois, a <strong>IBM</strong>, começou a usar cartões
+              perfurados no Eniac. Ou seja, uma pessoa programava o computador
+              em um cartão que precisava ser furado e depois introduzido e lido
+              pela máquina. Isso era muito confuso, talvez por isso foi
+              abandonado tão logo chegaram os primeiros monitores, em que o
+              programador poderia digitar o que queria que a máquina fizesse.
+            </p>
+            <p>
+              Isso também não era tão simples, já que apenas alguém formado em
+              processamento de dados (como era chamado na época) ou engenharia
+              conseguiria fazer o computador realizar uma tarefa. Porém, isso
+              mudou quando pessoas comuns passaram a utilizar um computador.
+              Mas, para isso, foi preciso que as instruções não fossem tão
+              complexas. Foi preciso algum tipo de interface que fovoreceu a
+              compreensão e utilização daquela nova tecnologia (Moggridge,
+              2007). Assim foram surgindo as{" "}
+              <strong>interfaces gráficas</strong>, principalmente a partir do{" "}
+              <strong>laboratório PARC (Palo Alto Research Center)</strong> da
+              empresa <strong>Xerox</strong>. A ideia central era fazer com que
+              pessoas comuns conseguissem utilizar aquele novo equipamento. Com
+              isso, diversos pesquisadores começaram a tentar elaborar novas e
+              melhores experiências para os utilizadores. Assim, na década de
+              1980, vários cientistas, de várias áreas, começaram a configurar o
+              que se chamou <strong>Interação Homem-Computador</strong>. Esse
+              termo foi comum até 1990, quando foi modificado para{" "}
+              <strong>design de interação</strong>, deslocando o centro do
+              estudo para a inter-ação entre usuário e o computador. Esse termo
+              foi utilizado até a primeira década do século XXI, até que foi
+              substituído por <strong>User Experience - UX</strong>.
+            </p>
+            <h3>Design Centrado no Usuário</h3>
+            <p>
+              Como design significa projeto, a ideia principal é criar um
+              projeto que torne a experiência do usuário a melhor possível,
+              dados os limites daquela tecnologia. Isso quer dizer: produtos que
+              sejam compreensíveis e facilmente utilizáveis. Para isso,{" "}
+              <strong>
+                o projeto deve ser capaz de determinar as ações que o usuário
+                pode tomar a qualquer momento
+              </strong>
+              , e também{" "}
+              <strong>
+                deixar visíveis os comandos e as possibilidades de cada comando
+              </strong>
+              . Mais do que isso, deve-se{" "}
+              <strong>
+                tornar possível a visualização do modelo conceitual do sistema,
+                as ações possíveis e suas consequências
+              </strong>
+              .
+            </p>
+            <p>
+              O sistema também deveria ser capaz de mostrar ao seu utilizador o
+              estado atual no qual se encontra, além de seguir os mapeamentos
+              naturais entre as intenções e as ações exigidas, assim como ações
+              e seus efeitos no sistema (Norman, 2006). Podemos dizer que{" "}
+              <strong>
+                o usuário tem que conseguir descobrir sozinho como fazer, o que
+                fazer e o que está acontecendo
+              </strong>
+              . Quanto menos instruções forem necessárias, melhor será o design
+              (Preece; Rogers; Sharp, 2005). Quanto mais a pessoa sentir que
+              sabe fazer sem ter sido ensinada, melhor.
+            </p>
+            <p>
+              Para isso ser simples,{" "}
+              <strong>existem algumas regras básicas</strong> (Norman, 2006). A
+              primeira delas deixa claro que{" "}
+              <strong>
+                o designer deve usar o conhecimento que a maior parte das
+                pessoas possui em suas cabeças, ou que estão no mundo
+              </strong>
+              . Quando o conhecimento exigido para entender uma tarefa está
+              disponível externamente, as pessoas aprendem melhor e de forma
+              mais simples. Um bom modelo conceitual permite que, ao olhar para
+              o sistema, o indivíduo já perceba mais ou menos como ele funciona
+              e para que serve.
+            </p>
+            <p>
+              Como designers, têm três modelos mentais que devemos prestar
+              atenção:
+            </p>
+            <ol>
+              <li>
+                <strong>Modelo de design</strong>:
+                <ul>
+                  <li>
+                    É o conceito que o projetista tem em sua mente, o que ele
+                    quer para aquele sistema;
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Modelo de usuário</strong>:
+                <ul>
+                  <li>
+                    Modelo mental que a pessoa comum tem ao usar aquele sistema;
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Imagem do sistema</strong>:
+                <ul>
+                  <li>
+                    É a capacidade de o sistema ser compreendido por meio de sua
+                    interface, ou seja, visualmente o sistema tem que ser capaz
+                    de explicar para que serve e como funciona.
+                  </li>
+                </ul>
+              </li>
+            </ol>
           </div>
         </>
       )}
