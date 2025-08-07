@@ -20,7 +20,7 @@ const AdministracaoSistemas = () => {
       {abrir && (
         <>
           <div>
-            <h3>Sistema</h3>
+            <h2>Sistema</h2>
             <p>
               É importante parar para pensar sobre a
               <strong>complexidade de pequenas coisas</strong> e sobre as
@@ -38,7 +38,7 @@ const AdministracaoSistemas = () => {
             </p>
             <ul>
               <li>
-                <h4>Dependências</h4>
+                <strong>Dependências</strong>
                 <ul>
                   <li>
                     São as tarefas, informações ou elementos que
@@ -53,7 +53,7 @@ const AdministracaoSistemas = () => {
                 </ul>
               </li>
               <li>
-                <h4>Dependentes</h4>
+                <strong>Dependentes</strong>
                 <ul>
                   <li>
                     São as atividades, processos ou elementos que
@@ -81,7 +81,7 @@ const AdministracaoSistemas = () => {
             </p>
           </div>
           <div>
-            <h3>Teoria dos Sistemas</h3>
+            <h2>Teoria dos Sistemas</h2>
             <p>
               Antes de 1950, a abordagem predominante era a
               <strong>lógica reducionista</strong>. Nela, para entender um
@@ -137,7 +137,7 @@ const AdministracaoSistemas = () => {
             </p>
             <ul>
               <li>
-                <h4>Entrada (Input):</h4>
+                <strong>Entrada (Input):</strong>
                 <ul>
                   <li>
                     É um termo genérico que se refere a
@@ -153,7 +153,7 @@ const AdministracaoSistemas = () => {
                 </ul>
               </li>
               <li>
-                <h4>Processamento (Throughput):</h4>
+                <strong>Processamento (Throughput):</strong>
                 <ul>
                   <li>
                     Nesta fase crucial, as entradas são
@@ -168,7 +168,7 @@ const AdministracaoSistemas = () => {
                 </ul>
               </li>
               <li>
-                <h4>Saída (Output):</h4>
+                <strong>Saída (Output):</strong>
                 <ul>
                   <li>
                     O resultado final do processamento das entradas é a
@@ -181,7 +181,7 @@ const AdministracaoSistemas = () => {
                 </ul>
               </li>
             </ul>
-            <h4>Tipos de Sistemas</h4>
+            <strong>Tipos de Sistemas</strong>
             <p>
               Nem todos os sistemas possuem a mesma abrangência ou grau de
               interação com o seu entorno. Eles são classificados conforme suas
@@ -190,7 +190,7 @@ const AdministracaoSistemas = () => {
             </p>
             <ul>
               <li>
-                <h4>Sistemas Abertos:</h4>
+                <strong>Sistemas Abertos:</strong>
                 <ul>
                   <li>
                     Caracterizam-se por uma
@@ -207,7 +207,7 @@ const AdministracaoSistemas = () => {
                 </ul>
               </li>
               <li>
-                <h4>Sistemas Fechados:</h4>
+                <strong>Sistemas Fechados:</strong>
                 <ul>
                   <li>
                     Apresentam
@@ -243,7 +243,7 @@ const AdministracaoSistemas = () => {
               totalidade permite identificar padrões, otimizar fluxos e obter
               melhores resultados.
             </p>
-            <h4>Tipificando o Sistema</h4>
+            <h3>Tipificando o Sistema</h3>
             <p>
               A tipificação de um sistema é relativamente direta: quando um
               sistema sofre{" "}
@@ -260,7 +260,7 @@ const AdministracaoSistemas = () => {
             </p>
           </div>
           <div>
-            <h3>Comunicação e Sabedoria</h3>
+            <h2>Comunicação e Sabedoria</h2>
             <p>
               No fluxo contínuo da vida, cada pequena coisa que acontece se
               traduz em uma oportunidade de coletar <strong>dados</strong>,
@@ -275,7 +275,7 @@ const AdministracaoSistemas = () => {
               portanto, a porta de entrada para a aquisição e o processamento da
               realidade.
             </p>
-            <h4>Pirâmide do Conhecimento (DIKW Pyramid)</h4>
+            <h3>Pirâmide do Conhecimento (DIKW Pyramid)</h3>
             <p>
               Ao analisar qualquer processo ou conjunto de informações, é
               essencial começar pela <strong>menor fração</strong> dessa
@@ -287,10 +287,10 @@ const AdministracaoSistemas = () => {
               esses níveis, desde a matéria-prima bruta até a aplicação prática
               e estratégica.
             </p>
-            <h4>A Pirâmide: da Base ao Topo</h4>
+            <h3>A Pirâmide: da Base ao Topo</h3>
             <ol>
               <li>
-                <h4>Dados:</h4>
+                <strong>Dados:</strong>
                 <ul>
                   <li>
                     Constituem a <strong>base da pirâmide</strong>, a camada
@@ -307,7 +307,7 @@ const AdministracaoSistemas = () => {
                 </ul>
               </li>
               <li>
-                <h4>Informação:</h4>
+                <strong>Informação:</strong>
                 <ul>
                   <li>
                     Com os dados adquiridos na camada anterior, podemos começar
@@ -327,7 +327,7 @@ const AdministracaoSistemas = () => {
                 </ul>
               </li>
               <li>
-                <h4>Conhecimento:</h4>
+                <strong>Conhecimento:</strong>
                 <ul>
                   <li>
                     Quando tratamos a informação, não apenas a compreendemos,
@@ -351,7 +351,7 @@ const AdministracaoSistemas = () => {
                 </ul>
               </li>
               <li>
-                <h4>Sabedoria:</h4>
+                <strong>Sabedoria:</strong>
                 <ul>
                   <li>
                     Representa o <strong>ápice da pirâmide</strong>. O detentor
@@ -380,7 +380,7 @@ const AdministracaoSistemas = () => {
               interação dinâmica e progressiva nos permite transformar dados
               brutos em sabedoria aplicada.
             </p>
-            <h4>Comunicação</h4>
+            <h3>Comunicação</h3>
             <p>
               A <strong>comunicação</strong> é a ação de
               <strong>transmitir uma mensagem</strong>, implicando sempre a
@@ -390,7 +390,7 @@ const AdministracaoSistemas = () => {
               isolado, mas sim um processo intrinsecamente social, feito para
               envolver e interagir com outros grupos e pessoas.
             </p>
-            <h4>Etapas do Emissor:</h4>
+            <h3>Etapas do Emissor:</h3>
             <ul>
               <li>
                 <strong>Motivo:</strong> A razão ou intenção por trás da
@@ -409,7 +409,7 @@ const AdministracaoSistemas = () => {
                 canal.
               </li>
             </ul>
-            <h4>Etapas do Receptor:</h4>
+            <h3>Etapas do Receptor:</h3>
             <ul>
               <li>
                 <strong>Recepção:</strong> O ato de receber a mensagem
@@ -429,7 +429,7 @@ const AdministracaoSistemas = () => {
               meios para alcançar seu público-alvo, adaptando-se às necessidades
               e ao contexto.
             </p>
-            <h4>Classificação da Comunicação por Formato:</h4>
+            <h3>Classificação da Comunicação por Formato:</h3>
             <ul>
               <li>
                 <strong>Biológico:</strong> Comunicação entre seres vivos (ex:
@@ -445,7 +445,7 @@ const AdministracaoSistemas = () => {
                 sociais (ex: conversas, redes sociais).
               </li>
             </ul>
-            <h4>Os Meios de Comunicação:</h4>
+            <h3>Os Meios de Comunicação:</h3>
             <ul>
               <li>Verbalizar (fala)</li>
               <li>Gesticular (linguagem corporal, sinais)</li>
@@ -467,10 +467,10 @@ const AdministracaoSistemas = () => {
               contrário, há um alto risco de erros na interpretação, resultando
               em falhas na comunicação.
             </p>
-            <h4>Comunicação Formal x Informal</h4>
+            <h3>Comunicação Formal x Informal</h3>
             <ul>
               <li>
-                <h4>Formal:</h4>
+                <strong>Formal:</strong>
                 <ul>
                   <li>
                     Caracteriza-se por seguir um
@@ -498,7 +498,7 @@ const AdministracaoSistemas = () => {
                 </ul>
               </li>
               <li>
-                <h4>Informal:</h4>
+                <strong>Informal:</strong>
                 <ul>
                   <li>
                     Refere-se a <strong>mensagens espontâneas</strong> que
@@ -512,10 +512,10 @@ const AdministracaoSistemas = () => {
                 </ul>
               </li>
             </ul>
-            <h4>
+            <h3>
               5 Questões Essenciais para Descrever a Comunicação (Modelo de
               Lasswell):
-            </h4>
+            </h3>
             <ol>
               <li>
                 <strong>Quem?</strong> (Emissor: o comunicador)
@@ -541,7 +541,7 @@ const AdministracaoSistemas = () => {
               e a formação da mensagem até sua propagação e a intenção
               subjacente.
             </p>
-            <h4>Da Coleta à Sabedoria: A Síntese</h4>
+            <h3>Da Coleta à Sabedoria: A Síntese</h3>
             <p>
               A Pirâmide do Conhecimento é um{" "}
               <strong>esquema hierárquico e processual</strong> que permite
@@ -553,10 +553,10 @@ const AdministracaoSistemas = () => {
               sendo fundamental para equipes que buscam resultados embasados e
               eficientes.
             </p>
-            <h4>Revisão: A Jornada do Conhecimento</h4>
+            <h3>Revisão: A Jornada do Conhecimento</h3>
             <ul>
               <li>
-                <h4>Dados:</h4>
+                <strong>Dados:</strong>
                 <ul>
                   <li>
                     Fatos brutos, medições ou observações sem contexto
@@ -569,7 +569,7 @@ const AdministracaoSistemas = () => {
                 </ul>
               </li>
               <li>
-                <h4>Informação:</h4>
+                <strong>Informação:</strong>
                 <ul>
                   <li>
                     Dados estruturados e colocados em um determinado contexto,
@@ -582,7 +582,7 @@ const AdministracaoSistemas = () => {
                 </ul>
               </li>
               <li>
-                <h4>Conhecimento:</h4>
+                <strong>Conhecimento:</strong>
                 <ul>
                   <li>
                     Informação combinada com experiências prévias, opiniões
@@ -595,7 +595,7 @@ const AdministracaoSistemas = () => {
                 </ul>
               </li>
               <li>
-                <h4>Sabedoria:</h4>
+                <strong>Sabedoria:</strong>
                 <ul>
                   <li>
                     Atingida pela justificação e avaliação do conhecimento; é a
@@ -609,7 +609,7 @@ const AdministracaoSistemas = () => {
                 </ul>
               </li>
             </ul>
-            <h4>Desvendando a Comunicação: Aspectos Cruciais</h4>
+            <h3>Desvendando a Comunicação: Aspectos Cruciais</h3>
             <p>
               Sabemos que a comunicação, para ser completa e eficaz, necessita
               de dois polos essenciais: o <strong>Emissor</strong> e o
@@ -664,7 +664,7 @@ const AdministracaoSistemas = () => {
             </p>
           </div>
           <div>
-            <h3>Origem dos Dados</h3>
+            <h2>Origem dos Dados</h2>
             <p>
               Os <strong>dados</strong> são uma constante em todas as atividades
               que realizamos, inerentes à nossa existência e interação com o
@@ -737,10 +737,10 @@ const AdministracaoSistemas = () => {
               permite, muitas vezes, tomar uma série de decisões ou iniciativas
               pessoais com base nessas informações.
             </p>
-            <h4>Processos nas Organizações</h4>
+            <h3>Processos nas Organizações</h3>
             <ul>
               <li>
-                <h4>Processos:</h4>
+                <strong>Processos:</strong>
                 <ul>
                   <li>
                     São os <strong>conjuntos estruturados de atividades</strong>
@@ -792,7 +792,7 @@ const AdministracaoSistemas = () => {
               que estamos realizando, bem como sobre os resultados que surgem.
               Isso é crucial para a melhoria contínua e a otimização.
             </p>
-            <h4>Estruturação de Processos</h4>
+            <strong>Estruturação de Processos</strong>
             <p>
               Muitas das tarefas que realizamos, tanto na vida pessoal quanto
               profissional, são feitas de forma intuitiva, sem uma descrição
@@ -826,7 +826,7 @@ const AdministracaoSistemas = () => {
               direciona quem executa as atividades, assegurando que o resultado
               final seja o esperado e consistente com os objetivos definidos.
             </p>
-            <h4>Tarefas Cíclicas ou Repetitivas</h4>
+            <h3>Tarefas Cíclicas ou Repetitivas</h3>
             <p>
               Dentro das organizações, algumas tarefas são realizadas apenas uma
               única vez, sendo eventos pontuais. No entanto, muitas outras se
@@ -854,7 +854,7 @@ const AdministracaoSistemas = () => {
               devem ser analisadas e interpretadas cuidadosamente em cada uma de
               suas partes, pois cada etapa contribui para o resultado final.
             </p>
-            <h4>Melhores Práticas para Realizar Tarefas (Melhoria Contínua)</h4>
+            <h3>Melhores Práticas para Realizar Tarefas (Melhoria Contínua)</h3>
             <blockquote>
               <q>A prática leva à perfeição.</q>
             </blockquote>
@@ -916,7 +916,7 @@ const AdministracaoSistemas = () => {
             </p>
           </div>
           <div>
-            <h3>Função da Cibernética</h3>
+            <h2>Função da Cibernética</h2>
             <p>
               É inegável que a informática, hoje mais amplamente entendida como
               parte da <strong>Cibernética</strong>, gera possibilidades quase
@@ -941,7 +941,7 @@ const AdministracaoSistemas = () => {
               o objetivo, a tecnologia por si só não pode gerar informações
               significativas.
             </p>
-            <h4>O que é e para que serve a Cibernética</h4>
+            <h3>O que é e para que serve a Cibernética</h3>
             <p>
               Em sua essência, <strong>Cibernética</strong> é o termo mais
               abrangente e correto para definir a ciência por trás do que
@@ -986,7 +986,7 @@ const AdministracaoSistemas = () => {
               também libera recursos humanos para tarefas mais estratégicas e
               criativas.
             </p>
-            <h4>Bancos de Dados</h4>
+            <h3>Bancos de Dados</h3>
             <p>
               Os <strong>Bancos de Dados</strong> são sistemas essenciais que
               servem para <strong>armazenar dados de forma organizada</strong>.
@@ -1000,7 +1000,7 @@ const AdministracaoSistemas = () => {
               terceiros. A integridade e a confidencialidade dos dados são
               prioritárias.
             </p>
-            <h4>Estruturação Eletrônica de Bancos de Dados</h4>
+            <h3>Estruturação Eletrônica de Bancos de Dados</h3>
             <p>
               A base da estruturação eletrônica de muitos bancos de dados,
               especialmente os relacionais, segue uma lógica de
@@ -1012,7 +1012,7 @@ const AdministracaoSistemas = () => {
             </p>
             <ul>
               <li>
-                <h4>Colunas (Campos/Atributos):</h4>
+                <strong>Colunas (Campos/Atributos):</strong>
                 <ul>
                   <li>
                     Representam a estrutura vertical da tabela e definem o
@@ -1023,7 +1023,7 @@ const AdministracaoSistemas = () => {
                 </ul>
               </li>
               <li>
-                <h4>Linhas (Registros/Tuplas):</h4>
+                <strong>Linhas (Registros/Tuplas):</strong>
                 <ul>
                   <li>
                     Representam a estrutura horizontal e correspondem a
@@ -1035,7 +1035,7 @@ const AdministracaoSistemas = () => {
                 </ul>
               </li>
               <li>
-                <h4>Células:</h4>
+                <strong>Células:</strong>
                 <ul>
                   <li>
                     São as intersecções de colunas e linhas, representando
@@ -1046,7 +1046,7 @@ const AdministracaoSistemas = () => {
                 </ul>
               </li>
               <li>
-                <h4>Inter-relação (Relacionamento):</h4>
+                <strong>Inter-relação (Relacionamento):</strong>
                 <ul>
                   <li>
                     Um conceito avançado que aparece quando diferentes tabelas
@@ -1063,7 +1063,7 @@ const AdministracaoSistemas = () => {
                 </ul>
               </li>
             </ul>
-            <h4>Meios de Coleta de Dados</h4>
+            <h3>Meios de Coleta de Dados</h3>
             <p>
               No passado, grande parte da coleta de dados era realizada de forma
               <strong>manual</strong>, com informações sendo anotadas em fichas
@@ -1088,7 +1088,7 @@ const AdministracaoSistemas = () => {
               pagamentos), e sistemas automatizados que registram cada transação
               ou evento.
             </p>
-            <h4>Relatórios e Uso da Informação</h4>
+            <h3>Relatórios e Uso da Informação</h3>
             <p>
               Para que uma tomada de decisão possa gerar resultados
               verdadeiramente satisfatórios, é fundamental que as variáveis
@@ -1146,7 +1146,7 @@ const AdministracaoSistemas = () => {
             </p>
           </div>
           <div>
-            <h3>Estratégia nas Organizações</h3>
+            <h2>Estratégia nas Organizações</h2>
             <p>
               Em um ambiente de negócios em constante movimento, não existe uma
               única "melhor forma" de fazer as coisas. As organizações operam em
@@ -1174,11 +1174,11 @@ const AdministracaoSistemas = () => {
               <strong>mapeamento das informações sobre o ambiente</strong> em
               que a organização está inserida.
             </p>
-            <h4>Tipos de Ambiente</h4>
+            <h3>Tipos de Ambiente</h3>
             <p>A palavra "ambiente" neste contexto se refere a:</p>
             <ul>
               <li>
-                <h4>Externo:</h4>
+                <strong>Externo:</strong>
                 <ul>
                   <li>
                     O ambiente onde a organização atua, composto por forças e
@@ -1188,7 +1188,7 @@ const AdministracaoSistemas = () => {
                 </ul>
               </li>
               <li>
-                <h4>Interno:</h4>
+                <strong>Interno:</strong>
                 <ul>
                   <li>
                     A própria organização. Abrange tudo que a compõe: sua
@@ -1199,7 +1199,7 @@ const AdministracaoSistemas = () => {
                 </ul>
               </li>
             </ul>
-            <h4>Informações do Ambiente Interno</h4>
+            <h3>Informações do Ambiente Interno</h3>
             <p>
               Para que uma empresa seja bem-sucedida, ela precisa dominar seus
               próprios recursos. Isso significa utilizar
@@ -1216,7 +1216,7 @@ const AdministracaoSistemas = () => {
               <strong>mais facilmente acessadas</strong>, pois são geradas pela
               própria organização.
             </p>
-            <h4>Informações do Ambiente Externo</h4>
+            <h3>Informações do Ambiente Externo</h3>
             <p>
               O ambiente externo é o entorno da organização e se divide em dois
               níveis principais:
@@ -1233,7 +1233,7 @@ const AdministracaoSistemas = () => {
                 ambiente de tarefa.
               </li>
             </ul>
-            <h4>Ambiente de Tarefa</h4>
+            <h3>Ambiente de Tarefa</h3>
             <p>
               O ambiente de tarefa é composto pelos elementos do setor onde a
               organização opera. Inclui seus{" "}
@@ -1249,7 +1249,7 @@ const AdministracaoSistemas = () => {
               pesquisas de mercado, análise da concorrência e feedback de
               clientes.
             </p>
-            <h4>Ambiente Geral</h4>
+            <h3>Ambiente Geral</h3>
             <p>
               Também conhecido como{" "}
               <strong>macroambiente ou ambiente macroeconômico</strong>, é
@@ -1274,7 +1274,7 @@ const AdministracaoSistemas = () => {
               poderão identificar as melhores possibilidades de ação e
               posicionamento para a organização.
             </p>
-            <h4>Cenários para Estratégia</h4>
+            <h3>Cenários para Estratégia</h3>
             <p>
               Para qualquer tipo de tomada de decisão estratégica, é essencial
               dispor de <strong>informações completas e imparciais</strong>.
@@ -1296,7 +1296,7 @@ const AdministracaoSistemas = () => {
             </p>
             <ul>
               <li>
-                <h4>Mediano:</h4>
+                <strong>Mediano:</strong>
                 <ul>
                   <li>
                     Baseia-se em <strong>tendências futuras médias</strong>,
@@ -1310,7 +1310,7 @@ const AdministracaoSistemas = () => {
                 </ul>
               </li>
               <li>
-                <h4>Otimista:</h4>
+                <strong>Otimista:</strong>
                 <ul>
                   <li>
                     Prevê condições mais favoráveis à empresa, considerando a
@@ -1321,7 +1321,7 @@ const AdministracaoSistemas = () => {
                 </ul>
               </li>
               <li>
-                <h4>Pessimista:</h4>
+                <strong>Pessimista:</strong>
                 <ul>
                   <li>
                     É o oposto do cenário otimista, levando todos os fatores
@@ -1351,7 +1351,7 @@ const AdministracaoSistemas = () => {
               , fazendo com que seja possível atingir, ou até superar, o
               resultado médio planejado.
             </p>
-            <h4>Decisões e Atualização das Informações</h4>
+            <h3>Decisões e Atualização das Informações</h3>
             <p>
               O processo decisório nas organizações deve ser sustentado por
               informações que permitam a compreensão das
@@ -1361,10 +1361,10 @@ const AdministracaoSistemas = () => {
               para estruturar cenários realistas e, consequentemente, tomar
               decisões mais assertivas.
             </p>
-            <h4>Etapas de um Processo Decisório:</h4>
+            <h3>Etapas de um Processo Decisório:</h3>
             <ul>
               <li>
-                <h4>1. Identificar a situação:</h4>
+                <strong>1. Identificar a situação:</strong>
                 <ul>
                   <li>
                     Analisar os acontecimentos na organização para determinar se
@@ -1376,7 +1376,7 @@ const AdministracaoSistemas = () => {
                 </ul>
               </li>
               <li>
-                <h4>2. Obter informações:</h4>
+                <strong>2. Obter informações:</strong>
                 <ul>
                   <li>
                     A qualidade dos dados e informações obtidos é diretamente
@@ -1387,7 +1387,9 @@ const AdministracaoSistemas = () => {
                 </ul>
               </li>
               <li>
-                <h4>3. Gerar soluções alternativas, avaliar e escolher:</h4>
+                <strong>
+                  3. Gerar soluções alternativas, avaliar e escolher:
+                </strong>
                 <ul>
                   <li>
                     Desenvolver diversas opções para a situação identificada. Em
@@ -1399,9 +1401,9 @@ const AdministracaoSistemas = () => {
                 </ul>
               </li>
               <li>
-                <h4>
+                <strong>
                   4. Transformar a solução em ação e avaliar os resultados:
-                </h4>
+                </strong>
                 <ul>
                   <li>
                     Colocar a decisão em prática por meio de um plano de ação
@@ -1413,7 +1415,7 @@ const AdministracaoSistemas = () => {
                 </ul>
               </li>
               <li>
-                <h4>5. Atualizar informações:</h4>
+                <strong>5. Atualizar informações:</strong>
                 <ul>
                   <li>
                     Tanto para a composição dos cenários quanto para a própria
@@ -1446,7 +1448,7 @@ const AdministracaoSistemas = () => {
             </p>
           </div>
           <div>
-            <h3>Gerenciamento das Informações</h3>
+            <h2>Gerenciamento das Informações</h2>
             <p>
               Vamos explorar alguns conceitos fundamentais para o gerenciamento
               de informações nas organizações:
@@ -1468,7 +1470,7 @@ const AdministracaoSistemas = () => {
                 <strong>CRM</strong> (Customer Relationship Management)
               </li>
             </ul>
-            <h4>Obsolescência Programada e Novas Tecnologias</h4>
+            <h3>Obsolescência Programada e Novas Tecnologias</h3>
             <p>
               No ambiente organizacional e de consumo, alguns produtos são
               criados com uma <strong>vida útil pré-definida</strong>. Isso é
@@ -1488,7 +1490,7 @@ const AdministracaoSistemas = () => {
             </p>
             <ul>
               <li>
-                <h4>Cloud Computing (Computação em Nuvem):</h4>
+                <strong>Cloud Computing (Computação em Nuvem):</strong>
                 <ul>
                   <li>
                     Refere-se à{" "}
@@ -1502,7 +1504,7 @@ const AdministracaoSistemas = () => {
                 </ul>
               </li>
               <li>
-                <h4>Big Data:</h4>
+                <strong>Big Data:</strong>
                 <ul>
                   <li>
                     É a capacidade de trabalhar com uma
@@ -1517,7 +1519,9 @@ const AdministracaoSistemas = () => {
                 </ul>
               </li>
               <li>
-                <h4>Business Intelligence (BI - Inteligência de Negócios):</h4>
+                <strong>
+                  Business Intelligence (BI - Inteligência de Negócios):
+                </strong>
                 <ul>
                   <li>
                     É o{" "}
@@ -1542,7 +1546,7 @@ const AdministracaoSistemas = () => {
               resguardar para obter respostas claras e embasadas na tomada de
               decisão.
             </p>
-            <h4>TIC - Tecnologia da Informação e Comunicação</h4>
+            <h3>TIC - Tecnologia da Informação e Comunicação</h3>
             <p>
               Um sistema de informação pode ser tanto manual quanto
               informatizado. A função primordial de um{" "}
@@ -1564,14 +1568,14 @@ const AdministracaoSistemas = () => {
               os dados são armazenados) e redes de dados (para comunicação e
               compartilhamento).
             </p>
-            <h4>As 3 Camadas do Software:</h4>
+            <h3>As 3 Camadas do Software:</h3>
             <p>
               Um software geralmente é composto por três camadas distintas que
               trabalham em conjunto:
             </p>
             <ul>
               <li>
-                <h4>1. Interface do Usuário (Front-end):</h4>
+                <strong>1. Interface do Usuário (Front-end):</strong>
                 <ul>
                   <li>
                     É o meio que proporciona uma
@@ -1585,7 +1589,7 @@ const AdministracaoSistemas = () => {
                 </ul>
               </li>
               <li>
-                <h4>2. O Código (Back-end/Lógica de Negócio):</h4>
+                <strong>2. O Código (Back-end/Lógica de Negócio):</strong>
                 <ul>
                   <li>
                     Consiste nas <strong>linhas de programação</strong> com
@@ -1597,7 +1601,7 @@ const AdministracaoSistemas = () => {
                 </ul>
               </li>
               <li>
-                <h4>3. O Banco de Dados (Armazenamento):</h4>
+                <strong>3. O Banco de Dados (Armazenamento):</strong>
                 <ul>
                   <li>
                     É a{" "}
@@ -1612,7 +1616,7 @@ const AdministracaoSistemas = () => {
                 </ul>
               </li>
             </ul>
-            <h4>Objetivos dos Sistemas de Informação</h4>
+            <h3>Objetivos dos Sistemas de Informação</h3>
             <p>
               Os sistemas de informação modernos são projetados para atingir
               cinco objetivos organizacionais estratégicos:
@@ -1647,7 +1651,7 @@ const AdministracaoSistemas = () => {
             <p>Os sistemas, em termos de abrangência, podem ser:</p>
             <ul>
               <li>
-                <h4>Departamentais:</h4>
+                <strong>Departamentais:</strong>
                 <ul>
                   <li>
                     Com função única ou específica de um departamento/setor da
@@ -1658,7 +1662,7 @@ const AdministracaoSistemas = () => {
                 </ul>
               </li>
               <li>
-                <h4>Integrados:</h4>
+                <strong>Integrados:</strong>
                 <ul>
                   <li>
                     Sistemas que se{" "}
@@ -1670,7 +1674,7 @@ const AdministracaoSistemas = () => {
                 </ul>
               </li>
             </ul>
-            <h4>SIG - Sistema de Informação Gerencial</h4>
+            <h3>SIG - Sistema de Informação Gerencial</h3>
             <p>
               Existe uma distinção importante entre os <strong>SPTs</strong>{" "}
               (Sistemas de Processamento de Transações) e os{" "}
@@ -1707,7 +1711,7 @@ const AdministracaoSistemas = () => {
               gerenciais (SIGs) para evoluir aos conceitos e benefícios de um
               sistema ERP.
             </p>
-            <h4>Sistemas para Estratégia e Decisão</h4>
+            <h3>Sistemas para Estratégia e Decisão</h3>
             <p>
               O gestor tem acesso a <strong>relatórios gerenciais</strong>, que
               são a condensação de informações atualizadas e confiáveis,
@@ -1724,7 +1728,7 @@ const AdministracaoSistemas = () => {
             </p>
             <ul>
               <li>
-                <h4>Programados:</h4>
+                <strong>Programados:</strong>
                 <ul>
                   <li>
                     São <strong>relatórios periódicos</strong>, gerados em
@@ -1734,7 +1738,7 @@ const AdministracaoSistemas = () => {
                 </ul>
               </li>
               <li>
-                <h4>Sob Demanda:</h4>
+                <strong>Sob Demanda:</strong>
                 <ul>
                   <li>
                     São relatórios <strong>solicitados pelo usuário</strong>{" "}
@@ -1745,7 +1749,7 @@ const AdministracaoSistemas = () => {
                 </ul>
               </li>
               <li>
-                <h4>Exceção:</h4>
+                <strong>Exceção:</strong>
                 <ul>
                   <li>
                     São relatórios <strong>gerados automaticamente</strong>
