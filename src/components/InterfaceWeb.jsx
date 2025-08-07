@@ -861,6 +861,198 @@ const InterfaceWeb = () => {
                 </ul>
               </li>
             </ol>
+            <p>
+              Funciona da seguinte maneira: O designer cria a imagem em sua
+              mente e a desenha na imagem do sistema. O usuário cria um modelo
+              em sua mente e dialoga com a imagem do sistema, que pode ou não,
+              se adaptar aos seus anseios. Quando o sistema vai bem, o{" "}
+              <strong>modelo de design</strong> e o{" "}
+              <strong>modelo do usuário</strong> são muito próximos, isso quer
+              dizer que o usuário entendeu tudo que o projetista criou. Como nem
+              sempre é assim, é importante essa terceira camada que é a{" "}
+              <strong>imagem do sistema</strong>.
+            </p>
+            <p>
+              Quando a imagem do sistema não casa com o modelo do usuário,
+              Norman (2006) afirma que a melhor solução para esse problema é
+              criar um manual. Outra regra é simplificar ao máximo a estrutura
+              de cada tarefa, fazendo com que o usuário faça mais com menos
+              esforço. Quanto menos o usuário precisa se esforçar para entender
+              algum comando, melhor para ele. Quanto mais óbvio, mais
+              interessante para o utilizador do sistema.
+            </p>
+            <p>
+              Primeiramente pode-se oferecer{" "}
+              <strong>auxiliares mnemônicos - formas de memorização</strong>. Se
+              o usuário conseguir memorizar o que precisa ser feito, sua
+              capacidade de utilização melhorar a cada utilização. Outra coisa
+              muito funcional é a utilização de instrumentos e indicadores, ou
+              seja, deixar feedbacks do sistema mais visíveis para o usuário.
+            </p>
+            <p>
+              Outra boa ideia é automatizar rotinas, mas manter as tarefas
+              idênticas, como tarefas rotineiras de um aplicativo. A última das
+              ideias é mudar a natureza das tarefas, deixar as coisas mais
+              fáceis.
+            </p>
+            <p>
+              A terceira regra de Norman (2006) é tornar as coisas visíveis, é
+              assegurar que todos os procedimentos que o usuário precisa saber
+              ou conhecer estão à sua disposição. Se um site possui um link,
+              este deve estar visível, destacado (Nielsen, 2000). Isso envolve a
+              quarta regra, que é a do mapeamento, que é criar um design que
+              deixa à mostra tudo o que poderá ser feito. É muito importante nos
+              certificarmos que o usuário do nosso sistema tenha a capacidade de
+              determinar os relacionamentos entre interações e possíveis ações,
+              entre ações e seus efeitos sobre o sistema (Norman, 2006), entre o
+              que está acontecendo e o que é possível ser visto pelos nossos
+              sentidos e a diferença entre o que está acontecendo no sistema e o
+              que o usuário quer que aconteça. Daí a importância do feedback.
+            </p>
+            <p>
+              A quinta regra fala sobre coersões naturais e artificiais, ou
+              seja, o usuário é levado a fazer apenas uma coisa. Não deixar
+              possibilidades para que ele faça algo errado ou que não foi
+              previsto. O usuário deve fazer apenas uma coisa, e isso deve ser
+              tarefa correta.
+            </p>
+            <p>
+              A sexta regra diz que é importante projetar para o erro, ou seja,
+              sempre presumir que o usuário possa clicar em algum lugar e gerar
+              um erro. Que o usuário pode, por curiosidade ou equívoco, fazer
+              algo que não estava previsto no funcionamento correto do
+              equipamento. Por isso a importância de fazer o projeto também para
+              o erro. É importante que o usuário possa reconhecer seu erro e
+              recuperar alguma bobagem que tenha feito, ou seja, evitar ao
+              máximo que ele erre. Porém, se errar, deve ter alguma forma de
+              conter os dados desse erro.
+            </p>
+            <p>
+              A última regra de Norman (2006) trata da padronização. Quando
+              alguma coisa não pode ser projetada sem mapeamentos arbitrários e
+              dificuldades, sempre se pode padronizar, ou seja, fazer com que as
+              ações relacionadas trabalhem sempre da mesma forma, sejam ações,
+              resultados, displays ou layouts inteiros. Nesse caso, a pessoa
+              teria que aprender a usar o sistema. Entretanto, uma vez
+              aprendido, tudo vai funcionar, pois são padronizados.
+            </p>
+            <h3>Metas das Interfaces e da UX</h3>
+            <p>
+              Observando tudo isso, chegamos a algumas conclusões sobre a
+              interação sistema e usuário:
+            </p>
+            <blockquote>
+              <q>
+                Os sistemas, cada dia que passa, precisam ser mais
+                satisfatórios, mais agradáveis, mais divertidos, mais
+                interessantes. Mas também precisam ser mais úteis, mais
+                motivadores, mais agradáveis ao olhar, mais incentivadores de
+                criatividade, mais compensadores e mais emocionalmente
+                adequados.
+              </q>{" "}
+              <cite> - (Preece, Rogers e Sharp, 2005)</cite>
+            </blockquote>
+
+            <p>
+              Quanto mais dessas características, mais sucesso terá. As metas de
+              uma interface são várias e interdependentes. É preciso ser
+              eficiente no uso para que seja compensador e emocionalmente
+              adequado. Da mesma forma, para ser motivador é preciso ter boa
+              utilidade, e para ser interessante é preciso ser fácil de
+              entender.
+            </p>
+            <h3>Não me faça pensar</h3>
+            <p>
+              Esse é um dos conceitos e um conselho dos mais pertinentes de um
+              dos livros mais importantes sobre UX:{" "}
+              <strong>Não me faça pensar!</strong> (Steve Krug, 2014). Ele diz
+              em seu livro que{" "}
+              <strong>
+                quando entra em uma página na internet, ele não está interessado
+                em entender como a página funciona, ele quer apenas o conteúdo
+                ali presente.
+              </strong>{" "}
+              Não é interessante para o usuário aprender sobre a página, apenas
+              consumir o conteúdo exposto. A página em si deve "desaparecer"
+              para o usuário.
+            </p>
+            <p>
+              Não nos preocupamos muito como essas plataformas de redes sociais
+              digitais funcionam, queremos somente ver os vídeos e fotos
+              (Santos, 2022).{" "}
+              <strong>
+                O usuário deve ser capaz de entender a página sem se esforçar
+                para isso. Ela deve ser evidente, simples e direta para que
+                nenhuma pessoa precise pensar muito em como navegar.
+              </strong>
+            </p>
+            <p>
+              Há também uma questão comercial envolvida:{" "}
+              <strong>
+                Quanto menos as pessoas demoram para entender a página, mais
+                estão propensas a gastar
+              </strong>
+              . Páginas e aplicativos confusos fazem os usuários se afastarem, e
+              com isso, também afastam as possibilidades de consumo daquele
+              ambiente. Cada dúvida que temos aumenta nosso trabalho, todos
+              odeiam ter trabalho. Além disso, quando damos trabalho às pessoas,
+              as destraímos de seu objetivo principal. Por mínimas que sejam as
+              distrações, elas vão se somando até chegar ao abandono do website
+              ou app.
+            </p>
+            <p>
+              <strong>
+                Normalmente as pessoas não gostam de precisar descobrir alguma
+                coisa, principalmente quando seu foco é outro
+              </strong>{" "}
+              (Krug, 2014). Além disso, o usuário pode pensar que o responsável
+              pelo site é desleixado por não deixar tudo óbvio, o que vai
+              diminuir a confiança no site.
+            </p>
+            <p>
+              <strong>
+                A meta do projetista de interface web é deixar tudo de forma
+                clara na camada de "conversa" com seu usuário
+              </strong>
+              . Quanto menos o usuário pensar em como usar o site, melhor. Sites
+              e apps devem ser autoexplicativos, devem ser tão simples que até
+              uma pessoa leiga consiga usar.
+            </p>
+            <p>
+              <strong>
+                É muito importante deixar tudo claro e evidente. Devemos lembrar
+                que o website em si deve ser "invisível"
+              </strong>
+              . Um site de vendas deve priorizar os produtos, um site de um jogo
+              deve priorizar a diversão e um site de informação deve sempre
+              deixar a informação em primeiro plano. Quanto mais evidente forem
+              as instruções, melhor. Todos os usuários pensam "não me faça
+              pensar".
+            </p>
+            <h3>Satisfazimento</h3>
+            <p>
+              Muita gente imagina que sabemos como usar a internet ou nossos
+              celulares, mas, na verdade não sabemos, apenas utilizamos. Krug
+              (2014) afirma que usamos uma coisa chamada{" "}
+              <strong>satisfazimento</strong>, expressão cunhada pelo economista{" "}
+              <strong>Herbert Simon</strong>, na década de 1950. Mas Krug não
+              pegou essa ideia do economista, e sim de um psicólogo chamado{" "}
+              <strong>Gary Klein</strong> (2001), que a utilizava para pensar
+              que a maior parte das pessoas não escolhem a melhor opção, mas
+              sim, escolhem a primeira opção razoável; daí satisfazimento.
+            </p>
+            <p>
+              Mas por que não escolher a melhor opção? Primeiramente, porque
+              estamos com pressa. Depois, porque se errarmos na escolha, nada
+              acontece, é só voltar e clicar em outro link ou outro botão. Não
+              há uma punição ou grande perda de tempo na maior parte das vezes.
+              A terceira razão é que avaliar as opções não necessariamente vai
+              melhorar nossas chances de escolher melhor. Quando os sites são
+              mal projetados, passar horas olhando antes de clicar não vai
+              ajudar em nada. Por último, adivinhar é mais divertido e menos
+              trabalhoso do que ficar pensando. Simplesmente clicamos e "vemos
+              no que dá", se der errado, refazemos.
+            </p>
           </div>
         </>
       )}
