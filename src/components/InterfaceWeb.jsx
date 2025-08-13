@@ -319,7 +319,7 @@ const InterfaceWeb = () => {
               <strong>não representa a realidade</strong>. Ela é fruto de uma{" "}
               <strong>escolha do fotógrafo</strong>, que escolhe o local onde
               vai fotografar, como vai fotografar e de qual forma vai mostrar o
-              objeto ou pessoa fotografado (sotang, 2013). Como dizia o filósofo{" "}
+              objeto ou pessoa fotografado (Sotang, 2013). Como dizia o filósofo{" "}
               <strong>Vilém Flusser (2011)</strong>, toda fotografia{" "}
               <strong>é mentirosa</strong>.
             </p>
@@ -458,6 +458,10 @@ const InterfaceWeb = () => {
               <strong>retas e curvas</strong>. Com elas, os fotógrafos manipulam
               os olhos do observador sempre em prol da estrutura da composição.
             </p>
+            <blockquote>
+              <q>Não se tira uma foto. Você a faz.</q>
+              <cite> - Sebastião Salgado Filho</cite>
+            </blockquote>
           </div>
           <div>
             <h2>Funções do Design</h2>
@@ -1052,6 +1056,300 @@ const InterfaceWeb = () => {
               ajudar em nada. Por último, adivinhar é mais divertido e menos
               trabalhoso do que ficar pensando. Simplesmente clicamos e "vemos
               no que dá", se der errado, refazemos.
+            </p>
+            <h2>Público Alvo</h2>
+            <h3>Quem é o Usuário?</h3>
+            <p>
+              Quase nunca sabemos de verdade quem são essas pessoas.{" "}
+              <strong>
+                É impossível saber quem de fato utiliza nosso sistema
+              </strong>
+              . Ainda que façamos testes e vejamos pessoas utilizando, isso não
+              significa que as pessoas de fora do local de trabalho utilizarão
+              da mesma forma. O que temos que fazer é{" "}
+              <strong>
+                admitir que ninguém consegue definir quem é o usuário do sistema
+              </strong>{" "}
+              e, muito menos, definir o que ele vai fazer ao longo do tempo.
+              Nossa missão é fazer o melhor para a grande maioria das pessoas.
+            </p>
+            <p>
+              Krug (2014, p. 7) diz que para algo ser usável, é necessário que{" "}
+              <q>
+                uma pessoa na média (ou mesmo abaixo da média) será capaz de
+                descobrir como usá-lo para desempenhar algo sem obter ônus
+                maiores que os bônus
+              </q>
+              . Ou seja, nosso projeto deve ser feito pensando em pessoas
+              medianas ou abaixo da média, para pessoas com pouco conhecimento.{" "}
+              <strong>
+                É importante que essas pessoas sintam que o uso da tecnologia é
+                útil de alguma forma
+              </strong>
+              , nem que seja para uma diversão, apenas passar o tempo, o usuário
+              deve sentir que seu tempo está sendo bem empregado ao usar o
+              sistema.
+            </p>
+            <p>
+              Isso não é tudo, pois existem dois momentos distintos do usuário:
+            </p>
+            <ul>
+              <li>
+                <strong>Usar um sistema por dever ou obrigação</strong>:
+                <ul>
+                  <li>Fazer declaração do imposto de renda;</li>
+                  <li>Sistema de ponto da empresa;</li>
+                  <li>Aplicativos de transporte;</li>
+                </ul>
+              </li>
+              <li>
+                <strong>Usar um sistema por vontade própria</strong>:
+                <ul>
+                  <li>Redes sociais;</li>
+                  <li>Streaming de vídeos;</li>
+                  <li>Apps de música;</li>
+                </ul>
+              </li>
+            </ul>
+            <p>
+              Nos casos em que os usuários são compelidos a utilizar certo
+              sistema, a vida do programador UX fica mais fácil, já que não pode
+              haver concorrência ou fuga do projeto. Mas,{" "}
+              <strong>
+                na maioria das vezes, os usuários não estão presos à plataforma
+              </strong>
+              , eles podem escolher entre um sistema ou um sistema concorrente.
+              Nesses casos, é melhor saber quem são os usuários, o que{" "}
+              <strong>NÃO É uma tarefa simples</strong>.
+            </p>
+            <p>
+              Muitas vezes pensamos no usuário como a pessoa que efetivamente
+              vai usar o sistema, o que nem sempre é verdade e nem sempre são só
+              essas pessoas. Preece, Rogers e Sharp (2005){" "}
+              <strong>
+                lembram que usuários, muitas vezes, são as pessoas que gerenciam
+                os usuários diretos
+              </strong>
+              .
+            </p>
+            <p>Também são usuários:</p>
+            <ul>
+              <li>
+                <strong>Quality Assurance Tester:</strong>
+                <ul>
+                  <li>aqueles que são contratados para testar sistemas.</li>
+                </ul>
+              </li>
+              <li>
+                <strong>Quem compra o app:</strong>
+                <ul>
+                  <li>
+                    tem a escolha de comprar do fornecedor A ou de seu
+                    concorrente B.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <p>
+              Também podemos pensar como Ken Eason(1989), o que não exclui a
+              visão anterior. Existem três níveis de usuários:
+            </p>
+            <ol>
+              <li>
+                <strong>Primários:</strong>
+                <ul>
+                  <li>que utilizam frequentemente o sistema;</li>
+                </ul>
+              </li>
+              <li>
+                <strong>Secundários:</strong>
+                <ul>
+                  <li>
+                    que eventualmente utilizam ou utilizam através por meio de
+                    um intermediário;
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Terciários:</strong>
+                <ul>
+                  <li>
+                    aqueles que nem precisam utilizar o sistema para serem
+                    afetados por ele.
+                  </li>
+                </ul>
+              </li>
+            </ol>
+            <p>
+              Uma "pegadinha" que existe é que: quem contrata um sistema, nem
+              sempre, ou quase nunca, é um utilizador assíduo. Geralmente é um
+              burocrata que vai, eventualmente, comprar um app ou site. Devemos
+              agradá-lo também, mas sem desagradar o usuário final, ou o sistema
+              NÃO será implantado com sucesso.
+            </p>
+            <h3>O Público Alvo</h3>
+            <p>
+              Definir um público alvo{" "}
+              <strong>NÃO é exatamente muito simples, mas é essencial</strong>.
+              É preciso lembrar que todo projeto nasce de uma necessidade que,
+              segundo Peters (2024), pode ser identificada pelos usuários comuns
+              ou por alguém envolvido no processo de desenvolvimento de alguma
+              outra coisa que identificou um gargalo. Com a necessidade
+              identificada, é importante juntar todas as informações sobre o que
+              fazer e construir um <strong>briefing</strong>.
+            </p>
+            <p>
+              O briefing, em geral,{" "}
+              <strong>
+                é construído pela pessoa (ou pessoas) que deseja ter o melhor do
+                sistema, e ali coloca tudo o que o sistema DEVE fazer e o que
+                NÃO pode fazer. Além de dizer mais ou menos como deverá ser a
+                proposta gráfica e de usabilidade do sistema
+              </strong>
+              . O briefing deve ser bem feito para que não haja dissabores e
+              para que o desenvolvedor não jogue serviço fora. Briefing{" "}
+              <strong>mal feito irá gerar um trabalho não desejado</strong>{" "}
+              fazendo-se perder parte do trabalho (ou até o trabalho todo)
+              (Memória, 2005). O Briefing deve ser bem detalhado, inclusive{" "}
+              <strong>sobre o usuário ideal daquele sistema</strong>.
+            </p>
+            <p>
+              O público alvo sempre é diferente em cada projeto. É arriscado
+              julgar que os públicos são iguais. É importante investigar os
+              perfis dos futuros utilizadores do sistema e os modos de
+              utilização. Os perfis devem estar bem ancorados em fatos e não em
+              achismos.
+            </p>
+            <p>
+              É interessante criar uma <strong>Persona</strong>, um{" "}
+              <strong>
+                personagem fictício que ajudará a entender melhor os
+                comportamentos do público alvo
+              </strong>
+              . Para isso, primeiro é preciso coletar dados de possíveis
+              clientes ou futuros usuários. Com isso, sabemos mais ou menos a
+              idade, o poder aquisitivo e a predisposição ao uso de um site ou
+              app. Na segunda fase, é interessante realizar perguntas, formais
+              ou informais a possíveis utilizadores. Assim, é possível criar a{" "}
+              <strong>Persona</strong> que poderá interagir com o sistema em
+              questão.
+            </p>
+            <p>
+              Criar essa Persona é muito mais difícil que somente presumir o
+              público alvo,{" "}
+              <strong>
+                pois este é mais genérico, enquanto que a Persona, por mais que
+                seja fictícia, é mais restrita, mais contundente
+              </strong>
+              . Melhor ainda, seria criar várias Personas, de acordo com o
+              escopo do projeto e o tempo de duração dele, já que criar uma
+              Persona toma tempo.
+            </p>
+            <h3>Mapas e Breadcrumbs</h3>
+            <p>
+              O usuário <strong>NUNCA pode estar perdido no site</strong>. A
+              pior coisa para uma pessoa que está navegando em um site ou app, é
+              sentir-se predida, sem saber onde ir ou clicar. Para evitar isso,
+              uma das coisas interessantes é utilizar as informações, deixar
+              claro onde o usuário está.
+            </p>
+            <p>
+              Sites bem estruturados, na parte superior da página, estão as{" "}
+              <strong>
+                <q>migalhas de pão</q>, as breadcrumbs
+              </strong>{" "}
+              (Krug, 2014). Essas indicações são preciosas pois conferem a
+              capacidade de navegação e a hierarquia. Segundo Felipe Memória
+              (2005), o usuário precisa da resposta dessas três perguntas:
+            </p>
+            <ol>
+              <li>Onde estou?</li>
+              <li>Onde estive?</li>
+              <li>Aonde posso ir?</li>
+            </ol>
+            <p>
+              Se os breadcrumbs responderem essas três perguntas, o usuário não
+              ficará perdido ou frustrado com algo que não conhece. Um usuário
+              comum não sabe exatamente como é a empresa ou como ela funciona.
+              Os breadcrumbs servem como hierarquia visual para indicar como o
+              site é estruturado. Isso faz com que o visitante preste atenção em
+              outras modalidades ou informações, principalmente em sites de
+              vendas de produtos ou serviços.
+            </p>
+            <p>
+              Segundo Krug (2014), as pessoas não tem noção se o site tem 10,
+              100 ou 1000 páginas,{" "}
+              <strong>
+                como saber se já explorou tudo se nem sabe a dimensão?
+              </strong>{" "}
+              Além disso, as pessoas também não tem noção de direção na web, não
+              navegam de forma linear. Normalmente vão vagando até encontrar uma
+              indicação do que lhe interessa.
+            </p>
+            <p>
+              O <strong>Rodapé da página</strong> também se destaca na questão
+              do direcionamento. Sites importantes e de grande porte tem uma
+              espécie de mapa do site. Com esse mapa, o usuário pode localizar
+              as áreas mais importantes do site, podendo fazer uma navegação
+              mais precisa.
+            </p>
+            <p>
+              Todo site tem uma <strong>homepage ou landing page</strong>. Essa
+              página é o começo de tudo e tem a função de dar segurança ao
+              usuário pois, se ele se perder, basta clicar no botão{" "}
+              <strong>home ou no ícone da "casinha"</strong> e voltar a navegar
+              do início e refazer sua jornada.
+            </p>
+            <p>
+              Uma{" "}
+              <strong>
+                homepage bem estruturada é fundamental para um bom projeto de
+                website e tão primordial quanto em um projeto de app para
+                smartphone
+              </strong>
+              . Além disso,{" "}
+              <strong>uma landing page é a fachada da empresa</strong>. Uma
+              página de abertura mal estruturada é um convite para o usuário{" "}
+              <strong>se retirar</strong>.
+            </p>
+            <p>
+              Também é importante ter um bom sistema de buscas. Por falta de
+              tempo ou disposição, as pessoas não vão ficar muito tempo
+              navegando em sites muito grandes. Um bom sistema de buscas faz com
+              que o usuário vá direto à informação que busca. Segundo Nielsen
+              (2000), um website deve ter sempre a janela de busca disponível a
+              qualquer momento para que o usuário busque o que quiser na hora
+              que desejar.
+            </p>
+            <h3>Quais palavras usar?</h3>
+            <p>
+              Lacan (1998) chega a dizer que{" "}
+              <q>o inconsciente é estruturado como a linguagem</q>. Tudo o que
+              somos em nossas vidas é regido pela linguagem e pela forma mais
+              comum dela, que é a língua. Na internet, não funciona escrever
+              como Camões, precisamos de informações rápidas.
+            </p>
+            <p>
+              Uma das principais{" "}
+              <strong>
+                regras da navegação é omitir as palavras desnecessárias
+              </strong>
+              . Nesse quesito, Krug (2014), Memória (2005), Preece, Rogers e
+              Sharp (2005) e Nielsen (2000), são unânimes:{" "}
+              <strong>na internet, menos é mais</strong>. Isso{" "}
+              <strong>
+                reduz a quantidade de ruídos ou interferências nas páginas, e dá
+                maior destaque àquilo que interessa, além de deixar as páginas
+                menores
+              </strong>
+              .
+            </p>
+            <p>
+              O importante é lembrar que{" "}
+              <strong>a navegação é para o usuário</strong>, não para a empresa
+              ou quem trabalha nela (a menos que seja uma intranet). Siglas ou
+              palavras que só a empresa conhece devem ser retiradas, pois
+              ninguém de fora conseguem entender.
             </p>
           </div>
         </>
