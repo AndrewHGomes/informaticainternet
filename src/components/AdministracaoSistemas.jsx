@@ -20,247 +20,78 @@ const AdministracaoSistemas = () => {
       {abrir && (
         <>
           <div>
-            <h2>Sistema</h2>
+            <h3>Sistema e Teoria dos Sistemas</h3>
             <p>
-              É importante parar para pensar sobre a
-              <strong>complexidade de pequenas coisas</strong> e sobre as
-              <strong>ligações intrínsecas</strong> entre as tarefas. Ao
-              observar o mundo ao nosso redor, percebemos que tudo, desde o
-              funcionamento de um relógio até a interação de órgãos em um corpo
-              humano, pode ser compreendido como um sistema. Essa perspectiva
-              nos permite ver como um pequeno sistema interage com outro,
-              formando algo muito maior e mais complexo, onde a{" "}
-              <strong>interconectividade</strong> é a chave.
+              Um <strong>sistema</strong> é um{" "}
+              <strong>conjunto de elementos</strong>, concretos ou abstratos,
+              que estão <strong>inteligentemente organizados</strong> e
+              inter-relacionados para atingir um objetivo. A{" "}
+              <strong>interconectividade</strong> entre as partes é a chave para
+              o seu funcionamento.
             </p>
             <p>
-              Podemos pensar em um sistema como um
-              <strong>emaranhado dinâmico de ligações</strong>, composto por:
+              Os sistemas são compostos por <strong>dependências</strong>{" "}
+              (elementos que precisam estar completos para que outras partes
+              funcionem) e <strong>dependentes</strong> (elementos que só podem
+              ser iniciados após as dependências estarem satisfeitas).
+            </p>
+            <p>
+              Antes de 1950, a <strong>lógica reducionista</strong> prevalecia,
+              dividindo o todo em partes para estudo individual, o que
+              dificultava uma visão integrada. A partir de 1950, a{" "}
+              <strong>Teoria Geral dos Sistemas (TGS)</strong>, de Ludwig Von
+              Bertalanffy, propôs uma <strong>perspectiva integrada</strong>,
+              afirmando que o comportamento de um sistema não pode ser
+              compreendido apenas pela soma de suas partes, mas sim pela{" "}
+              <strong>interação entre elas</strong>.
+            </p>
+            <p>
+              A lógica fundamental de um sistema é cíclica e composta por três
+              fases:
             </p>
             <ul>
               <li>
-                <strong>Dependências</strong>
-                <ul>
-                  <li>
-                    São as tarefas, informações ou elementos que
-                    <strong>já devem estar completos e disponíveis</strong>
-                    para que outra parte do sistema possa iniciar ou funcionar
-                    corretamente. Pense em um projeto de software: o
-                    desenvolvimento da interface do usuário pode ter uma
-                    dependência na conclusão do backend que fornece os dados.
-                    Sem os dados, a interface não pode ser testada ou funcionar
-                    plenamente.
-                  </li>
-                </ul>
+                <strong>Entrada (Input):</strong> Tudo que o sistema obtém do
+                ambiente externo (recursos, informações, etc.).
               </li>
               <li>
-                <strong>Dependentes</strong>
-                <ul>
-                  <li>
-                    São as atividades, processos ou elementos que
-                    <strong>somente podem acontecer ou ser concluídos</strong>
-                    após suas dependências estarem satisfeitas. No exemplo do
-                    software, a fase de testes de integração é dependente da
-                    conclusão do desenvolvimento tanto do frontend quanto do
-                    backend.
-                  </li>
-                </ul>
+                <strong>Processamento (Throughput):</strong> A fase em que as
+                entradas são <strong>transformadas e convertidas</strong>.
+              </li>
+              <li>
+                <strong>Saída (Output):</strong> O{" "}
+                <strong>resultado final</strong> do processamento, que
+                representa o propósito do sistema.
+              </li>
+            </ul>
+            <h4>Tipos de Sistemas</h4>
+            <p>Os sistemas podem ser classificados em:</p>
+            <ul>
+              <li>
+                <strong>Sistemas Abertos:</strong> Têm{" "}
+                <strong>intensa interação com o ambiente externo</strong> e são
+                chamados de <strong>sistemas orgânicos</strong> devido à sua
+                capacidade de adaptação e evolução. Exemplos incluem empresas e
+                organismos vivos.
+              </li>
+              <li>
+                <strong>Sistemas Fechados:</strong> Têm{" "}
+                <strong>pouca ou nenhuma influência externa</strong> e são
+                chamados de{" "}
+                <strong>sistemas mecânicos ou determinísticos</strong>, com
+                comportamento previsível. Exemplos incluem relógios de corda.
               </li>
             </ul>
             <p>
-              Um sistema, em sua essência, é um
-              <strong>conjunto de elementos</strong> (sejam eles concretos, como
-              peças de uma máquina, ou abstratos, como ideias em um fluxo de
-              trabalho) <strong>inteligentemente organizados</strong> e
-              inter-relacionados para atingir um objetivo comum ou realizar uma
-              função específica. Um elemento, nesse contexto, pode ser
-              caracterizado como a <strong>menor parte indivisível</strong> do
-              sistema, que ainda possui alguma relevância ou função dentro do
-              todo. A compreensão dessas interações e da hierarquia de elementos
-              é fundamental para analisar, projetar ou otimizar qualquer
-              sistema.
+              É crucial adotar uma <strong>abordagem sistêmica</strong> para
+              entender o todo e as interconexões, especialmente na
+              administração. Quando um sistema é muito complexo, a estratégia é{" "}
+              <strong>dividí-lo em subsistemas</strong> menores para facilitar a
+              gestão e a análise.
             </p>
           </div>
           <div>
-            <h2>Teoria dos Sistemas</h2>
-            <p>
-              Antes de 1950, a abordagem predominante era a
-              <strong>lógica reducionista</strong>. Nela, para entender um
-              fenômeno complexo, o todo era meticulosamente dividido em partes
-              menores, o que fomentava estudos separados em áreas distintas do
-              conhecimento. Embora útil para aprofundar o entendimento de
-              componentes individuais, esse método de particionamento excessivo
-              dos estudos ou problemas muitas vezes gerava um esforço redundante
-              em pesquisas que já haviam sido realizadas ou abordadas em outros
-              segmentos, dificultando uma visão holística e a integração do
-              conhecimento.
-            </p>
-            <p>
-              A partir de 1950, surgiu um novo paradigma com a
-              <strong>Teoria Geral dos Sistemas (TGS)</strong>, proposta pelo
-              biólogo Ludwig Von Bertalanffy. Essa teoria revolucionou a forma
-              de pensar, argumentando que as áreas do conhecimento não deveriam
-              ser estudadas de forma isolada, mas sim sob uma
-              <strong>perspectiva integrada</strong>. Ou seja, fazia parte de um
-              conjunto maior, e o comportamento do todo não poderia ser
-              compreendido apenas pela soma de suas partes, mas sim pela
-              interação entre elas.
-            </p>
-            <p>
-              Com essa nova lente, podemos aprofundar a definição e a composição
-              de sistemas. Eles são formados tanto por
-              <strong>elementos básicos</strong> (as menores unidades
-              funcionais) quanto por outros sistemas (subsistemas), que, por sua
-              vez, são interdependentes e podem se combinar para formar um novo
-              sistema ainda mais abrangente.
-            </p>
-            <blockquote>
-              <q>Sistema é um conjunto de unidades em inter-relações mútuas</q>
-              (Bertalanffy, 1977)
-            </blockquote>
-            <blockquote>
-              <q>
-                Sistema é um conjunto de elementos unidos por alguma forma de
-                interação ou interdependência
-              </q>
-              (Chiavenato, 1993)
-            </blockquote>
-            <blockquote>
-              <q>
-                Sistema é um conjunto de elementos ou componentes que interagem
-                para se atingir objetivos
-              </q>
-              (Stair e Reynolds, 2011)
-            </blockquote>
-            <p>
-              Notamos então, a lógica fundamental de um sistema, composta por
-              três fases cíclicas:
-            </p>
-            <ul>
-              <li>
-                <strong>Entrada (Input):</strong>
-                <ul>
-                  <li>
-                    É um termo genérico que se refere a
-                    <strong>
-                      tudo que o sistema obtém do seu meio ambiente
-                    </strong>
-                    . Isso inclui uma vasta gama de recursos, como demandas de
-                    clientes, informações brutas, materiais, capital financeiro
-                    (dinheiro), energia, recursos humanos e até mesmo feedback.
-                    As entradas são o ponto de partida para qualquer operação do
-                    sistema.
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <strong>Processamento (Throughput):</strong>
-                <ul>
-                  <li>
-                    Nesta fase crucial, as entradas são
-                    <strong>utilizadas, transformadas e convertidas</strong>
-                    pelo sistema. É o coração do sistema, onde ocorre a
-                    manipulação dos recursos de entrada para criar algo novo ou
-                    de valor. O processamento é altamente dinâmico e flexível,
-                    variando conforme a quantidade e a qualidade das entradas,
-                    que são fatores externos. Essa adaptabilidade permite que o
-                    sistema responda às mudanças do ambiente.
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <strong>Saída (Output):</strong>
-                <ul>
-                  <li>
-                    O resultado final do processamento das entradas é a
-                    <strong>saída</strong>. Este é o produto, serviço,
-                    informação ou qualquer outro bem gerado pelo sistema. A
-                    saída representa o <strong>propósito principal</strong> do
-                    sistema e seu objetivo final, sendo o elemento que justifica
-                    sua existência e operação.
-                  </li>
-                </ul>
-              </li>
-            </ul>
-            <strong>Tipos de Sistemas</strong>
-            <p>
-              Nem todos os sistemas possuem a mesma abrangência ou grau de
-              interação com o seu entorno. Eles são classificados conforme suas
-              características de fronteira e o nível de intercâmbio com seus
-              ambientes:
-            </p>
-            <ul>
-              <li>
-                <strong>Sistemas Abertos:</strong>
-                <ul>
-                  <li>
-                    Caracterizam-se por uma
-                    <strong>intensa interação com o ambiente externo</strong>,
-                    estabelecendo uma relação contínua de causa e efeito. São
-                    frequentemente denominados
-                    <strong>sistemas orgânicos</strong> devido à sua capacidade
-                    de se adaptar e evoluir. A flexibilidade é essencial para
-                    esses sistemas, pois eles precisam ajustar seus processos e
-                    estruturas conforme as dificuldades, obstáculos, novas
-                    oportunidades ou demandas do ambiente. Exemplos incluem uma
-                    empresa no mercado, um organismo vivo ou um ecossistema.
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <strong>Sistemas Fechados:</strong>
-                <ul>
-                  <li>
-                    Apresentam
-                    <strong>pouca ou nenhuma influência externa</strong>,
-                    focando predominantemente no processamento interno. Suas
-                    entradas e saídas são mínimas ou inexistentes, o que permite
-                    um certo grau de isolamento do ambiente. Por serem bem
-                    definidos e operarem com base em regras fixas, tendem a
-                    criar um comportamento padrão e previsível em sua
-                    ocorrência, sendo por isso conhecidos como
-                    <strong>sistemas mecânicos ou determinísticos</strong>. Um
-                    relógio de corda ou um circuito eletrônico simples são
-                    exemplos clássicos.
-                  </li>
-                </ul>
-              </li>
-            </ul>
-            <p>
-              Uma característica distintiva dos sistemas abertos, e que merece
-              atenção especial, é a{" "}
-              <strong>diversidade e a imprevisibilidade</strong> das entradas e
-              saídas que podem ocorrer em relação ao ambiente externo. Muitas
-              vezes, as movimentações do ambiente não são totalmente conhecidas,
-              e seu resultado nem sempre pode ser previsto com precisão.
-            </p>
-            <p>
-              Para se ter uma visão mais ampla e eficaz, especialmente em campos
-              como a administração, é fundamental adotar uma
-              <strong>abordagem sistêmica</strong>, ou seja, olhar mais para o
-              todo e para as interconexões. Um dado isolado ou uma parte
-              analisada separadamente pode não retratar a realidade completa ou
-              levar a conclusões equivocadas. A compreensão do sistema em sua
-              totalidade permite identificar padrões, otimizar fluxos e obter
-              melhores resultados.
-            </p>
-            <h3>Tipificando o Sistema</h3>
-            <p>
-              A tipificação de um sistema é relativamente direta: quando um
-              sistema sofre{" "}
-              <strong>influência externa e interage com o ambiente</strong>, ele
-              é considerado <strong>aberto</strong>; quando essa interação é
-              <strong>mínima ou inexistente</strong>, ele é
-              <strong>fechado</strong>. A abrangência de um sistema é definida
-              por sua finalidade e seus objetivos específicos. Se a complexidade
-              da administração de um sistema se torna muito alta, uma estratégia
-              eficaz é <strong>dividí-lo em partes menores</strong> ou
-              subsistemas. Isso facilita o gerenciamento, a análise e a
-              otimização de cada componente, ao mesmo tempo em que se mantém a
-              compreensão de como essas partes se integram para formar o todo.
-            </p>
-          </div>
-          <div>
-            <h2>Comunicação e Sabedoria</h2>
+            <h3>Comunicação e Sabedoria</h3>
             <p>
               No fluxo contínuo da vida, cada pequena coisa que acontece se
               traduz em uma oportunidade de coletar <strong>dados</strong>,
@@ -275,7 +106,7 @@ const AdministracaoSistemas = () => {
               portanto, a porta de entrada para a aquisição e o processamento da
               realidade.
             </p>
-            <h3>Pirâmide do Conhecimento (DIKW Pyramid)</h3>
+            <h4>Pirâmide do Conhecimento (DIKW Pyramid)</h4>
             <p>
               Ao analisar qualquer processo ou conjunto de informações, é
               essencial começar pela <strong>menor fração</strong> dessa
@@ -287,7 +118,7 @@ const AdministracaoSistemas = () => {
               esses níveis, desde a matéria-prima bruta até a aplicação prática
               e estratégica.
             </p>
-            <h3>A Pirâmide: da Base ao Topo</h3>
+            <h4>A Pirâmide: da Base ao Topo</h4>
             <ol>
               <li>
                 <strong>Dados:</strong>
@@ -380,7 +211,7 @@ const AdministracaoSistemas = () => {
               interação dinâmica e progressiva nos permite transformar dados
               brutos em sabedoria aplicada.
             </p>
-            <h3>Comunicação</h3>
+            <h4>Comunicação</h4>
             <p>
               A <strong>comunicação</strong> é a ação de
               <strong>transmitir uma mensagem</strong>, implicando sempre a
@@ -390,7 +221,7 @@ const AdministracaoSistemas = () => {
               isolado, mas sim um processo intrinsecamente social, feito para
               envolver e interagir com outros grupos e pessoas.
             </p>
-            <h3>Etapas do Emissor:</h3>
+            <h4>Etapas do Emissor:</h4>
             <ul>
               <li>
                 <strong>Motivo:</strong> A razão ou intenção por trás da
@@ -409,7 +240,7 @@ const AdministracaoSistemas = () => {
                 canal.
               </li>
             </ul>
-            <h3>Etapas do Receptor:</h3>
+            <h4>Etapas do Receptor:</h4>
             <ul>
               <li>
                 <strong>Recepção:</strong> O ato de receber a mensagem
@@ -429,7 +260,7 @@ const AdministracaoSistemas = () => {
               meios para alcançar seu público-alvo, adaptando-se às necessidades
               e ao contexto.
             </p>
-            <h3>Classificação da Comunicação por Formato:</h3>
+            <h4>Classificação da Comunicação por Formato:</h4>
             <ul>
               <li>
                 <strong>Biológico:</strong> Comunicação entre seres vivos (ex:
@@ -445,7 +276,7 @@ const AdministracaoSistemas = () => {
                 sociais (ex: conversas, redes sociais).
               </li>
             </ul>
-            <h3>Os Meios de Comunicação:</h3>
+            <h4>Os Meios de Comunicação:</h4>
             <ul>
               <li>Verbalizar (fala)</li>
               <li>Gesticular (linguagem corporal, sinais)</li>
@@ -467,7 +298,7 @@ const AdministracaoSistemas = () => {
               contrário, há um alto risco de erros na interpretação, resultando
               em falhas na comunicação.
             </p>
-            <h3>Comunicação Formal x Informal</h3>
+            <h4>Comunicação Formal x Informal</h4>
             <ul>
               <li>
                 <strong>Formal:</strong>
@@ -512,10 +343,10 @@ const AdministracaoSistemas = () => {
                 </ul>
               </li>
             </ul>
-            <h3>
+            <h4>
               5 Questões Essenciais para Descrever a Comunicação (Modelo de
               Lasswell):
-            </h3>
+            </h4>
             <ol>
               <li>
                 <strong>Quem?</strong> (Emissor: o comunicador)
@@ -541,7 +372,7 @@ const AdministracaoSistemas = () => {
               e a formação da mensagem até sua propagação e a intenção
               subjacente.
             </p>
-            <h3>Da Coleta à Sabedoria: A Síntese</h3>
+            <h4>Da Coleta à Sabedoria: A Síntese</h4>
             <p>
               A Pirâmide do Conhecimento é um{" "}
               <strong>esquema hierárquico e processual</strong> que permite
@@ -553,7 +384,7 @@ const AdministracaoSistemas = () => {
               sendo fundamental para equipes que buscam resultados embasados e
               eficientes.
             </p>
-            <h3>Revisão: A Jornada do Conhecimento</h3>
+            <h4>Revisão: A Jornada do Conhecimento</h4>
             <ul>
               <li>
                 <strong>Dados:</strong>
@@ -609,7 +440,7 @@ const AdministracaoSistemas = () => {
                 </ul>
               </li>
             </ul>
-            <h3>Desvendando a Comunicação: Aspectos Cruciais</h3>
+            <h4>Desvendando a Comunicação: Aspectos Cruciais</h4>
             <p>
               Sabemos que a comunicação, para ser completa e eficaz, necessita
               de dois polos essenciais: o <strong>Emissor</strong> e o
@@ -664,7 +495,7 @@ const AdministracaoSistemas = () => {
             </p>
           </div>
           <div>
-            <h2>Origem dos Dados</h2>
+            <h3>Origem dos Dados</h3>
             <p>
               Os <strong>dados</strong> são uma constante em todas as atividades
               que realizamos, inerentes à nossa existência e interação com o
@@ -737,7 +568,7 @@ const AdministracaoSistemas = () => {
               permite, muitas vezes, tomar uma série de decisões ou iniciativas
               pessoais com base nessas informações.
             </p>
-            <h3>Processos nas Organizações</h3>
+            <h4>Processos nas Organizações</h4>
             <ul>
               <li>
                 <strong>Processos:</strong>
@@ -826,7 +657,7 @@ const AdministracaoSistemas = () => {
               direciona quem executa as atividades, assegurando que o resultado
               final seja o esperado e consistente com os objetivos definidos.
             </p>
-            <h3>Tarefas Cíclicas ou Repetitivas</h3>
+            <h4>Tarefas Cíclicas ou Repetitivas</h4>
             <p>
               Dentro das organizações, algumas tarefas são realizadas apenas uma
               única vez, sendo eventos pontuais. No entanto, muitas outras se
@@ -854,7 +685,7 @@ const AdministracaoSistemas = () => {
               devem ser analisadas e interpretadas cuidadosamente em cada uma de
               suas partes, pois cada etapa contribui para o resultado final.
             </p>
-            <h3>Melhores Práticas para Realizar Tarefas (Melhoria Contínua)</h3>
+            <h4>Melhores Práticas para Realizar Tarefas (Melhoria Contínua)</h4>
             <blockquote>
               <q>A prática leva à perfeição.</q>
             </blockquote>
@@ -916,7 +747,7 @@ const AdministracaoSistemas = () => {
             </p>
           </div>
           <div>
-            <h2>Função da Cibernética</h2>
+            <h3>Função da Cibernética</h3>
             <p>
               É inegável que a informática, hoje mais amplamente entendida como
               parte da <strong>Cibernética</strong>, gera possibilidades quase
@@ -941,7 +772,7 @@ const AdministracaoSistemas = () => {
               o objetivo, a tecnologia por si só não pode gerar informações
               significativas.
             </p>
-            <h3>O que é e para que serve a Cibernética</h3>
+            <h4>O que é e para que serve a Cibernética</h4>
             <p>
               Em sua essência, <strong>Cibernética</strong> é o termo mais
               abrangente e correto para definir a ciência por trás do que
@@ -986,7 +817,7 @@ const AdministracaoSistemas = () => {
               também libera recursos humanos para tarefas mais estratégicas e
               criativas.
             </p>
-            <h3>Bancos de Dados</h3>
+            <h4>Bancos de Dados</h4>
             <p>
               Os <strong>Bancos de Dados</strong> são sistemas essenciais que
               servem para <strong>armazenar dados de forma organizada</strong>.
@@ -1000,7 +831,7 @@ const AdministracaoSistemas = () => {
               terceiros. A integridade e a confidencialidade dos dados são
               prioritárias.
             </p>
-            <h3>Estruturação Eletrônica de Bancos de Dados</h3>
+            <h4>Estruturação Eletrônica de Bancos de Dados</h4>
             <p>
               A base da estruturação eletrônica de muitos bancos de dados,
               especialmente os relacionais, segue uma lógica de
@@ -1063,7 +894,7 @@ const AdministracaoSistemas = () => {
                 </ul>
               </li>
             </ul>
-            <h3>Meios de Coleta de Dados</h3>
+            <h4>Meios de Coleta de Dados</h4>
             <p>
               No passado, grande parte da coleta de dados era realizada de forma
               <strong>manual</strong>, com informações sendo anotadas em fichas
@@ -1088,7 +919,7 @@ const AdministracaoSistemas = () => {
               pagamentos), e sistemas automatizados que registram cada transação
               ou evento.
             </p>
-            <h3>Relatórios e Uso da Informação</h3>
+            <h4>Relatórios e Uso da Informação</h4>
             <p>
               Para que uma tomada de decisão possa gerar resultados
               verdadeiramente satisfatórios, é fundamental que as variáveis
@@ -1146,7 +977,7 @@ const AdministracaoSistemas = () => {
             </p>
           </div>
           <div>
-            <h2>Estratégia nas Organizações</h2>
+            <h3>Estratégia nas Organizações</h3>
             <p>
               Em um ambiente de negócios em constante movimento, não existe uma
               única "melhor forma" de fazer as coisas. As organizações operam em
@@ -1174,7 +1005,7 @@ const AdministracaoSistemas = () => {
               <strong>mapeamento das informações sobre o ambiente</strong> em
               que a organização está inserida.
             </p>
-            <h3>Tipos de Ambiente</h3>
+            <h4>Tipos de Ambiente</h4>
             <p>A palavra "ambiente" neste contexto se refere a:</p>
             <ul>
               <li>
@@ -1199,7 +1030,7 @@ const AdministracaoSistemas = () => {
                 </ul>
               </li>
             </ul>
-            <h3>Informações do Ambiente Interno</h3>
+            <h4>Informações do Ambiente Interno</h4>
             <p>
               Para que uma empresa seja bem-sucedida, ela precisa dominar seus
               próprios recursos. Isso significa utilizar
@@ -1216,7 +1047,7 @@ const AdministracaoSistemas = () => {
               <strong>mais facilmente acessadas</strong>, pois são geradas pela
               própria organização.
             </p>
-            <h3>Informações do Ambiente Externo</h3>
+            <h4>Informações do Ambiente Externo</h4>
             <p>
               O ambiente externo é o entorno da organização e se divide em dois
               níveis principais:
@@ -1233,7 +1064,7 @@ const AdministracaoSistemas = () => {
                 ambiente de tarefa.
               </li>
             </ul>
-            <h3>Ambiente de Tarefa</h3>
+            <h4>Ambiente de Tarefa</h4>
             <p>
               O ambiente de tarefa é composto pelos elementos do setor onde a
               organização opera. Inclui seus{" "}
@@ -1249,7 +1080,7 @@ const AdministracaoSistemas = () => {
               pesquisas de mercado, análise da concorrência e feedback de
               clientes.
             </p>
-            <h3>Ambiente Geral</h3>
+            <h4>Ambiente Geral</h4>
             <p>
               Também conhecido como{" "}
               <strong>macroambiente ou ambiente macroeconômico</strong>, é
@@ -1274,7 +1105,7 @@ const AdministracaoSistemas = () => {
               poderão identificar as melhores possibilidades de ação e
               posicionamento para a organização.
             </p>
-            <h3>Cenários para Estratégia</h3>
+            <h4>Cenários para Estratégia</h4>
             <p>
               Para qualquer tipo de tomada de decisão estratégica, é essencial
               dispor de <strong>informações completas e imparciais</strong>.
@@ -1351,7 +1182,7 @@ const AdministracaoSistemas = () => {
               , fazendo com que seja possível atingir, ou até superar, o
               resultado médio planejado.
             </p>
-            <h3>Decisões e Atualização das Informações</h3>
+            <h4>Decisões e Atualização das Informações</h4>
             <p>
               O processo decisório nas organizações deve ser sustentado por
               informações que permitam a compreensão das
@@ -1361,7 +1192,7 @@ const AdministracaoSistemas = () => {
               para estruturar cenários realistas e, consequentemente, tomar
               decisões mais assertivas.
             </p>
-            <h3>Etapas de um Processo Decisório:</h3>
+            <h4>Etapas de um Processo Decisório:</h4>
             <ul>
               <li>
                 <strong>1. Identificar a situação:</strong>
@@ -1448,7 +1279,7 @@ const AdministracaoSistemas = () => {
             </p>
           </div>
           <div>
-            <h2>Gerenciamento das Informações</h2>
+            <h3>Gerenciamento das Informações</h3>
             <p>
               Vamos explorar alguns conceitos fundamentais para o gerenciamento
               de informações nas organizações:
@@ -1470,7 +1301,7 @@ const AdministracaoSistemas = () => {
                 <strong>CRM</strong> (Customer Relationship Management)
               </li>
             </ul>
-            <h3>Obsolescência Programada e Novas Tecnologias</h3>
+            <h4>Obsolescência Programada e Novas Tecnologias</h4>
             <p>
               No ambiente organizacional e de consumo, alguns produtos são
               criados com uma <strong>vida útil pré-definida</strong>. Isso é
@@ -1568,7 +1399,7 @@ const AdministracaoSistemas = () => {
               os dados são armazenados) e redes de dados (para comunicação e
               compartilhamento).
             </p>
-            <h3>As 3 Camadas do Software:</h3>
+            <h4>As 3 Camadas do Software:</h4>
             <p>
               Um software geralmente é composto por três camadas distintas que
               trabalham em conjunto:
@@ -1616,7 +1447,7 @@ const AdministracaoSistemas = () => {
                 </ul>
               </li>
             </ul>
-            <h3>Objetivos dos Sistemas de Informação</h3>
+            <h4>Objetivos dos Sistemas de Informação</h4>
             <p>
               Os sistemas de informação modernos são projetados para atingir
               cinco objetivos organizacionais estratégicos:
@@ -1674,7 +1505,7 @@ const AdministracaoSistemas = () => {
                 </ul>
               </li>
             </ul>
-            <h3>SIG - Sistema de Informação Gerencial</h3>
+            <h4>SIG - Sistema de Informação Gerencial</h4>
             <p>
               Existe uma distinção importante entre os <strong>SPTs</strong>{" "}
               (Sistemas de Processamento de Transações) e os{" "}
@@ -1711,7 +1542,7 @@ const AdministracaoSistemas = () => {
               gerenciais (SIGs) para evoluir aos conceitos e benefícios de um
               sistema ERP.
             </p>
-            <h3>Sistemas para Estratégia e Decisão</h3>
+            <h4>Sistemas para Estratégia e Decisão</h4>
             <p>
               O gestor tem acesso a <strong>relatórios gerenciais</strong>, que
               são a condensação de informações atualizadas e confiáveis,

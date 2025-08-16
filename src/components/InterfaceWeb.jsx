@@ -61,7 +61,7 @@ const InterfaceWeb = () => {
               radicalmente a compreensão de um texto, na internet isso atinge
               proporções muito maiores.
             </p>
-            <h3>Antes da Internet</h3>
+            <h4>Antes da Internet</h4>
             <p>
               <strong>
                 A evolução do ser humano como um ser social passa muito pelo
@@ -139,7 +139,7 @@ const InterfaceWeb = () => {
               contavam com injeção eletrônica. Mas nada disso foi páreo para a
               maior das invensões: a internet.
             </p>
-            <h3>A Internet</h3>
+            <h4>A Internet</h4>
             <p>
               A internet é um fruto da Guerra Fria, uma guerra mais intelectual
               e de informações, entre EUA e URSS, que lutavam pelo domínio
@@ -214,7 +214,7 @@ const InterfaceWeb = () => {
               muito mais próximas de seus consumidores, e também muito mais
               úteis, pois a internet não era mais um ambiente para aventureiros.
             </p>
-            <h3>Internet Ubíqua</h3>
+            <h4>Internet Ubíqua</h4>
             <p>
               A internet não parou de crescer, se tornou muito mais presente na
               vida de todos, é quase <strong>ubíqua</strong>, ou seja, está em
@@ -233,7 +233,7 @@ const InterfaceWeb = () => {
               utilização de cabos. Essas duas tecnologias são anteriores aos
               smartphones.
             </p>
-            <h3>Smartphones</h3>
+            <h4>Smartphones</h4>
             <p>
               Do inglês, smart (inteligente) phone (telefone), são um
               aprimoramento dos telefones celulares. A ideia da telefonia
@@ -343,7 +343,7 @@ const InterfaceWeb = () => {
               fina, agora, o artista precisa posicionar bem a câmera, apertar um
               botão e saber algumas técnicas.
             </p>
-            <h3>Simetria</h3>
+            <h4>Simetria</h4>
             <p>
               Essa, talvez, seja a coisa mais importante. Não que a fotografia
               deve ser simétrica, mas até para criar fotografias assimétricas, o
@@ -366,7 +366,7 @@ const InterfaceWeb = () => {
               usando os nove quadros, o elemento de foco deve estar posicionado
               em um dos quatro encontros entre as linhas do quadrante.
             </p>
-            <h3>Contraste, Sombra e Cor</h3>
+            <h4>Contraste, Sombra e Cor</h4>
             <p>
               Uma outra característica importante é o <strong>contraste</strong>
               , que é, basicamente,{" "}
@@ -403,7 +403,7 @@ const InterfaceWeb = () => {
               <strong>mais saturadas</strong> (mais claras), tendem a ser vistas
               como mais <strong>otimistas, vivas, vibrantes</strong>.
             </p>
-            <h3>Texturas, Padrões e Reflexos</h3>
+            <h4>Texturas, Padrões e Reflexos</h4>
             <p>
               Quando temos a impressão de uma foto parecer estar "áspera" ou
               "gosmenta", mesmo que ela esteja sendo vista na tela de um
@@ -425,7 +425,7 @@ const InterfaceWeb = () => {
               buscar entender qual é o objeto real de foco e qual sua cópia
               espelhada.
             </p>
-            <h3>Perpectiva, Forma e Linha</h3>
+            <h4>Perpectiva, Forma e Linha</h4>
             <p>
               Uma das maiores invenções humanas foi a{" "}
               <strong>perspectiva</strong>. Explicada e estruturada na{" "}
@@ -505,7 +505,7 @@ const InterfaceWeb = () => {
               <li>Repetição;</li>
               <li>Contraste.</li>
             </ol>
-            <h3>Proximidade</h3>
+            <h4>Proximidade</h4>
             <p>
               <strong>
                 As coisas conceitualmente próximas precisam estar visualmente
@@ -517,7 +517,7 @@ const InterfaceWeb = () => {
               informação. Quanto mais as coisas estão organizadas, mais fácil é
               entender, se torna mais simples de compreender.
             </p>
-            <h3>Alinhamento</h3>
+            <h4>Alinhamento</h4>
             <p>
               <strong>
                 Organizar em um certo padrão, com uma certa segurança
@@ -528,7 +528,7 @@ const InterfaceWeb = () => {
               deve "jogar" os elementos nela. O alinhamento nos permite ancorar
               as coisas em fios invisíveis que as liguem umas às outras.
             </p>
-            <h3>Repetição</h3>
+            <h4>Repetição</h4>
             <p>
               <strong>Repetição gera consistência e antecipação visual.</strong>{" "}
               (Dondis, 2015). O uso intencional de elementos visuais idênticos
@@ -542,7 +542,7 @@ const InterfaceWeb = () => {
               <q>A simplicidade é o mais alto nível de sofisticação.</q>{" "}
               <cite>Leonardo da Vinci</cite>
             </blockquote>
-            <h3>Contraste</h3>
+            <h4>Contraste</h4>
             <p>
               <strong></strong>
               <strong>
@@ -555,8 +555,8 @@ const InterfaceWeb = () => {
             </p>
           </div>
           <div>
-            <h2>Cores e Tipografia</h2>
-            <h3>Cores</h3>
+            <h3>Cores e Tipografia</h3>
+            <h4>Cores</h4>
             <p>
               Estamos acostumados a viver em um mundo colorido. Mas como fazer
               para as cores serem harmoniosas em uma interface?
@@ -611,7 +611,7 @@ const InterfaceWeb = () => {
               </strong>
               .
             </p>
-            <h3>Tonalidades, Luzes, Sombras e Temperatura</h3>
+            <h4>Tonalidades, Luzes, Sombras e Temperatura</h4>
             <p>
               É bem simples entender sobre <strong>luzes e sombras</strong>. A{" "}
               <strong>cor pura</strong> é chamada de <strong>matiz</strong>. Ao
@@ -635,7 +635,7 @@ const InterfaceWeb = () => {
               quentes derivam do vermelho, alaranjado, amarelo. Já as cores
               frias, derivam do azul, verde roxo.
             </p>
-            <h3>Tipografia</h3>
+            <h4>Tipografia</h4>
             <p>
               Também chamada de <strong>fontes</strong>, a{" "}
               <strong>tipografia</strong> é o{" "}
@@ -684,7 +684,7 @@ const InterfaceWeb = () => {
               tela. Já as do tipo <strong>símbolos</strong> são utilizadas
               apenas como <strong>decoração</strong> (Garfield, 2012).
             </p>
-            <h3>Características das Fontes</h3>
+            <h4>Características das Fontes</h4>
             <p>
               A tipografia pode apresentar várias características. A primeira é
               o <strong>tamanho</strong>, ou seja, sua posição relativa em
@@ -784,7 +784,7 @@ const InterfaceWeb = () => {
               foi utilizado até a primeira década do século XXI, até que foi
               substituído por <strong>User Experience - UX</strong>.
             </p>
-            <h3>Design Centrado no Usuário</h3>
+            <h4>Design Centrado no Usuário</h4>
             <p>
               Como design significa projeto, a ideia principal é criar um
               projeto que torne a experiência do usuário a melhor possível,
@@ -940,7 +940,7 @@ const InterfaceWeb = () => {
               teria que aprender a usar o sistema. Entretanto, uma vez
               aprendido, tudo vai funcionar, pois são padronizados.
             </p>
-            <h3>Metas das Interfaces e da UX</h3>
+            <h4>Metas das Interfaces e da UX</h4>
             <p>
               Observando tudo isso, chegamos a algumas conclusões sobre a
               interação sistema e usuário:
@@ -965,7 +965,7 @@ const InterfaceWeb = () => {
               utilidade, e para ser interessante é preciso ser fácil de
               entender.
             </p>
-            <h3>Não me faça pensar</h3>
+            <h4>Não me faça pensar</h4>
             <p>
               Esse é um dos conceitos e um conselho dos mais pertinentes de um
               dos livros mais importantes sobre UX:{" "}
@@ -1033,7 +1033,7 @@ const InterfaceWeb = () => {
               as instruções, melhor. Todos os usuários pensam "não me faça
               pensar".
             </p>
-            <h3>Satisfazimento</h3>
+            <h4>Satisfazimento</h4>
             <p>
               Muita gente imagina que sabemos como usar a internet ou nossos
               celulares, mas, na verdade não sabemos, apenas utilizamos. Krug
@@ -1058,7 +1058,7 @@ const InterfaceWeb = () => {
               no que dá", se der errado, refazemos.
             </p>
             <h2>Público Alvo</h2>
-            <h3>Quem é o Usuário?</h3>
+            <h4>Quem é o Usuário?</h4>
             <p>
               Quase nunca sabemos de verdade quem são essas pessoas.{" "}
               <strong>
@@ -1187,7 +1187,7 @@ const InterfaceWeb = () => {
               agradá-lo também, mas sem desagradar o usuário final, ou o sistema
               NÃO será implantado com sucesso.
             </p>
-            <h3>O Público Alvo</h3>
+            <h4>O Público Alvo</h4>
             <p>
               Definir um público alvo{" "}
               <strong>NÃO é exatamente muito simples, mas é essencial</strong>.
@@ -1245,7 +1245,7 @@ const InterfaceWeb = () => {
               escopo do projeto e o tempo de duração dele, já que criar uma
               Persona toma tempo.
             </p>
-            <h3>Mapas e Breadcrumbs</h3>
+            <h4>Mapas e Breadcrumbs</h4>
             <p>
               O usuário <strong>NUNCA pode estar perdido no site</strong>. A
               pior coisa para uma pessoa que está navegando em um site ou app, é
@@ -1321,7 +1321,7 @@ const InterfaceWeb = () => {
               qualquer momento para que o usuário busque o que quiser na hora
               que desejar.
             </p>
-            <h3>Quais palavras usar?</h3>
+            <h4>Quais palavras usar?</h4>
             <p>
               Lacan (1998) chega a dizer que{" "}
               <q>o inconsciente é estruturado como a linguagem</q>. Tudo o que
@@ -1349,8 +1349,64 @@ const InterfaceWeb = () => {
               <strong>a navegação é para o usuário</strong>, não para a empresa
               ou quem trabalha nela (a menos que seja uma intranet). Siglas ou
               palavras que só a empresa conhece devem ser retiradas, pois
-              ninguém de fora conseguem entender.
+              ninguém de fora conseguem entender. O ideal é que se faça textos
+              curtos, precisos e inteligíveis.
             </p>
+            <h4>Testes</h4>
+            <p>
+              Um bom projeto{" "}
+              <strong>sempre precisa de testes e de usuários testadores</strong>
+              . Reuniões com chefes e equipe de desenvolvimento não são o
+              sufuciente por algumas razões:
+            </p>
+            <ol>
+              <li>
+                A equipe já conhece o projeto por dentro, por isso não vai
+                clicar em lugar que dê erro e nem clicar em algo que não faz
+                sentido para a lógica da empresa;
+              </li>
+              <li>
+                A equipe está compremetida com a empresa e não vai abandoná-la e
+                procurar outro site. O usuário não tem esse comprometimento,
+                logo, se o projeto não estiver bem estruturado, o usuário
+                procura outro app ou site;
+              </li>
+            </ol>
+            <p>
+              Testes de usabilidade são aqueles cujas pessoas interagem com o
+              produto enquanto um profissional anota suas frustrações, buscando
+              entender suas necessidades e melhorar o produto. Nesses testes, as
+              pessoas realmente utilizam e tentam, falham, clicam em lugares
+              errados, não entendem, etc.
+            </p>
+            <p>
+              Por não estarmos em um mundo ideal, os testes podem ser feitos com
+              poucos recursos:
+            </p>
+            <ul>
+              <li>
+                Testes deveriam acontecer, no mínimo uma vez por mês com umas
+                cinco pessoas. Essas pessoas testam o que a equipe de
+                desenvolvimento fez durante o mês e apontam o que melhorou, o
+                que piorou ou o que ficou na mesma;
+              </li>
+              <li>
+                Testes devem ser feitos em um lugar quieto, sem interrupções. O
+                desenvolvedor se senta ao lado da pessoa, pergunta com ela
+                acessaria algum lugar específico do sistema e anota, sem falar
+                nada. Só depois se pergunta onde clicou e porquê clicou;
+              </li>
+              <li>
+                Também ajuda se a empresa tiver um software de gravação de tela,
+                para grava o que acontece e os movimentos do mouse. Isso pode,
+                depois, ser levado a alguma reunião.
+              </li>
+              <li>
+                A partir do que foi colhido dos usuários, além do tempo que
+                levaram, também a forma de realizar a tarefa, a equipe pode
+                propor novas soluções e novas formas de fazer o site ou app.
+              </li>
+            </ul>
           </div>
         </>
       )}
