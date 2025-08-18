@@ -77,14 +77,18 @@ const CriacaoWebSite = () => {
                   </li>
                 </ul>
               </li>
+              <li>
+                <strong>Site de Notícias:</strong>
+                <ul>
+                  <li>
+                    A prioridade é a <strong>data das reportagens</strong>, com
+                    as mais recentes aparecendo primeiro. É essencial a inclusão
+                    de <strong>links</strong> que permitam ao usuário
+                    aprofundar-se no tema.
+                  </li>
+                </ul>
+              </li>
             </ul>
-            <p>
-              <strong>Site de Notícias:</strong> A prioridade é a{" "}
-              <strong>data das reportagens</strong>, com as mais recentes
-              aparecendo primeiro. É essencial a inclusão de{" "}
-              <strong>links</strong> que permitam ao usuário aprofundar-se no
-              tema.
-            </p>
             <h4>Mapa Mental: Por que usar?</h4>
             <p>
               O <strong>mapa mental</strong> é o esqueleto de um projeto web,
@@ -179,7 +183,7 @@ const CriacaoWebSite = () => {
                 <strong>Dica Profissional:</strong>
                 <ul>
                   <li>
-                    Guarde os mapas e, se possível, peça para as pessoas
+                    Guarde os mapas e, se possível, peça para as pessoas{" "}
                     <strong>assinarem sua ciência</strong>. Isso protege você
                     contra mudanças de última hora sem compensação, caso o
                     cliente decida alterar a estrutura após o trabalho já ter
@@ -194,8 +198,8 @@ const CriacaoWebSite = () => {
               visualizado de forma interessante e funcional em dispositivos de
               tamanhos variados, especialmente em celulares. É um conceito
               fundamental porque a maioria dos acessos à internet hoje em dia
-              acontece por meio de smartphones. No Brasil, existem mais de 210
-              milhões de conexões via celular, tornando a responsividade
+              acontece por meio de smartphones. No Brasil, cerca de 82,5% da
+              população acessam sites via celular, tornando a responsividade
               obrigatória para alcançar o público.
             </p>
             <h4>Princípios de Design para Dispositivos Móveis</h4>
@@ -360,6 +364,49 @@ const CriacaoWebSite = () => {
                 </ul>
               </li>
             </ul>
+          </div>
+          <div>
+            <h3>Interface</h3>
+            <h4>Como Instalar o GIMP</h4>
+            <ol>
+              <li>
+                <strong>Download:</strong>
+                <ul>
+                  <li>
+                    O GIMP pode ser baixado pelo site oficial em{" "}
+                    <strong>gimp.org/downloads</strong>. A forma mais simples é
+                    pela Microsoft Store, o que pode levar um tempo
+                    considerável.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Interface Inicial: </strong>
+                <ul>
+                  <li>Ao abrir, o GIMP exibe três janelas principais:</li>
+                  <ul>
+                    <li>
+                      <strong>Caixa de Ferramentas:</strong>
+                      <ul>
+                        <li>Fica no lado esquerdo.</li>
+                      </ul>
+                    </li>
+                    <li>
+                      <strong>Janela Principal:</strong>
+                      <ul>
+                        <li>Onde as imagens são abertas.</li>
+                      </ul>
+                    </li>
+                    <li>
+                      <strong>Janelas de Encaixe:</strong>
+                      <ul>
+                        <li>Ficam no lado direito.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </ul>
+              </li>
+            </ol>
           </div>
         </>
       )}
