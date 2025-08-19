@@ -407,6 +407,201 @@ const CriacaoWebSite = () => {
                 </ul>
               </li>
             </ol>
+            <h4>Edição de Imagem: Ferramentas de seleção</h4>
+            <p>
+              A seleção é a base da edição, permitindo isolar partes específicas
+              da imagem para modificação sem alterar o restante. As principais
+              ferramentas de seleção são:
+            </p>
+            <ul>
+              <li>
+                <strong>Seleção Retangular/Elíptica:</strong>
+                <ul>
+                  <li>Para áreas com formas geométricas.</li>
+                </ul>
+              </li>
+              <li>
+                <strong>Seleção Livre (Laço):</strong>
+                <ul>
+                  <li>
+                    Ideal para traçar contornos de formas irregulares com
+                    precisão.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Seleção por Cor:</strong>
+                <ul>
+                  <li>Seleciona todos os pixels da mesma cor na imagem.</li>
+                </ul>
+              </li>
+              <li>
+                <strong>Seleção Contígua (Varinha Mágica):</strong>
+                <ul>
+                  <li>
+                    Seleciona pixels com a mesma cor que estão próximos uns dos
+                    outros.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <p>
+              <strong>Dica Essencial:</strong> A{" "}
+              <strong>inversão de seleção</strong> é uma técnica poderosa. Após
+              selecionar uma área (por exemplo, uma flor), você pode inverter a
+              seleção para aplicar alterações em todo o <strong>fundo</strong>,
+              exceto na área selecionada.
+            </p>
+            <h4>Manipulação de Imagem e Cores</h4>
+            <p>
+              O menu <strong>Imagem</strong> afeta a foto como um todo e
+              permite:
+            </p>
+            <ul>
+              <li>
+                <strong>Cortar</strong> para remover partes indesejadas.
+              </li>
+              <li>
+                <strong>Inverter</strong> para espelhar a imagem.
+              </li>
+              <li>
+                <strong>Girar</strong>
+              </li>
+            </ul>
+            <p>
+              O menu <strong>Cores</strong> é fundamental para ajustes tonais e
+              de luz:
+            </p>
+            <ul>
+              <li>
+                <strong>Temperatura:</strong>
+                <ul>
+                  <li>
+                    Deixa a imagem mais <strong>quente</strong> (amarelada) ou
+                    mais <strong>fria</strong> (azulada).
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Matiz-Croma:</strong>
+                <ul>
+                  <li>Permite mudar as cores radicalmente.</li>
+                </ul>
+              </li>
+              <li>
+                <strong>Níveis:</strong>
+                <ul>
+                  <li>
+                    Uma ferramenta crucial para calibrar a imagem. Use o
+                    conta-gotas para áreas mais escuras e mais claras para
+                    equilibrar o contraste e o brilho.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Camadas</h4>
+            <p>
+              As camadas são a chave para a criação de{" "}
+              <strong>montagens</strong> e para trabalhar com múltiplos
+              elementos em uma única imagem.
+            </p>
+            <ul>
+              <li>
+                Cada elemento (uma foto, um texto, um objeto) pode estar em sua
+                própria camada, permitindo que seja{" "}
+                <strong>movido, redimensionado e transformado</strong>{" "}
+                independentemente dos outros.
+              </li>
+              <li>
+                Para criar uma montagem, basta{" "}
+                <strong>selecionar e copiar</strong> um elemento de uma imagem e{" "}
+                <strong>colar</strong> na outra. Uma nova camada será criada
+                automaticamente.
+              </li>
+              <li>
+                A janela de <strong>Camadas</strong> (geralmente no lado direito
+                da tela) permite organizar, visualizar e manipular todas as
+                camadas da sua composição.
+              </li>
+            </ul>
+            <h4>Filtros</h4>
+            <p>
+              Os filtros são uma ferramenta poderosa para modificar
+              drasticamente a aparência de uma imagem. Ao contrário da crença
+              popular, eles existem há décadas, muito antes do Instagram.
+            </p>
+            <ul>
+              <li>
+                <strong>Acesso:</strong>
+                <ul>
+                  <li>
+                    Encontrados no <strong>menu Filtros</strong>.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Variedade:</strong>
+                <ul>
+                  <li>
+                    Os filtros estão agrupados em estilos (por exemplo,
+                    "Artísticos," "Distorções," etc.), oferecendo uma ampla gama
+                    de efeitos.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Aplicação:</strong>
+                <ul>
+                  <li>
+                    Um filtro pode ser aplicado a toda a imagem ou apenas a uma
+                    <strong>área selecionada</strong>, permitindo um controle
+                    criativo preciso.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <p>
+              <strong>Dica de Essencial:</strong> A melhor maneira de aprender
+              sobre filtros é a <strong>experimentação</strong>. Use uma imagem
+              de teste e aplique diferentes filtros para entender o que cada um
+              faz, como os de "Aquarela" ou "Gravura".
+            </p>
+            <h4>Processo de Aprendizagem e Maestria</h4>
+            <p>
+              A melhor forma de dominar o GIMP ou qualquer outra ferramenta de
+              edição é através da <strong>prática contínua</strong>.
+            </p>
+            <ul>
+              <li>
+                <strong>Exploração:</strong>
+                <ul>
+                  <li>
+                    Não tenha medo de <strong>testar, brincar e fuçar</strong>{" "}
+                    nos menus e nas ferramentas.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Benefício:</strong>
+                <ul>
+                  <li>
+                    O GIMP é uma ferramenta gratuita, o que significa que você
+                    pode usá-la livremente em qualquer contexto profissional ou
+                    pessoal.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Desenvolvimento:</strong>
+                <ul>
+                  <li>
+                    Quanto mais tempo você dedica à ferramenta, mais intuitivo e
+                    rápido se torna o seu processo de edição, levando à
+                    <strong>maestria</strong>.
+                  </li>
+                </ul>
+              </li>
+            </ul>
           </div>
         </>
       )}
