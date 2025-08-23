@@ -55,3 +55,8 @@ section {
 strong {
   color: #e60;
 }
+
+ul,
+ol {
+  padding-left: 1em;
+}

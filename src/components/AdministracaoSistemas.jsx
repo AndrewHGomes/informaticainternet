@@ -1976,6 +1976,438 @@ const AdministracaoSistemas = () => {
               refletir a realidade de um mercado dinâmico.
             </p>
           </div>
+          <div>
+            <h3>Gerenciamento das Informações e Sistemas</h3>
+            <p>
+              Esta aula explora como os conceitos de sistemas e administração se
+              aplicam na prática, discutindo termos e siglas comuns no mundo
+              corporativo, como{" "}
+              <strong>
+                obsolescência programada, computação em nuvem, big data e
+                business intelligence
+              </strong>
+              .
+            </p>
+            <h4>Obsolescência Programada</h4>
+            <p>
+              A obsolescência programada é uma estratégia de negócios onde
+              produtos, especialmente os tecnológicos, são feitos para se
+              tornarem obsoletos ou não funcionais após um tempo pré-definido.
+              Isso impulsiona o consumidor a comprar novos modelos.
+            </p>
+            <p>
+              Esse conceito está ligado ao ciclo de vida do produto: após a fase
+              de maturidade, a empresa lança um novo modelo e descontinua o
+              anterior, garantindo um ciclo contínuo de vendas. Para os
+              gestores, a obsolescência programada tem dois lados:
+            </p>
+            <ul>
+              <li>
+                <strong>Estratégia de negócios:</strong>
+                <ul>
+                  <li>
+                    Usar a descontinuação para impulsionar a venda de novos
+                    produtos.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Impacto interno:</strong>
+                <ul>
+                  <li>
+                    Ter que lidar com a necessidade constante de substituir
+                    equipamentos e sistemas na própria organização.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Novas Tecnologias e Conceitos</h4>
+            <p>
+              A evolução da tecnologia impulsionou o surgimento de novos
+              conceitos e sistemas que são fundamentais para o gerenciamento de
+              informações:
+            </p>
+            <ul>
+              <li>
+                <strong>Cloud Computing (Computação em Nuvem):</strong>
+                <ul>
+                  <li>
+                    Acesso a recursos de computação, como armazenamento e
+                    processamento, por meio da internet, sem a necessidade de
+                    infraestrutura local.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Big Data:</strong>
+                <ul>
+                  <li>
+                    Refere-se ao grande volume de dados gerados constantemente
+                    (principalmente por dispositivos móveis). O{" "}
+                    <strong>Big Data</strong> é uma forma estratégica de coletar
+                    e analisar essa enorme massa de dados para encontrar padrões
+                    e insights.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Business Intelligence (BI):</strong>
+                <ul>
+                  <li>
+                    É a inteligência de negócios. É o processo de coletar,
+                    organizar, analisar e monitorar informações para apoiar a
+                    tomada de decisões e a estratégia da empresa.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <p>
+              <strong>Para fixar:</strong> O gerenciamento das informações é
+              crucial para a estratégia de qualquer negócio. A{" "}
+              <strong>obsolescência programada</strong> afeta tanto a produção
+              quanto o consumo, enquanto conceitos como{" "}
+              <strong>Cloud Computing, Big Data e Business Intelligence</strong>{" "}
+              são ferramentas essenciais para lidar com a crescente quantidade
+              de dados e para tomar decisões mais assertivas.
+            </p>
+            <h4>Tecnologia da Informação e Comunicação (TIC)</h4>
+            <p>
+              Um <strong>sistema de informação</strong> pode ser manual ou
+              automatizado, e sua função é sempre a mesma: coletar, organizar e
+              transmitir dados para ajudar na tomada de decisões. As{" "}
+              <strong>Tecnologias da Informação e Comunicação (TICs)</strong>{" "}
+              são as ferramentas que permitem a passagem de sistemas manuais
+              para eletrônicos.
+            </p>
+            <h4>O que são TICs?</h4>
+            <p>
+              As TICs integram <strong>hardware</strong> (equipamentos),{" "}
+              <strong>software</strong> (programas) e
+              <strong>redes de comunicação</strong> (internet, por exemplo).
+              Elas são a plataforma que dá agilidade e volume ao tratamento de
+              dados. A lógica de{" "}
+              <strong>entrada, processamento e saída </strong>se aplica
+              perfeitamente às TICs.
+            </p>
+            <h4>As Três Camadas do Software</h4>
+            <p>
+              Para entender como um sistema automatizado funciona, é preciso
+              conhecer as três camadas do software:
+            </p>
+            <ul>
+              <li>
+                <strong>Interface do Usuário:</strong>
+                <ul>
+                  <li>
+                    É o que conecta a pessoa à máquina. São as telas, botões,
+                    teclado ou qualquer outro elemento que permite a interação.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Código:</strong>
+                <ul>
+                  <li>
+                    São as linhas de programação que traduzem as ações do
+                    usuário para a linguagem da máquina, fazendo o software
+                    executar suas funções.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Banco de Dados:</strong>
+                <ul>
+                  <li>
+                    É a estrutura lógica para armazenar os dados. Ele permite
+                    que as informações sejam guardadas de forma organizada e
+                    acessadas facilmente.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <p>
+              Com a integração desses elementos, os sistemas de informação
+              automatizados se tornam muito mais eficientes do que os manuais.
+            </p>
+            <h4>Objetivos dos Sistemas de Informação</h4>
+            <p>
+              Os <strong>sistemas de informação</strong> existem para ajudar as
+              organizações a atingir resultados. De acordo com os autores Laudon
+              e Laudon (2010), eles atendem a cinco objetivos principais:
+            </p>
+            <ol>
+              <li>
+                <strong>Atingir Excelência Operacional:</strong>
+                <ul>
+                  <li>
+                    Ajudam a otimizar as operações do dia a dia, tornando os
+                    processos mais eficientes.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Desenvolver Novos Produtos e Serviços:</strong>
+                <ul>
+                  <li>
+                    Fornecem informações valiosas para criar e aprimorar o que a
+                    empresa oferece ao mercado.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Melhorar a Qualidade das Decisões Gerenciais:</strong>
+                <ul>
+                  <li>
+                    Fornecem dados e relatórios que permitem aos gestores tomar
+                    decisões mais assertivas.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Aprimorar o Relacionamento com os Clientes:</strong>
+                <ul>
+                  <li>
+                    Agilizam o atendimento e fornecem informações que permitem
+                    um serviço mais personalizado.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Assegurar a Sustentabilidade do Negócio:</strong>
+                <ul>
+                  <li>
+                    Ao otimizar processos, reduzir custos e melhorar o
+                    relacionamento com clientes, os sistemas garantem que a
+                    empresa se mantenha economicamente viável a longo prazo.
+                  </li>
+                </ul>
+              </li>
+            </ol>
+            <h4>Sistemas Departamentais vs. Sistemas Integrados</h4>
+            <p>
+              Os sistemas de informação também podem ser classificados por seu
+              nível de abrangência dentro da empresa:
+            </p>
+            <ul>
+              <li>
+                <strong>Sistemas Departamentais:</strong>
+                <ul>
+                  <li>
+                    São usados por um único setor para uma função específica. Um
+                    exemplo é um sistema que apenas cadastra clientes potenciais
+                    para o setor comercial. As informações são usadas apenas
+                    para as necessidades daquele departamento.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Sistemas Integrados:</strong>
+                <ul>
+                  <li>
+                    Conectam vários departamentos e compartilham informações
+                    entre eles. Por exemplo, um sistema de controle de estoque
+                    que se liga aos setores financeiro, comercial e de produção.
+                    Quando um cliente faz um pedido, o sistema verifica o
+                    estoque e avisa a produção, criando uma cadeia de informação
+                    que todos podem acessar.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <p>
+              Compreender essas funcionalidades e diferenças é fundamental para
+              entender como a informação flui e é usada para apoiar os objetivos
+              de uma organização.
+            </p>
+            <h4>Sistemas de Informação Gerencial</h4>
+            <p>
+              Existem diferentes tipos de sistemas de informação porque eles são
+              projetados para atender a diferentes funções dentro de uma
+              organização.
+            </p>
+            <h4>Sistemas de Processamento de Transações (SPT)</h4>
+            <p>
+              Os <strong>SPTs</strong> são sistemas operacionais que processam
+              transações rotineiras e específicas. Eles registram dados do dia a
+              dia da empresa, como a folha de pagamento, vendas e emissão de
+              notas fiscais. Sua função é operacional.
+            </p>
+            <h4>Sistemas de Informação Gerencial (SIG)</h4>
+            <p>
+              Os <strong>SIGs</strong> têm uma função gerencial. Eles não apenas
+              processam dados, mas os organizam e interpretam para fornecer
+              informações que ajudam no gerenciamento da empresa. Embora sejam
+              distintos dos SPTs, o ideal é que os SIGs usem os dados coletados
+              pelos SPTs para fornecer um panorama mais completo.
+            </p>
+            <h4>ERP: A Integração dos Sistemas</h4>
+            <p>
+              O <strong>ERP</strong> (Enterprise Resource Planning) é a evolução
+              natural da integração de sistemas. Ele conecta os dados e
+              processos de toda a organização em uma{" "}
+              <strong>única plataforma</strong>. Essa integração permite que os
+              gestores tenham uma visão geral dos recursos da empresa,
+              facilitando a coordenação entre os diferentes departamentos. O ERP
+              funciona com base em módulos, que atuam em cada setor da empresa
+              para garantir a efetividade e o gerenciamento dos recursos.
+            </p>
+            <p>
+              <strong>Para fixar:</strong>
+            </p>
+            <ul>
+              <li>
+                <strong>SPTs:</strong>
+                <ul>
+                  <li>Processam dados de transações operacionais.</li>
+                </ul>
+              </li>
+              <li>
+                <strong>SIGs:</strong>
+                <ul>
+                  <li>
+                    Usam os dados dos SPTs para fornecer informações gerenciais.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>ERP:</strong>
+                <ul>
+                  <li>
+                    Integra todos os dados e processos da empresa em um único
+                    sistema para um gerenciamento mais eficiente.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Sistemas para Estratégia e Decisão</h4>
+            <p>
+              Os <strong>Sistemas de Informação Gerencial (SIGs)</strong> são
+              essenciais para uma boa gestão. Eles coletam dados de vários
+              setores e os transformam em relatórios gerenciais que ajudam os
+              gestores a analisar a situação e planejar ações futuras.
+            </p>
+            <h4>Relatórios Gerenciais</h4>
+            <p>
+              Os relatórios gerenciais condensam informações de forma clara e
+              objetiva. Eles podem ser de três tipos:
+            </p>
+            <ul>
+              <li>
+                <strong>Programados:</strong>
+                <ul>
+                  <li>
+                    Gerados em intervalos regulares, como relatórios de vendas
+                    diários ou financeiros mensais.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Sob Demanda:</strong>
+                <ul>
+                  <li>
+                    Criados para atender a uma necessidade específica, como um
+                    relatório sobre o histórico de pagamentos de um fornecedor.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Exceção:</strong>
+                <ul>
+                  <li>
+                    Acionados automaticamente quando algo fora do padrão
+                    acontece, como a queda de um indicador de produção.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Sistemas de Apoio à Decisão</h4>
+            <p>
+              Além dos SIGs, existem sistemas mais avançados que auxiliam
+              diretamente a estratégia e a tomada de decisão:
+            </p>
+            <ul>
+              <li>
+                <strong>SAD (Sistemas de Apoio à Decisão): </strong>
+                <ul>
+                  <li>
+                    Usam dados históricos e novas informações para simular
+                    cenários futuros, ajudando a entender as possíveis
+                    consequências de uma decisão.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>SAE (Sistemas de Apoio Executivo):</strong>
+                <ul>
+                  <li>
+                    Versões mais sofisticadas do SAD, que ajudam a diretoria e
+                    os executivos a tomar decisões estratégicas.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Aplicações na Prática</h4>
+            <p>
+              Os sistemas de informação gerencial são usados em todos os setores
+              de uma empresa:
+            </p>
+            <ul>
+              <li>
+                <strong>Finanças:</strong>
+                <ul>
+                  <li>
+                    Para gerenciar o fluxo de dinheiro e gerar relatórios de
+                    resultados.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Vendas (CRM):</strong>
+                <ul>
+                  <li>
+                    Para gerenciar o relacionamento com o cliente, entendendo
+                    suas necessidades e preferências.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Manufatura:</strong>
+                <ul>
+                  <li>
+                    Para controlar a produção, o estoque de matéria-prima e o
+                    uso de equipamentos.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Gestão de Pessoas:</strong>
+                <ul>
+                  <li>
+                    Para ir além da folha de pagamento e analisar o desempenho
+                    dos funcionários.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Gestão de Projetos:</strong>
+                <ul>
+                  <li>
+                    Para monitorar o andamento de um projeto, comparando o
+                    planejamento com a execução.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <p>
+              A principal função de todos esses sistemas é a mesma:{" "}
+              <strong>
+                melhorar a coleta de dados, ampliar a geração de informações e
+                garantir que elas sejam bem aplicadas para alcançar os melhores
+                resultados
+              </strong>
+              .
+            </p>
+          </div>
         </>
       )}
     </section>

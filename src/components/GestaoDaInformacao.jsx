@@ -660,13 +660,15 @@ const GestaoDaInformacao = () => {
               </li>
               <li>
                 <strong>Extranet:</strong>
-                <li>
-                  Conecta a intranet de uma empresa à de seus clientes,
-                  fornecedores e parceiros de negócio. É uma rede segura,
-                  projetada para a troca de informações estratégicas de forma
-                  rápida e controlada, já que pessoas de fora não têm acesso
-                  facilitado.
-                </li>
+                <ul>
+                  <li>
+                    Conecta a intranet de uma empresa à de seus clientes,
+                    fornecedores e parceiros de negócio. É uma rede segura,
+                    projetada para a troca de informações estratégicas de forma
+                    rápida e controlada, já que pessoas de fora não têm acesso
+                    facilitado.
+                  </li>
+                </ul>
               </li>
               <li>
                 <strong>Internet:</strong>
