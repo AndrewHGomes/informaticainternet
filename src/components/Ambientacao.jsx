@@ -21,12 +21,24 @@ const Ambientacao = () => {
         <>
           <h3>Algumas siglas</h3>
           <ul>
-            <li>AVA - Ambiente Virtual de Aprendizagem;</li>
-            <li>CMA - Central de Mediação Acadêmica;</li>
-            <li>UTA - Unidade Temática de Aprendizagem;</li>
-            <li>APOL - Atividades Pedagógicas Online;</li>
-            <li>PAP - Polo de Apoio Presencial;</li>
-            <li>RCP - Recuperação de Conceito Pago;</li>
+            <li>
+              <strong>AVA</strong>: Ambiente Virtual de Aprendizagem;
+            </li>
+            <li>
+              <strong>CMA</strong>: Central de Mediação Acadêmica;
+            </li>
+            <li>
+              <strong>UTA</strong>: Unidade Temática de Aprendizagem;
+            </li>
+            <li>
+              <strong>APOL</strong>: Atividades Pedagógicas Online;
+            </li>
+            <li>
+              <strong>PAP</strong>: Polo de Apoio Presencial;
+            </li>
+            <li>
+              <strong>RCP</strong>: Recuperação de Conceito Pago;
+            </li>
           </ul>
         </>
       )}
