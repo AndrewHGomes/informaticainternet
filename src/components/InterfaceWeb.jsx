@@ -1693,6 +1693,599 @@ const InterfaceWeb = () => {
               fundo garante a legibilidade.
             </p>
           </div>
+          <div>
+            <h3>O que é UX?</h3>
+            <p>
+              <strong>UX</strong> é a sigla para{" "}
+              <strong>User eXperience</strong>, que significa "experiência do
+              usuário". Refere-se à interação e ao sentimento do usuário ao usar
+              um produto ou sistema, como uma interface web.
+            </p>
+            <h4>História da UX</h4>
+            <ol>
+              <li>
+                <strong>Início (Pré-computador):</strong>
+                <ul>
+                  <li>
+                    O conceito de interface era pouco relevante em projetos como
+                    o <strong>Memex</strong> (Vannevar Bush), que era apenas
+                    conceitual.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Primeiros Computadores (ENIAC):</strong>
+                <ul>
+                  <li>
+                    A necessidade de interface surgiu com o{" "}
+                    <strong>ENIAC</strong>. Era preciso uma forma de o ser
+                    humano se comunicar com a máquina lógica. As primeiras
+                    interfaces eram feitas com{" "}
+                    <strong>mudança de cabos e switches</strong> e depois com{" "}
+                    <strong>cartões</strong> perfurados (IBM).
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Surgimento dos monitores:</strong>
+                <ul>
+                  <li>
+                    Programadores podiam digitar comandos, mas a programação
+                    ainda era restrita a especialistas.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Década de 1970:</strong>
+                <ul>
+                  <li>
+                    Com a popularização dos microcomputadores, a necessidade de
+                    interfaces mais simples para pessoas comuns levou à criação
+                    das <strong>interfaces gráficas</strong>.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>PARC (Palo Alto Research Center - Xerox):</strong>
+                <ul>
+                  <li>
+                    Foi um dos principais centros de pesquisa na criação de
+                    interfaces gráficas, com o objetivo de tornar o computador
+                    acessível.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Década de 1980:</strong>
+                <ul>
+                  <li>
+                    O campo de estudo foi formalizado como{" "}
+                    <strong>Interação Homem-Computador</strong>, focado na
+                    comunicação entre usuário e máquina.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Anos 1990:</strong>
+                <ul>
+                  <li>
+                    O termo evoluiu para <strong>"design de interação"</strong>,
+                    com foco na ação entre o usuário e o computador.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Século XXI:</strong>
+                <ul>
+                  <li>
+                    O termo <strong>User eXperience (UX)</strong> se popularizou
+                    e hoje é o mais utilizado para se referir ao assunto.
+                  </li>
+                </ul>
+              </li>
+            </ol>
+            <h4>Design Centrado no Usuário (DCU)</h4>
+            <p>
+              <strong>O que é?</strong> É uma abordagem de projeto (design)
+              focada em criar produtos que sejam compreensíveis e fáceis de
+              usar. O objetivo é garantir que o usuário tenha a melhor
+              experiência possível, sem precisar de instruções.
+            </p>
+            <h4>Princípios do DCU:</h4>
+            <ol>
+              <li>
+                <strong>Visibilidade e Mapeamento:</strong>
+                <ul>
+                  <li>
+                    O usuário deve conseguir descobrir por conta própria o que
+                    fazer, como fazer e o que está acontecendo.
+                  </li>
+                  <li>
+                    Comandos e suas consequências devem ser visíveis e claros.
+                  </li>
+                  <li>
+                    <strong>Exemplo:</strong>
+                    <ul>
+                      <li>
+                        Uma torneira. Você gira para um lado para ligar, para o
+                        outro para desligar. A ação e o resultado são óbvios.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Uso do Conhecimento Existente:</strong>
+                <ul>
+                  <li>
+                    Use conhecimentos que as pessoas já têm, seja por cultura ou
+                    experiência ("conhecimento na cabeça" ou "no mundo").
+                  </li>
+                  <li>
+                    <strong>Exemplo:</strong>
+                    <ul>
+                      <li>
+                        A cor vermelha significa "pare" e verde significa
+                        "siga".
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Modelos Mentais:</strong>
+                <ul>
+                  <li>
+                    O <strong>modelo de design</strong> (o que o projetista
+                    pensa) e o <strong>modelo do usuário</strong> (o que o
+                    usuário entende) devem ser o mais próximos possível.
+                  </li>
+                  <li>
+                    A <strong>imagem do sistema</strong> (a interface visual)
+                    deve ser capaz de explicar por si só como o sistema
+                    funciona.
+                  </li>
+                  <li>
+                    <strong>Solução para desalinhamento:</strong>
+                    <ul>
+                      <li>
+                        Se o modelo do usuário não coincide com a imagem do
+                        sistema, um manual pode ser a solução, mas o ideal é
+                        evitar essa necessidade.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Simplificação de Tarefas:</strong>
+                <ul>
+                  <li>Permitir que o usuário faça mais com menos esforço.</li>
+                  <ul>
+                    <li>
+                      <strong>Técnicas:</strong>
+                      <ul>
+                        <li>
+                          <strong>Auxiliares mnemônicos:</strong>
+                          <ul>
+                            <li>Ajudar o usuário a memorizar tarefas.</li>
+                          </ul>
+                        </li>
+                        <li>
+                          <strong>Instrumentos e indicadores:</strong>
+                          <ul>
+                            <li>Dar feedback visível (ex: painel do carro).</li>
+                          </ul>
+                        </li>
+                        <li>
+                          <strong>Automação:</strong>
+                          <ul>
+                            <li>
+                              Automatizar rotinas repetitivas (ex: lembretes de
+                              aniversário).
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          <strong>Mudança da natureza da tarefa:</strong>
+                          <ul>
+                            <li>
+                              Tornar a tarefa mais fácil (ex: ouvir música no
+                              Spotify vs. em um vinil).
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </ul>
+              </li>
+              <li>
+                <strong>Visibilidade dos Procedimentos:</strong>
+                <ul>
+                  <li>
+                    Tudo o que o usuário precisa saber deve estar visível.
+                  </li>
+                  <li>
+                    <strong>Exemplo:</strong>
+                    <ul>
+                      <li>
+                        Em um site, um link precisa ser facilmente visível e
+                        óbvio.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Mapeamento entre Ações e Intenções:</strong>
+                <ul>
+                  <li>
+                    A interface deve mostrar claramente o que pode ser feito e
+                    qual o efeito de cada ação.
+                  </li>
+                  <li>
+                    O feedback é crucial: o usuário precisa saber que sua ação
+                    teve um resultado. A ausência de feedback é frustrante.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Coerções:</strong>
+                <ul>
+                  <li>
+                    Direcionar o usuário para fazer a coisa certa. Não deixar
+                    espaço para erros ou ações não planejadas.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Projeto para o Erro:</strong>
+                <ul>
+                  <li>Sempre presuma que o usuário vai cometer erros.</li>
+                  <li>
+                    O design deve permitir que ele reconheça o erro e consiga se
+                    recuperar facilmente.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Padronização:</strong>
+                <ul>
+                  <li>
+                    Quando o mapeamento é difícil, padronize as ações,
+                    resultados e layouts.
+                  </li>
+                  <li>
+                    Uma vez que o usuário aprenda o padrão, ele pode aplicá-lo
+                    em todo o sistema.
+                  </li>
+                </ul>
+              </li>
+            </ol>
+            <h4>Metas de Interfaces e UX</h4>
+            <p>
+              As metas de uma interface são as características que a tornam
+              bem-sucedida, buscando um equilíbrio entre{" "}
+              <strong>usabilidade</strong> e a{" "}
+              <strong>experiência emocional</strong> do usuário. Elas são
+              interdependentes.
+            </p>
+            <ol>
+              <li>
+                <strong>Metas de Usabilidade</strong>
+                <ul>
+                  <li>
+                    Focam na facilidade e eficiência do uso de um sistema.
+                    <ul>
+                      <li>
+                        <strong>Útil:</strong>
+                        <ul>
+                          <li>
+                            O sistema atende a uma necessidade real do usuário.
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <strong>Fácil de Aprender:</strong>
+                        <ul>
+                          <li>
+                            O usuário consegue descobrir como usar o sistema de
+                            forma rápida e intuitiva.
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <strong>Fácil de Usar:</strong>
+                        <ul>
+                          <li>
+                            As tarefas podem ser realizadas com o mínimo de
+                            esforço.
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <strong>Fácil de Memorizar:</strong>
+                        <ul>
+                          <li>
+                            O usuário se lembra de como usar o sistema mesmo
+                            após um tempo sem acessá-lo.
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <strong>Eficiente no Uso:</strong>
+                        <ul>
+                          <li>
+                            As tarefas são executadas de forma rápida e com
+                            poucos passos.
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Metas de Experiência do Usuário</strong>
+                <ul>
+                  <li>
+                    Focam na experiência e nos sentimentos do usuário.
+                    <ul>
+                      <li>
+                        <strong>Satisfatório:</strong>
+                        <ul>
+                          <li>O uso do sistema é agradável.</li>
+                        </ul>
+                      </li>
+                      <li>
+                        <strong>Agradável:</strong>
+                        <ul>
+                          <li>A interação é prazerosa.</li>
+                        </ul>
+                      </li>
+                      <li>
+                        <strong>Divertido:</strong>
+                        <ul>
+                          <li>O sistema pode ter elementos lúdicos.</li>
+                        </ul>
+                      </li>
+                      <li>
+                        <strong>Motivador:</strong>
+                        <ul>
+                          <li>
+                            O usuário se sente encorajado a usar o sistema.
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <strong>Interessante:</strong>
+                        <ul>
+                          <li>O sistema cativa a atenção do usuário.</li>
+                        </ul>
+                      </li>
+                      <li>
+                        <strong>Compensador:</strong>
+                        <ul>
+                          <li>
+                            O usuário sente que o tempo e o esforço investidos
+                            valeram a pena.
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <strong>Emocionalmente Adequado:</strong>
+                        <ul>
+                          <li>O sistema evoca emoções positivas.</li>
+                        </ul>
+                      </li>
+                      <li>
+                        <strong>Incentivador de Criatividade:</strong>
+                        <ul>
+                          <li>O design estimula o usuário a ser criativo.</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ol>
+            <h4>A Filosofia "Não Me Faça Pensar"</h4>
+            <p>
+              O princípio{" "}
+              <strong>"Não Me Faça Pensar" é um conceito central de UX</strong>,
+              popularizado por Steve Krug. A ideia é que a interface de um site
+              ou aplicativo deve ser tão intuitiva e óbvia que o usuário não
+              precise se esforçar para entender como ela funciona.
+            </p>
+            <h4>Pontos-chave</h4>
+            <ul>
+              <li>
+                <strong>Conteúdo em Primeiro Plano:</strong>
+                <ul>
+                  <li>
+                    O usuário quer o conteúdo, não quer aprender a usar a
+                    interface. A interface deve ser "invisível", permitindo que
+                    ele se concentre no que interessa.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Intuição e Simplicidade:</strong>
+                <ul>
+                  <li>
+                    A navegação e as ações (como clicar em botões) devem ser
+                    evidentes e diretas. Qualquer dúvida ou esforço extra
+                    aumenta a carga mental do usuário.
+                    <ul>
+                      <li>
+                        <strong>Consequências de uma Interface Confusa:</strong>
+                        <ul>
+                          <li>
+                            <strong>Abandono:</strong>
+                            <ul>
+                              <li>
+                                Usuários se frustram e desistem de usar o site
+                                ou aplicativo.
+                              </li>
+                            </ul>
+                          </li>
+                          <li>
+                            <strong>Prejuízo Comercial:</strong>
+                            <ul>
+                              <li>
+                                Em sites de e-commerce, uma interface complicada
+                                pode afastar clientes e diminuir as vendas.
+                              </li>
+                            </ul>
+                          </li>
+                          <li>
+                            <strong>Perda de Confiança:</strong>
+                            <ul>
+                              <li>
+                                O usuário pode interpretar a complexidade como
+                                falta de cuidado ou desleixo por parte do
+                                desenvolvedor.
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>O Objetivo do Designer:</strong>
+                <ul>
+                  <li>
+                    Criar uma interface autoexplicativa e clara, onde o usuário
+                    não precise parar para pensar em "o que fazer agora?". A
+                    meta é deixar o produto tão simples que até mesmo pessoas
+                    com pouca habilidade tecnológica consigam usá-lo sem
+                    dificuldades.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>O Grande Dilema:</strong>
+                <ul>
+                  <li>
+                    O usuário está focado em seu objetivo principal (comprar,
+                    jogar, se informar) e qualquer distração, por menor que
+                    seja, o desvia desse objetivo, podendo levar ao abandono do
+                    site ou app.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>O Conceito de “Satisfazimento”</h4>
+            <p>
+              O termo <strong>"satisfazimento"</strong> (do inglês satisficing)
+              foi adaptado para a área de UX por Steve Krug, a partir de ideias
+              do economista Herbert Simon e do psicólogo Gary Klein.
+            </p>
+            <h4>O que significa?</h4>
+            <p>
+              O "satisfazimento" é a tendência do usuário de não buscar a melhor
+              ou mais perfeita opção, mas sim de escolher a{" "}
+              <strong>primeira opção que parece razoável</strong>.
+            </p>
+            <h4>Por que as pessoas agem assim?</h4>
+            <ol>
+              <li>
+                <strong>Pressa:</strong>
+                <ul>
+                  <li>
+                    Os usuários estão sempre com pressa e querem concluir suas
+                    tarefas rapidamente.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Baixo Custo do Erro</strong>
+                <ul>
+                  <li>
+                    {" "}
+                    Na maioria dos casos, clicar no botão ou link errado não
+                    causa grandes problemas. É fácil voltar e tentar novamente,
+                    sem grandes perdas de tempo.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Ineficácia da Análise:</strong>
+                <ul>
+                  <li>
+                    Avaliar todas as opções em uma interface mal projetada não
+                    garante uma escolha melhor. O esforço não compensa.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Adivinhar é Mais Fácil:</strong>
+                <ul>
+                  <li>
+                    É mais simples e rápido adivinhar a opção correta e "ver no
+                    que dá" do que gastar tempo analisando.
+                  </li>
+                </ul>
+              </li>
+            </ol>
+            <h4>Jornada de Aprendizado</h4>
+            <ul>
+              <li>
+                <strong>História da UX: </strong>
+                <ul>
+                  <li>
+                    Evolução da interação humano-computador, desde os primeiros
+                    computadores até o termo atual{" "}
+                    <strong>User eXperience</strong>.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Design Centrado no Usuário (DCU):</strong>
+                <ul>
+                  <li>
+                    Foco em criar produtos que sejam fáceis de usar e
+                    intuitivos, seguindo os princípios de Donald Norman.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Metas de UX:</strong>
+                <ul>
+                  <li>
+                    Equilíbrio entre a <strong>usabilidade</strong> (utilidade,
+                    eficiência, facilidade) e a{" "}
+                    <strong>experiência emocional</strong> (satisfação,
+                    diversão, motivação).
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Não Me Faça Pensar:</strong>
+                <ul>
+                  <li>
+                    Princípio fundamental de que a interface deve ser tão clara
+                    que o usuário não precise se esforçar mentalmente para
+                    usá-la.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Satisfazimento:</strong>
+                <ul>
+                  <li>
+                    O reconhecimento de que os usuários não buscam a perfeição,
+                    mas sim a primeira solução aceitável para suas tarefas,
+                    devido à pressa e à facilidade de corrigir erros.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </>
       )}
     </section>
