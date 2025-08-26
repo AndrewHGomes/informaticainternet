@@ -8,9 +8,9 @@ body {
 
 header {
   color: #fff;
-  padding: 0.5em;
+  padding: 0.2em;
   text-align: center;
-  box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.8);
 }
 
 #div-titulo {
@@ -48,7 +48,7 @@ section {
   margin: 1em 0.5em;
   padding: 0.5em;
   border: 1px solid #000;
-  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.8);
   line-height: 1.5em;
 }
 
