@@ -2286,6 +2286,571 @@ const InterfaceWeb = () => {
               </li>
             </ul>
           </div>
+          <div>
+            <h3>Público-Alvo</h3>
+            <h4>O Usuário</h4>
+            <ul>
+              <li>
+                <strong>O que é o usuário?</strong>
+                <ul>
+                  <li>
+                    O usuário é a pessoa para quem as interfaces web e apps são
+                    criados.
+                  </li>
+                  <li>
+                    A popularidade de uma aplicação é medida pela quantidade de
+                    usuários.
+                  </li>
+                  <li>
+                    É impossível definir "o usuário" perfeitamente, pois cada
+                    pessoa é única.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Definição de Usabilidade (Steve Krug):</strong>
+                <ul>
+                  <li>
+                    Um sistema é usável se uma pessoa mediana (ou abaixo da
+                    média) consegue usá-lo facilmente, com mais benefícios do
+                    que dificuldades.
+                  </li>
+                  <li>
+                    O projeto deve ser pensado para o usuário mediano, não para
+                    o mais inteligente ou experiente em tecnologia.
+                  </li>
+                  <li>
+                    O usuário precisa sentir que o tempo gasto usando a
+                    tecnologia é útil, mesmo que seja apenas para diversão.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Tipos de Usuários e Situações de Uso:</strong>
+                <ul>
+                  <li>
+                    <strong>Uso Compulsório:</strong>
+                    <ul>
+                      <li>
+                        O usuário é obrigado a usar o sistema (ex: app de
+                        imposto de renda, sistema de ponto em empresas). Nesses
+                        casos, a concorrência é menor.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Uso Voluntário:</strong>
+                    <ul>
+                      <li>
+                        O usuário pode escolher entre seu aplicativo e o do
+                        concorrente. É a situação mais comum e exige maior
+                        atenção à experiência do usuário.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Hierarquia de Usuários (Ken Eason):</strong>
+                <ul>
+                  <li>
+                    <strong>Primários:</strong>
+                    <ul>
+                      <li>Usam o sistema com frequência.</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Secundários:</strong>
+                    <ul>
+                      <li>
+                        Usam o sistema ocasionalmente ou por meio de outra
+                        pessoa.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Terciários:</strong>
+                    <ul>
+                      <li>
+                        São afetados pelo sistema, mas não o usam diretamente.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Usuários Adicionais:</strong>
+                <ul>
+                  <li>
+                    <strong>Gerentes:</strong>
+                    <ul>
+                      <li>
+                        supervisionam os usuários diretos e pedem
+                        funcionalidades.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Receptores de produtos:</strong>
+                    <ul>
+                      <li>
+                        recebem algo do sistema, mesmo sem interagir com ele
+                        (ex: estoquista).
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Testadores (QA Testers):</strong>
+                    <ul>
+                      <li>são contratados para testar.</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Compradores:</strong>
+                    <ul>
+                      <li>
+                        decidem se o sistema será adquirido (muitas vezes não
+                        são os usuários finais, mas são cruciais).
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>O Desafio do Desenvolvedor:</strong>
+                <ul>
+                  <li>
+                    É preciso agradar o comprador (que decide a aquisição) sem
+                    desagradar o usuário final, que garantirá o sucesso da
+                    implantação.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Público-Alvo e Persona</h4>
+            <ul>
+              <li>
+                <strong>Público-Alvo</strong>
+                <ul>
+                  <li>
+                    <strong>O que é:</strong>
+                    <ul>
+                      <li>
+                        um grupo genérico de pessoas com características em
+                        comum (idade, renda, localização, interesses).
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Como definir:</strong>
+                    <ul>
+                      <li>
+                        Começa com a identificação de uma necessidade para o
+                        projeto.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Briefing:</strong>
+                    <ul>
+                      <li>
+                        um documento crucial que descreve o que o sistema deve e
+                        não deve fazer. Deve incluir a descrição detalhada do
+                        usuário-ideal. Um briefing malfeito pode causar
+                        retrabalho.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Exemplo:</strong>
+                    <ul>
+                      <li>
+                        Mulheres, entre 35 e 55 anos, em Curitiba, com renda até
+                        R$ 12.000, que buscam capacitação profissional em
+                        educação.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Persona</strong>
+                <ul>
+                  <li>
+                    <strong>O que é:</strong>
+                    <ul>
+                      <li>
+                        um personagem fictício, mais específico e detalhado que
+                        o público-alvo, criado para representar um segmento de
+                        usuários. Ajuda a entender os comportamentos do
+                        público-alvo de forma mais concreta.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Como criar:</strong>
+                    <ol>
+                      <li>
+                        <strong>Coletar dados:</strong>
+                        <ul>
+                          <li>
+                            Pesquisar sobre possíveis usuários (idade, poder
+                            aquisitivo, predisposição de uso).
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <strong>Entrevistar:</strong>
+                        <ul>
+                          <li>
+                            Fazer perguntas (formais ou informais) a possíveis
+                            usuários.
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <strong>Analisar:</strong>
+                        <ul>
+                          <li>Usar os dados para criar o personagem.</li>
+                        </ul>
+                      </li>
+                    </ol>
+                  </li>
+                  <li>
+                    <strong>Exemplo:</strong>
+                    <ul>
+                      <li>
+                        Marcos, 35 anos, engenheiro, casado, dois filhos, mora
+                        em São Bernardo do Campo. Gosta de futebol e Instagram,
+                        joga games de super-heróis e futebol, mas gasta pouco
+                        com isso, pois já tem gastos altos com streaming.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Diferença:</strong>
+                <ul>
+                  <li>
+                    <strong>Público-Alvo:</strong>
+                    <ul>
+                      <li>Mais amplo e genérico</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Persona:</strong>
+                    <ul>
+                      <li>
+                        Mais restrita, detalhada e contundente. É importante
+                        criar várias personas para um projeto.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Mapas e Breadcrumbs</h4>
+            <ul>
+              <li>
+                <strong>O problema da navegação</strong>
+                <ul>
+                  <li>
+                    O pior cenário para um usuário é sentir-se perdido em um
+                    site ou app.
+                  </li>
+                  <li>
+                    O objetivo é evitar a frustração e guiar o usuário de forma
+                    clara e segura.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Onde estou? - Breadcrumbs</strong>
+                <ul>
+                  <li>
+                    <strong>O que são:</strong>
+                    <ul>
+                      <li>
+                        "migalhas de pão" que mostram o caminho percorrido pelo
+                        usuário, como um rastro.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Função:</strong>
+                    <ol>
+                      <li>
+                        <strong>Localização:</strong>
+                        <ul>
+                          <li>Indicam a posição atual do usuário.</li>
+                        </ul>
+                      </li>
+                      <li>
+                        <strong>Hierarquia:</strong>
+                        <ul>
+                          <li>
+                            Mostram a estrutura do site (ex: "Home &gt; Blog
+                            &gt; Post").
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <strong>Navegação:</strong>
+                        <ul>
+                          <li>
+                            Permitem voltar a páginas anteriores facilmente.
+                          </li>
+                        </ul>
+                      </li>
+                    </ol>
+                  </li>
+                  <li>
+                    <strong>Ajuda a responder:</strong>
+                    <ul>
+                      <li>"Onde estou? Onde estive? Aonde posso ir?".</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Ajunto:</strong>
+                    <ul>
+                      <li>
+                        o usuário não tem noção da dimensão do site, por isso os
+                        breadcrumbs são essenciais.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Onde posso ir? - Mapas do Site e Homepage</strong>
+                <ul>
+                  <li>
+                    <strong>Mapa do site (Rodapé):</strong>
+                    <ul>
+                      <li>Um "mapa" completo do site, geralmente no rodapé.</li>
+                      <li>
+                        Ajuda o usuário a se orientar e encontrar rapidamente as
+                        principais áreas.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Homepage:</strong>
+                    <ul>
+                      <li>
+                        A página inicial, o ponto de partida e "o porto seguro"
+                        do usuário.
+                      </li>
+                      <li>
+                        Se o usuário se perder, ele sabe que pode voltar para a
+                        <strong>home</strong> e recomeçar a navegação.
+                      </li>
+                      <li>
+                        É a "fachada" do site/app; uma boa estrutura é crucial
+                        para convidar o usuário a continuar.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Buscas e Usabilidade</strong>
+                <ul>
+                  <li>
+                    <strong>Campo de busca:</strong>
+                    <ul>
+                      <li>
+                        Em sites e apps grandes, o usuário quer a informação
+                        rapidamente.
+                      </li>
+                      <li>
+                        A busca deve estar sempre visível para que o usuário
+                        encontre o que precisa a qualquer momento.
+                      </li>
+                      <li>
+                        Essencial para economizar tempo e evitar que o usuário
+                        "vagueie" sem propósito.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Quais palavras usar na web</h4>
+            <ul>
+              <li>
+                <strong>Menos é mais:</strong>
+                <ul>
+                  <li>
+                    Na internet, a comunicação deve ser direta e concisa. Os
+                    usuários querem informações rapidamente, sem ter que ler
+                    textos longos.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>O que fazer:</strong>
+                <ul>
+                  <li>
+                    <strong>Omitir palavras desnecessárias:</strong>
+                    <ul>
+                      <li>
+                        Remova tudo que não contribui para a informação
+                        principal. Isso diminui o "ruído" e torna o conteúdo
+                        mais fácil de escanear.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Focar no essencial:</strong>
+                    <ul>
+                      <li>Destaque o que realmente interessa ao usuário.</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Reduzir o tamanho da página:</strong>
+                    <ul>
+                      <li>
+                        Textos curtos evitam que o usuário precise rolar a
+                        página excessivamente, o que é chato, especialmente em
+                        dispositivos móveis.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Usar linguagem acessível:</strong>
+                    <ul>
+                      <li>
+                        Escreva para o usuário, não para quem trabalha na
+                        empresa. Evite jargões, siglas e termos técnicos que
+                        apenas o público interno entende.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Exemplo:</strong>
+                <ul>
+                  <li>
+                    Em vez de uma descrição longa sobre um jogo de futebol, o
+                    usuário quer apenas saber "em qual canal ou streaming o jogo
+                    passará?". A resposta deve ser simples e direta.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Conclusão:</strong>
+                <ul>
+                  <li>
+                    O conteúdo deve ser otimizado para a experiência do usuário,
+                    priorizando a clareza e a rapidez na entrega da informação.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Testes de Usabilidade</h4>
+            <ul>
+              <li>
+                <strong>Por que testar?</strong>
+                <ul>
+                  <li>
+                    É essencial testar um projeto para garantir que ele funciona
+                    para os usuários reais.
+                  </li>
+                  <li>
+                    A equipe de desenvolvimento não consegue testar de forma
+                    imparcial, pois já conhece o projeto "por dentro".
+                  </li>
+                  <li>
+                    O usuário, ao contrário da equipe, não tem compromisso e
+                    pode abandonar o site/app se tiver uma experiência ruim.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>O que é o teste de usabilidade?</strong>
+                <ul>
+                  <li>
+                    É o processo onde um profissional observa usuários reais
+                    interagindo com um produto.
+                  </li>
+                  <li>
+                    O objetivo é identificar as frustrações dos usuários e
+                    entender onde eles falham, clicam em lugares errados ou não
+                    entendem a interface.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Como fazer testes com poucos recursos?</strong>
+                <ul>
+                  <li>
+                    <strong>Periodicidade:</strong>
+                    <ul>
+                      <li>
+                        Realize testes regularmente, como uma vez por mês.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Participantes:</strong>
+                    <ul>
+                      <li>
+                        3 a 5 pessoas são suficientes para projetos pequenos.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Ambiente:</strong>
+                    <ul>
+                      <li>Escolha um local calmo e sem interrupções.</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Processo:</strong>
+                    <ol>
+                      <li>Sente-se ao lado do participante.</li>
+                      <li>
+                        Dê uma tarefa específica (ex: "Acesse a tabela de
+                        preços").
+                      </li>
+                      <li>
+                        <strong>Apenas observe e anote:</strong> não ajude, não
+                        corrija.
+                      </li>
+                      <li>
+                        Depois, pergunte por que o usuário fez certas escolhas
+                        ou clicou em determinados lugares.
+                      </li>
+                    </ol>
+                  </li>
+                  <li>
+                    <strong>Ferramentas:</strong>
+                    <ul>
+                      <li>
+                        Se possível, use um software de gravação de tela para
+                        registrar os movimentos do mouse, cliques e o áudio da
+                        sessão. Isso permite revisar o teste mais tarde com a
+                        equipe.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Conclusão:</strong>
+                    <ul>
+                      <li>
+                        A partir dos resultados dos testes (tempo gasto, erros
+                        cometidos, etc.), você pode propor novas soluções para
+                        melhorar o site ou app.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </>
       )}
     </section>
