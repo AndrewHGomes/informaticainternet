@@ -20,346 +20,370 @@ const CriacaoWebSite = () => {
       {abrir && (
         <>
           <div>
-            <h3>Conceitos Essenciais para Criação de Projetos Web</h3>
-            <p>
-              A{" "}
-              <strong>
-                função primordial de um site é informar e ser útil
-              </strong>
-              , priorizando a <strong>experiência do usuário</strong> (UX) sobre
-              a estética. Um bom projeto começa com o usuário em mente.
-            </p>
-            <p>
-              Para garantir isso, o primeiro passo é a elaboração de um briefing
-              detalhado. Este documento deve definir claramente:
-            </p>
-            <ul>
-              <li>O que o sistema DEVE fazer.</li>
-              <li>O que o sistema NÃO PODE fazer.</li>
-            </ul>
-            <h4>Foco do Projeto x Finalidade</h4>
-            <p>
-              A finalidade do projeto determina quais elementos devem ser
-              priorizados.
-            </p>
+            <h3>Introdução à Criação de Projetos Web</h3>
             <ul>
               <li>
-                <strong>Intranet:</strong>
+                <strong>Objetivo:</strong>
                 <ul>
                   <li>
-                    O mais importante é que as informações internas e mais
-                    acessadas estejam facilmente acessíveis. O layout é menos
-                    crucial.
+                    O estudo da criação de projetos web, focando em teoria e
+                    prática, incluindo o uso de softwares e manipulação de
+                    imagens, áudio e vídeo.
                   </li>
                 </ul>
               </li>
               <li>
-                <strong>Website Institucional:</strong>
+                <strong>Função Primordial de um Site:</strong>
                 <ul>
                   <li>
-                    A prioridade é a beleza e o layout, que devem passar uma
-                    imagem profissional e atrativa da empresa, além de fornecer
-                    todas as informações necessárias.
+                    <strong>Informar:</strong>
+                    <ul>
+                      <li>Mais importante que a estética.</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Usabilidade: </strong>
+                    <ul>
+                      <li>
+                        Deve ser fácil de usar, oferecendo uma boa experiência
+                        para o usuário.
+                      </li>
+                    </ul>
                   </li>
                 </ul>
               </li>
               <li>
-                <strong>Site de Vendas (E-commerce):</strong>
+                <strong>Importância do Briefing:</strong>
                 <ul>
                   <li>
-                    O foco principal é o produto e seu preço. A ordem de
-                    importância para o usuário é:
-                    <ol>
-                      <li>Preço do produto.</li>
-                      <li>Informações detalhadas sobre o produto.</li>
-                      <li>Confiabilidade da loja.</li>
-                    </ol>
+                    <strong>O que é:</strong>
+                    <ul>
+                      <li>
+                        Documento que define o que o sistema deve e não deve
+                        fazer.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Para que serve:</strong>
+                    <ul>
+                      <li>
+                        Garante que o projeto atenda às necessidades do usuário,
+                        pensando na sua experiência.
+                      </li>
+                    </ul>
                   </li>
                 </ul>
               </li>
               <li>
-                <strong>Site de Notícias:</strong>
+                <strong>Tipos de Websites e suas Prioridades:</strong>
                 <ul>
                   <li>
-                    A prioridade é a <strong>data das reportagens</strong>, com
-                    as mais recentes aparecendo primeiro. É essencial a inclusão
-                    de <strong>links</strong> que permitam ao usuário
-                    aprofundar-se no tema.
+                    <strong>Intranet:</strong>
+                    <ul>
+                      <li>
+                        Foco na acessibilidade das informações internas mais
+                        usadas. O layout é secundário.
+                      </li>
+                    </ul>
                   </li>
-                </ul>
-              </li>
-            </ul>
-            <h4>Mapa Mental: Por que usar?</h4>
-            <p>
-              O <strong>mapa mental</strong> é o esqueleto de um projeto web,
-              uma representação visual da sua{" "}
-              <strong>estrutura e hierarquia</strong>. Ele serve como uma
-              fundação sólida para o site.
-            </p>
-            <ul>
-              <li>
-                <strong>Objetivo Principal:</strong>
-                <ul>
                   <li>
-                    Explicar o que estará em cada parte do site, definindo o que
-                    é mais e menos importante (hierarquia).
+                    <strong>Website Institucional:</strong>
+                    <ul>
+                      <li>
+                        Foco na beleza e na quantidade de informações para
+                        cativar o visitante e transmitir credibilidade.
+                      </li>
+                    </ul>
                   </li>
-                </ul>
-              </li>
-              <li>
-                <strong>Vantagem:</strong>
-                <ul>
                   <li>
-                    Evita retrabalho e frustração. Passar tempo no planejamento
-                    inicial (10, 20, 30 horas) é crucial para evitar grandes
-                    refações no futuro.
+                    <strong>Site de Vendas:</strong>
+                    <ul>
+                      <li>
+                        Foco em produto e preço. A prioridade é mostrar
+                        informações detalhadas do produto, preço e passar
+                        confiabilidade da loja.
+                      </li>
+                    </ul>
                   </li>
-                </ul>
-              </li>
-            </ul>
-            <h4>Como Fazer um Mapa Mental</h4>
-            <p>
-              A regra principal é pensar do mais geral para o mais específico.
-            </p>
-            <ol>
-              <li>
-                <strong>Geral:</strong> Comece com o que “todo mundo precisa
-                ver” no site.
-              </li>
-              <li>
-                <strong>Específico:</strong> Prossiga para o que apenas poucas
-                pessoas precisariam ver.
-              </li>
-            </ol>
-            <p>
-              Essa hierarquia bem definida garante um projeto sem grandes dores
-              de cabeça.
-            </p>
-            <h4>Ferramentas: Papel vs. Digital</h4>
-            <p>
-              É possível fazer um mapa mental em papel ou em um software. Ambas
-              as abordagens têm seus pontos fortes.
-            </p>
-            <ul>
-              <li>
-                <strong>Papel:</strong>
-                <ul>
-                  <li>Simples, requer apenas caneta e papel.</li>
-                </ul>
-              </li>
-              <li>
-                <strong>Digital:</strong>
-                <ul>
                   <li>
-                    Mais eficiente para revisões. Permite adicionar, remover e
-                    realocar páginas facilmente. Além disso, softwares como{" "}
-                    <strong>
-                      Mind Manager, Mind Meister, Xmind, Free Mind, Free Plane
-                      ou Coggle
-                    </strong>{" "}
-                    oferecem uma visualização clara para a equipe, clientes e
-                    patrocinadores, facilitando a colaboração e o alinhamento.
+                    <strong>Site de Notícias:</strong>
+                    <ul>
+                      <li>
+                        Foco na atualização. O mais novo deve aparecer primeiro.
+                        Deve permitir o aprofundamento das notícias por meio de
+                        links.
+                      </li>
+                    </ul>
                   </li>
                 </ul>
               </li>
             </ul>
-            <h4>A Importância da Definição e Acordo</h4>
-            <p>
-              Um mapa mental bem elaborado deve mapear toda a hierarquia,
-              incluindo os caminhos que o usuário pode percorrer.
-            </p>
+            <h4>Mapa Mental</h4>
             <ul>
               <li>
-                <strong>Garantia:</strong>
+                <strong>O que é:</strong>
                 <ul>
                   <li>
-                    Com o mapa em mãos, todos os envolvidos (equipe, cliente,
-                    chefes) podem opinar e concordar com a estrutura antes de
-                    qualquer desenvolvimento.
+                    Um <strong>esqueleto</strong> ou estrutura hierárquica do
+                    site. Ele define as principais partes, a relação entre elas
+                    e o que estará em cada lugar.
                   </li>
                 </ul>
               </li>
               <li>
-                <strong>Dica Profissional:</strong>
+                <strong>Quando fazer:</strong>
                 <ul>
                   <li>
-                    Guarde os mapas e, se possível, peça para as pessoas{" "}
-                    <strong>assinarem sua ciência</strong>. Isso protege você
-                    contra mudanças de última hora sem compensação, caso o
-                    cliente decida alterar a estrutura após o trabalho já ter
-                    sido iniciado.
+                    Depois de ter um <strong>briefing</strong> completo e
+                    entender as necessidades do usuário e do projeto.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Como fazer:</strong>
+                <ul>
+                  <li>Pode ser feito em papel ou software.</li>
+                  <li>
+                    Gaste o tempo necessário para fazê-lo bem, pois ele é a{" "}
+                    <strong>fundação do projeto</strong>.
+                  </li>
+                  <li>
+                    Um mapa mental mal feito leva a retrabalho e frustração.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Princípio de construção:</strong>
+                <ul>
+                  <li>
+                    <strong>Pense do mais geral para o mais específico</strong>.
+                  </li>
+                  <li>
+                    Comece com o que é mais importante e visível ("o que todo
+                    mundo precisa ver").
+                  </li>
+                  <li>
+                    Vá detalhando para o que é menos importante ou específico
+                    ("o que só pouquíssimas pessoas precisam ver").
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Objetivo:</strong>
+                <ul>
+                  <li>
+                    Ter uma hierarquia bem definida desde o início para evitar
+                    problemas no desenvolvimento.
                   </li>
                 </ul>
               </li>
             </ul>
-            <h4>O que é e Por que a Responsividade é Essencial?</h4>
-            <p>
-              A <strong>responsividade</strong> é a capacidade de um site ser
-              visualizado de forma interessante e funcional em dispositivos de
-              tamanhos variados, especialmente em celulares. É um conceito
-              fundamental porque a maioria dos acessos à internet hoje em dia
-              acontece por meio de smartphones. No Brasil, cerca de 82,5% da
-              população acessam sites via celular, tornando a responsividade
-              obrigatória para alcançar o público.
-            </p>
-            <h4>Princípios de Design para Dispositivos Móveis</h4>
-            <p>
-              Devido ao espaço limitado das telas de smartphones, o design para
-              responsividade deve focar no essencial:
-            </p>
+            <h4>Mapa Mental Digital</h4>
             <ul>
               <li>
-                <strong>Foco no Conteúdo:</strong>
+                <strong>Vantagem sobre o papel:</strong>
                 <ul>
                   <li>
-                    Priorize o conteúdo sobre a interface. Interfaces limpas e
-                    minimalistas são mais eficazes em telas pequenas.
+                    Permite <strong>editar, rearranjar e realocar</strong> as
+                    partes do mapa sem bagunçar o projeto.
                   </li>
                 </ul>
               </li>
               <li>
-                <strong>Informação Crucial Primeiro:</strong>
+                <strong>Ferramentas:</strong>
                 <ul>
                   <li>
-                    Utilize o conceito de pirâmide invertida do jornalismo.
-                    Posicione as informações mais importantes e um resumo
-                    conciso no topo da página. Os usuários podem rolar para
-                    baixo se quiserem mais detalhes.
+                    Existem softwares pagos (Mind Manager, Mind Meister, Xmind)
+                    e gratuitos (Free Mind, Free Plane, Coggle). O importante é
+                    saber utilizá-los.
                   </li>
                 </ul>
               </li>
               <li>
-                <strong>Layout Limpo e Simples: </strong>
+                <strong>Benefícios:</strong>
                 <ul>
-                  <li>Use fundos neutros, como branco ou preto.</li>
-                  <li>Evite designs complexos e cores em excesso.</li>
                   <li>
-                    Garanta que os botões (clicáveis) sejam grandes o suficiente
-                    para os dedos.
+                    <strong>Visualização:</strong>
+                    <ul>
+                      <li>
+                        A equipe de desenvolvimento e stakeholders (clientes,
+                        chefes) podem visualizar a estrutura do site antes de
+                        começar a codificar.
+                      </li>
+                    </ul>
                   </li>
                   <li>
-                    Prefira botões a links sublinhados para facilitar a
-                    interação.
+                    <strong>Hierarquia e Caminhos do Usuário:</strong>
+                    <ul>
+                      <li>
+                        Define de forma clara a hierarquia do site, a ligação
+                        entre as páginas e os possíveis caminhos que o usuário
+                        pode seguir.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Evita Retrabalho:</strong>
+                    <ul>
+                      <li>
+                        Permite que os interessados discutam e concordem com a
+                        estrutura antes do desenvolvimento, evitando grandes
+                        mudanças após o trabalho estar pronto.
+                      </li>
+                    </ul>
                   </li>
                 </ul>
               </li>
               <li>
-                <strong>Layout Verticalizado:</strong>
+                <strong>Dica Importante:</strong>
                 <ul>
                   <li>
-                    Crie um design otimizado para a visualização vertical. Não
-                    espere que o usuário vire o celular, a menos que o conteúdo
-                    principal seja vídeo.
+                    <strong>Documentação:</strong>
+                    <ul>
+                      <li>Mantenha os mapas mentais guardados.</li>
+                    </ul>
                   </li>
-                </ul>
-              </li>
-              <li>
-                <strong>Chamadas para Ação (CTAs):</strong>
-                <ul>
                   <li>
-                    Use CTAs ("Call-to-Action") como atalhos para que o usuário
-                    realize rapidamente uma ação desejada (por exemplo: "Saiba
-                    mais", "Ligue agora", "Comprar"). O CTA funciona como uma
-                    ferramenta para guiar o usuário e alcançar os objetivos do
-                    site.
+                    <strong>Assinatura:</strong>
+                    <ul>
+                      <li>
+                        Peça para os clientes ou chefes assinarem o documento
+                        para atestar que eles concordam com a estrutura. Isso
+                        protege o desenvolvedor, garantindo que qualquer mudança
+                        futura no escopo exija mais tempo ou pagamento
+                        adicional.
+                      </li>
+                    </ul>
                   </li>
                 </ul>
               </li>
             </ul>
-            <h4>Domínio: O Nome e Endereço do Site</h4>
+            <h4>Responsividade</h4>
             <p>
-              O domínio é o nome do seu site (ex: exemplo.com.br) e é a primeira
-              coisa a ser registrada antes de hospedar o conteúdo.
+              A maior parte do acesso à internet hoje é feita por meio de
+              <strong>smartphones</strong>. No Brasil, há mais de 210 milhões de
+              conexões via celular. Por isso, a <strong>responsividade</strong>{" "}
+              (a capacidade de um site se adaptar a diferentes telas) é crucial.
             </p>
-            <h4>Dicas para Escolher um Bom Domínio:</h4>
+            <h4>Pontos-chave para um design responsivo:</h4>
             <ul>
               <li>
-                <strong>Seja curto e direto:</strong>
+                <strong>Espaço é limitado:</strong>
                 <ul>
                   <li>
-                    Nomes com muitas letras são difíceis de lembrar e digitar.
+                    A tela do celular é pequena. Botões devem ser grandes o
+                    suficiente para os dedos, mas o design deve ser eficiente.
                   </li>
                 </ul>
               </li>
               <li>
-                <strong>Evite complicações: </strong>
+                <strong>Foco no conteúdo:</strong>
                 <ul>
                   <li>
-                    Não use letras duplas, hífens, ou palavras que podem gerar
-                    confusão ortográfica.
+                    Priorize o conteúdo sobre a interface. Aplicativos populares
+                    como Instagram e WhatsApp são exemplos disso.
                   </li>
                 </ul>
               </li>
               <li>
-                <strong>Considere a legalidade:</strong>
+                <strong>Pirâmide invertida:</strong>
                 <ul>
                   <li>
-                    Verifique se o nome não é uma marca registrada ou nome
-                    famoso, para evitar problemas jurídicos.
+                    Apresente as informações mais importantes primeiro (resumo
+                    no topo), seguindo a lógica jornalística.
                   </li>
                 </ul>
               </li>
               <li>
-                <strong>Pense no Mobile:</strong>
+                <strong>Layout limpo:</strong>
                 <ul>
                   <li>
-                    A maioria dos acessos vem de celulares, então escolha um
-                    nome <strong>fácil de digitar</strong> em um teclado de
-                    smartphone.
+                    Use fundos simples (branco ou preto) e mantenha os botões
+                    clicáveis e visíveis, evitando links sublinhados que são
+                    menos intuitivos.
                   </li>
                 </ul>
               </li>
               <li>
-                <strong>Seja coerente com o público:</strong>
+                <strong>Layout vertical:</strong>
                 <ul>
                   <li>
-                    Use extensões (.br, .com) que reflitam a área de atuação da
-                    sua empresa. Um domínio .com.br indica foco no Brasil,
-                    enquanto apenas .com sugere um alcance global.
+                    Desenvolva o site para ser visualizado na vertical, a menos
+                    que o conteúdo principal seja vídeo.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Call-to-Action (CTA):</strong>
+                <ul>
+                  <li>
+                    Utilize "chamadas para ação" claras (ex: "Clique aqui",
+                    "Saiba mais") para guiar o usuário de forma rápida e direta.
                   </li>
                 </ul>
               </li>
             </ul>
-            <h4>Como Registrar um Domínio:</h4>
-            <ul>
-              <li>
-                No Brasil, o registro de domínios com a terminação .br é feito
-                pelo registro.br, que é gerenciado pelo NIC.br.
-              </li>
-              <li>
-                É necessário verificar a disponibilidade do nome e, se estiver
-                livre, seguir os passos para registrá-lo em seu nome, informando
-                seu CPF e outros dados. O registro é renovado anualmente.
-              </li>
-            </ul>
-            <h4>Hospedagem: O Local Físico do Site</h4>
+            <h4>Domínio e Hospedagem</h4>
             <p>
-              A <strong>hospedagem</strong> é o serviço que armazena os arquivos
-              do seu site (textos, imagens, vídeos) em um servidor, tornando-o
-              acessível na internet.
+              Antes de colocar um site no ar, você precisa de um{" "}
+              <strong>domínio</strong> (o nome do site) e{" "}
+              <strong>hospedagem</strong> (o serviço que o mantém online).
             </p>
+            <h4>Domínio:</h4>
             <ul>
               <li>
-                <strong>Domínio vs. Hospedagem:</strong>
+                <strong>Escolha do nome:</strong>
+                <ul>
+                  <li>Curto e fácil de lembrar.</li>
+                  <li>Evite letras duplas, hífens e caracteres incomuns.</li>
+                  <li>
+                    Deve ser <strong>mobile-friendly</strong>, ou seja, fácil de
+                    digitar em celulares.
+                  </li>
+                  <li>Não use nomes protegidos por direitos autorais.</li>
+                </ul>
+              </li>
+              <li>
+                <strong>Registro:</strong>
                 <ul>
                   <li>
-                    São duas coisas diferentes, embora muitas empresas ofereçam
-                    ambos os serviços em um único pacote. O{" "}
-                    <strong>domínio é o nome</strong>, e a{" "}
-                    <strong>hospedagem é o "terreno"</strong> onde o site é
-                    construído.
+                    No Brasil, o registro de domínios com final .br é feito pelo
+                    site <strong>registro.br</strong>.
+                  </li>
+                  <li>
+                    Você verifica a disponibilidade do nome e, se estiver livre,
+                    pode registrá-lo por um valor anual.
+                  </li>
+                  <li>
+                    O registro.br é um órgão governamental, diferente da
+                    hospedagem.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Hospedagem:</h4>
+            <ul>
+              <li>
+                <strong>O que é:</strong>
+                <ul>
+                  <li>
+                    É o serviço que armazena os arquivos do seu site para que
+                    ele possa ser acessado na internet.
                   </li>
                 </ul>
               </li>
               <li>
-                <strong>Contratando o Serviço:</strong>
+                <strong>Contratação:</strong>
                 <ul>
+                  <li>Existem inúmeros serviços de hospedagem.</li>
                   <li>
-                    Existem milhares de provedores de hospedagem. A escolha
-                    depende das necessidades do seu projeto. É aconselhável
-                    pesquisar e comparar preços, espaço de armazenamento,
-                    funcionalidades e suporte oferecido por cada serviço antes
-                    de tomar uma decisão.
+                    Pesquise preços, espaço de armazenamento, funcionalidades e
+                    suporte técnico.
+                  </li>
+                  <li>
+                    Algumas empresas oferecem domínio e hospedagem em um pacote,
+                    mas são serviços distintos.
                   </li>
                 </ul>
               </li>
@@ -367,237 +391,576 @@ const CriacaoWebSite = () => {
           </div>
           <div>
             <h3>Interface</h3>
-            <h4>Como Instalar o GIMP</h4>
+            <h4>Introdução ao GIMP</h4>
+            <p>
+              O GIMP (Gnu Image Manipulation) é um software de edição de imagens
+              <strong>gratuito e de código aberto</strong>. É uma ótima
+              ferramenta para quem quer começar a editar fotos sem ter que pagar
+              por licenças.
+            </p>
+            <h4>Como instalar e abrir:</h4>
             <ol>
               <li>
-                <strong>Download:</strong>
+                Acesse o link <strong>gimp.org/downloads/</strong>.
+              </li>
+              <li>
+                Clique em <strong>Microsoft Store</strong> para baixar e
+                instalar.
+              </li>
+              <li>O processo de download e instalação pode levar um tempo.</li>
+              <li>
+                Após a instalação, abra o programa. Ele inicia sem nenhuma
+                imagem aberta.
+              </li>
+              <li>
+                Para abrir uma imagem, vá em Arquivo &gt; Abrir. Se quiser ver a
+                pré-visualização, clique em "clique para criar
+                pré-visualização".
+              </li>
+            </ol>
+            <h4>A interface do GIMP:</h4>
+            <ul>
+              <li>
+                O GIMP possui uma <strong>janela de ferramentas</strong> no lado
+                esquerdo.
+              </li>
+              <li>
+                No lado direito, há <strong>janelas de encaixe</strong> com
+                outras funcionalidades.
+              </li>
+              <li>
+                Ao selecionar uma ferramenta, suas opções aparecem logo abaixo
+                da caixa de ferramentas.
+              </li>
+              <li>
+                Após abrir uma imagem, todos os menus são ativados. Cada menu
+                tem funções específicas:
                 <ul>
                   <li>
-                    O GIMP pode ser baixado pelo site oficial em{" "}
-                    <strong>gimp.org/downloads</strong>. A forma mais simples é
-                    pela Microsoft Store, o que pode levar um tempo
-                    considerável.
+                    <strong>Arquivo:</strong>
+                    <ul>
+                      <li>Salvar, exportar, imprimir.</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Editar:</strong>
+                    <ul>
+                      <li>Funções como copiar, colar e preferências.</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Selecionar:</strong>
+                    <ul>
+                      <li>Ferramentas de seleção.</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Visualizar:</strong>
+                    <ul>
+                      <li>Opções de visualização da imagem.</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Imagem:</strong>
+                    <ul>
+                      <li>
+                        Propriedades gerais da imagem (tamanho, tipo de cor).
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Camada:</strong>
+                    <ul>
+                      <li>
+                        Gerencia as camadas da imagem, essencial para
+                        composições complexas.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Cores:</strong>
+                    <ul>
+                      <li>
+                        Ajustes de cores para a imagem inteira ou partes dela.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Ferramentas:</strong>
+                    <ul>
+                      <li>
+                        Outra forma de acessar as ferramentas do lado esquerdo.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Filtros:</strong>
+                    <ul>
+                      <li>Diversos filtros para aplicar na imagem.</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Janelas:</strong>
+                    <ul>
+                      <li>Gerencia as janelas do programa.</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Ajuda:</strong>
+                    <ul>
+                      <li>Suporte e tutoriais.</li>
+                    </ul>
                   </li>
                 </ul>
               </li>
-              <li>
-                <strong>Interface Inicial: </strong>
-                <ul>
-                  <li>Ao abrir, o GIMP exibe três janelas principais:</li>
-                  <ul>
-                    <li>
-                      <strong>Caixa de Ferramentas:</strong>
-                      <ul>
-                        <li>Fica no lado esquerdo.</li>
-                      </ul>
-                    </li>
-                    <li>
-                      <strong>Janela Principal:</strong>
-                      <ul>
-                        <li>Onde as imagens são abertas.</li>
-                      </ul>
-                    </li>
-                    <li>
-                      <strong>Janelas de Encaixe:</strong>
-                      <ul>
-                        <li>Ficam no lado direito.</li>
-                      </ul>
-                    </li>
-                  </ul>
-                </ul>
-              </li>
-            </ol>
-            <h4>Edição de Imagem: Ferramentas de seleção</h4>
+            </ul>
+            <h4>Ferramentas de Seleção no GIMP</h4>
             <p>
-              A seleção é a base da edição, permitindo isolar partes específicas
-              da imagem para modificação sem alterar o restante. As principais
-              ferramentas de seleção são:
+              A <strong>seleção</strong> é uma das tarefas mais comuns na edição
+              de imagens, permitindo isolar partes de uma foto para que você
+              possa alterá-las sem modificar o restante.
             </p>
+            <h4>Principais ferramentas de seleção:</h4>
             <ul>
               <li>
-                <strong>Seleção Retangular/Elíptica:</strong>
+                <strong>Seleção Retangular ou Elíptica:</strong>
                 <ul>
-                  <li>Para áreas com formas geométricas.</li>
+                  <li>
+                    Seleciona áreas em formas geométricas. Para acessar a
+                    ferramenta elíptica, clique e segure no ícone da ferramenta
+                    retangular.
+                  </li>
                 </ul>
               </li>
               <li>
                 <strong>Seleção Livre (Laço):</strong>
                 <ul>
                   <li>
-                    Ideal para traçar contornos de formas irregulares com
-                    precisão.
+                    Permite desenhar o contorno de uma área manualmente. É ideal
+                    para objetos com formas irregulares, como a flor do exemplo.
                   </li>
                 </ul>
               </li>
               <li>
-                <strong>Seleção por Cor:</strong>
+                <strong>Seleção Contígua ou por Cor (Varinha Mágica):</strong>
                 <ul>
-                  <li>Seleciona todos os pixels da mesma cor na imagem.</li>
+                  <li>
+                    Seleciona áreas de cor similar. Basta clicar na cor que
+                    deseja isolar.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Dicas importantes:</h4>
+            <ul>
+              <li>
+                <strong>Paciência:</strong>
+                <ul>
+                  <li>
+                    Usar a ferramenta de seleção livre (laço) exige atenção para
+                    contornar o objeto com precisão.
+                  </li>
                 </ul>
               </li>
               <li>
-                <strong>Seleção Contígua (Varinha Mágica):</strong>
+                <strong>Inverter seleção:</strong>
                 <ul>
                   <li>
-                    Seleciona pixels com a mesma cor que estão próximos uns dos
-                    outros.
+                    Depois de selecionar uma área, você pode inverter a seleção
+                    para trabalhar no fundo ou no restante da imagem. Basta ir
+                    em Selecionar &gt; Inverter.
                   </li>
                 </ul>
               </li>
             </ul>
             <p>
-              <strong>Dica Essencial:</strong> A{" "}
-              <strong>inversão de seleção</strong> é uma técnica poderosa. Após
-              selecionar uma área (por exemplo, uma flor), você pode inverter a
-              seleção para aplicar alterações em todo o <strong>fundo</strong>,
-              exceto na área selecionada.
+              Com a área selecionada, você pode aplicar diversas modificações,
+              como ajustar a cor ou temperatura, sem afetar o resto da imagem.
             </p>
-            <h4>Manipulação de Imagem e Cores</h4>
+            <h4>Imagem e Cores no GIMP</h4>
             <p>
-              O menu <strong>Imagem</strong> afeta a foto como um todo e
-              permite:
+              O GIMP oferece menus específicos para manipular a imagem como um
+              todo e para ajustar suas cores.
             </p>
             <ul>
               <li>
-                <strong>Cortar</strong> para remover partes indesejadas.
-              </li>
-              <li>
-                <strong>Inverter</strong> para espelhar a imagem.
-              </li>
-              <li>
-                <strong>Girar</strong>
-              </li>
-            </ul>
-            <p>
-              O menu <strong>Cores</strong> é fundamental para ajustes tonais e
-              de luz:
-            </p>
-            <ul>
-              <li>
-                <strong>Temperatura:</strong>
+                <strong>Menu Imagem:</strong>
                 <ul>
+                  <li>Permite transformações na foto inteira.</li>
                   <li>
-                    Deixa a imagem mais <strong>quente</strong> (amarelada) ou
-                    mais <strong>fria</strong> (azulada).
+                    Funções principais:
+                    <ul>
+                      <li>Cortar</li>
+                      <li>Girar</li>
+                      <li>Inverter (horizontal ou vertical)</li>
+                    </ul>
                   </li>
                 </ul>
               </li>
               <li>
-                <strong>Matiz-Croma:</strong>
-                <ul>
-                  <li>Permite mudar as cores radicalmente.</li>
-                </ul>
-              </li>
-              <li>
-                <strong>Níveis:</strong>
+                <strong>Menu Cores:</strong>
                 <ul>
                   <li>
-                    Uma ferramenta crucial para calibrar a imagem. Use o
-                    conta-gotas para áreas mais escuras e mais claras para
-                    equilibrar o contraste e o brilho.
+                    Permite ajustes mais detalhados sobre a cor da imagem.
                   </li>
-                </ul>
-              </li>
-            </ul>
-            <h4>Camadas</h4>
-            <p>
-              As camadas são a chave para a criação de{" "}
-              <strong>montagens</strong> e para trabalhar com múltiplos
-              elementos em uma única imagem.
-            </p>
-            <ul>
-              <li>
-                Cada elemento (uma foto, um texto, um objeto) pode estar em sua
-                própria camada, permitindo que seja{" "}
-                <strong>movido, redimensionado e transformado</strong>{" "}
-                independentemente dos outros.
-              </li>
-              <li>
-                Para criar uma montagem, basta{" "}
-                <strong>selecionar e copiar</strong> um elemento de uma imagem e{" "}
-                <strong>colar</strong> na outra. Uma nova camada será criada
-                automaticamente.
-              </li>
-              <li>
-                A janela de <strong>Camadas</strong> (geralmente no lado direito
-                da tela) permite organizar, visualizar e manipular todas as
-                camadas da sua composição.
-              </li>
-            </ul>
-            <h4>Filtros</h4>
-            <p>
-              Os filtros são uma ferramenta poderosa para modificar
-              drasticamente a aparência de uma imagem. Ao contrário da crença
-              popular, eles existem há décadas, muito antes do Instagram.
-            </p>
-            <ul>
-              <li>
-                <strong>Acesso:</strong>
-                <ul>
                   <li>
-                    Encontrados no <strong>menu Filtros</strong>.
+                    Alguns ajustes importantes:
+                    <ul>
+                      <li>
+                        <strong>Temperatura:</strong>
+                        <ul>
+                          <li>
+                            Deixa a imagem com tons mais "quentes" (amarelos) ou
+                            "frios" (azuis).
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <strong>Matiz-Croma:</strong>
+                        <ul>
+                          <li>
+                            Permite mudar radicalmente a paleta de cores da
+                            foto.
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <strong>
+                          Saturação, Exposição, Brilho e Contraste:
+                        </strong>
+                        <ul>
+                          <li>Ajustes clássicos para aprimorar a foto.</li>
+                        </ul>
+                      </li>
+                    </ul>
                   </li>
-                </ul>
-              </li>
-              <li>
-                <strong>Variedade:</strong>
-                <ul>
                   <li>
-                    Os filtros estão agrupados em estilos (por exemplo,
-                    "Artísticos," "Distorções," etc.), oferecendo uma ampla gama
-                    de efeitos.
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <strong>Aplicação:</strong>
-                <ul>
-                  <li>
-                    Um filtro pode ser aplicado a toda a imagem ou apenas a uma
-                    <strong>área selecionada</strong>, permitindo um controle
-                    criativo preciso.
+                    <strong>Calibrar a imagem (Níveis):</strong>
+                    <ul>
+                      <li>Uma forma de balancear as cores.</li>
+                      <li>Acesse por Cores &gt; Níveis.</li>
+                      <li>
+                        Selecione o conta-gotas de sombra e clique na área mais
+                        escura da foto.
+                      </li>
+                      <li>
+                        Selecione o conta-gotas de realce e clique na área mais
+                        clara da foto.
+                      </li>
+                      <li>
+                        Isso equilibra os níveis de cor da imagem, tornando-a
+                        mais impactante.
+                      </li>
+                    </ul>
                   </li>
                 </ul>
               </li>
             </ul>
+            <h4>Camadas no GIMP</h4>
             <p>
-              <strong>Dica de Essencial:</strong> A melhor maneira de aprender
-              sobre filtros é a <strong>experimentação</strong>. Use uma imagem
-              de teste e aplique diferentes filtros para entender o que cada um
-              faz, como os de "Aquarela" ou "Gravura".
-            </p>
-            <h4>Processo de Aprendizagem e Maestria</h4>
-            <p>
-              A melhor forma de dominar o GIMP ou qualquer outra ferramenta de
-              edição é através da <strong>prática contínua</strong>.
+              As <strong>camadas</strong> são o recurso que permite{" "}
+              <strong>montagens e composições</strong> de mais de uma imagem em
+              um único projeto. Com elas, é possível manipular elementos de
+              fotos diferentes como se fossem imagens separadas.
             </p>
             <ul>
               <li>
-                <strong>Exploração:</strong>
+                <strong>Como usar as camadas:</strong>
+                <ol>
+                  <li>
+                    <strong>Copiar e Colar:</strong>
+                    <ul>
+                      <li>
+                        Selecione uma área de uma foto, copie (Ctrl+C) e cole
+                        (Ctrl+V) em outra imagem. O GIMP criará automaticamente
+                        uma nova camada para o elemento colado.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Manipular as camadas:</strong>
+                    <ul>
+                      <li>
+                        Para alterar o tamanho de um elemento na camada, use
+                        Camada &gt; Transformação.
+                      </li>
+                      <li>
+                        Para mover o elemento, use a ferramenta de movimento.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Gerenciamento:</strong>
+                    <ul>
+                      <li>
+                        A janela de Camadas, localizada no lado direito da
+                        interface do GIMP, permite visualizar e gerenciar cada
+                        camada individualmente, como a imagem do leão na praia.
+                      </li>
+                    </ul>
+                  </li>
+                </ol>
+              </li>
+            </ul>
+            <h4>Filtros no GIMP</h4>
+            <p>
+              Os <strong>filtros</strong> são efeitos pré-definidos que podem
+              ser aplicados a uma imagem inteira ou a uma parte dela.
+            </p>
+            <ul>
+              <li>
+                <strong>Como usar:</strong>
                 <ul>
                   <li>
-                    Não tenha medo de <strong>testar, brincar e fuçar</strong>{" "}
-                    nos menus e nas ferramentas.
+                    Vá até o menu Filtros para ver a lista de opções, que são
+                    agrupadas por estilo (por exemplo, "Artísticos",
+                    "Distorções").
+                  </li>
+                  <li>
+                    Para aplicar um filtro, basta selecioná-lo e o efeito será
+                    aplicado à imagem.
+                  </li>
+                  <li>
+                    Você pode aplicar filtros em apenas uma parte da imagem,
+                    desde que ela esteja <strong>selecionada</strong>.
                   </li>
                 </ul>
               </li>
               <li>
-                <strong>Benefício:</strong>
+                <strong>Dica:</strong>
                 <ul>
                   <li>
-                    O GIMP é uma ferramenta gratuita, o que significa que você
-                    pode usá-la livremente em qualquer contexto profissional ou
-                    pessoal.
+                    A melhor maneira de entender o que cada filtro faz é{" "}
+                    <strong>testando</strong>. Brinque com os diferentes filtros
+                    para ver os efeitos que eles criam. Por exemplo, o filtro de
+                    "Aquarela" (em "Artísticos") pode transformar uma foto em
+                    uma pintura, enquanto o "Gravura" (em "Distorções") pode dar
+                    um efeito de desenho em relevo.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <p>
+              O GIMP é uma ferramenta gratuita, então explore todos os seus
+              recursos sem medo para desenvolver sua habilidade.
+            </p>
+          </div>
+          <div>
+            <h3>Roteiro</h3>
+            <h4>Criação de Vídeos (Roteiro)</h4>
+            <p>
+              A base de qualquer vídeo é o <strong>roteiro</strong>, que é a
+              história a ser contada. Um roteiro é uma estrutura que utiliza{" "}
+              <strong>imagens, diálogos e descrições</strong> para guiar a
+              narrativa.
+            </p>
+            <h4>A Estrutura da História:</h4>
+            <ul>
+              <li>
+                Toda história tem <strong>começo, meio e fim</strong>, mesmo que
+                não apresentados nessa ordem.
+              </li>
+              <li>
+                Você, como roteirista, deve saber a história completa antes de
+                começar a escrevê-la.
+              </li>
+              <li>
+                Uma boa ideia de roteiro pode ser explicada em uma ou duas
+                frases.
+              </li>
+            </ul>
+            <h4>Personagem e Ação:</h4>
+            <ul>
+              <li>
+                A <strong>ação</strong> é o que acontece na história, e o{" "}
+                <strong>personagem</strong> é com quem acontece.
+              </li>
+              <li>
+                Existem dois tipos de ação:
+                <ul>
+                  <li>
+                    <strong>Ação física:</strong>
+                    <ul>
+                      <li>o que o personagem faz (ex: assaltar um banco).</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Ação emocional:</strong>
+                    <ul>
+                      <li>
+                        o que o personagem sente ou as decisões que toma (ex: se
+                        apaixonar).
+                      </li>
+                    </ul>
                   </li>
                 </ul>
               </li>
               <li>
-                <strong>Desenvolvimento:</strong>
+                As ações do personagem devem mostrar suas motivações, em vez de
+                serem explicadas por falas.{" "}
+                <q>
+                  Se uma ação precisa ser explicada verbalmente... ela está
+                  errada.
+                </q>{" "}
+                <cite>(Alfred Hitchcock)</cite>
+              </li>
+            </ul>
+            <h4>Conflito e Biografia do Personagem:</h4>
+            <ul>
+              <li>
+                Toda história é movida por <strong>conflitos</strong>. Sem
+                conflito, não há drama.
+              </li>
+              <li>
+                <strong>Defina a necessidade do seu personagem:</strong> O que
+                ele quer? O que o motiva?
+              </li>
+              <li>
+                Crie uma <strong>biografia detalhada</strong> para seu
+                personagem, mesmo que não seja mostrada na tela. Entender seus
+                pontos de vista, gostos e peculiaridades ajuda a criar
+                obstáculos e a definir suas ações.
+              </li>
+              <li>
+                O <strong>personagem também pode ser uma entidade</strong>, como
+                uma empresa, que tem uma história e pode ser o protagonista de
+                um vídeo institucional.
+              </li>
+            </ul>
+            <h4>Cenário</h4>
+            <p>
+              O <strong>cenário</strong> (ou locação) é o espaço físico onde a
+              história de um vídeo se desenrola. Ele é crucial para ajudar a
+              contar a história e contextualizar a ação e os personagens.
+            </p>
+            <h4>Tipos de Cenários:</h4>
+            <ul>
+              <li>
+                <strong>Locais existentes:</strong>
                 <ul>
                   <li>
-                    Quanto mais tempo você dedica à ferramenta, mais intuitivo e
-                    rápido se torna o seu processo de edição, levando à
-                    <strong>maestria</strong>.
+                    Gravar em um local real, ajustando-o para que se adapte à
+                    narrativa. É a opção mais comum e acessível.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Cenários construídos:</strong>
+                <ul>
+                  <li>
+                    Criar um ambiente do zero, como montar um escritório ou uma
+                    fábrica dentro de um galpão.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Gravação ao ar livre:</strong>
+                <ul>
+                  <li>
+                    Filmar em locações externas como ruas, praças ou praias.
+                    Apresenta desafios como o controle do clima, de pessoas e,
+                    principalmente, do som. Por isso, grandes cineastas como
+                    Alfred Hitchcock preferiam estúdios.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>A Importância do Cenário:</h4>
+            <ul>
+              <li>
+                O cenário deve reforçar a narrativa. Ele molda a forma como o
+                espectador entende a história. Um filme sério de super-herói não
+                funcionaria com um cenário ensolarado e alegre.
+              </li>
+              <li>
+                Em vídeos institucionais, o cenário precisa ser{" "}
+                <strong>coerente com a empresa</strong>. Uma fábrica de carros
+                deve ser mostrada em sua linha de produção ou em uma pista de
+                corrida, não em um escritório genérico. O ambiente deve ajudar a
+                contar a história da marca.
+              </li>
+            </ul>
+            <h4>Classificação de Cenários:</h4>
+            <p>Segundo Stadler (2019), os cenários podem ser:</p>
+            <ul>
+              <li>
+                <strong>Espaços Naturais:</strong>
+                <ul>
+                  <li>
+                    Locações reais, sejam externas (ruas, praias) ou internas
+                    (casas, teatros).
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Espaços Naturais Representados:</strong>
+                <ul>
+                  <li>
+                    Ambientes que parecem reais, mas são construídos em estúdio
+                    ou recriados digitalmente.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Espaços Imaginários:</strong>
+                <ul>
+                  <li>
+                    Locais que não existem na realidade, como planetas de ficção
+                    ou ambientes criados por computador.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <p>
+              Em todos os casos, o cenário deve sempre se{" "}
+              <strong>encaixar na ideia principal da história</strong>.
+            </p>
+            <h4>Enquadramento e Estabilização</h4>
+            <p>
+              O <strong>enquadramento</strong> em vídeo segue os mesmos
+              princípios da fotografia, como a <strong>regra dos terços</strong>
+              . Para um enquadramento mais dinâmico, posicione o objeto de
+              destaque em uma das interseções da grade de nove quadros.
+            </p>
+            <h4>Estabilização</h4>
+            <ul>
+              <li>
+                <strong>Vídeos tremidos</strong> são desconfortáveis de
+                assistir. Por isso, a estabilidade é fundamental.
+              </li>
+              <li>
+                <strong>Tripé:</strong>
+                <ul>
+                  <li>
+                    É o equipamento mais comum para manter a câmera parada e
+                    estável.
+                    <ul>
+                      <li>São relativamente baratos e essenciais.</li>
+                      <li>
+                        Permitem controlar a altura, a inclinação (para tomadas
+                        na vertical) e o ângulo (para tomadas de cima para baixo
+                        – plongée – ou de baixo para cima – contra-plongée).
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Gimbal:</strong>
+                <ul>
+                  <li>
+                    Um estabilizador com giroscópio e motores.
+                    <ul>
+                      <li>
+                        Corrige os movimentos da câmera, mantendo-a estável
+                        enquanto você se move.
+                      </li>
+                      <li>Permite filmagens em movimento sem trepidações.</li>
+                      <li>
+                        Existem modelos portáteis de um, dois ou três eixos,
+                        ideais para smartphones e câmeras.
+                      </li>
+                    </ul>
                   </li>
                 </ul>
               </li>
