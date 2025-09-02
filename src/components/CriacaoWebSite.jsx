@@ -965,6 +965,515 @@ const CriacaoWebSite = () => {
                 </ul>
               </li>
             </ul>
+            <h4>Iluminação</h4>
+            <p>
+              A iluminação é fundamental para o impacto visual de um filme. Ela
+              não serve apenas para que a audiência veja a cena, mas também para
+              <strong>direcionar o olhar do espectador</strong> e criar a
+              composição da imagem.
+            </p>
+            <ul>
+              <li>
+                <strong>Iluminação Concentrada:</strong>
+                <ul>
+                  <li>Cria sombras nítidas e texturas bem definidas.</li>
+                </ul>
+              </li>
+              <li>
+                <strong>Iluminação Difusa:</strong>
+                <ul>
+                  <li>É mais suave e natural, como em um dia nublado.</li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Direção da Iluminação</h4>
+            <p>A direção da luz em relação ao objeto também é crucial.</p>
+            <ul>
+              <li>
+                <strong>Frontal:</strong>
+                <ul>
+                  <li>
+                    Elimina quase todas as sombras, jogando a luz na frente do
+                    objeto.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Lateral:</strong>
+                <ul>
+                  <li>
+                    Cria sombras no lado oposto, destacando as características
+                    do objeto.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Contraluz:</strong>
+                <ul>
+                  <li>
+                    A luz vem por trás do objeto, criando uma{" "}
+                    <strong>silhueta</strong>.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>De Baixo:</strong>
+                <ul>
+                  <li>Efeito dramático (comum em filmes de terror).</li>
+                </ul>
+              </li>
+              <li>
+                <strong>De Cima:</strong>
+                <ul>
+                  <li>Efeito mais natural.</li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Tipos de Luz</h4>
+            <ul>
+              <li>
+                <strong>Luz Principal (ou Luz-chave):</strong>
+                <ul>
+                  <li>Fonte dominante de iluminação na cena.</li>
+                </ul>
+              </li>
+              <li>
+                <strong>Luz de Preenchimento:</strong>
+                <ul>
+                  <li>
+                    Fonte mais fraca que serve para suavizar ou eliminar sombras
+                    indesejadas.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Som</h4>
+            <p>
+              O áudio é um dos aspectos mais importantes do audiovisual e pode
+              ser dividido em quatro tipos:
+            </p>
+            <ul>
+              <li>
+                <strong>Música:</strong>
+                <ul>
+                  <li>Canções criadas ou usadas no filme.</li>
+                </ul>
+              </li>
+              <li>
+                <strong>Diálogos: </strong>
+                <ul>
+                  <li>
+                    Falas dos personagens. A qualidade da captação é crucial.
+                    Microfones de lapela são comuns em produções menores para
+                    garantir clareza.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Narração:</strong>
+                <ul>
+                  <li>
+                    Voz "em off", gravada em estúdio, geralmente para
+                    documentários ou para explicar o que está acontecendo na
+                    tela.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Efeitos Sonoros:</strong>
+                <ul>
+                  <li>
+                    Barulhos e sons que o espectador ouve. Podem ser:
+                    <ul>
+                      <li>
+                        <strong>Diegéticos:</strong>
+                        <ul>
+                          <li>
+                            Fazem parte da história e são ouvidos tanto pelos
+                            personagens quanto pelo público (ex: o som de um
+                            carro).
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <strong>Não Diegéticos:</strong>
+                        <ul>
+                          <li>
+                            Sons que apenas o público ouve (ex: uma trilha
+                            sonora que cria suspense).
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <strong>Metadiegéticos:</strong>
+                        <ul>
+                          <li>
+                            Sons que se passam "na cabeça" do protagonista e são
+                            ouvidos por ele e pelo público, mas não pelos outros
+                            personagens (ex: uma voz que sussurra).
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <p>
+              <strong>Ponto-chave:</strong> Iluminação, som, enquadramentos,
+              locação e roteiro são todos elementos essenciais para a produção
+              de conteúdo audiovisual de qualidade.
+            </p>
+          </div>
+          <div>
+            <h3>O que é Som?</h3>
+            <p>
+              O som é uma <strong>onda mecânica e longitudinal</strong>, ou
+              seja, uma <strong>vibração</strong>
+              que se propaga através de um meio físico, como o ar, a água ou um
+              sólido. Ele não se propaga no vácuo por não haver moléculas para
+              conduzi-lo.
+            </p>
+            <h4>Propriedades do Som</h4>
+            <p>O som possui três propriedades principais:</p>
+            <ol>
+              <li>
+                <strong>Velocidade:</strong>
+                <ul>
+                  <li>Depende do meio de propagação.</li>
+                  <li>
+                    Meios mais densos e elásticos propagam o som mais
+                    rapidamente.
+                  </li>
+                  <li>
+                    Exemplos de velocidade: no ar (340 m/s), na água (1500 m/s),
+                    no concreto (3400 m/s).
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Frequência:</strong>
+                <ul>
+                  <li>Determina se o som é agudo ou grave.</li>
+                  <li>Medida em hertz (Hz).</li>
+                  <li>
+                    <strong>Graves:</strong> Menor frequência (menos Hz).
+                  </li>
+                  <li>
+                    <strong>Agudos:</strong> Maior frequência (mais Hz).
+                  </li>
+                  <li>O ouvido humano ouve entre 20 Hz e 20.000 Hz.</li>
+                </ul>
+              </li>
+              <li>
+                <strong>Amplitude:</strong>
+                <ul>
+                  <li>
+                    É a <strong>intensidade</strong> ou o{" "}
+                    <strong>volume</strong> do som.
+                  </li>
+                  <li>Representa a quantidade de energia da onda.</li>
+                  <li>Quanto maior a amplitude, mais alto o som.</li>
+                </ul>
+              </li>
+            </ol>
+            <h4>Áudio: Mono x Estéreo</h4>
+            <p>
+              A forma como percebemos o som na natureza é{" "}
+              <strong>estéreo</strong>, pois temos dois ouvidos que captam sons
+              de diferentes direções. Essa diferença nos ajuda a localizar a
+              fonte do som.
+            </p>
+            <h4>Som Monofônico (Mono)</h4>
+            <ul>
+              <li>
+                O som é emitido por uma <strong>única fonte</strong>.
+              </li>
+              <li>
+                Todos os sons vêm de um mesmo ponto, sem distinção de direção.
+              </li>
+              <li>Exemplos: primeiros fonógrafos e discos de goma laca.</li>
+            </ul>
+            <h4></h4>
+            <ul>
+              <li>
+                O som é emitido por <strong>duas ou mais fontes</strong>,
+                permitindo a distribuição dos sons entre elas.
+              </li>
+              <li>
+                Isso cria uma experiência mais próxima da realidade, onde se
+                pode perceber a localização de diferentes instrumentos ou
+                elementos sonoros (por exemplo, a guitarra na caixa de som
+                direita e a bateria na esquerda).
+              </li>
+              <li>
+                Esse formato se popularizou com os discos de vinil na década de
+                1960.
+              </li>
+            </ul>
+            <h4>Sistemas de Som</h4>
+            <ul>
+              <li>
+                Atualmente, sistemas mais complexos simulam a experiência
+                estéreo com mais detalhes.
+              </li>
+              <li>
+                O sistema <strong>5.1</strong>, por exemplo, tem 5 caixas de som
+                para os canais de áudio e 1 subwoofer (para sons graves).
+              </li>
+              <li>
+                O sistema <strong>7.2</strong> tem 7 caixas e 2 subwoofers.
+              </li>
+              <li>
+                Esses sistemas espalham o som pelo ambiente, fazendo com que o
+                ouvinte se sinta "envolvido".
+              </li>
+              <li>
+                Tecnologias avançadas como o Dolby Atmos permitem distribuir o
+                som em 360°, inclusive com caixas no teto.
+              </li>
+            </ul>
+            <h4>Captação de Áudio</h4>
+            <p>
+              Todo processo de captação de áudio necessita de um{" "}
+              <strong>microfone</strong>. A função do microfone é{" "}
+              <strong>converter a energia sonora em energia</strong>
+              elétrica através de indução eletromagnética. Ele transforma as
+              ondas sonoras em sinais elétricos que podem ser gravados,
+              amplificados ou reproduzidos.
+            </p>
+            <h4>Tipos de Microfones</h4>
+            <p>
+              Existem diversos tipos de microfones, cada um com uma finalidade
+              específica:
+            </p>
+            <ul>
+              <li>
+                <strong>Omnidirecionais:</strong>
+                <ul>
+                  <li>
+                    Captam sons de <strong>todas as direções</strong>{" "}
+                    igualmente. São ideais para gravar sons ambientes (natureza,
+                    carros) ou conversas entre várias pessoas. Não são indicados
+                    para isolar sons específicos.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Condensadores: </strong>
+                <ul>
+                  <li>
+                    Usados principalmente em{" "}
+                    <strong>ambientes controlados</strong>, como estúdios. Eles
+                    capturam fielmente os sons, sendo ótimos para vozes humanas
+                    e instrumentos com notas delicadas. São comuns em podcasts e
+                    gravações de música.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>De Lapela:</strong>
+                <ul>
+                  <li>
+                    Pequenos e discretos, são presos à roupa. São excelentes
+                    para <strong>isolar a voz humana</strong>, minimizando os
+                    sons do ambiente, o que garante um áudio nítido para o
+                    ouvinte.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Audacity: Software para Edição de Áudio</h4>
+            <p>
+              O <strong>Audacity</strong> é um software de edição de áudio{" "}
+              <strong>gratuito e fácil de usar</strong>, com uma grande
+              variedade de recursos. É uma excelente opção para quem está
+              começando a editar áudio.
+            </p>
+            <h4>Funções Básicas</h4>
+            <ul>
+              <li>
+                <strong>Abrir arquivo:</strong>
+                <ul>
+                  <li>
+                    Vá em Arquivo &gt; Abrir para carregar sua gravação. Se for
+                    um arquivo estéreo, ele aparecerá em duas ondas sonoras.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Seleção:</strong>
+                <ul>
+                  <li>
+                    É a ferramenta mais importante. Use-a para{" "}
+                    <strong>selecionar um trecho específico</strong> que você
+                    deseja editar, isolando-o do resto do áudio.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Zoom:</strong>
+                <ul>
+                  <li>
+                    Use o ícone da lupa para dar zoom e trabalhar com mais
+                    precisão em trechos curtos.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Recortar, Copiar e Colar:</strong>
+                <ul>
+                  <li>
+                    Permitem mover ou duplicar partes do áudio. Primeiro,
+                    selecione o trecho e depois use a função desejada.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Ajustes na Trilha de Áudio</h4>
+            <p>
+              Esses ajustes são feitos na trilha completa, sem a necessidade de
+              seleção:
+            </p>
+            <ul>
+              <li>
+                <strong>Volume:</strong>
+                <ul>
+                  <li>Ajuste o volume geral da faixa de áudio.</li>
+                </ul>
+              </li>
+              <li>
+                <strong>Balanço Esquerda/Direita:</strong>
+                <ul>
+                  <li>
+                    Altera a distribuição do som entre os canais estéreo (ouvido
+                    esquerdo e direito).
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Silenciar:</strong>
+                <ul>
+                  <li>
+                    Desabilita uma faixa de áudio inteira. Útil se você tiver
+                    mais de uma gravação para o mesmo som (por exemplo, de
+                    microfones diferentes).
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Solo:</strong>
+                <ul>
+                  <li>
+                    Permite que você escute apenas uma faixa de áudio,
+                    silenciando todas as outras.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Equalização no Audacity</h4>
+            <p>
+              A <strong>equalização</strong> é a alteração de frequências de uma
+              faixa sonora para melhorar sua qualidade (melhorar graves e
+              agudos). No Audacity, você pode equalizar a faixa inteira ou
+              apenas um trecho selecionado.
+            </p>
+            <ul>
+              <li>
+                <strong>Acesso:</strong>
+                <ul>
+                  <li>Vá em Efeitos &gt; Equalizador Gráfico.</li>
+                </ul>
+              </li>
+              <li>
+                <strong>Ajuste:</strong>
+                <ul>
+                  <li>
+                    Use as alavancas virtuais para aumentar (para cima) ou
+                    diminuir (para baixo) a amplitude de cada frequência.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Frequências:</strong>
+                <ul>
+                  <li>
+                    Lembre-se que <strong>frequências mais baixas</strong> são{" "}
+                    <strong>graves</strong>, e{" "}
+                    <strong>frequências mais altas</strong> são{" "}
+                    <strong>agudas</strong>.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Outras Ferramentas de Áudio</h4>
+            <ul>
+              <li>
+                <strong>Amplificar:</strong>
+                <ul>
+                  <li>
+                    Aumenta ou diminui o volume de um trecho selecionado. Use
+                    Efeitos &gt; Amplificar e defina um valor. Um valor menor do
+                    que o atual diminui o volume; um valor maior aumenta.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Graves e Agudos:</strong>
+                <ul>
+                  <li>
+                    Uma opção mais simples para ajustar o áudio, sem a precisão
+                    do equalizador. Ideal para fazer ajustes leves na voz,
+                    deixando-a mais grave ou mais aguda.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Salvar e Exportar</h4>
+            <ul>
+              <li>
+                <strong>Salvar Projeto:</strong>
+                <ul>
+                  <li>
+                    A função Salvar serve para guardar o projeto no formato do
+                    Audacity (.aup3). Isso permite que você continue editando o
+                    arquivo depois, com todas as trilhas e configurações.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Exportar:</strong>
+                <ul>
+                  <li>
+                    Use a função Exportar para converter o áudio em um formato
+                    final, como MP3 ou WAV. O arquivo exportado pode ser
+                    reproduzido em qualquer computador.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Opções de Exportação (MP3):</strong>
+                <ul>
+                  <li>
+                    A <strong>taxa de bits (Kbps)</strong> define a qualidade e
+                    o tamanho do arquivo.
+                  </li>
+                  <li>
+                    <strong>Menor valor (145-185 Kbps):</strong> Áudio mais
+                    leve, ideal para compartilhamento online (ex: WhatsApp).
+                  </li>
+                  <li>
+                    <strong>Maior valor (220-260 Kbps):</strong> Qualidade
+                    superior, adequada para rádio ou vídeo.
+                  </li>
+                  <li>
+                    <strong>Insano (320 Kbps):</strong> Qualidade máxima,
+                    semelhante a um CD, ideal para gravações de música. Escolha
+                    o valor que melhor se adequa ao seu meio de distribuição.
+                  </li>
+                </ul>
+              </li>
+            </ul>
           </div>
         </>
       )}
