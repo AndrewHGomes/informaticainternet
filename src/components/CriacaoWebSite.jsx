@@ -1475,6 +1475,78 @@ const CriacaoWebSite = () => {
               </li>
             </ul>
           </div>
+          <div>
+            <h3>O Essencial sobre Edição de Vídeo</h3>
+            <p>
+              A edição de vídeo é fundamental na comunicação audiovisual, que
+              domina o consumo de conteúdo online (ex: YouTube, TikTok).
+            </p>
+            <h4>Por que editar?</h4>
+            <p>
+              A edição transforma a filmagem bruta em conteúdo final. Cerca de
+              10 minutos de filmagem podem render apenas 1 minuto útil. A edição
+              remove o que não serve e organiza o material.
+            </p>
+            <ul>
+              <li>
+                <strong>Softwares de Edição:</strong>
+                <ul>
+                  <li>Existem opções para todos os níveis e orçamentos:</li>
+                  <ul>
+                    <li>
+                      <strong>Profissionais e Caros:</strong> Premiere Pro
+                      (Adobe), Final Cut Pro (só para Mac). Usados em Hollywood
+                      e por grandes agências.
+                    </li>
+                    <li>
+                      <strong>Intermediários:</strong> Vegas Pro e DaVinci
+                      Resolve. Poderosos, mas ainda caros.
+                    </li>
+                    <li>
+                      <strong>Acessível:</strong> Filmora. Custa cerca de $100 e
+                      atende a maioria das necessidades.
+                    </li>
+                    <li>
+                      <strong>Gratuitos:</strong> VSDC é uma ótima opção,
+                      gratuita e compatível com Windows e Linux.
+                    </li>
+                  </ul>
+                </ul>
+              </li>
+              <li>
+                <strong>Começando no VSDC:</strong>
+                <ul>
+                  <li>Baixe e instale o software no site oficial.</li>
+                  <li>
+                    Na tela inicial, você terá opções para iniciar um novo
+                    projeto, abrir um existente ou usar modelos.
+                  </li>
+                  <li>
+                    O botão "Novo Projeto" é o ponto de partida para criar um
+                    vídeo do zero.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Configurando e Iniciando um Projeto de Vídeo</h4>
+            <p>
+              Após escolher "Novo Projeto", siga os passos para configurar as
+              definições ideais:
+            </p>
+            <ul>
+              <li>
+                <strong>Configurações do Projeto:</strong>
+                <ul>
+                  <li>
+                    Defina o nome e autor do projeto. Escolha o dispositivo de
+                    destino (YouTube, TV, etc.). A resolução deve ser adequada
+                    ao público (maior resolução exige internet mais rápida). A
+                    taxa de quadros ideal é de 30 quadros por segundo.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </>
       )}
     </section>
