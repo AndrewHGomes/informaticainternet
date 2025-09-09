@@ -1529,19 +1529,405 @@ const CriacaoWebSite = () => {
               </li>
             </ul>
             <h4>Configurando e Iniciando um Projeto de Vídeo</h4>
-            <p>
-              Após escolher "Novo Projeto", siga os passos para configurar as
-              definições ideais:
-            </p>
             <ul>
               <li>
-                <strong>Configurações do Projeto:</strong>
+                <strong>Configurações do Iniciais:</strong>
                 <ul>
                   <li>
-                    Defina o nome e autor do projeto. Escolha o dispositivo de
-                    destino (YouTube, TV, etc.). A resolução deve ser adequada
-                    ao público (maior resolução exige internet mais rápida). A
-                    taxa de quadros ideal é de 30 quadros por segundo.
+                    Ao iniciar um novo projeto, defina o nome, autor, descrição,
+                    tipo de dispositivo (TV, YouTube, etc.), resolução e a taxa
+                    de quadros (frames por segundo). A taxa de quadros ideal é{" "}
+                    <strong>30 fps</strong>.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Interface:</strong>
+                <ul>
+                  <li>
+                    A interface do editor é complexa, por isso muitos
+                    profissionais usam mais de um monitor. Para começar, foque
+                    em três áreas: a <strong>tela central</strong> (onde o vídeo
+                    é exibido), a timeline (onde a edição é feita) e a{" "}
+                    <strong>barra esquerda</strong> (onde ficam os efeitos).
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Importando Mídias:</strong>
+                <ul>
+                  <li>
+                    Para começar a editar, adicione seus arquivos de vídeo,
+                    imagens, animações, gráficos e sons. Você pode fazer isso
+                    pelo menu Adicionar Objeto ou usando os atalhos. Todos os
+                    arquivos importados aparecerão na <strong>timeline</strong>.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>A Timeline e Edição de Camadas</h4>
+            <ul>
+              <li>
+                <strong>Organização:</strong>
+                <ul>
+                  <li>
+                    Cada arquivo na timeline é uma <strong>camada</strong>. Para
+                    manter a organização, é crucial{" "}
+                    <strong>renomear as camadas</strong> dando dois cliques
+                    nelas. Isso é essencial, pois projetos grandes podem ter
+                    dezenas ou centenas de camadas.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Controle de Camadas:</strong>
+                <ul>
+                  <li>
+                    Você pode mover as camadas para cima ou para baixo para
+                    organizá-las visualmente. Use o ícone do "olho" para
+                    <strong>esconder uma camada</strong> temporariamente.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Cursor Temporal:</strong>
+                <ul>
+                  <li>
+                    O <strong>cursor verde</strong> na timeline indica o ponto
+                    do vídeo que está sendo exibido. Para dar play a partir do
+                    início, posicione o cursor no ponto zero e aperte a barra de
+                    espaço. Para começar de outro ponto, arraste o cursor até
+                    lá. Use as{" "}
+                    <strong>ferramentas de avanço/atraso de frame</strong> para
+                    um ajuste preciso, como para sincronizar áudio e vídeo.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Cortando o Vídeo:</strong>
+                <ul>
+                  <li>
+                    O corte é a base da edição. Use o ícone de{" "}
+                    <strong>"lâmina de barbear"</strong> para cortar partes
+                    indesejadas do vídeo. Posicione o cursor, clique na lâmina,
+                    mova para o ponto final, clique de novo e, em seguida,
+                    delete a parte que não serve.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Transições e Efeitos</h4>
+            <ul>
+              <li>
+                <strong>Transições: </strong>
+                <ul>
+                  <li>
+                    Um corte simples (sem transição) é chamado de "corte seco".
+                    Para uma transição suave, como o{" "}
+                    <strong>fade-out/fade-in</strong>, arraste um clipe sobre o
+                    outro na timeline enquanto segura a tecla
+                    <strong>ALT</strong>.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Outros Tipos de Transição:</strong>
+                <ul>
+                  <li>
+                    Para transições mais complexas, arraste o segundo clipe
+                    sobre o primeiro segurando <strong>ALT + SHIFT</strong>.
+                    Clique com o botão direito, selecione Efeitos de Vídeo e, em
+                    seguida, Transições.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Aplicando Efeitos:</strong>
+                <ul>
+                  <li>
+                    Para adicionar efeitos, clique com o botão direito sobre um
+                    clipe e escolha Efeitos de Vídeo. Explore as opções. O
+                    melhor é testar cada efeito para entender como funcionam e
+                    anotar os seus favoritos para referência futura.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Salvar e Exportar o Projeto</h4>
+            <ul>
+              <li>
+                <strong>Salvar vs. Exportar:</strong>
+                <ul>
+                  <li>
+                    <strong>Salvar o Projeto (.vproj):</strong> Salva o
+                    progresso para que você possa continuar a edição depois. O
+                    arquivo só pode ser aberto no software VSDC.
+                  </li>
+                  <li>
+                    <strong>Exportar o Projeto:</strong>
+                    Gera o arquivo de vídeo final (como MP4, AVI, etc.) que pode
+                    ser assistido em outros dispositivos ou plataformas
+                    (YouTube, DVD, etc.).
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Processo de Exportação:</strong>
+                <ol>
+                  <li>Vá para a aba Exportar Projeto.</li>
+                  <li>
+                    Escolha o dispositivo (Web, iPad, Android, etc.) e a
+                    plataforma (YouTube, Instagram, etc.).
+                  </li>
+                  <li>
+                    Clique no ícone de "foguete" para iniciar a exportação.
+                  </li>
+                </ol>
+              </li>
+              <li>
+                <strong>Atenção:</strong>
+                <ul>
+                  <li>
+                    A exportação é um processo demorado e exige um computador
+                    confiável. Evite usar o PC para outras tarefas enquanto
+                    exporta.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>Construindo um Site com WordPress</h3>
+            <ul>
+              <li>
+                <strong>Preparação:</strong>
+                <ul>
+                  <li>
+                    Antes de começar, tenha um projeto bem definido e a maioria
+                    dos materiais (textos, imagens, vídeos, etc.) já pronta.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Domínio e Hospedagem:</strong>
+                <ul>
+                  <li>
+                    Para um site profissional, você precisará de um{" "}
+                    <strong>domínio</strong> (o endereço do site, como
+                    exemplo.com) e um serviço de
+                    <strong>hospedagem</strong> (o espaço onde os arquivos do
+                    site ficam armazenados). A maioria desses serviços é paga.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Ferramentas Gratuitas:</strong>
+                <ul>
+                  <li>
+                    Para praticar, você pode usar plataformas gratuitas. Algumas
+                    opções são Wix, Site123, Webnode e o próprio{" "}
+                    <strong>WordPress.com</strong>.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Por que WordPress?</strong>
+                <ul>
+                  <li>
+                    É a ferramenta mais popular do mundo, usada em cerca de{" "}
+                    <strong>45%</strong>
+                    de todos os sites.
+                  </li>
+                  <li>
+                    Sua popularidade significa que a chance de você encontrá-lo
+                    em ambientes de trabalho é alta.
+                  </li>
+                  <li>
+                    Originalmente criado para blogs em 2003, evoluiu para uma
+                    plataforma completa e fácil de usar.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Como Começar:</strong>
+                <ul>
+                  <li>
+                    A versão gratuita do WordPress.com usa um{" "}
+                    <strong>subdomínio</strong> (ex: nomedosite.wordpress.com).
+                  </li>
+                  <li>
+                    Você precisa ter uma conta de e-mail para se registrar e
+                    fazer login.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Começando com o WordPress</h4>
+            <ul>
+              <li>
+                <strong>Acesso e Início:</strong>
+                <ul>
+                  <li>
+                    Vá para wordpress.com/pt-br e clique em "Comece agora". Faça
+                    login usando sua conta de e-mail, Google, Apple ou GitHub.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Domínio e Plano:</strong>
+                <ul>
+                  <li>
+                    O site vai tentar te vender opções pagas.{" "}
+                    <strong>Escolha a opção gratuita</strong> (o subdomínio que
+                    termina em .wordpress.com) e confirme o plano grátis quando
+                    for solicitado novamente.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Finalidade do Site:</strong>
+                <ul>
+                  <li>
+                    Escolha a finalidade do seu site (por exemplo, "Promover
+                    minha pessoa ou empresa").
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Layout e Estilos</h4>
+            <ul>
+              <li>
+                <strong>Escolha de Layout: </strong>
+                <ul>
+                  <li>
+                    Você pode começar com um modelo pronto (bom para iniciantes)
+                    ou clicar em "Crie você mesmo".
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Customização do Layout:</strong>
+                <ul>
+                  <li>
+                    Ao escolher "Crie você mesmo", um menu lateral aparecerá,
+                    permitindo que você personalize o layout de cada página do
+                    seu site (página inicial, de serviços, etc.).
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Cores e Fontes:</strong>
+                <ul>
+                  <li>
+                    Na etapa de "Selecionar estilos", defina as cores e as
+                    fontes do seu site. O WordPress oferece combinações que já
+                    são visualmente harmoniosas.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Adicionando Páginas:</strong>
+                <ul>
+                  <li>
+                    O sistema perguntará se você quer adicionar páginas extras,
+                    como um blog, uma galeria ou uma loja. Selecione as que
+                    precisa e clique em "Salvar e Continuar".
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Finalizando e Explorando</h4>
+            <ul>
+              <li>
+                Depois de construir o site, links para um{" "}
+                <strong>tour guiado</strong> aparecerão no canto esquerdo. É
+                recomendado fazer esse tour para se familiarizar com a
+                ferramenta. As funcionalidades do WordPress são intuitivas, mas
+                um rápido guia pode ser muito útil.
+              </li>
+            </ul>
+            <h4>Inserindo e Editando Conteúdo no WordPress</h4>
+            <ul>
+              <li>
+                <strong>Edição de Conteúdo:</strong>
+                <ul>
+                  <li>
+                    Para editar qualquer parte do site, basta clicar na área que
+                    deseja alterar. Um menu de configurações aparecerá à direita
+                    para que você faça as modificações. Lembre-se de clicar em
+                    <strong>"Salvar"</strong> após cada alteração.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Navegação entre Páginas:</strong>
+                <ul>
+                  <li>
+                    Para mudar para outra página, clique no logotipo do
+                    WordPress no canto superior esquerdo para ver a lista de
+                    páginas e selecione a que você quer editar.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Usando o Dashboard (Painel de Controle)</h4>
+            <ul>
+              <li>
+                <strong>Acesso:</strong>
+                <ul>
+                  <li>
+                    Para voltar ao painel de controle, clique no logotipo do
+                    WordPress novamente. O dashboard é o centro de comando para
+                    gerenciar todo o seu site.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Adicionar Nova Página:</strong>
+                <ul>
+                  <li>
+                    No dashboard, vá em <strong>"Páginas"</strong> e clique em{" "}
+                    <strong>"Adicionar nova página"</strong>. Você poderá
+                    escolher um novo layout para ela.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Editar Página Existente:</strong>
+                <ul>
+                  <li>
+                    Para editar uma página já criada, acesse o menu{" "}
+                    <strong>"Páginas"</strong>, escolha a página desejada e
+                    comece a escrever ou a editar o conteúdo.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Publicação e Elementos</h4>
+            <ul>
+              <li>
+                <strong>Inserir Elementos:</strong>
+                <ul>
+                  <li>
+                    Use o ícone <strong>"+"</strong> para adicionar novos
+                    elementos (imagens, vídeos, áudios, etc.) na sua página. Um
+                    menu no lado direito da tela mostrará todas as opções
+                    disponíveis.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Salvar x Publicar:</strong>
+                <ul>
+                  <li>
+                    <strong>Salvar Rascunho:</strong> Salva a página, mas ela
+                    não fica visível para o público. Permite que você continue a
+                    edição depois.
+                  </li>
+                  <li>
+                    <strong>Publicar:</strong> Torna a página acessível para
+                    qualquer pessoa na internet. Só clique em "Publicar" quando
+                    a página estiver pronta.
                   </li>
                 </ul>
               </li>
