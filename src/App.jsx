@@ -4,6 +4,7 @@ import CriacaoWebSite from "./components/CriacaoWebSite";
 import GestaoDaInformacao from "./components/GestaoDaInformacao";
 import InterfaceWeb from "./components/InterfaceWeb";
 import Introducao from "./components/Introducao";
+import PrincipiosWebDesign from "./components/PrincipiosWebDesign";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <AdministracaoSistemas />
       <InterfaceWeb />
       <CriacaoWebSite />
+      <PrincipiosWebDesign />
     </>
   );
 };
