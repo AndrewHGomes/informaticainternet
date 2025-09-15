@@ -864,50 +864,46 @@ const PrincipiosWebDesign = () => {
                 </ul>
               </li>
               <li>
-                <strong></strong>
-                <ul>
-                  <li>Regras essenciais para web:</li>
-                  <ol>
-                    <li>
-                      <strong>Parcimônia:</strong> Use um número limitado de
-                      fontes para manter a identidade visual e evitar "bagunça".
-                    </li>
-                    <li>
-                      <strong>Legibilidade vs. Leiturabilidade:</strong>
-                      <ul>
-                        <li>
-                          <strong>Legibilidade:</strong> Facilidade de
-                          identificar letras individuais (ex: diferenciar "a" de
-                          "o").
-                        </li>
-                        <li>
-                          <strong>Leiturabilidade:</strong> Fluidez e rapidez
-                          com que se lê o texto como um todo.
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <strong>Evite fontes serifadas:</strong> As serifas
-                      (prolongamentos nas extremidades das letras) podem
-                      atrapalhar a leitura em telas digitais. Dê preferência a
-                      fontes sem serifa, de linhas mais limpas.
-                    </li>
-                    <li>
-                      <strong>Compatibilidade:</strong> Escolha fontes
-                      compatíveis com a maioria dos computadores e navegadores.
-                      O uso de fontes não seguras pode fazer com que o sistema
-                      as substitua, alterando o design.
-                      <ul>
-                        <li>
-                          <strong>
-                            Exemplos de fontes seguras (sem serifa):
-                          </strong>{" "}
-                          Arial, Verdana, Futura, Trebuchet MS.
-                        </li>
-                      </ul>
-                    </li>
-                  </ol>
-                </ul>
+                <strong>Regras essenciais para web:</strong>
+                <ol>
+                  <li>
+                    <strong>Parcimônia:</strong> Use um número limitado de
+                    fontes para manter a identidade visual e evitar "bagunça".
+                  </li>
+                  <li>
+                    <strong>Legibilidade vs. Leiturabilidade:</strong>
+                    <ul>
+                      <li>
+                        <strong>Legibilidade:</strong> Facilidade de identificar
+                        letras individuais (ex: diferenciar "a" de "o").
+                      </li>
+                      <li>
+                        <strong>Leiturabilidade:</strong> Fluidez e rapidez com
+                        que se lê o texto como um todo.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Evite fontes serifadas:</strong> As serifas
+                    (prolongamentos nas extremidades das letras) podem
+                    atrapalhar a leitura em telas digitais. Dê preferência a
+                    fontes sem serifa, de linhas mais limpas.
+                  </li>
+                  <li>
+                    <strong>Compatibilidade:</strong> Escolha fontes compatíveis
+                    com a maioria dos computadores e navegadores. O uso de
+                    fontes não seguras pode fazer com que o sistema as
+                    substitua, alterando o design.
+                    <ul>
+                      <li>
+                        <strong>
+                          Exemplos de fontes seguras (sem serifa):
+                        </strong>{" "}
+                        Arial, Verdana, Futura, Trebuchet MS.
+                      </li>
+                    </ul>
+                  </li>
+                </ol>
               </li>
             </ul>
             <h4>Princípios de Design</h4>
@@ -1298,6 +1294,490 @@ const PrincipiosWebDesign = () => {
                 </ul>
               </li>
             </ol>
+          </div>
+          <div>
+            <h3>Web Design e a Comunicação</h3>
+            <p>
+              A <strong>comunicação</strong> é complexa, pois a representação
+              simbólica (palavras) difere da imagem mental de cada pessoa. No{" "}
+              <strong>web design</strong>, essa complexidade se traduz na
+              criação de um projeto visual que transmita conceitos do cliente a
+              um público desconhecido, organizando o conteúdo para que os
+              usuários possam navegar de forma autônoma.
+            </p>
+            <p>
+              Os principais temas a serem abordados são:{" "}
+              <strong>
+                Navegabilidade, Usabilidade, UX Design, Redes de computadores,
+                Arquitetura cliente-servidor e protocolo HTTP
+              </strong>
+              .
+            </p>
+            <h4>Navegabilidade</h4>
+            <ul>
+              <li>
+                <strong>Definição:</strong>
+                <ul>
+                  <li>
+                    A navegabilidade é a{" "}
+                    <strong>
+                      fluidez com que um usuário circula e acessa informações em
+                      um site
+                    </strong>
+                    . Trata-se de um aspecto do design focado em facilitar a
+                    localização e o acesso ao conteúdo. Um site ideal permite
+                    que o usuário encontre o que precisa em poucos cliques
+                    (embora não seja uma regra rígida).
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Importância:</strong>
+                <ul>
+                  <li>
+                    <strong>Experiência do Usuário (UX):</strong>
+                    <ul>
+                      <li>
+                        Torna a interação mais intuitiva, aumentando a
+                        satisfação e a probabilidade de o usuário permanecer e
+                        retornar.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Taxas de Conversão:</strong>
+                    <ul>
+                      <li>
+                        Uma navegação facilitada ajuda o usuário a atingir seus
+                        objetivos mais rapidamente (ex: finalizar uma compra),
+                        ampliando as taxas de conversão (geração de receita).
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>SEO (Otimização para Mecanismos de Busca):</strong>
+                    <ul>
+                      <li>
+                        A navegabilidade é um dos parâmetros de ranqueamento dos
+                        buscadores. Sites bem-organizados ajudam os rastreadores
+                        a entender a hierarquia do conteúdo, melhorando a
+                        visibilidade.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Elementos-chave da Navegabilidade:</strong>
+                <ol>
+                  <li>
+                    <strong>Menus de Navegação:</strong> Funcionam como o
+                    "coração" da navegação, agrupando os pontos de acesso.
+                    <ul>
+                      <li>
+                        <strong>Horizontal:</strong> Localizado no topo, ideal
+                        para categorias principais.
+                      </li>
+                      <li>
+                        <strong>Vertical:</strong> Localizado na lateral,
+                        permite mais itens e subcategorias.
+                      </li>
+                      <li>
+                        <strong>Hambúrguer:</strong> Ícone com três barras,
+                        comum em dispositivos móveis para economizar espaço e
+                        expandir o menu. Menos ideal para desktops.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Mapa do Site (Sitemap):</strong> Representação
+                    esquemática da estrutura do site. Serve como guia para o
+                    usuário (geralmente no rodapé) e como ferramenta de
+                    planejamento para o designer, ajudando a organizar as
+                    páginas de forma lógica.
+                  </li>
+                  <li>
+                    <strong>Consistência Visual:</strong> Manter elementos
+                    (menu, cores, tipografia, layout) nas mesmas posições e com
+                    a mesma identidade visual cria um senso de familiaridade,
+                    facilitando a orientação do usuário.
+                  </li>
+                </ol>
+              </li>
+            </ul>
+            <h4>Usabilidade</h4>
+            <ul>
+              <li>
+                <strong>Definição:</strong>
+                <ul>
+                  <li>
+                    A usabilidade é a capacidade de um site ou produto digital
+                    de permitir que os usuários alcancem seus objetivos de forma
+                    eficaz, eficiente e satisfatória. Ela está diretamente
+                    ligada à facilidade de uso da interface, diferentemente da
+                    navegabilidade, que foca na circulação. Um site pode ter boa
+                    navegabilidade (facilidade de circulação), mas má
+                    usabilidade (dificuldade em encontrar o que se precisa).
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Importância:</strong>
+                <ul>
+                  <li>
+                    A usabilidade aprimora a experiência do usuário, aumentando
+                    sua satisfação e reduzindo a{" "}
+                    <strong>taxa de rejeição</strong> (abandono do site).
+                  </li>
+                  <li>
+                    Um site com boa usabilidade não apenas agrada o cliente,
+                    mas, principalmente, resolve as necessidades dos
+                    consumidores.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Princípios Fundamentais:</strong>
+                <ol>
+                  <li>
+                    <strong>Conhecer o Público-Alvo:</strong> Entender as
+                    características, conhecimento prévio e alfabetização digital
+                    dos usuários é essencial para ajustar o design.
+                  </li>
+                  <li>
+                    <strong>Navegação Intuitiva:</strong> Usar menus claros e
+                    uma hierarquia bem definida para que o usuário encontre
+                    informações facilmente.
+                  </li>
+                  <li>
+                    <strong>Acessibilidade:</strong> Tornar o site utilizável
+                    para pessoas com necessidades especiais (ex: fontes
+                    legíveis, contraste adequado, recursos de leitura).
+                  </li>
+                  <li>
+                    <strong>Eficiência:</strong> Analisar o tempo e o número de
+                    cliques para que o usuário complete uma tarefa.
+                  </li>
+                  <li>
+                    <strong>Memorabilidade:</strong> O site deve ser fácil de
+                    lembrar, permitindo que o usuário retorne e navegue sem
+                    dificuldades.
+                  </li>
+                </ol>
+              </li>
+              <li>
+                <strong>Etapas para Implementar a Usabilidade:</strong>
+                <ol>
+                  <li>
+                    <strong>Pesquisa de Usuários:</strong> Levantamento das
+                    necessidades e comportamentos do público-alvo.
+                  </li>
+                  <li>
+                    <strong>Prototipagem (Wireframe):</strong> Criação de um
+                    esboço visual básico da estrutura do site.
+                  </li>
+                  <li>
+                    <strong>Conteúdo:</strong> Desenvolvimento de conteúdo
+                    relevante e logicamente organizado.
+                  </li>
+                  <li>
+                    <strong>Teste de Uso:</strong> Análise do comportamento de
+                    usuários reais com metas específicas para identificar
+                    falhas.
+                  </li>
+                  <li>
+                    <strong>Ajustes:</strong> Aprimoramento do projeto com base
+                    nos dados dos testes.
+                  </li>
+                  <li>
+                    <strong>Monitoramento:</strong> Acompanhamento contínuo do
+                    site para futuros ajustes e melhorias.
+                  </li>
+                </ol>
+              </li>
+            </ul>
+            <h4>UX Design</h4>
+            <ul>
+              <li>
+                <strong>Definição:</strong>
+                <ul>
+                  <li>
+                    <strong>User Experience Design (UX Design)</strong> é uma
+                    disciplina que foca em criar{" "}
+                    <strong>experiências positivas e significativas</strong>{" "}
+                    para os usuários ao interagirem com produtos ou serviços
+                    digitais. Ele considera a relação completa entre o usuário e
+                    a tecnologia, integrando conceitos como usabilidade e
+                    navegabilidade.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>O que o UX Design considera?</strong>
+                <ul>
+                  <li>
+                    <strong>Estética, texto, cores e layout:</strong> Todos
+                    esses elementos são organizados para criar uma experiência
+                    agradável e sem frustrações.
+                  </li>
+                  <li>
+                    <strong>Aspectos funcionais e emocionais:</strong> O UX
+                    Design lida tanto com tarefas práticas (como pagar um
+                    boleto) quanto com experiências emocionais (como usar uma
+                    rede social).
+                  </li>
+                  <li>
+                    <strong>Satisfação e fidelização:</strong> Um bom UX design
+                    atende e supera as expectativas do usuário, o que leva a uma
+                    maior satisfação e, consequentemente, à fidelização.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Etapas do Consumo (segundo Don Norman):</strong>
+                <ol>
+                  <li>
+                    <strong>Nível Visceral:</strong> Reações imediatas e
+                    instintivas à aparência do produto (a primeira impressão).
+                  </li>
+                  <li>
+                    <strong>Nível Comportamental:</strong> Foco na usabilidade e
+                    na experiência prática de uso. O usuário sente satisfação ao
+                    cumprir uma tarefa.
+                  </li>
+                  <li>
+                    <strong>Nível Reflexivo:</strong> Emoções e significados
+                    mais profundos que o produto evoca. Está ligado à memória,
+                    identidade e valor que o usuário atribui à experiência.
+                  </li>
+                </ol>
+              </li>
+              <li>
+                <strong>Estratégias de UX Design:</strong>
+                <ul>
+                  <li>
+                    <strong>Finalidade e Objetivos:</strong> O foco deve ser
+                    sempre no usuário. Se o site é de vendas, o objetivo do UX
+                    não é apenas a venda, mas uma experiência de compra fácil e
+                    rápida.
+                  </li>
+                  <li>
+                    <strong>Escopo do Projeto:</strong> Definir as
+                    funcionalidades do site para atender aos objetivos.
+                  </li>
+                  <li>
+                    <strong>Personas:</strong> Criação de perfis fictícios de
+                    usuários, baseados no público-alvo, para guiar as decisões
+                    de design e antecipar o comportamento de navegação.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Introdução às Redes de Computadores</h4>
+            <ul>
+              <li>
+                <strong>O que são redes?</strong>
+                <ul>
+                  <li>
+                    Uma <strong>rede de computadores</strong> é um conjunto de
+                    dispositivos interconectados (computadores, impressoras,
+                    roteadores, etc.) que trocam informações e compartilham
+                    dados. É a base da "sociedade da informação" em que vivemos.
+                  </li>
+                  <li>
+                    As redes podem variar em tamanho e complexidade, desde uma
+                    rede doméstica simples até grandes redes corporativas.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Classificação das Redes:</strong>
+                <ul>
+                  <li>
+                    A classificação mais comum é por sua{" "}
+                    <strong>extensão geográfica</strong>:
+                    <ul>
+                      <li>
+                        <strong>PAN (Rede Pessoal):</strong> Conecta
+                        dispositivos em um espaço muito pequeno, como
+                        smartphones e tablets próximos.
+                      </li>
+                      <li>
+                        <strong>LAN (Rede Local):</strong> Conecta poucos
+                        dispositivos em uma área geográfica limitada, como uma
+                        casa ou escritório. Usada para compartilhar arquivos e
+                        impressoras.
+                      </li>
+                      <li>
+                        <strong>MAN (Rede Metropolitana):</strong> Conecta áreas
+                        maiores, como campus universitários ou cidades pequenas,
+                        unindo várias LANs.
+                      </li>
+                      <li>
+                        <strong>WAN (Rede de Longa Distância):</strong> Conecta
+                        cidades, países ou continentes. A internet é o exemplo
+                        mais conhecido de uma WAN.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Como funcionam?</strong>
+                <ul>
+                  <li>
+                    Os dados são enviados em <strong>pacotes</strong> pela rede.
+                  </li>
+                  <li>
+                    <strong>Roteadores e switches</strong> são responsáveis por
+                    direcionar esses pacotes para o destino correto.
+                  </li>
+                  <li>
+                    No destino, os pacotes são reagrupados e a informação é
+                    apresentada ao usuário.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Componentes necessários para uma rede:</strong>
+                <ol>
+                  <li>
+                    <strong>Dispositivos (máquinas):</strong> Computadores,
+                    impressoras, etc.
+                  </li>
+                  <li>
+                    <strong>Roteadores:</strong> Direcionam o tráfego de dados.
+                  </li>
+                  <li>
+                    <strong>Pontos de Conexão:</strong> Cabos ou tecnologia sem
+                    fio (Wi-Fi).
+                  </li>
+                  <li>
+                    <strong>Protocolos de Comunicação:</strong> Conjunto de
+                    regras que governam a troca de dados na rede.
+                  </li>
+                </ol>
+              </li>
+            </ul>
+            <h4>Arquitetura Cliente-Servidor e Protocolo HTTP</h4>
+            <ul>
+              <li>
+                <strong>Arquitetura Cliente-Servidor:</strong>
+                <ul>
+                  <li>
+                    É um estilo de rede onde um sistema é dividido em duas
+                    partes: <strong>cliente e servidor</strong>.
+                  </li>
+                  <li>
+                    O <strong>cliente</strong> faz solicitações (ex: seu
+                    navegador pedindo uma página).
+                  </li>
+                  <li>
+                    O <strong>servidor</strong> recebe, processa e responde a
+                    essas solicitações (ex: o servidor que armazena o site).
+                  </li>
+                  <li>
+                    É uma <strong>estrutura centralizada</strong> onde o
+                    servidor armazena o conteúdo e processa a base de dados,
+                    enquanto os clientes são os pontos de acesso.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>
+                  Como funciona a Arquitetura Cliente-Servidor na Web?
+                </strong>
+                <ol>
+                  <li>O usuário clica em um link.</li>
+                  <li>
+                    O navegador determina a URL e consulta o{" "}
+                    <strong>Sistema de Nomes de Domínio (DNS)</strong> para
+                    encontrar o endereço IP da página.
+                  </li>
+                  <li>O DNS retorna o endereço IP.</li>
+                  <li>
+                    O navegador estabelece uma conexão com o servidor usando o
+                    IP.
+                  </li>
+                  <li>
+                    O servidor envia os dados da página solicitada de volta ao
+                    navegador.
+                  </li>
+                  <li>O navegador exibe a página e a conexão é encerrada.</li>
+                </ol>
+              </li>
+              <li>
+                <strong>Protocolo HTTP:</strong>
+                <ul>
+                  <li>
+                    O <strong>Hypertext Transfer Protocol (HTTP)</strong> é o
+                    protocolo mais comum usado na web.
+                  </li>
+                  <li>
+                    Ele opera no modelo cliente-servidor: as requisições são
+                    iniciadas pelo cliente.
+                  </li>
+                  <li>Cada interação é uma requisição-resposta.</li>
+                  <li>
+                    <strong>Métodos HTTP:</strong>
+                    <ul>
+                      <li>
+                        <strong>GET:</strong> Solicita e recupera dados (ex:
+                        abrir uma página).
+                      </li>
+                      <li>
+                        <strong>POST:</strong> Cria ou ajusta recursos no
+                        servidor.
+                      </li>
+                      <li>
+                        <strong>PUT:</strong> Atualiza um recurso existente.
+                      </li>
+                      <li>
+                        <strong>DELETE:</strong> Remove um recurso do servidor.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Navegabilidade, Usabilidade e UX</h4>
+            <ul>
+              <li>
+                <strong>Navegabilidade:</strong>
+                <ul>
+                  <li>
+                    Facilidade com que o usuário{" "}
+                    <strong>circula e acessa informações</strong> em um site.
+                    Elementos-chave: menus (horizontal, vertical, hambúrguer),
+                    mapa do site e consistência visual. Foco na fluidez do
+                    caminho do usuário.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Usabilidade:</strong>
+                <ul>
+                  <li>
+                    Eficácia com que o usuário{" "}
+                    <strong>cumpre seus objetivos</strong> e expectativas no
+                    site. Foco na facilidade de uso e na resolução de tarefas.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>UX Design: </strong>
+                <ul>
+                  <li>
+                    Campo multidisciplinar que visa criar{" "}
+                    <strong>experiências positivas e significativas</strong>{" "}
+                    para o usuário. Engloba navegabilidade, usabilidade e outros
+                    aspectos, considerando tanto as reações instintivas (nível
+                    visceral) quanto as emocionais e profundas (nível reflexivo)
+                    do usuário. O objetivo é satisfazer e fidelizar o usuário.
+                  </li>
+                </ul>
+              </li>
+            </ul>
           </div>
         </>
       )}
