@@ -32,15 +32,15 @@ header {
 }
 
 h2 {
-  color: #b00;
+  color: #2c3e50;
 }
 
 h3 {
-  color: #000080;
+  color: #16a085;
 }
 
 h4 {
-  color: #0a0;
+  color: #8e44ad;
 }
 
 section {
@@ -53,7 +53,7 @@ section {
 }
 
 strong {
-  color: #e60;
+  color: #d35400;
 }
 
 ul,
