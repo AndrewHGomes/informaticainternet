@@ -1779,6 +1779,319 @@ const PrincipiosWebDesign = () => {
               </li>
             </ul>
           </div>
+          <div>
+            <h3>Arquitetura da Informação (AI) Web</h3>
+            <ul>
+              <li>
+                <strong>O que é:</strong>
+                <ul>
+                  <li>
+                    Disciplina que organiza, categoriza e apresenta conteúdo
+                    para que o usuário navegue de forma intuitiva e eficiente.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Propósito:</strong>
+                <ul>
+                  <li>
+                    Criar sites que sejam mais do que bonitos, que sejam{" "}
+                    <strong>funcionais</strong>. Ajuda na experiência do usuário
+                    e no <strong>ranqueamento</strong> em buscadores
+                    (SEO/Marketing Digital).
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Não é apenas sobre estética: </strong>
+                <ul>
+                  <li>
+                    A beleza visual é importante, mas deve ser combinada com a
+                    funcionalidade.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>8 Princípios de Dan Brown:</strong>
+                <ol>
+                  <li>
+                    <strong>Objetos:</strong> Tratar o conteúdo como algo vivo,
+                    que muda e evolui.
+                  </li>
+                  <li>
+                    <strong>Categorização:</strong> Agrupar conteúdos
+                    semelhantes para facilitar a busca.
+                  </li>
+                  <li>
+                    <strong>Divulgação:</strong> Manter a curiosidade do usuário
+                    sobre o que está disponível.
+                  </li>
+                  <li>
+                    <strong>Contexto:</strong> Entender o ambiente e a cultura
+                    do usuário para adaptar o projeto.
+                  </li>
+                  <li>
+                    <strong>Antecipação:</strong> Prever as necessidades do
+                    usuário e oferecer informações antes que ele precise.
+                  </li>
+                  <li>
+                    <strong>Escaneabilidade:</strong> Facilitar a navegação e a
+                    busca rápida por informações.
+                  </li>
+                  <li>
+                    <strong>Consistência:</strong> Manter padrões visuais e de
+                    organização para criar familiaridade.
+                  </li>
+                  <li>
+                    <strong>Contraste:</strong> Destacar elementos importantes
+                    para guiar o olhar do usuário.
+                  </li>
+                </ol>
+              </li>
+            </ul>
+            <h4>Sites Responsivos</h4>
+            <ul>
+              <li>
+                <strong>O que é:</strong>
+                <ul>
+                  <li>
+                    Um site responsivo se adapta a diferentes tamanhos de telas
+                    (desktops, notebooks, tablets, celulares), garantindo que o
+                    conteúdo seja sempre exibido de forma otimizada.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Por que surgiu:</strong>
+                <ul>
+                  <li>
+                    A popularização de dispositivos móveis criou a necessidade
+                    de um design que funcione em qualquer tela, sem cortes ou
+                    barras de rolagem.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Como funciona (os 3 pilares):</strong>
+                <ol>
+                  <li>
+                    <strong>Layouts fluidos:</strong> Em vez de usar medidas
+                    fixas (como pixels ou pontos), o design usa medidas
+                    flexíveis, como porcentagens. Isso permite que a estrutura
+                    da página se adapte naturalmente à tela.
+                  </li>
+                  <li>
+                    <strong>Imagens flexíveis:</strong> As imagens também são
+                    redimensionadas pelo navegador, mantendo sua proporção de
+                    acordo com o ajuste da página.
+                  </li>
+                  <li>
+                    <strong>Media Queries:</strong> Uma regra de código que
+                    aplica estilos CSS específicos com base nas características
+                    do dispositivo, principalmente a largura da tela. É como
+                    dizer ao site: "Se a tela for menor que X pixels, ajuste o
+                    layout para parecer assim."
+                  </li>
+                </ol>
+              </li>
+            </ul>
+            <h4>Mobile First</h4>
+            <ul>
+              <li>
+                <strong>O que é:</strong>
+                <ul>
+                  <li>
+                    Uma abordagem de design e desenvolvimento que prioriza a
+                    criação de sites e sistemas para dispositivos móveis
+                    (smartphones) <strong>primeiro</strong>, e só depois
+                    adapta-os para telas maiores, como as de computadores.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Por que é importante:</strong>
+                <ul>
+                  <li>
+                    No Brasil, existem mais de 249 milhões de smartphones em
+                    operação, superando o número de outros dispositivos. Isso
+                    mostra que a maioria dos acessos à internet acontece pelo
+                    celular, tornando a experiência mobile crucial.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Mobile First vs. Design Responsivo:</strong>
+                <ul>
+                  <li>
+                    <strong>Mobile First:</strong> Começa o projeto pela versão
+                    móvel, focando nas limitações de tela e recursos. É uma
+                    <strong>estratégia de planejamento</strong>.
+                  </li>
+                  <li>
+                    <strong>Design Responsivo:</strong> Usa técnicas como
+                    layouts fluidos e media queries para{" "}
+                    <strong>adaptar</strong> um site a diferentes telas. É uma{" "}
+                    <strong>ferramenta</strong> que pode ser usada na abordagem
+                    Mobile First.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>4 Formas de Implementar o Mobile First:</strong>
+                <ol>
+                  <li>
+                    <strong>Responsivo:</strong> Um único site que se reajusta
+                    para todas as telas, usando medidas relativas e flexíveis.
+                  </li>
+                  <li>
+                    <strong>Exibição Dinâmica:</strong> O servidor exibe
+                    diferentes versões do site, com layouts e elementos
+                    específicos, dependendo do dispositivo do usuário. O URL é o
+                    mesmo.
+                  </li>
+                  <li>
+                    <strong>URLs Separados:</strong> Cria um URL exclusivo para
+                    a versão móvel (ex: m.nomedosite.com.br) e outro para a
+                    versão desktop.
+                  </li>
+                  <li>
+                    <strong>Aplicativo (APP):</strong> Migra parte do site para
+                    um aplicativo móvel, aproveitando recursos do smartphone
+                    como geolocalização e notificações.
+                  </li>
+                </ol>
+              </li>
+            </ul>
+            <h4>Fundamentos do HTML: Estrutura</h4>
+            <ul>
+              <li>
+                <strong>O que é HTML:</strong>
+                <ul>
+                  <li>
+                    <strong>H</strong>ypertext <strong>M</strong>arkup{" "}
+                    <strong>L</strong>anguage. É uma{" "}
+                    <strong>linguagem de marcação</strong>, não de programação.
+                    Serve para estruturar e organizar o conteúdo de uma página
+                    web, como textos, imagens e links.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Como funciona:</strong>
+                <ul>
+                  <li>
+                    Usa <strong>"tags"</strong> para definir a função e a
+                    localização de cada elemento. As tags são escritas entre
+                    &lt; e &gt; (ex: &lt;html&gt;) e geralmente precisam ser
+                    fechadas com uma barra (ex: &lt;/html&gt;).
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>
+                  A estrutura básica de uma página HTML é composta por tags
+                  principais:
+                </strong>
+                <ul>
+                  <li>
+                    <strong>&lt;HTML&gt;:</strong> A tag-raiz que engloba todo o
+                    código do documento.
+                  </li>
+                  <li>
+                    <strong>&lt;HEAD&gt;:</strong> O "cabeçalho" da página.
+                    Contém <strong>metadados</strong> (informações sobre a
+                    página) que não são visíveis para o usuário. Isso inclui a
+                    descrição, palavras-chave e outras configurações importantes
+                    para o SEO (ranqueamento em buscadores).
+                  </li>
+                  <li>
+                    <strong>&lt;BODY&gt;:</strong> O "corpo" da página. É a
+                    parte <strong>visível</strong> do site, onde todo o conteúdo
+                    (textos, imagens, vídeos) é inserido e com o qual o usuário
+                    interage.
+                  </li>
+                  <li>
+                    <strong>&lt;FOOTER&gt;:</strong> O "rodapé" da página.
+                    Contém informações como direitos autorais, nome da empresa
+                    ou links de contato.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Fundamentos do HTML: Atributos</h4>
+            <ul>
+              <li>
+                <strong>O que são:</strong>
+                <ul>
+                  <li>
+                    Informações adicionais que modificam o comportamento ou a
+                    aparência de uma tag HTML.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Como usar:</strong>
+                <ul>
+                  <li>
+                    São inseridos dentro da tag de abertura, com o formato
+                    nome_do_atributo="valor_do_atributo". Recomenda-se usar
+                    aspas duplas e manter a consistência.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Tags e Atributos Importantes:</strong>
+                <ul>
+                  <li>
+                    <strong>Tags de Título:</strong>
+                    <ul>
+                      <li>
+                        &lt;h1&gt; a &lt;h6&gt;: Tags de hierarquia para
+                        títulos. &lt;h1&gt; é o maior e mais importante.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Tag de Parágrafo:</strong>
+                    <ul>
+                      <li>&lt;p&gt;: Delimita um bloco de texto.</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Atributo style:</strong>
+                    <ul>
+                      <li>
+                        Usado para aplicar estilos de CSS diretamente em uma
+                        tag.
+                      </li>
+                      <li>
+                        Exemplo: &lt;h1 style="color: blue;"&gt; deixa o título
+                        azul.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Atributo href:</strong>
+                    <ul>
+                      <li>Usado com a tag de link (&lt;a&gt;).</li>
+                      <li>Indica o destino do link.</li>
+                      <li>Exemplo: &lt;a href="https://www.exemplo.com"&gt;</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Atributo src:</strong>
+                    <ul>
+                      <li>Usado com a tag de imagem (&lt;img&gt;).</li>
+                      <li>Indica a origem (caminho) da imagem.</li>
+                      <li>
+                        Exemplo: &lt;img src="caminho/para/imagem.jpg"&gt;
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </>
       )}
     </section>
