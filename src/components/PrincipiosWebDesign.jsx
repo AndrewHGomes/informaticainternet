@@ -2092,6 +2092,443 @@ const PrincipiosWebDesign = () => {
               </li>
             </ul>
           </div>
+          <div>
+            <h3>Estrutura de Websites</h3>
+            <ul>
+              <li>
+                <strong>O que é um site? </strong>
+                <ul>
+                  <li>
+                    A representação visual de uma série de códigos
+                    (principalmente HTML) que definem a estrutura e o
+                    comportamento dos elementos de uma página.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Problema:</strong>
+                <ul>
+                  <li>
+                    Desenvolver um site manualmente, código por código, é
+                    inviável, especialmente para sites grandes que precisam de
+                    ajustes constantes.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Solução:</strong>
+                <ul>
+                  <li>
+                    Usar linguagens de estilo, como <strong>CSS</strong>, para
+                    criar regras amplas que aplicam estilos a várias páginas de
+                    uma vez, facilitando a vida dos webdesigners.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>CSS (Cascading Style Sheets)</h4>
+            <ul>
+              <li>
+                <strong>O que é HTML?</strong>
+                <ul>
+                  <li>
+                    Uma linguagem de marcação que usa <strong>tags</strong> (ex:
+                    &lt;h1&gt;) para estruturar o conteúdo de uma página web.
+                    Por si só, o HTML não define o estilo (cor, fonte, etc.) de
+                    forma eficiente para grandes sites.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>O que é CSS?</strong>
+                <ul>
+                  <li>
+                    Uma linguagem de <strong>estilo</strong> que trabalha em
+                    conjunto com o HTML. Ela cria regras para definir como os
+                    elementos HTML devem ser exibidos (fonte, cor, espaçamento,
+                    etc.).
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Vantagem do CSS:</strong>
+                <ul>
+                  <li>
+                    Permite padronizar o estilo de centenas ou milhares de
+                    páginas de um site de forma centralizada. Se você quiser
+                    mudar a cor de todos os títulos, basta alterar uma única
+                    regra no CSS, em vez de editar o código de cada página.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Como funciona o CSS?</strong>
+                <ul>
+                  <li>
+                    Ele define regras que prevalecem sobre os estilos
+                    individuais de cada página. A regra mais abrangente (no
+                    arquivo CSS) é obedecida.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Onde o CSS é aplicado?</strong>
+                <ol>
+                  <li>
+                    <strong>In-line:</strong> Diretamente no código HTML, usando
+                    o atributo style.
+                  </li>
+                  <li>
+                    <strong>Interno:</strong> Na seção &lt;head&gt; do arquivo
+                    HTML, dentro da tag &lt;style&gt;.
+                  </li>
+                  <li>
+                    <strong>Externo:</strong> Em um arquivo CSS separado,
+                    linkado ao HTML.{" "}
+                    <strong>
+                      Esta é a forma mais comum e eficiente para sites grandes
+                    </strong>
+                    .
+                  </li>
+                </ol>
+              </li>
+            </ul>
+            <h4>Estrutura de uma regra CSS</h4>
+            <ul>
+              <li>
+                Uma regra CSS é composta por:
+                <ul>
+                  <li>
+                    <strong>Seletor:</strong> O elemento HTML que você quer
+                    estilizar (ex: h1).
+                  </li>
+                  <li>
+                    <strong>Declarações:</strong> As propriedades e seus valores
+                    (ex: font-family: Arial; color: blue;).
+                  </li>
+                  <li>
+                    As declarações são escritas dentro de chaves &#123; &#125;.
+                    Exemplo completo: h1 &#123; font-family: Arial; color: blue;
+                    &#125;.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Comentários:</strong>
+                <ul>
+                  <li>
+                    São notas que ajudam a entender o código. Não são exibidos
+                    no site. No CSS, são escritos entre /* e */. Exemplo: /*
+                    Este é um comentário sobre a regra */.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Editores de Páginas Web</h4>
+            <ul>
+              <li>
+                <strong>Método Básico (e obsoleto):</strong>
+                <ul>
+                  <li>
+                    Criar uma página HTML simples em um editor de texto como o
+                    Bloco de Notas, salvando o arquivo com a extensão .html.
+                    Embora seja um bom exercício para entender o código, não é
+                    usado profissionalmente.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Ferramentas Profissionais (Baseadas em Código):</strong>
+                <ul>
+                  <li>
+                    <strong>Design e Layout:</strong> Programas como{" "}
+                    <strong>Adobe Photoshop e Illustrator</strong> (pagos), ou
+                    <strong>Inkscape e GIMP</strong> (gratuitos), são usados
+                    para criar o design visual do site. Eles permitem exportar o
+                    layout como arquivos HTML e CSS.
+                  </li>
+                  <li>
+                    <strong>Criação de Código:</strong> Programas como{" "}
+                    <strong>Adobe Dreamweaver e Visual Studio Code</strong> (VS
+                    Code) são editores de código especializados. Eles facilitam
+                    a escrita de linguagens como HTML, CSS e JavaScript,
+                    oferecendo ferramentas como autocompletar e sugestões de
+                    código para agilizar o trabalho. O Dreamweaver também tem
+                    uma interface "arrastar e soltar" para quem prefere uma
+                    abordagem mais visual.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Plataformas Online (Para Iniciantes):</strong>
+                <ul>
+                  <li>
+                    <strong>O que são:</strong> Ferramentas como WIX,
+                    Squarespace e WordPress.com (versão online). São ideais para
+                    quem não tem conhecimento em programação.
+                  </li>
+                  <li>
+                    <strong>Como funcionam:</strong> Oferecem templates prontos
+                    e editores visuais que usam o sistema de "arrastar e
+                    soltar", criando o código automaticamente.
+                  </li>
+                  <li>
+                    <strong>Vantagens:</strong> Facilitam o desenvolvimento
+                    rápido de páginas, geralmente incluem hospedagem e
+                    gerenciamento, e são intuitivas.
+                  </li>
+                  <li>
+                    <strong>Desvantagens:</strong> São menos flexíveis e limitam
+                    a customização, tornando-as inadequadas para projetos
+                    complexos que exigem integração com outros sistemas.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Sistemas de Gerenciamento de Conteúdo (CMS)</h4>
+            <ul>
+              <li>
+                <strong>O Problema da Atualização:</strong>
+                <ul>
+                  <li>
+                    Depois de um site ser criado e lançado, a equipe da empresa
+                    precisa atualizá-lo e adicionar novos conteúdos
+                    regularmente. Antigamente, isso exigia que alguém com
+                    conhecimento técnico em HTML e FTP (protocolo de
+                    transferência de arquivos) abrisse, editasse e enviasse os
+                    arquivos do site manualmente, o que era demorado e complexo.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>A Solução: CMS</strong>
+                <ul>
+                  <li>
+                    <strong>O que é:</strong> CMS (Content Management System) é
+                    uma plataforma que permite a{" "}
+                    <strong>gestão e publicação de conteúdo</strong> em um site
+                    sem a necessidade de conhecimento técnico em programação.
+                  </li>
+                  <li>
+                    <strong>Como funciona:</strong> Ele serve como uma base para
+                    o web designer construir o site. Depois, a equipe da empresa
+                    pode usar a interface do CMS para adicionar ou editar
+                    textos, fotos e outros conteúdos de forma simples e
+                    intuitiva, como em um editor de texto comum.
+                  </li>
+                  <li>
+                    <strong>Vantagens:</strong> Agiliza o processo de
+                    atualização, dá autonomia à empresa, e permite ao web
+                    designer limitar o acesso do cliente a certas áreas,
+                    garantindo que o layout original não seja alterado
+                    acidentalmente.
+                  </li>
+                  <li>
+                    <strong>Exemplos:</strong>
+                    <ul>
+                      <li>
+                        <strong>Plataformas completas:</strong>{" "}
+                        <strong>Wix e Squarespace</strong> (que já oferecem
+                        criação e gerenciamento).
+                      </li>
+                      <li>
+                        <strong>Sistemas de código aberto:</strong>{" "}
+                        <strong>WordPress, Joomla!, Ghost</strong> e outros. O
+                        WordPress é um dos mais populares e é usado como base
+                        para criar e gerenciar portais e sites.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Registro de Domínio, Publicação e Hospedagem</h4>
+            <ol>
+              <li>
+                <strong>Registro de Domínio</strong>
+                <ul>
+                  <li>
+                    <strong>O que é:</strong> O domínio é o endereço digital do
+                    seu site na internet (ex: google.com). Ele é essencial para
+                    que os usuários possam encontrar seu site.
+                  </li>
+                  <li>
+                    <strong>Partes do Domínio</strong>
+                    <ul>
+                      <li>
+                        <strong>Nome:</strong> A parte principal (ex: registro).
+                      </li>
+                      <li>
+                        <strong>Extensão:</strong> Indica a natureza ou
+                        localização (ex: .br, .org, .adv).
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Como registrar:</strong>
+                    <ol>
+                      <li>
+                        Escolha um nome e extensão que sejam fáceis de digitar e
+                        memorizar, e que reflitam seu projeto.
+                      </li>
+                      <li>
+                        Verifique a disponibilidade em sites como{" "}
+                        <strong>Registro.br</strong>.
+                      </li>
+                      <li>
+                        Pague o registro em uma empresa registradora. O registro
+                        não é vitalício e precisa ser renovado periodicamente.
+                      </li>
+                    </ol>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Hospedagem</strong>
+                <ul>
+                  <li>
+                    <strong>O que é:</strong> A <strong>hospedagem</strong> é o
+                    serviço que armazena todos os arquivos do seu site (código,
+                    imagens, etc.) em um servidor, tornando-o acessível na
+                    internet.
+                  </li>
+                  <li>
+                    <strong>Analogia:</strong> O <strong>domínio</strong> é o
+                    endereço da casa, e a <strong>hospedagem</strong> é o
+                    terreno onde a casa está construída.
+                  </li>
+                  <li>
+                    <strong>Tipos de Hospedagem</strong>
+                    <ul>
+                      <li>
+                        <strong>Gratuita:</strong> Sem custo, mas sem segurança
+                        e recursos. Ideal apenas para testes.
+                      </li>
+                      <li>
+                        <strong>Compartilhada:</strong> Vários sites usam o
+                        mesmo servidor. É a opção mais econômica e recomendada
+                        para sites pequenos ou blogs. A performance pode ser
+                        afetada se outro site no mesmo servidor tiver um tráfego
+                        muito alto.
+                      </li>
+                      <li>
+                        <strong>VPS (Servidor Virtual Privado):</strong>{" "}
+                        Compartilhada, mas com servidores virtuais separados, o
+                        que melhora o desempenho.
+                      </li>
+                      <li>
+                        <strong>Dedicada:</strong> Um servidor exclusivo para o
+                        seu site, garantindo segurança e alta performance. Mais
+                        cara.
+                      </li>
+                      <li>
+                        <strong>Em Nuvem:</strong> Utiliza vários servidores
+                        para distribuir a carga. Oferece alta escalabilidade e
+                        flexibilidade, sendo ideal para sites com alto tráfego,
+                        mas com maior custo e complexidade.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Importante:</strong> Ao contratar uma hospedagem,
+                    verifique a velocidade, a segurança, o suporte técnico e a
+                    reputação da empresa.
+                  </li>
+                </ul>
+              </li>
+            </ol>
+            <h4>Protocolo FTP (File Transfer Protocol)</h4>
+            <ul>
+              <li>
+                <strong>O que é:</strong>
+                <ul>
+                  <li>
+                    O FTP é um protocolo de rede, ou seja, um conjunto de regras
+                    que permite a transferência segura de arquivos entre um
+                    computador (cliente) e um servidor. É a forma como sites
+                    desenvolvidos localmente são enviados para a internet.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Como funciona:</strong>
+                <ul>
+                  <li>
+                    Opera no modelo cliente-servidor, usando duas conexões
+                    separadas:
+                    <ul>
+                      <li>
+                        <strong>Canal de Comando (Porta 21):</strong>{" "}
+                        Responsável pela troca de instruções (ex: "enviar este
+                        arquivo").
+                      </li>
+                      <li>
+                        <strong>Canal de Dados (Porta 20):</strong> Responsável
+                        pelo tráfego real dos arquivos.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Vantagens do FTP:</strong>
+                <ul>
+                  <li>
+                    <strong>Segurança:</strong> Foi criado para garantir a
+                    segurança dos dados.
+                  </li>
+                  <li>
+                    <strong>Eficiência:</strong> Permite o envio e recebimento
+                    de múltiplos arquivos simultaneamente, ideal para grandes
+                    volumes de dados.
+                  </li>
+                  <li>
+                    <strong>Acesso Remoto:</strong> Possibilita gerenciar e
+                    editar arquivos no servidor de qualquer lugar com acesso e
+                    login.
+                  </li>
+                  <li>
+                    <strong>Gerenciamento:</strong> Oferece comandos para
+                    listar, renomear e excluir arquivos diretamente no servidor.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Conclusão</h4>
+            <ul>
+              <li>
+                <strong>HTML vs. CSS:</strong>
+                <ul>
+                  <li>
+                    O HTML usa tags (ex: &lt;h1&gt;) para estruturar o conteúdo.
+                    O CSS é a linguagem de estilo que define como esse conteúdo
+                    deve ser exibido (cores, fontes, etc.).
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>A Necessidade do CSS:</strong>
+                <ul>
+                  <li>
+                    Editar o HTML de cada página individualmente para fazer
+                    ajustes é impraticável em sites grandes. O CSS resolve isso,
+                    permitindo aplicar regras de estilo de forma massiva em
+                    várias páginas ao mesmo tempo, economizando tempo e esforço.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Formas de Aplicação do CSS:</strong>
+                <ul>
+                  <li>
+                    Pode ser aplicado diretamente no código HTML (in-line), na
+                    seção &lt;head&gt; da página (interno) ou em um arquivo
+                    externo, que é o método mais eficiente e organizado.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </>
       )}
     </section>
