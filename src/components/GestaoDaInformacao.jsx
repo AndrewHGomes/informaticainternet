@@ -14,6 +14,11 @@ import aula10 from "../assets/audiosM2/aula10.mp3";
 import aula11 from "../assets/audiosM2/aula11.mp3";
 import aula12 from "../assets/audiosM2/aula12.mp3";
 
+import aula13 from "../assets/audiosM2/aula13.mp3";
+import aula14 from "../assets/audiosM2/aula14.mp3";
+import aula15 from "../assets/audiosM2/aula15.mp3";
+import aula16 from "../assets/audiosM2/aula16.mp3";
+
 const GestaoDaInformacao = () => {
   const [abrir, setAbrir] = useState(false);
   const [girarImg, setGirarImg] = useState(false);
@@ -1016,6 +1021,12 @@ const GestaoDaInformacao = () => {
           </div>
           <div>
             <h3>Gestão do Conhecimento</h3>
+            <div className="audios">
+              <audio src={aula13} controls></audio>
+              <audio src={aula14} controls></audio>
+              <audio src={aula15} controls></audio>
+              <audio src={aula16} controls></audio>
+            </div>
             <p>
               A <strong>Gestão da Informação</strong> e a{" "}
               <strong>Gestão do Conhecimento</strong> são conceitos distintos,
