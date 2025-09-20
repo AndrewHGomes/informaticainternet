@@ -1,4 +1,8 @@
 import { useState } from "react";
+import aula1 from "../assets/videosM1/aula01.mp4";
+import aula2 from "../assets/videosM1/aula02.mp4";
+import aula3 from "../assets/videosM1/aula03.mp4";
+import aula4 from "../assets/videosM1/aula04.mp4";
 
 const Introducao = () => {
   const [abrir, setAbrir] = useState(false);
@@ -23,6 +27,7 @@ const Introducao = () => {
             <h3>
               Introdução à Carreira de Técnico em Informática para Internet
             </h3>
+            <video src={aula1} controls></video>
             <h4>O Papel do Técnico em Informática para Internet</h4>
             <p>
               O profissional de Técnico em Informática para Internet tem um
@@ -292,6 +297,7 @@ const Introducao = () => {
           </div>
           <div>
             <h3>O Papel do Técnico em Informática para Internet</h3>
+            <video src={aula2} controls></video>
             <p>
               O <strong>técnico em informática para internet</strong>, também
               chamado de programador ou desenvolvedor web, é o profissional que
@@ -510,6 +516,7 @@ const Introducao = () => {
           </div>
           <div>
             <h3>Contexto Histórico</h3>
+            <video src={aula3} controls></video>
             <p>
               A área de Tecnologia da Informação (TI) está em constante
               evolução, e a profissão de técnico em informática para internet,
@@ -821,6 +828,7 @@ const Introducao = () => {
           </div>
           <div>
             <h3>O Papel do Desenvolvedor Web e o Conceito de Programação</h3>
+            <video src={aula4}></video>
             <p>
               O <strong>desenvolvedor web</strong>, ou programador web, é um
               profissional essencial no mercado de trabalho atual. Sua principal

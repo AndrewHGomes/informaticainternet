@@ -1,4 +1,13 @@
 import { useState } from "react";
+import aula1 from "../assets/videosM2/aula01.mp4";
+import aula2 from "../assets/videosM2/aula02.mp4";
+import aula3 from "../assets/videosM2/aula03.mp4";
+import aula4 from "../assets/videosM2/aula04.mp4";
+
+import aula5 from "../assets/videosM2/aula05.mp4";
+import aula6 from "../assets/videosM2/aula06.mp4";
+import aula7 from "../assets/videosM2/aula07.mp4";
+import aula8 from "../assets/videosM2/aula08.mp4";
 
 const GestaoDaInformacao = () => {
   const [abrir, setAbrir] = useState(false);
@@ -21,6 +30,7 @@ const GestaoDaInformacao = () => {
         <>
           <div>
             <h3>A Importância da Gestão da Informação e do Conhecimento</h3>
+            <video src={aula1} controls></video>
             <p>
               Em um mundo onde a informação é um dos principais ativos de uma
               organização, a capacidade de gerenciá-la de forma eficiente é
@@ -65,6 +75,7 @@ const GestaoDaInformacao = () => {
               muito procurado no mercado de trabalho.
             </p>
             <h4>O Que São Sistemas?</h4>
+            <video src={aula2} controls></video>
             <p>
               Um <strong>sistema</strong> é um conceito amplo, que se refere a
               um conjunto de elementos que interagem para formar um todo
@@ -145,6 +156,7 @@ const GestaoDaInformacao = () => {
             <h4>
               Elementos de um Sistema de Informação: A Hierarquia de Valor
             </h4>
+            <video src={aula3} controls></video>
             <p>
               A gestão da informação se baseia em uma hierarquia de valor, onde
               cada nível agrega mais sentido e utilidade ao anterior.
@@ -186,6 +198,7 @@ const GestaoDaInformacao = () => {
               </li>
             </ol>
             <h4>Tipos de Informação e Níveis de Decisão</h4>
+            <video src={aula4} controls></video>
             <p>
               Para que uma empresa funcione bem, as informações precisam ser
               organizadas de forma a apoiar os diferentes níveis de decisão.
@@ -330,6 +343,7 @@ const GestaoDaInformacao = () => {
           </div>
           <div>
             <h3>A Informação na Sociedade Atual</h3>
+            <video src={aula5} controls></video>
             <p>
               Vivemos na <strong>Sociedade da Informação</strong>, em transição
               para a <strong>Sociedade do Conhecimento e da Colaboração</strong>
@@ -371,6 +385,7 @@ const GestaoDaInformacao = () => {
               </li>
             </ul>
             <h4>O Papel e o Valor dos Sistemas de Informação</h4>
+            <video src={aula6} controls></video>
             <p>
               Um <strong>sistema de informação</strong> é um conjunto de pessoas
               e processos, com ou sem o apoio de tecnologia, que trabalham
@@ -399,6 +414,7 @@ const GestaoDaInformacao = () => {
               </li>
             </ol>
             <h4>Qualidades e Valor da Informação</h4>
+            <video src={aula7} controls></video>
             <p>
               Para ser realmente valiosa, a informação precisa ter{" "}
               <strong>qualidade, clareza e precisão</strong>. Quando isso
@@ -448,6 +464,7 @@ const GestaoDaInformacao = () => {
               competitividade.
             </p>
             <h4>As Três Dimensões de um Sistema de Informação</h4>
+            <video src={aula8}></video>
             <p>
               Para que um sistema de informação seja eficaz, ele deve ser
               planejado e implementado considerando três dimensões principais,
