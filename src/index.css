@@ -48,7 +48,8 @@ section {
   margin: 1em 0.5em;
   padding: 0.5em;
   border: 1px solid #000;
-  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.8);
+  border-radius: 3px;
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.3);
   line-height: 1.5em;
 }
 
@@ -61,16 +62,19 @@ ol {
   padding-left: 1em;
 }
 
-video {
-  display: block;
-  width: 50%;
-  border: 2px solid #d35400;
-  border-radius: 5px;
-  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.8);
+.audios {
+  background-color: #fff;
+  padding: 1em;
+  border-radius: 3px;
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2em;
 }
 
-@media (max-width: 400px) {
-  video {
-    width: 100%;
-  }
+.audios audio {
+  height: 2em;
+  border-radius: 50px;
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.3);
 }
