@@ -1,4 +1,33 @@
 import { useState } from "react";
+import aula1 from "../assets/audiosM3/aula01.mp3";
+import aula2 from "../assets/audiosM3/aula02.mp3";
+import aula3 from "../assets/audiosM3/aula03.mp3";
+import aula4 from "../assets/audiosM3/aula04.mp3";
+
+import aula5 from "../assets/audiosM3/aula05.mp3";
+import aula6 from "../assets/audiosM3/aula06.mp3";
+import aula7 from "../assets/audiosM3/aula07.mp3";
+import aula8 from "../assets/audiosM3/aula08.mp3";
+
+import aula9 from "../assets/audiosM3/aula09.mp3";
+import aula10 from "../assets/audiosM3/aula10.mp3";
+import aula11 from "../assets/audiosM3/aula11.mp3";
+import aula12 from "../assets/audiosM3/aula12.mp3";
+
+import aula13 from "../assets/audiosM3/aula13.mp3";
+import aula14 from "../assets/audiosM3/aula14.mp3";
+import aula15 from "../assets/audiosM3/aula14.mp3";
+import aula16 from "../assets/audiosM3/aula16.mp3";
+
+import aula17 from "../assets/audiosM3/aula17.mp3";
+import aula18 from "../assets/audiosM3/aula18.mp3";
+import aula19 from "../assets/audiosM3/aula19.mp3";
+import aula20 from "../assets/audiosM3/aula20.mp3";
+
+import aula21 from "../assets/audiosM3/aula21.mp3";
+import aula22 from "../assets/audiosM3/aula22.mp3";
+import aula23 from "../assets/audiosM3/aula23.mp3";
+import aula24 from "../assets/audiosM3/aula24.mp3";
 
 const AdministracaoSistemas = () => {
   const [abrir, setAbrir] = useState(false);
@@ -21,6 +50,12 @@ const AdministracaoSistemas = () => {
         <>
           <div>
             <h3>Sistema e Teoria dos Sistemas</h3>
+            <div className="audios">
+              <audio src={aula1} controls></audio>
+              <audio src={aula2} controls></audio>
+              <audio src={aula3} controls></audio>
+              <audio src={aula4} controls></audio>
+            </div>
             <h4>O que é um sistema?</h4>
             <p>
               Um <strong>sistema</strong> é um conjunto de partes organizadas
@@ -486,6 +521,12 @@ const AdministracaoSistemas = () => {
           </div>
           <div>
             <h3>Comunicação e Sabedoria</h3>
+            <div className="audios">
+              <audio src={aula5} controls></audio>
+              <audio src={aula6} controls></audio>
+              <audio src={aula7} controls></audio>
+              <audio src={aula8} controls></audio>
+            </div>
             <p>
               Esta aula explora como transformamos informações em conhecimento.
               O processo começa com o recebimento de <strong>dados</strong>, que
@@ -872,6 +913,12 @@ const AdministracaoSistemas = () => {
           </div>
           <div>
             <h3>Dados e sua Origem</h3>
+            <div className="audios">
+              <audio src={aula9} controls></audio>
+              <audio src={aula10} controls></audio>
+              <audio src={aula11} controls></audio>
+              <audio src={aula12} controls></audio>
+            </div>
             <p>
               Os <strong>dados</strong> estão em tudo que fazemos, sendo gerados
               a todo momento em uma organização, quer eles sejam coletados ou
@@ -1167,6 +1214,12 @@ const AdministracaoSistemas = () => {
           </div>
           <div>
             <h3>Cibernética e a Importância dos Dados</h3>
+            <div className="audios">
+              <audio src={aula13} controls></audio>
+              <audio src={aula14} controls></audio>
+              <audio src={aula15} controls></audio>
+              <audio src={aula16} controls></audio>
+            </div>
             <p>
               Esta aula aprofunda a relação entre a lógica de sistemas e a
               tecnologia, mostrando que a base de um sistema, seja manual ou
@@ -1596,6 +1649,12 @@ const AdministracaoSistemas = () => {
           </div>
           <div>
             <h3>Estratégia e Sistemas</h3>
+            <div className="audios">
+              <audio src={aula17} controls></audio>
+              <audio src={aula18} controls></audio>
+              <audio src={aula19} controls></audio>
+              <audio src={aula20} controls></audio>
+            </div>
             <p>
               A <strong>estratégia</strong> é a chave para o sucesso em qualquer
               organização. Diferente de simplesmente "deixar a vida me levar", a
@@ -1978,6 +2037,12 @@ const AdministracaoSistemas = () => {
           </div>
           <div>
             <h3>Gerenciamento das Informações e Sistemas</h3>
+            <div className="audios">
+              <audio src={aula21} controls></audio>
+              <audio src={aula22} controls></audio>
+              <audio src={aula23} controls></audio>
+              <audio src={aula24} controls></audio>
+            </div>
             <p>
               Esta aula explora como os conceitos de sistemas e administração se
               aplicam na prática, discutindo termos e siglas comuns no mundo

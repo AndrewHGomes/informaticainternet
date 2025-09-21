@@ -19,6 +19,16 @@ import aula14 from "../assets/audiosM2/aula14.mp3";
 import aula15 from "../assets/audiosM2/aula15.mp3";
 import aula16 from "../assets/audiosM2/aula16.mp3";
 
+import aula17 from "../assets/audiosM2/aula17.mp3";
+import aula18 from "../assets/audiosM2/aula18.mp3";
+import aula19 from "../assets/audiosM2/aula19.mp3";
+import aula20 from "../assets/audiosM2/aula20.mp3";
+
+import aula21 from "../assets/audiosM2/aula21.mp3";
+import aula22 from "../assets/audiosM2/aula22.mp3";
+import aula23 from "../assets/audiosM2/aula23.mp3";
+import aula24 from "../assets/audiosM2/aula24.mp3";
+
 const GestaoDaInformacao = () => {
   const [abrir, setAbrir] = useState(false);
   const [girarImg, setGirarImg] = useState(false);
@@ -1434,6 +1444,12 @@ const GestaoDaInformacao = () => {
           </div>
           <div>
             <h3>Segurança da Informação</h3>
+            <div className="audios">
+              <audio src={aula17} controls></audio>
+              <audio src={aula18} controls></audio>
+              <audio src={aula19} controls></audio>
+              <audio src={aula20} controls></audio>
+            </div>
             <p>
               A <strong>gestão da informação</strong> é um processo dinâmico e
               crucial para a competitividade de uma empresa, pois permite forne
@@ -1945,6 +1961,12 @@ const GestaoDaInformacao = () => {
           </div>
           <div>
             <h3>Inteligência do Negócio (BI)</h3>
+            <div className="audios">
+              <audio src={aula21} controls></audio>
+              <audio src={aula22} controls></audio>
+              <audio src={aula23} controls></audio>
+              <audio src={aula24} controls></audio>
+            </div>
             <p>
               O <strong>Business Intelligence (BI)</strong>, ou Inteligência de
               Negócios, é um conjunto de{" "}
