@@ -5,6 +5,7 @@ import GestaoDaInformacao from "./components/GestaoDaInformacao";
 import InterfaceWeb from "./components/InterfaceWeb";
 import Introducao from "./components/Introducao";
 import PrincipiosWebDesign from "./components/PrincipiosWebDesign";
+import IdentidadeVisualAnimacao from "./components/IdentidadeVisualAnimacao";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <InterfaceWeb />
       <CriacaoWebSite />
       <PrincipiosWebDesign />
+      <IdentidadeVisualAnimacao />
     </>
   );
 };
