@@ -1,4 +1,8 @@
 import { useState } from "react";
+// import aula1 from '../assets/audiosM4/aula01.mp3';
+import aula2 from "../assets/audiosM4/aula02.mp3";
+import aula3 from "../assets/audiosM4/aula03.mp3";
+import aula4 from "../assets/audiosM4/aula04.mp3";
 
 const InterfaceWeb = () => {
   const [abrir, setAbrir] = useState(false);
@@ -21,6 +25,12 @@ const InterfaceWeb = () => {
         <>
           <div>
             <h3>O que é Interface Web?</h3>
+            <div className="audios">
+              {/* <audio src={aula1} controls></audio> */}
+              <audio src={aula2} controls></audio>
+              <audio src={aula3} controls></audio>
+              <audio src={aula4} controls></audio>
+            </div>
             <p>
               Vamos começar a entender a base de tudo que vamos estudar: a
               interface web. A ideia principal é que a interface não é apenas o
