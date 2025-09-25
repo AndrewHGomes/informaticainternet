@@ -1,8 +1,18 @@
 import { useState } from "react";
-// import aula1 from '../assets/audiosM4/aula01.mp3';
+import aula1 from "../assets/audiosM4/aula01.mp3";
 import aula2 from "../assets/audiosM4/aula02.mp3";
 import aula3 from "../assets/audiosM4/aula03.mp3";
 import aula4 from "../assets/audiosM4/aula04.mp3";
+
+// import aula5 from "../assets/audiosM4/aula05.mp3";
+import aula6 from "../assets/audiosM4/aula06.mp3";
+import aula7 from "../assets/audiosM4/aula07.mp3";
+import aula8 from "../assets/audiosM4/aula08.mp3";
+
+// import aula9 from "../assets/audiosM4/aula09.mp3";
+import aula10 from "../assets/audiosM4/aula10.mp3";
+import aula11 from "../assets/audiosM4/aula11.mp3";
+import aula12 from "../assets/audiosM4/aula12.mp3";
 
 const InterfaceWeb = () => {
   const [abrir, setAbrir] = useState(false);
@@ -26,7 +36,7 @@ const InterfaceWeb = () => {
           <div>
             <h3>O que é Interface Web?</h3>
             <div className="audios">
-              {/* <audio src={aula1} controls></audio> */}
+              <audio src={aula1} controls></audio>
               <audio src={aula2} controls></audio>
               <audio src={aula3} controls></audio>
               <audio src={aula4} controls></audio>
@@ -494,6 +504,12 @@ const InterfaceWeb = () => {
           </div>
           <div>
             <h3>O que é Fotografia</h3>
+            <div className="audios">
+              {/* <audio src={aula5} controls></audio> */}
+              <audio src={aula6} controls></audio>
+              <audio src={aula7} controls></audio>
+              <audio src={aula8} controls></audio>
+            </div>
             <p>
               Vamos começar desmistificando a fotografia. Ela não é só apertar
               um botão e pronto; é uma forma de arte e comunicação com sua
@@ -946,6 +962,12 @@ const InterfaceWeb = () => {
           </div>
           <div>
             <h3>Funções do Design e Princípios Básicos</h3>
+            <div className="audios">
+              {/* <audio src={aula9} controls></audio> */}
+              <audio src={aula10} controls></audio>
+              <audio src={aula11} controls></audio>
+              <audio src={aula12} controls></audio>
+            </div>
             <p>
               Vamos entender o que é <strong>design</strong> e por que ele é
               muito mais do que apenas "desenhar".
