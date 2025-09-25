@@ -4,6 +4,11 @@ import aula2 from "../assets/audiosM7/aula02.mp3";
 import aula3 from "../assets/audiosM7/aula03.mp3";
 import aula4 from "../assets/audiosM7/aula04.mp3";
 
+import aula5 from "../assets/audiosM7/aula05.mp3";
+import aula6 from "../assets/audiosM7/aula06.mp3";
+import aula7 from "../assets/audiosM7/aula07.mp3";
+import aula8 from "../assets/audiosM7/aula08.mp3";
+
 const IdentidadeVisualAnimacao = () => {
   const [abrir, setAbrir] = useState(false);
   const [girarImg, setGirarImg] = useState(false);
@@ -446,6 +451,370 @@ const IdentidadeVisualAnimacao = () => {
                         exibição.
                       </li>
                     </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>Matrizes na Computação Gráfica</h3>
+            <div className="audios">
+              <audio src={aula1} controls></audio>
+              <audio src={aula2} controls></audio>
+              <audio src={aula3} controls></audio>
+              <audio src={aula4} controls></audio>
+            </div>
+            <ul>
+              <li>
+                <strong>O que são?</strong>
+                <ul>
+                  <li>
+                    Uma matriz é uma estrutura de dados bidimensional (linhas e
+                    colunas) onde todos os elementos são do mesmo tipo. Na
+                    computação gráfica, elas são a base para{" "}
+                    <strong>transformações geométricas</strong>.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Por que são importantes?</strong>
+                <ul>
+                  <li>
+                    As transformações como translação, escala, rotação e
+                    reflexão são implementadas através de{" "}
+                    <strong>cálculos de matrizes</strong>, o que justifica a
+                    necessidade de placas de vídeo dedicadas.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Tipos de matrizes:</strong>
+                <ul>
+                  <li>
+                    <strong>
+                      Matriz genérica: tem m linhas e n colunas (ex: uma matriz
+                    </strong>
+                    2x3 tem 2 linhas e 3 colunas).
+                  </li>
+                  <li>
+                    <strong>Vetor:</strong> uma matriz com apenas uma linha ou
+                    uma coluna.
+                  </li>
+                  <li>
+                    <strong>
+                      Matriz quadrada: tem o mesmo número de linhas e colunas.
+                    </strong>
+                  </li>
+                  <li>
+                    <strong>
+                      Matriz identidade (I): uma matriz quadrada que age como o
+                    </strong>
+                    número 1 em cálculos com matrizes.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4></h4>
+            <ul>
+              <li>
+                <strong>Soma e Subtração:</strong>
+                <ul>
+                  <li>
+                    Só podem ser feitas entre matrizes com as{" "}
+                    <strong>mesmas dimensões</strong>
+                    (mesmo número de linhas e colunas).
+                  </li>
+                  <li>
+                    A operação é realizada <strong>elemento a elemento</strong>.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Transposição:</strong>
+                <ul>
+                  <li>
+                    É a simples <strong>troca das linhas pelas colunas</strong>.
+                  </li>
+                  <li>A transposta de uma matriz identidade é ela mesma.</li>
+                </ul>
+              </li>
+              <li>
+                <strong>Multiplicação:</strong>
+                <ul>
+                  <li>
+                    É a operação mais complexa e essencial para transformações
+                    gráficas.
+                  </li>
+                  <li>
+                    <strong>Pré-requisito:</strong> O número de colunas da{" "}
+                    <strong>primeira matriz</strong> deve ser{" "}
+                    <strong>igual</strong> ao número de linhas da segunda
+                    matriz.
+                  </li>
+                  <li>
+                    <strong>Resultado:</strong> A matriz-produto terá o número
+                    de linhas da primeira matriz e o número de colunas da
+                    segunda.
+                  </li>
+                  <li>
+                    <strong>Como funciona:</strong> Cada elemento da
+                    matriz-produto é o resultado da{" "}
+                    <strong>soma das multiplicações</strong> dos elementos da
+                    linha da primeira matriz pelos elementos da coluna da
+                    segunda.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Transformações Geométricas</h4>
+            <ul>
+              <li>
+                <strong>Como um ponto é representado? </strong>
+                <ul>
+                  <li>
+                    Um ponto com coordenadas (x,y) pode ser representado como
+                    uma <strong>matriz coluna</strong>, como [x y]. Isso
+                    facilita as operações matemáticas.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>O que é uma transformação? </strong>
+                <ul>
+                  <li>
+                    É o processo de mover ou alterar a posição de um ponto. Isso
+                    é feito multiplicando o vetor do ponto por uma{" "}
+                    <strong>matriz de transformação</strong> (T). A fórmula é: P
+                    ′ =T×P.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Como desfazer uma transformação?</strong>
+                <ul>
+                  <li>
+                    Para reverter a transformação, basta aplicar a{" "}
+                    <strong>matriz inversa</strong> (T −1 ), ou seja, P=T −1 ×P
+                    ′ .
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Exemplo:</strong>
+                <ul>
+                  <li>
+                    Um ponto P no plano bidimensional é transformado em P ′
+                    usando uma matriz T.
+                  </li>
+                  <li>
+                    Essa mesma lógica se aplica a pontos em três dimensões, onde
+                    a matriz de transformação é maior para acomodar as
+                    coordenadas x,y e z.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Translação e Escala</h4>
+            <p>
+              A animação gráfica usa <strong>transformações geométricas</strong>{" "}
+              para mover ou alterar imagens e modelos 3D, e essas transformações
+              são feitas usando a <strong>multiplicação de matrizes</strong>.
+            </p>
+            <h4>Translação (Movimentação)</h4>
+            <ul>
+              <li>
+                <strong>O que é?</strong>
+                <ul>
+                  <li>
+                    É o movimento de um objeto, deslocando cada coordenada por
+                    um valor fixo. Por exemplo, mover um objeto 2 unidades para
+                    a direita no eixo X e 2 unidades para cima no eixo Y.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Como funciona? </strong>
+                <ul>
+                  <li>
+                    Para realizar a translação com matrizes, é preciso adicionar
+                    uma dimensão extra.
+                    <ul>
+                      <li>
+                        <strong>Em 2D:</strong> Usa-se a matriz de translação T
+                        T ​ = ​ 1 0 0 ​ 0 1 0 ​ d x ​ d y ​ 1 ​ ​ , onde d x ​ e
+                        d y ​ são os valores de deslocamento nos eixos X e Y.
+                      </li>
+                      <li>
+                        <strong>Em 3D:</strong> O mesmo conceito se aplica, com
+                        uma matriz maior que inclui o eixo Z.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Escala (Redimensionamento)</h4>
+            <ul>
+              <li>
+                <strong>O que é?</strong>
+                <ul>
+                  <li>
+                    É a alteração das dimensões de um objeto, aumentando ou
+                    diminuindo seu tamanho.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Como funciona?</strong>
+                <ul>
+                  <li>
+                    Multiplica-se as coordenadas por um fator de escala (s x ​
+                    ,s y).
+                    <ul>
+                      <li>
+                        Em 2D: A matriz de escala é T S ​ = ​ s x ​ 0 0 ​ 0 s y
+                        ​ 0 ​ 0 0 1 ​ ​ .
+                      </li>
+                      <li>Se s&gt;1, o objeto aumenta.</li>
+                      <li>Se 0&lt;s&lt;1, o objeto diminui.</li>
+                      <li>
+                        <strong>Em 3D:</strong> O mesmo conceito se aplica, com
+                        um fator de escala para o eixo Z.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Exemplo Prático (2D):</h4>
+            <ul>
+              <li>
+                <strong>Translação: </strong>
+                <ul>
+                  <li>
+                    Para mover um ponto 3 unidades para a direita (d x ​ =3) e 2
+                    para cima (d y ​ =2), a matriz de transformação é: T T ​ = ​
+                    1 0 0 ​ 0 1 0 ​ 3 2 1 ​ ​ .
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Escala:</strong>
+                <ul>
+                  <li>
+                    Para ampliar um objeto 2 vezes no eixo X (s x ​ =2) e 3
+                    vezes no eixo Y (s y ​ =3), a matriz de transformação é: T S
+                    ​ = ​ 2 0 0 ​ 0 3 0 ​ 0 0 1 ​ ​ .
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Rotação e Reflexão</h4>
+            <p>
+              Além da translação e da escala, a <strong>rotação</strong> e a{" "}
+              <strong>reflexão</strong> são outras duas transformações
+              importantes na computação gráfica.
+            </p>
+            <h4></h4>
+            <ul>
+              <li>
+                <strong>O que é?</strong>
+                <ul>
+                  <li>
+                    É o ato de girar um objeto em torno de um ponto central
+                    (geralmente a origem).
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Como funciona?</strong>
+                <ul>
+                  <li>
+                    Para girar um ponto por um ângulo θ, usa-se uma matriz de
+                    rotação.
+                    <ul>
+                      <li>
+                        <strong>Em 2D:</strong> A matriz de rotação para um
+                        ângulo θ (sentido anti-horário) é: T R ​ =[ cosθ sinθ ​
+                        −sinθ cosθ ​ ].
+                      </li>
+                      <li>
+                        <strong>Em 3D:</strong> A rotação pode ser feita em
+                        torno de cada eixo (X, Y ou Z), e cada uma tem sua
+                        própria matriz de transformação.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Reflexão (Espelhamento)</h4>
+            <ul>
+              <li>
+                <strong>O que é?</strong>
+                <ul>
+                  <li>
+                    É o "espelhamento" de um objeto em torno de um eixo ou
+                    plano.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Como funciona?</strong>
+                <ul>
+                  <li>
+                    Para refletir um objeto, usa-se uma matriz de reflexão.
+                    <ul>
+                      <li>
+                        <strong>Reflexão no eixo Y (2D):</strong> A matriz é: T
+                        Y ​ =[ −1 0 ​ 0 1 ​ ].
+                      </li>
+                      <li>
+                        <strong>Reflexão no eixo X (2D):</strong> A matriz é: T
+                        X ​ =[ 1 0 ​ 0 −1 ​ ].
+                      </li>
+                      <li>
+                        <strong>Em 3D:</strong> A reflexão ocorre em torno de
+                        planos (XY, YZ ou XZ) e segue a mesma lógica, invertendo
+                        o sinal da coordenada que está fora do plano de
+                        reflexão.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Concatenação de Matrizes e Comutatividade</h4>
+            <ul>
+              <li>
+                <strong>Como combinar transformações?</strong>
+                <ul>
+                  <li>
+                    É possível combinar múltiplas transformações (como rotação e
+                    translação) multiplicando suas matrizes em uma "matriz de
+                    transformação composta".
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Atenção!</strong>
+                <ul>
+                  <li>
+                    A ordem da multiplicação <strong>importa</strong>, porque a
+                    multiplicação de
+                    <strong>matrizes não é comutativa</strong>. Por isso, A×B é
+                    diferente de B×A.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Posição do ponto:</strong>
+                <ul>
+                  <li>
+                    O vetor do ponto deve ser posicionado à direita da matriz de
+                    transformação para a multiplicação (P ′ =T×P). Se o ponto
+                    for uma matriz linha, é preciso usar a transposta da matriz
+                    de transformação.
                   </li>
                 </ul>
               </li>
