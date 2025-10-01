@@ -14,6 +14,11 @@ import aula10 from "../assets/audiosM7/aula10.mp3";
 import aula11 from "../assets/audiosM7/aula11.mp3";
 import aula12 from "../assets/audiosM7/aula12.mp3";
 
+import aula13 from "../assets/audiosM7/aula09.mp3";
+import aula14 from "../assets/audiosM7/aula10.mp3";
+import aula15 from "../assets/audiosM7/aula11.mp3";
+import aula16 from "../assets/audiosM7/aula12.mp3";
+
 const IdentidadeVisualAnimacao = () => {
   const [abrir, setAbrir] = useState(false);
   const [girarImg, setGirarImg] = useState(false);
@@ -1186,7 +1191,7 @@ const IdentidadeVisualAnimacao = () => {
                 </ul>
               </li>
             </ol>
-            <h3>Vis&atilde;o e Cores</h3>
+            <h4>Vis&atilde;o e Cores</h4>
             <p>
               O sistema visual de intera&ccedil;&atilde;o humana com a
               Computa&ccedil;&atilde;o Gr&aacute;fica &eacute; o pr&oacute;prio{" "}
@@ -1289,7 +1294,7 @@ const IdentidadeVisualAnimacao = () => {
                 rela&ccedil;&atilde;o de ordem.
               </li>
             </ul>
-            <h3>Vis&atilde;o Est&eacute;reo</h3>
+            <h4>Vis&atilde;o Est&eacute;reo</h4>
             <p>
               A vis&atilde;o est&eacute;reo &eacute; uma{" "}
               <strong>t&eacute;cnica de simula&ccedil;&atilde;o 3D</strong>{" "}
@@ -1367,7 +1372,7 @@ const IdentidadeVisualAnimacao = () => {
                 </ul>
               </li>
             </ol>
-            <h3>Conceitos-Chave</h3>
+            <h4>Conceitos-Chave</h4>
             <p>
               Os pontos a seguir s&atilde;o os conceitos centrais desta etapa
               sobre modelagem e visualiza&ccedil;&atilde;o 3D que devem ser
@@ -1446,6 +1451,211 @@ const IdentidadeVisualAnimacao = () => {
                   <li>
                     M&eacute;todos principais: filtro de cor (An&aacute;glifo) e
                     polariza&ccedil;&atilde;o.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4>Câmera Virtual</h4>
+            {/* <div className="audios">
+              <audio src={aula13} controls></audio>
+              <audio src={aula14} controls></audio>
+              <audio src={aula15} controls></audio>
+              <audio src={aula16} controls></audio>
+            </div> */}
+            <p>
+              A câmera virtual é a ferramenta que transforma modelos 3D em
+              imagens 2D na tela, simulando uma câmera real. Para isso, ela usa
+              sete "graus de liberdade" que permitem ajustar seu posicionamento
+              (translação e rotação nos eixos X, Y e Z) e foco. Essa câmera
+              virtual aplica transformações geométricas aos objetos 3D para
+              projetá-los na tela. Esse processo considera também outros
+              elementos, como iluminação e textura, para criar uma cena
+              realista.
+            </p>
+            <h4>Síntese de Imagens</h4>
+            <p>
+              A <strong>síntese de imagens</strong> é o processo de gerar
+              imagens artificiais, combinando elementos como geometria,
+              iluminação, sombreamento e texturas. O modelo de câmera usado
+              nesse processo projeta um modelo 3D em um plano 2D usando um
+              sistema de coordenadas do mundo real. A aplicação de uma matriz de
+              transformação é o que "comanda" a câmera virtual, definindo sua
+              translação e rotação, e ajustando a perspectiva para aproximar ou
+              afastar a cena.
+            </p>
+            <h4>Pipeline de Visualização (ou de Renderização)</h4>
+            <p>É uma sequência de etapas para renderizar uma imagem.</p>
+            <ol>
+              <li>
+                <strong>Vértices das malhas poligonais:</strong>
+                <ul>
+                  <li>São a base do modelo 3D.</li>
+                </ul>
+              </li>
+              <li>
+                <strong>Transformações Geométricas:</strong>
+                <ul>
+                  <li>
+                    Aplicadas aos vértices para transladar e rotacionar os
+                    objetos.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Câmera Virtual:</strong>
+                <ul>
+                  <li>
+                    Suas transformações são aplicadas a todos os vértices da
+                    cena.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Rasterização:</strong>
+                <ul>
+                  <li>
+                    Projeção perspectiva que converte os dados da cena em
+                    pixels, considerando a oclusão (quando um objeto está na
+                    frente do outro). Ela gera fragmentos que compõem a imagem
+                    final.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Montagem da Imagem Final: </strong>
+                <ul>
+                  <li>
+                    O estágio final, onde os fragmentos de imagem são reunidos.
+                  </li>
+                </ul>
+              </li>
+            </ol>
+            <p>
+              O pipeline também permite <strong>interação do usuário</strong>,
+              que pode ajustar objetos e a posição da câmera, criando animações
+              interativas.
+            </p>
+            <h4>Rasterização</h4>
+            <p>
+              A rasterização é o processo de converter um modelo 3D em uma
+              imagem 2D, considerando que a tela tem um número finito de pixels.
+              Para isso, ela usa o algoritmo ray casting. O ray casting funciona
+              traçando "raios" imaginários que partem do observador e passam por
+              cada pixel da tela. O primeiro objeto que o raio intercepta
+              determina a cor daquele pixel. Esse método é mais eficiente que o
+              ray tracing, que rastreia cada raio de luz individualmente, pois o
+              ray casting rastreia os raios em grupos, limitando o processamento
+              ao número de pixels da tela.
+            </p>
+            <h4>Modelo de Phong</h4>
+            <p>
+              O <strong>modelo de iluminação de Phong</strong> é usado para
+              determinar a cor e a iluminação de cada pixel. Ele divide a
+              luminosidade em três componentes:
+            </p>
+            <ol>
+              <li>
+                <strong>Luz ambiente:</strong>
+                <ul>
+                  <li>
+                    É uma aproximação global da luz refletida no ambiente.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Luz difusa: </strong>
+                <ul>
+                  <li>
+                    A luz que incide em um objeto e se reflete em várias
+                    direções, com a mesma intensidade. Sua intensidade depende
+                    da distância da luz ao observador e do ângulo de incidência.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Luz especular:</strong>
+                <ul>
+                  <li>
+                    A luz que incide em um objeto e se reflete em um ângulo
+                    igual ao de incidência, criando um efeito "espelhado" ou de
+                    brilho.
+                  </li>
+                </ul>
+              </li>
+            </ol>
+            <p>
+              A combinação desses três componentes matematicamente define a cor
+              final de um pixel na tela. O expoente especular (ns) e o
+              coeficiente de reflexão especular (ks) são parâmetros que definem
+              o brilho e o quão "espelhado" um material é.
+            </p>
+            <h4>Tonalização (Shading)</h4>
+            <p>
+              A <strong>tonalização</strong> melhora o realismo visual ao
+              interpolar a cor entre os vértices de um polígono. Em vez de usar
+              polígonos planos, ela usa{" "}
+              <strong>superfícies curvas (splines)</strong>, que são construídas
+              a partir dos vértices, para renderizar objetos com uma aparência
+              mais suave. Isso evita a aparência "quadriculada" de modelos com
+              baixa resolução.
+            </p>
+            <h4>Texturas</h4>
+            <p>
+              <strong>Texturas</strong> são imagens 2D (podem ser até
+              fotografias) sobrepostas nos polígonos 3D, como se fossem um
+              "papel de parede". Para aplicar a textura, as coordenadas dos
+              vértices do polígono são mapeadas na imagem da textura, e a cor de
+              cada ponto dentro do polígono é extraída dessa imagem. Isso
+              adiciona detalhes visuais sem a necessidade de aumentar a
+              complexidade do modelo 3D.
+            </p>
+            <h4>Conceitos Essenciais</h4>
+            <ul>
+              <li>
+                <strong>Câmera Virtual:</strong>
+                <ul>
+                  <li>
+                    Posiciona o observador na cena 3D usando 7 graus de
+                    liberdade (translação, rotação e foco).
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Pipeline de Visualização:</strong>
+                <ul>
+                  <li>A sequência de etapas que leva um modelo 3D à tela.</li>
+                </ul>
+              </li>
+              <li>
+                <strong>Rasterização:</strong>
+                <ul>
+                  <li>
+                    O processo de converter o modelo 3D em pixels. O algoritmo
+                    ray casting determina qual objeto é visível para cada pixel.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Visualização:</strong>
+                <ul>
+                  <li>
+                    Melhora o realismo usando:
+                    <ul>
+                      <li>
+                        <strong>Modelo de Phong:</strong> Decompõe a iluminação
+                        em três componentes (ambiente, difusa e especular).
+                      </li>
+                      <li>
+                        <strong>Tonalização:</strong> Suaviza a aparência dos
+                        objetos.
+                      </li>
+                      <li>
+                        <strong>Texturas:</strong> Adiciona detalhes a
+                        superfícies.
+                      </li>
+                    </ul>
                   </li>
                 </ul>
               </li>
