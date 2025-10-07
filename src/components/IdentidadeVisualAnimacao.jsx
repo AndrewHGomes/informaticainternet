@@ -14,10 +14,15 @@ import aula10 from "../assets/audiosM7/aula10.mp3";
 import aula11 from "../assets/audiosM7/aula11.mp3";
 import aula12 from "../assets/audiosM7/aula12.mp3";
 
-import aula13 from "../assets/audiosM7/aula09.mp3";
-import aula14 from "../assets/audiosM7/aula10.mp3";
-import aula15 from "../assets/audiosM7/aula11.mp3";
-import aula16 from "../assets/audiosM7/aula12.mp3";
+import aula13 from "../assets/audiosM7/aula13.mp3";
+import aula14 from "../assets/audiosM7/aula14.mp3";
+import aula15 from "../assets/audiosM7/aula15.mp3";
+import aula16 from "../assets/audiosM7/aula16.mp3";
+
+import aula17 from "../assets/audiosM7/aula17.mp3";
+import aula18 from "../assets/audiosM7/aula18.mp3";
+import aula19 from "../assets/audiosM7/aula19.mp3";
+import aula20 from "../assets/audiosM7/aula20.mp3";
 
 const IdentidadeVisualAnimacao = () => {
   const [abrir, setAbrir] = useState(false);
@@ -1457,13 +1462,13 @@ const IdentidadeVisualAnimacao = () => {
             </ul>
           </div>
           <div>
-            <h4>Câmera Virtual</h4>
-            {/* <div className="audios">
+            <h3>Câmera Virtual</h3>
+            <div className="audios">
               <audio src={aula13} controls></audio>
               <audio src={aula14} controls></audio>
               <audio src={aula15} controls></audio>
               <audio src={aula16} controls></audio>
-            </div> */}
+            </div>
             <p>
               A câmera virtual é a ferramenta que transforma modelos 3D em
               imagens 2D na tela, simulando uma câmera real. Para isso, ela usa
@@ -1654,6 +1659,526 @@ const IdentidadeVisualAnimacao = () => {
                       <li>
                         <strong>Texturas:</strong> Adiciona detalhes a
                         superfícies.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>Animação e o Modelador</h3>
+            <div className="audios">
+              <audio src={aula17} controls></audio>
+              <audio src={aula18} controls></audio>
+              <audio src={aula19} controls></audio>
+              <audio src={aula20} controls></audio>
+            </div>
+            <ul>
+              <li>
+                <strong>Base da Animação 3D:</strong>
+                <ul>
+                  <li>
+                    A animação tradicional (2D) é o ponto de partida, tendo como
+                    fundação os <strong>12 Princípios da Animação</strong> da
+                    Disney (The Illusion of Life):
+                    <ul>
+                      <li>
+                        Esticar e Comprimir, Antecipação, Encenação, Siga
+                        Direto/Pose a Pose, Prosseguimento/Ação de Sobreposição,
+                        Começar/Terminar Devagar, Arcos, Ação Secundária,
+                        Cronometragem (Timing), Exagero, Desenhar Sólidos,
+                        Apelo.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Modelagem Digital 3D: </strong>
+                <ul>
+                  <li>
+                    Processo de criar{" "}
+                    <strong>representações matemáticas</strong> que simulam o
+                    formato de um objeto tridimensional, com base no universo
+                    artístico (não só técnico).
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Habilidades do Modelador:</strong>
+                <ul>
+                  <li>
+                    Ter <strong>referências</strong> (para modelar elementos
+                    inexistentes).
+                  </li>
+                  <li>
+                    Ser bom <strong>observador</strong> (para definir textura,
+                    simetria, comportamento físico, etc.).
+                  </li>
+                  <li>
+                    Saber <strong>resolver problemas</strong> (solucionar
+                    situações de visualidade).
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Transformações de Objetos no Espaço e Modelagem</h4>
+            <ul>
+              <li>
+                <strong>Transformações Espaciais:</strong>
+                <ul>
+                  <li>
+                    Operações fundamentais em 3D, comandadas por matrizes que
+                    agem sobre vetores de posição. São elas:
+                    <ul>
+                      <li>
+                        <strong>Mover:</strong> Reposicionar o objeto no espaço.
+                      </li>
+                      <li>
+                        <strong>Rotacionar:</strong> Especificar o ângulo do
+                        objeto em torno de um eixo.
+                      </li>
+                      <li>
+                        <strong>Escalar:</strong> Alterar o tamanho do objeto
+                        (aumentar ou diminuir).
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Estrutura Básica do Modelo:</strong>
+                <ul>
+                  <li>
+                    <strong>Pontos</strong> (por vetores) → Ligados por{" "}
+                    <strong>Arestas</strong> (edges) → Formam
+                    <strong>Polígonos</strong> → Formam Poliedros.
+                  </li>
+                  <li>
+                    <strong>Peso da Aresta:</strong> Define a nitidez
+                    (suavidade/canto vivo) entre os polígonos.
+                  </li>
+                  <li>
+                    <strong>Splines:</strong> Importantes para a construção e
+                    para a movimentação mais orgânica.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Mapas de Vértices (Vortex Maps):</strong>
+                <ul>
+                  <li>
+                    Guardam informações necessárias à modelagem e animação.
+                    Exemplos:
+                    <ul>
+                      <li>
+                        <strong>Texturas (Texture UV):</strong> Planifica a
+                        textura no modelo.
+                      </li>
+                      <li>
+                        <strong>Peso (Weight):</strong> Influência da estrutura
+                        interna sobre o modelo.
+                      </li>
+                      <li>
+                        <strong>Transformação (Morph):</strong> Informações de
+                        deslocamento.
+                      </li>
+                      <li>
+                        <strong>Cor:</strong> Armazena valores de mudança de
+                        cor.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Técnicas de Modelagem Realística:</strong>
+                <ul>
+                  <li>
+                    <strong>
+                      Modelagem NURBS (Non-Uniform Rational B-Splines):{" "}
+                    </strong>
+                    <ul>
+                      <li>
+                        Modela objetos com <strong>curvas suaves</strong>{" "}
+                        (generaliza Curvas de Bézier). Uso em declínio devido à
+                        dificuldade com modelagem orgânica.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Modelagem Poligonal:</strong>
+                    <ul>
+                      <li>
+                        Método mais <strong>utilizado atualmente</strong>.
+                        Trabalha com subdivisão de polígonos. Categoriza objetos
+                        em <strong>High Poly</strong>
+                        (alto detalhamento) e <strong>Low Poly</strong> (baixo
+                        detalhamento).
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>
+                      Subdivisão de Superfície (Subdivision Surface):
+                    </strong>
+                    <ul>
+                      <li>
+                        Refinamento da modelagem poligonal que cria{" "}
+                        <strong>superfícies lisas</strong> a partir da malha
+                        poligonal.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Técnicas de Movimentação e Estrutura de Modelos 3D</h4>
+            <ul>
+              <li>
+                <strong>Blueprints</strong>
+                <ul>
+                  <li>
+                    <strong>Definição: Referências visuais</strong> (vistas de
+                    frente, costas, lado) usadas no processo de modelagem.
+                  </li>
+                  <li>
+                    <strong>Função:</strong> Ajudam o animador a manter a{" "}
+                    <strong>consistência visual</strong> e a definir{" "}
+                    <strong>posições-chave de movimentação</strong> (corrida,
+                    salto, expressões, gestual), limitando velocidade, altura,
+                    etc.
+                  </li>
+                  <li>
+                    <strong>Uso:</strong> Permite desenvolver um objeto ou
+                    animação partindo de um exemplo existente, economizando
+                    etapas.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Estruturas Articuladas (Rigging)</strong>
+                <ul>
+                  <li>
+                    <strong>Rigging:</strong> Estrutura de articulação
+                    hierárquica (parentesco pai/filho) que inclui articulações e
+                    o sistema muscular. Essencial para dar movimento ao modelo
+                    3D.
+                  </li>
+                  <li>
+                    <strong>Parentesco (Parenting):</strong> O objeto filho se
+                    move independentemente, mas segue o movimento do pai.
+                  </li>
+                  <li>
+                    <strong>Cinemática:</strong>
+                    <ul>
+                      <li>
+                        <strong>Cinemática Direta:</strong> Criação da própria
+                        hierarquia (movimento do pai afeta o filho).
+                      </li>
+                      <li>
+                        <strong>Cinemática Inversa:</strong> Inversão da
+                        hierarquia original (movimento de um ponto final, como a
+                        mão, afeta a cadeia, como o braço).
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Componentes Esqueléticos:</strong>
+                    <ul>
+                      <li>
+                        <strong>Ossos (Bones):</strong> Unem visualmente as
+                        articulações.
+                      </li>
+                      <li>
+                        <strong>Articulações (Joints):</strong> Pontos de
+                        conexão.
+                      </li>
+                      <li>
+                        <strong>Pivôs (Pivots):</strong> Marcadores onde o
+                        modelo pode rotacionar, definindo a estrutura
+                        hierárquica.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Esqueleto (Skeleton):</strong> Conjunto hierárquico
+                    de ossos, pivôs e articulações. Deve ser montado antes de
+                    texturizar para permitir testes de movimento. Usado em
+                    modelos orgânicos e superfícies duras com deformação.
+                  </li>
+                  <li>
+                    <strong>Músculos (Muscles):</strong> Adicionados ao
+                    esqueleto para tornar a movimentação mais realista. Sistemas
+                    de simulação que agem como deformadores de preenchimento.
+                  </li>
+                  <li>
+                    <strong>Deformadores:</strong> Ferramentas que mudam a forma
+                    da geometria do personagem, conectadas ao sistema de
+                    articulação (sondas/rig). Usados para gerar efeitos
+                    realistas (dobras, repuxos de pele).
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Movimentação de Personagens</strong>
+                <ul>
+                  <li>
+                    <strong>Anatomia:</strong> Conhecimento básico é necessário
+                    para desenvolver estruturas de articulação verossímeis
+                    (mesmo em personagens não-humanos).
+                    <ul>
+                      <li>
+                        <strong>Expressões Faciais</strong>
+                        <ul>
+                          <li>
+                            <strong>Verossimilhança:</strong> Exige conhecimento
+                            da anatomia facial (ossos e músculos).
+                          </li>
+                          <li>
+                            <strong>Modelagem:</strong> A face é construída
+                            usando polígonos que devem seguir o fluxo dos
+                            músculos.
+                          </li>
+                          <li>
+                            <strong>Animação de Vértices:</strong> Mover
+                            vértices individualmente é difícil; animadores usam
+                            o rigging (sobre músculos/esqueletos) para que um
+                            pequeno movimento (ex: piscar) influencie grandes
+                            partes da face de uma só vez.
+                          </li>
+                          <li>
+                            <strong>Blendshapes:</strong> Deformadores que criam
+                            um objeto base e o replicam em poses-chaves (formas
+                            alteradas) para animar transições faciais.
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <strong>Movimentação de Pessoas e Animais</strong>
+                        <ul>
+                          <li>
+                            O movimento deve ser <strong>natural</strong> para
+                            evitar estranheza.
+                          </li>
+                          <li>
+                            <strong>Quadro-Chave (Keyframing):</strong>{" "}
+                            Definição de <strong>início, meio e fim</strong> das
+                            posições e atributos do objeto. O software interpola
+                            os quadros intermediários. Usado tipicamente com 24
+                            a 30 quadros por segundo.
+                          </li>
+                          <li>
+                            <strong>Animação com Gráficos:</strong> Define o
+                            movimento interpolado (a transição) entre keyframes
+                            através do desenho de uma{" "}
+                            <strong>linha de trajetória</strong>
+                            (gráficos), permitindo maior sutileza.
+                          </li>
+                          <li>
+                            <strong>
+                              Captura de Movimento (Motion Capture):
+                            </strong>{" "}
+                            Técnica popular onde um <strong>ator real</strong>{" "}
+                            realiza o movimento usando roupas com{" "}
+                            <strong>marcadores</strong>. Câmeras registram o
+                            movimento, e o computador o <strong>captura</strong>{" "}
+                            e o conecta aos pontos do modelo 3D. Exige grande
+                            planejamento (posicionamento estratégico dos
+                            marcadores).
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Cenários, Texturas e Materiais</h4>
+            <ul>
+              <li>
+                <strong>Funções do Cenário 3D:</strong>
+                <ol>
+                  <li>
+                    <strong>Explicar o Relacionamento Espacial</strong>{" "}
+                    (interno/externo).
+                  </li>
+                  <li>
+                    <strong>Criação da Atmosfera</strong> (estrutura, forma,
+                    material, iluminação condizentes com a emoção).
+                  </li>
+                  <li>
+                    <strong>Realce do Papel do Personagem</strong> (coerência
+                    entre cenário e personagem).
+                  </li>
+                  <li>
+                    <strong>Controle de Cena</strong> (desenvolvimento baseado
+                    em composição, movimentos e ângulos de visão).
+                  </li>
+                  <li>
+                    <strong>Melhora do Impacto Visual</strong> (união de formas,
+                    cores, texturas e iluminação para imersão).
+                  </li>
+                </ol>
+              </li>
+              <li>
+                <strong>Modelagem de um Ambiente Urbano</strong>
+                <ul>
+                  <li>
+                    <strong>Desafio:</strong> Modelar uma área grande,
+                    minimizando repetição.
+                  </li>
+                  <li>
+                    <strong>Facilitador:</strong> Cidades grandes tendem a ter
+                    formas simétricas e padronizadas (ruas, edifícios).
+                  </li>
+                  <li>
+                    <strong>Itens Essenciais:</strong> Modelos-base de ruas,
+                    repetição de edifícios, estruturas de referência,
+                    propriedades e adereços.
+                  </li>
+                  <li>
+                    <strong>Aspectos de Qualidade:</strong>
+                    <ul>
+                      <li>
+                        <strong>Perspectiva:</strong> Ponto de vista de
+                        observação (terceira pessoa, top-down, etc.).
+                      </li>
+                      <li>
+                        <strong>Tema:</strong> Configuração do espaço (cidade
+                        grande, suja, surreal, etc.).
+                      </li>
+                      <li>
+                        <strong>Tamanho do Mundo:</strong> Define o uso de mapas
+                        de texturas e remoção de polígonos não usados.
+                      </li>
+                      <li>
+                        <strong>
+                          Escala do Mundo em Relação ao Personagem:
+                        </strong>{" "}
+                        Proporções corretas para a exploração.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Métodos de Construção:</strong>
+                    <ul>
+                      <li>
+                        <strong>Modular:</strong> Construir espaços e encaixar
+                        objetos sobre uma grade (grid).
+                      </li>
+                      <li>
+                        <strong>Livre:</strong> Objetos distribuídos livremente,
+                        relacionados à perspectiva do espectador.
+                      </li>
+                      <li>
+                        <strong>Híbrido:</strong> Combinação dos dois (ex.:
+                        edifícios modulares, ruas livres).
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Modelagem de um Ambiente Natural</strong>
+                <ul>
+                  <li>
+                    <strong>Desafio Extra:</strong> A variedade e a riqueza de
+                    detalhes dos elementos de um ambiente natural.
+                  </li>
+                  <li>
+                    <strong>Elementos e Qualidade:</strong>
+                    <ul>
+                      <li>
+                        <strong>
+                          Perspectiva: Determina se o ambiente é limitado pela
+                        </strong>
+                        atuação do personagem.
+                      </li>
+                      <li>
+                        <strong>
+                          Tema: Transmite emoções (ex.: árvores com ou sem
+                          folhas
+                        </strong>
+                        para tranquilidade/apreensão).
+                      </li>
+                      <li>
+                        <strong>
+                          Tamanho do Mundo: Auxilia na definição da quantidade
+                          de
+                        </strong>
+                        ativos (plantas, etc.).
+                      </li>
+                      <li>
+                        <strong>Terreno:</strong> Composto de polígonos/pixels,
+                        criado manualmente ou por softwares especializados.
+                      </li>
+                      <li>
+                        <strong>Água:</strong> Difícil de simular devido à
+                        complexidade da dinâmica de fluidos.
+                      </li>
+                      <li>
+                        <strong>Plantas:</strong> Usadas para preencher e
+                        detalhar o terreno.
+                      </li>
+                      <li>
+                        <strong>Céu:</strong> Pode ser criado por Imagem Única
+                        (visão limitada), Céu Cúpula (Sky-Dome) (envolve o
+                        mundo) ou Céu Caixa (Sky-Box) (área separada).
+                      </li>
+                      <li>
+                        <strong>Sol:</strong> Tratado como uma luz direcional,
+                        não um objeto 3D.
+                      </li>
+                      <li>
+                        <strong>Nuvens:</strong> Dependem do tipo de céu usado
+                        (imagem ou algoritmos).
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Texturas e Materiais</strong>
+                <ul>
+                  <li>
+                    <strong>Objetivo:</strong> Transformar as superfícies do
+                    modelo (que vem liso e sombreado) para representar
+                    conceitualmente o objeto no mundo real.
+                  </li>
+                  <li>
+                    <strong>Processo:</strong>
+                    <ol>
+                      <li>
+                        <strong>
+                          Mapa UV: Criação de um mapa planificado para adicionar
+                        </strong>
+                        propriedades corretas (cores, detalhes) à mão ou via
+                        fotografias.
+                      </li>
+                      <li>
+                        <strong>
+                          Sombreadores (Shaders): Comandos que o software usa
+                          para
+                        </strong>
+                        calcular efeitos de renderização, definindo a aparência
+                        final do objeto (cor, refletividade, transparência,
+                        realces, etc.).
+                      </li>
+                      <li>
+                        <strong>
+                          Simulação de Superfície: Criação de padrões (celular,
+                        </strong>
+                        grid, fractal, etc.) para simular texturas e gerar
+                        informações visuais realistas.
+                      </li>
+                    </ol>
+                    <ul>
+                      <li>
+                        <strong>Teste:</strong> A renderização é feita para que
+                        a equipe de iluminação observe o comportamento da luz
+                        sobre os materiais.
                       </li>
                     </ul>
                   </li>

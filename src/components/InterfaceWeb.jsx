@@ -4,15 +4,20 @@ import aula2 from "../assets/audiosM4/aula02.mp3";
 import aula3 from "../assets/audiosM4/aula03.mp3";
 import aula4 from "../assets/audiosM4/aula04.mp3";
 
-// import aula5 from "../assets/audiosM4/aula05.mp3";
+import aula5 from "../assets/audiosM4/aula05.mp3";
 import aula6 from "../assets/audiosM4/aula06.mp3";
 import aula7 from "../assets/audiosM4/aula07.mp3";
 import aula8 from "../assets/audiosM4/aula08.mp3";
 
-// import aula9 from "../assets/audiosM4/aula09.mp3";
+import aula9 from "../assets/audiosM4/aula09.mp3";
 import aula10 from "../assets/audiosM4/aula10.mp3";
 import aula11 from "../assets/audiosM4/aula11.mp3";
 import aula12 from "../assets/audiosM4/aula12.mp3";
+
+import aula13 from "../assets/audiosM4/aula13.mp3";
+import aula14 from "../assets/audiosM4/aula14.mp3";
+import aula15 from "../assets/audiosM4/aula15.mp3";
+import aula16 from "../assets/audiosM4/aula16.mp3";
 
 const InterfaceWeb = () => {
   const [abrir, setAbrir] = useState(false);
@@ -505,7 +510,7 @@ const InterfaceWeb = () => {
           <div>
             <h3>O que é Fotografia</h3>
             <div className="audios">
-              {/* <audio src={aula5} controls></audio> */}
+              <audio src={aula5} controls></audio>
               <audio src={aula6} controls></audio>
               <audio src={aula7} controls></audio>
               <audio src={aula8} controls></audio>
@@ -963,7 +968,7 @@ const InterfaceWeb = () => {
           <div>
             <h3>Funções do Design e Princípios Básicos</h3>
             <div className="audios">
-              {/* <audio src={aula9} controls></audio> */}
+              <audio src={aula9} controls></audio>
               <audio src={aula10} controls></audio>
               <audio src={aula11} controls></audio>
               <audio src={aula12} controls></audio>
@@ -1261,6 +1266,12 @@ const InterfaceWeb = () => {
           </div>
           <div>
             <h3>Cores e Círculo Cromático</h3>
+            <div className="audios">
+              <audio src={aula13} controls></audio>
+              <audio src={aula14} controls></audio>
+              <audio src={aula15} controls></audio>
+              <audio src={aula16} controls></audio>
+            </div>
             <p>
               Para criar interfaces bonitas e funcionais, você precisa entender
               como as cores funcionam. A harmonia entre elas não é um mistério,
