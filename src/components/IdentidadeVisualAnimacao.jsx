@@ -24,6 +24,11 @@ import aula18 from "../assets/audiosM7/aula18.mp3";
 import aula19 from "../assets/audiosM7/aula19.mp3";
 import aula20 from "../assets/audiosM7/aula20.mp3";
 
+import aula21 from "../assets/audiosM7/aula21.mp3";
+import aula22 from "../assets/audiosM7/aula22.mp3";
+import aula23 from "../assets/audiosM7/aula23.mp3";
+import aula24 from "../assets/audiosM7/aula24.mp3";
+
 const IdentidadeVisualAnimacao = () => {
   const [abrir, setAbrir] = useState(false);
   const [girarImg, setGirarImg] = useState(false);
@@ -2185,6 +2190,449 @@ const IdentidadeVisualAnimacao = () => {
                 </ul>
               </li>
             </ul>
+          </div>
+          <div>
+            <h3>Realidade Virtual e Realidade Aumentada (RV/RA)</h3>
+            <div className="audios">
+              <audio src={aula21} controls></audio>
+              <audio src={aula22} controls></audio>
+              <audio src={aula23} controls></audio>
+              <audio src={aula24} controls></audio>
+            </div>
+            <ol>
+              <li>
+                <strong>Definição e Conceitos Principais</strong>
+                <ul>
+                  <li>
+                    <strong>Realidade Virtual (RV):</strong> É uma interface
+                    avançada que permite ao usuário interagir com{" "}
+                    <strong>programas de computador</strong> usando a{" "}
+                    <strong>visão e outros sentidos</strong> em{" "}
+                    <strong>ambientes tridimensionais</strong> em tempo real.
+                  </li>
+                  <li>
+                    <strong>Objetivo da RV:</strong> Mudar a percepção do
+                    usuário do mundo real para um{" "}
+                    <strong>ambiente sintético (virtual)</strong>, que é
+                    percebido pelos sentidos, mas não é tangível.
+                  </li>
+                  <li>
+                    <strong>Contínuo Realidade-Virtualidade (Milgram):</strong>{" "}
+                    Define o espectro que vai do <strong>Mundo Real</strong>{" "}
+                    (extremo esquerdo) até a <strong>Realidade Virtual</strong>{" "}
+                    (extremo direito).
+                  </li>
+                  <li>
+                    <strong>Realidade Aumentada (RA):</strong> O usuário está no
+                    <strong>ambiente real</strong> e interage com{" "}
+                    <strong>elementos virtuais</strong> adicionados a esse
+                    espaço.
+                  </li>
+                  <li>
+                    <strong>Virtualidade Aumentada (VA):</strong> O usuário está
+                    na <strong>realidade virtual</strong> e são adicionados
+                    <strong>elementos do mundo real</strong>.
+                  </li>
+                  <li>
+                    <strong>Realidade Misturada:</strong> Termo genérico para
+                    qualquer ambiente que combine real e virtual (inclui RA e
+                    VA).
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Imersão e Presença</strong>
+                <ul>
+                  <li>
+                    Imersão (Objetiva): É o quão bem o sistema fornece a{" "}
+                    <strong>ilusão de uma realidade diferente.</strong> Define o
+                    nível de estímulos sensoriais que o sistema envia ao
+                    usuário.
+                    <ul>
+                      <li>
+                        <strong>Fatores:</strong> Qualidade da imagem, campo de
+                        visão, estereoscopia, rastreamento, abrangência
+                        (auditiva, tátil, visual) e interatividade.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Presença (Subjetiva):</strong> É a{" "}
+                    <strong>percepção psicológica</strong> ou estado de
+                    consciência de{" "}
+                    <strong>estar dentro do ambiente virtual</strong>. É a
+                    ilusão de que não há mediação entre o usuário e o ambiente.
+                    <ul>
+                      <li>
+                        <strong>Fatores:</strong> Ilusão{" "}
+                        <strong>espacial</strong> (sentir-se em um local),
+                        <strong>corporal</strong> (sentir a existência de um
+                        corpo virtual),
+                        <strong>física</strong> (interagir com o cenário) e{" "}
+                        <strong>social</strong> (comunicar-se com personagens).
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Arquitetura do Sistema e Desafios</strong>
+                <ul>
+                  <li>
+                    <strong>Funcionamento Básico:</strong> O{" "}
+                    <strong>usuário</strong> interage → Sensores →
+                    <strong>Renderização Sensorial</strong> (tradutor) →
+                    <strong>Simulação</strong> (manipula eventos e atualiza o
+                    ambiente) → Renderização.
+                  </li>
+                  <li>
+                    <strong>Simulação:</strong> É o coração do sistema; usa
+                    dados de entrada e a base de dados para manipular o
+                    ambiente.
+                  </li>
+                  <li>
+                    <strong>Tempo de Latência:</strong> O tempo entre a leitura
+                    da entrada e a renderização. Deve ser{" "}
+                    <strong>menor que 20 ms</strong> para garantir o conforto e
+                    a presença.
+                  </li>
+                  <li>
+                    Interação:
+                    <ul>
+                      <li>
+                        <strong>Navegação:</strong> Movimentação no ambiente
+                        (viagem - mecânica e trajeto - cognitiva).
+                      </li>
+                      <li>
+                        <strong>Seleção e Manipulação:</strong> Escolha de um
+                        objeto para alterar seu estado (translação, rotação,
+                        etc.).
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Desafios:</strong>
+                    <ul>
+                      <li>
+                        <strong>Vale da Estranheza (Uncanny Valley):</strong>{" "}
+                        Repulsa a representações humanas artificiais que são
+                        quase reais, mas não totalmente.
+                      </li>
+                      <li>
+                        <strong>Fidelidade:</strong> Alto custo do fotorrealismo
+                        e dificuldade em atingir a similaridade desejada na
+                        representação e interação.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Aplicações (Uso Vasto)</strong>A RV vai além dos
+                videogames, sendo essencial em:
+                <ul>
+                  <li>
+                    <strong>Industrial:</strong> Desenho assistido por
+                    computador (CAD), visualização de protótipos e simulação de
+                    processos.
+                  </li>
+                  <li>
+                    <strong>Médico/Saúde:</strong> Planejamento cirúrgico,
+                    monitoramento e processamento de imagens 3D.
+                  </li>
+                  <li>
+                    <strong>Científico:</strong> Visualização de conceitos
+                    abstratos (Física/Matemática) e de estruturas muito grandes
+                    ou pequenas (galáxias, átomos).
+                  </li>
+                  <li>
+                    <strong>Educação:</strong> Laboratórios virtuais e encontros
+                    remotos mais interativos.
+                  </li>
+                  <li>
+                    <strong>Artes e Entretenimento:</strong> Museus virtuais,
+                    filmes e jogos.
+                  </li>
+                </ul>
+              </li>
+            </ol>
+            <h4>Realidade Aumentada (RA) e Conceitos Correlatos</h4>
+            <ol>
+              <li>
+                <strong>Definição e Objetivos da Realidade Aumentada</strong>
+                <ul>
+                  <li>
+                    <strong>Realidade Aumentada (RA):</strong> É uma subárea da
+                    Realidade Virtual (RV) que transporta{" "}
+                    <strong>
+                      elementos virtuais para o espaço físico do usuário
+                    </strong>
+                    .
+                  </li>
+                  <li>
+                    <strong>Diferença fundamental da RV:</strong> A RV abstrai o
+                    usuário do ambiente físico (mundo totalmente sintético). A
+                    <strong>RA enriquece o ambiente físico</strong> permitindo
+                    ao usuário interagir com objetos reais e virtuais
+                    <strong>simultaneamente</strong>.
+                  </li>
+                  <li>
+                    <strong>Interação:</strong> Pode ser <strong>direta</strong>{" "}
+                    (mão, corpo) ou
+                    <strong>indireta</strong> (dispositivo). Interfaces que usam
+                    múltiplos dispositivos são chamadas{" "}
+                    <strong>multimodais</strong>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Arquitetura e Funcionamento do Sistema RA</strong>
+                <ul>
+                  <li>
+                    <strong>Rastreamento (Tracking):</strong> Conceito chave. É
+                    o processo pelo qual o sistema identifica a{" "}
+                    <strong>posição exata de inserção</strong> e o{" "}
+                    <strong>formato de apresentação</strong> dos elementos
+                    virtuais, considerando o ponto de vista do usuário em tempo
+                    real.
+                  </li>
+                  <li>
+                    <strong>Dispositivos de Visualização:</strong> Essenciais
+                    para reconhecer o ponto de vista do observador. Comumente
+                    são usados <strong>smartphones com câmera</strong> ou{" "}
+                    <strong>HMDs (capacete) com câmera acoplada</strong>.
+                  </li>
+                  <li>
+                    <strong>Latência:</strong> Para funcionar em "tempo real", o
+                    sistema RA deve ter latência igual ou{" "}
+                    <strong>inferior a 16 ms</strong>.
+                  </li>
+                </ul>
+              </li>
+            </ol>
+            <h4>Módulos do Sistema RA (Arquitetura Básica)</h4>
+            <ol>
+              <li>
+                <strong>Módulo de Entrada:</strong>
+                <ul>
+                  <li>
+                    <strong>Captura de Vídeo:</strong> Obtém imagens da cena
+                    real.
+                  </li>
+                  <li>
+                    <strong>Sensoriamento:</strong> Usa GPS, acelerômetros,
+                    etc., para identificar posição e ações.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Módulo de Processamento:</strong>
+                <ul>
+                  <li>
+                    <strong>
+                      Monitoramento de Objetos (Registro e Rastreamento):
+                    </strong>{" "}
+                    O<strong>Registro</strong> (registering) identifica qual
+                    objeto virtual deve aparecer, sua posição e orientação. O{" "}
+                    <strong>Rastreamento</strong>
+                    (tracking) determina como ele se move na cena.
+                  </li>
+                  <li>
+                    <strong>Gerenciamento da Interação:</strong> Identifica e
+                    responde às ações de manipulação/seleção.
+                  </li>
+                  <li>
+                    <strong>Processamento da Aplicação:</strong> Dá sentido às
+                    interações.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Módulo de Saída:</strong>
+                <ul>
+                  <li>
+                    <strong>Visualização:</strong> Renderiza e exibe o objeto
+                    virtual.
+                  </li>
+                  <li>
+                    <strong>Atuação:</strong> Renderiza parâmetros para
+                    dispositivos hápticos (tato).
+                  </li>
+                </ul>
+              </li>
+            </ol>
+            <h4>Classificação da RA (Tipos de Rastreamento e Conteúdo)</h4>
+            <ul>
+              <li>
+                <strong>Rastreamento Baseado em Visão:</strong> Usa
+                processamento da imagem capturada.
+              </li>
+              <li>
+                <strong>Rastreamento Baseado em Sensores:</strong> Usa GPS,
+                giroscópios, etc., associados ao objeto virtual.
+              </li>
+              <li>
+                <strong>Uso de Marcadores Fiduciais:</strong> Imagens
+                (geralmente retangulares) com uma "assinatura" reconhecida pelo
+                programa para determinar a posição da câmera e sobrepor objetos
+                virtuais.
+              </li>
+            </ul>
+            <h4>Técnicas de Visualização e Perspectivas</h4>
+            <ol>
+              <li>
+                <strong>
+                  Métodos de Controle e Perspectiva de Visualização
+                </strong>
+                <ul>
+                  <li>
+                    A visualização na RA pode ser controlada de três formas
+                    principais:
+                    <ul>
+                      <li>
+                        <strong>Acoplada à cabeça (Head-mounted)</strong>
+                      </li>
+                      <li>
+                        <strong>Acoplada à mão (Handheld)</strong>
+                      </li>
+                      <li>
+                        <strong>Desacoplada (ponto fixo no ambiente)</strong>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    Quanto à perspectiva de visualização, temos:
+                    <ul>
+                      <li>
+                        <strong>Primeira Pessoa:</strong> Câmera na cabeça do
+                        usuário.
+                      </li>
+                      <li>
+                        <strong>Terceira Pessoa:</strong> Câmera atrás do
+                        usuário.
+                      </li>
+                      <li>
+                        <strong>Segunda Pessoa:</strong> Câmera direcionada ao
+                        usuário.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Dispositivos e Técnicas de Visualização</strong>
+                <ul>
+                  <li>
+                    Para que a RA combine o ambiente real com elementos
+                    virtuais, são usados sistemas que empregam diferentes
+                    técnicas de visualização:
+                    <ul>
+                      <li>
+                        <strong>Monitores:</strong> Exibem a imagem capturada
+                        por uma câmera de vídeo.
+                      </li>
+                      <li>
+                        <strong>
+                          Visada Óptica Direta (Optical See-Through):
+                        </strong>{" "}
+                        Dispositivo semitransparente (prisma, visor, lente) que
+                        reproduz imagens geradas pelo computador, permitindo que
+                        o usuário veja o mundo real diretamente.
+                      </li>
+                      <li>
+                        <strong>
+                          Visão de Câmera de Vídeo (Video See-Through):
+                        </strong>
+                        Visualização indireta por meio de uma ou duas
+                        microcâmeras fixadas no dispositivo, apontadas para a
+                        visão do usuário.
+                      </li>
+                      <li>
+                        <strong>Projeção:</strong> Projeta informações virtuais
+                        diretamente sobre objetos físicos.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Aplicações da Realidade Aumentada</strong>
+                <ul>
+                  <li>
+                    A RA é útil em qualquer atividade que exija acesso a
+                    informações 3D para melhor execução. As aplicações são
+                    vastas, incluindo:
+                    <ul>
+                      <li>
+                        <strong>Reparos e Montagens:</strong> Mecânicos e de
+                        equipamentos.
+                      </li>
+                      <li>
+                        <strong>Projetos e Modelagens:</strong> Interiores,
+                        manufatura, diagnósticos de placas.
+                      </li>
+
+                      <li>
+                        <strong>Medicina:</strong> Cirurgias apoiadas por
+                        computador.
+                      </li>
+
+                      <li>
+                        <strong>Visualização:</strong> Instalações embutidas,
+                        temperaturas em máquinas, experimentação de adornos.{" "}
+                      </li>
+                      <li>
+                        <strong>Educação e Cultura:</strong> Ferramentas de
+                        treinamento, exposições e museus virtuais.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>
+                  Outros Conceitos do Espectro Realidade-Virtualidade
+                </strong>
+                <ul>
+                  <li>
+                    Existem conceitos correlacionados no espectro que se estende
+                    da Realidade Virtual à Realidade Aumentada:
+                    <ul>
+                      <li>
+                        <strong>Realidade Misturada (RM):</strong> Integração de
+                        elementos virtuais com o ambiente físico em tempo real
+                        (muitas vezes é o termo "guarda-chuva" para RA e VA).
+                      </li>
+                      <li>
+                        <strong>Virtualidade Aumentada (VA):</strong> Elementos
+                        reais capturados em tempo real são inseridos no mundo
+                        virtual.
+                      </li>
+                      <li>
+                        <strong>Realidade Diminuída (RD):</strong> Altera a
+                        realidade para eliminar objetos ou detalhes da cena
+                        real.
+                      </li>
+                      <li>
+                        <strong>Hiper Realidade (HR):</strong> Associa RV,
+                        realidade física, Inteligência Artificial e inteligência
+                        humana.
+                      </li>
+                      <li>
+                        <strong>Realidade Cruzada (RC):</strong> Ações no mundo
+                        virtual repercutem no mundo real (dentro da RM).
+                      </li>
+                      <li>
+                        <strong>Virtualidade Pervasiva (VP):</strong> Ambiente
+                        virtual estendido que incorpora ambientes, objetos
+                        físicos e informações contextualizadas ("experiências
+                        4D/7D").
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ol>
           </div>
         </>
       )}
