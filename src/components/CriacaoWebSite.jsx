@@ -1,4 +1,33 @@
 import { useState } from "react";
+import aula1 from "../assets/audiosM5/aula01.mp3";
+// import aula2 from "../assets/audiosM5/aula02.mp3";
+import aula3 from "../assets/audiosM5/aula03.mp3";
+import aula4 from "../assets/audiosM5/aula04.mp3";
+
+// import aula5 from "../assets/audiosM5/aula05.mp3";
+// import aula6 from "../assets/audiosM5/aula06.mp3";
+// import aula7 from "../assets/audiosM5/aula07.mp3";
+// import aula8 from "../assets/audiosM5/aula08.mp3";
+
+// import aula9 from "../assets/audiosM5/aula09.mp3";
+// import aula10 from "../assets/audiosM5/aula10.mp3";
+// import aula11 from "../assets/audiosM5/aula11.mp3";
+// import aula12 from "../assets/audiosM5/aula12.mp3";
+
+// import aula13 from "../assets/audiosM5/aula13.mp3";
+// import aula14 from "../assets/audiosM5/aula14.mp3";
+// import aula15 from "../assets/audiosM5/aula15.mp3";
+// import aula16 from "../assets/audiosM5/aula16.mp3";
+
+// import aula17 from "../assets/audiosM5/aula17.mp3";
+// import aula18 from "../assets/audiosM5/aula18.mp3";
+// import aula19 from "../assets/audiosM5/aula19.mp3";
+// import aula20 from "../assets/audiosM5/aula20.mp3";
+
+// import aula21 from "../assets/audiosM5/aula21.mp3";
+// import aula22 from "../assets/audiosM5/aula22.mp3";
+// import aula23 from "../assets/audiosM5/aula23.mp3";
+// import aula24 from "../assets/audiosM5/aula24.mp3";
 
 const CriacaoWebSite = () => {
   const [abrir, setAbrir] = useState(false);
@@ -21,6 +50,12 @@ const CriacaoWebSite = () => {
         <>
           <div>
             <h3>Introdução à Criação de Projetos Web</h3>
+            <div className="audios">
+              <audio src={aula1} controls></audio>
+              {/* <audio src={aula2} controls></audio> */}
+              <audio src={aula3} controls></audio>
+              <audio src={aula4} controls></audio>
+            </div>
             <ul>
               <li>
                 <strong>Objetivo:</strong>

@@ -19,6 +19,16 @@ import aula14 from "../assets/audiosM4/aula14.mp3";
 import aula15 from "../assets/audiosM4/aula15.mp3";
 import aula16 from "../assets/audiosM4/aula16.mp3";
 
+import aula17 from "../assets/audiosM4/aula17.mp3";
+import aula18 from "../assets/audiosM4/aula18.mp3";
+import aula19 from "../assets/audiosM4/aula19.mp3";
+import aula20 from "../assets/audiosM4/aula20.mp3";
+
+import aula21 from "../assets/audiosM4/aula21.mp3";
+import aula22 from "../assets/audiosM4/aula22.mp3";
+import aula23 from "../assets/audiosM4/aula23.mp3";
+import aula24 from "../assets/audiosM4/aula24.mp3";
+
 const InterfaceWeb = () => {
   const [abrir, setAbrir] = useState(false);
   const [girarImg, setGirarImg] = useState(false);
@@ -1738,6 +1748,12 @@ const InterfaceWeb = () => {
           </div>
           <div>
             <h3>O que é UX?</h3>
+            <div className="audios">
+              <audio src={aula17} controls></audio>
+              <audio src={aula18} controls></audio>
+              <audio src={aula19} controls></audio>
+              <audio src={aula20} controls></audio>
+            </div>
             <p>
               <strong>UX</strong> é a sigla para{" "}
               <strong>User eXperience</strong>, que significa "experiência do
@@ -2331,6 +2347,12 @@ const InterfaceWeb = () => {
           </div>
           <div>
             <h3>Público-Alvo</h3>
+            <div className="audios">
+              <audio src={aula21} controls></audio>
+              <audio src={aula22} controls></audio>
+              <audio src={aula23} controls></audio>
+              <audio src={aula24} controls></audio>
+            </div>
             <h4>O Usuário</h4>
             <ul>
               <li>
