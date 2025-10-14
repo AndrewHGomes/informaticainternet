@@ -1,4 +1,13 @@
 import { useState } from "react";
+import aula1 from "../assets/audiosM6/aula01.mp3";
+import aula2 from "../assets/audiosM6/aula02.mp3";
+import aula3 from "../assets/audiosM6/aula03.mp3";
+import aula4 from "../assets/audiosM6/aula04.mp3";
+
+import aula5 from "../assets/audiosM6/aula05.mp3";
+import aula6 from "../assets/audiosM6/aula06.mp3";
+import aula7 from "../assets/audiosM6/aula07.mp3";
+import aula8 from "../assets/audiosM6/aula08.mp3";
 
 const PrincipiosWebDesign = () => {
   const [abrir, setAbrir] = useState(false);
@@ -20,6 +29,12 @@ const PrincipiosWebDesign = () => {
         <>
           <div>
             <h3>Produção Web</h3>
+            <div className="audios">
+              <audio src={aula1} controls></audio>
+              <audio src={aula2} controls></audio>
+              <audio src={aula3} controls></audio>
+              <audio src={aula4} controls></audio>
+            </div>
             <p>
               <strong>Planejamento:</strong> A produção web exige conhecimentos
               de programação e design, com foco em planejamento e
@@ -377,6 +392,12 @@ const PrincipiosWebDesign = () => {
           </div>
           <div>
             <h3>Elementos Visuais e a Psicologia das Cores no Web Design</h3>
+            <div className="audios">
+              <audio src={aula5} controls></audio>
+              <audio src={aula6} controls></audio>
+              <audio src={aula7} controls></audio>
+              <audio src={aula8} controls></audio>
+            </div>
             <h4>A Importância da Estética Visual</h4>
             <ul>
               <li>
