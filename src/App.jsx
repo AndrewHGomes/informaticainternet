@@ -6,6 +6,7 @@ import InterfaceWeb from "./components/InterfaceWeb";
 import Introducao from "./components/Introducao";
 import PrincipiosWebDesign from "./components/PrincipiosWebDesign";
 import IdentidadeVisualAnimacao from "./components/IdentidadeVisualAnimacao";
+import ModelagemSistemasWeb from "./components/ModelagemSistemasWeb";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       <CriacaoWebSite />
       <PrincipiosWebDesign />
       <IdentidadeVisualAnimacao />
+      <ModelagemSistemasWeb />
     </>
   );
 };
