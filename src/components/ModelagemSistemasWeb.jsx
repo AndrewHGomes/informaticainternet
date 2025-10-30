@@ -9,6 +9,11 @@ import aula6 from "../assets/audiosM8/aula06.mp3";
 import aula7 from "../assets/audiosM8/aula07.mp3";
 import aula8 from "../assets/audiosM8/aula08.mp3";
 
+import aula9 from "../assets/audiosM8/aula09.mp3";
+import aula10 from "../assets/audiosM8/aula10.mp3";
+import aula11 from "../assets/audiosM8/aula11.mp3";
+import aula12 from "../assets/audiosM8/aula12.mp3";
+
 const ModelagemSistemasWeb = () => {
   const [abrir, setAbrir] = useState(false);
   const [girarImg, setGirarImg] = useState(false);
@@ -300,6 +305,491 @@ const ModelagemSistemasWeb = () => {
               <strong>simplicidade</strong>, que permite a avaliação do modelo
               junto aos usuários e a{" "}
               <strong>identificação precoce de falhas</strong> nos requisitos.
+            </p>
+          </div>
+          <div>
+            <h3>Engenharia de Requisitos</h3>
+            <div className="audios">
+              <audio src={aula9} controls></audio>
+              <audio src={aula10} controls></audio>
+              <audio src={aula11} controls></audio>
+              <audio src={aula12} controls></audio>
+            </div>
+            <h4>O Planejamento do Software</h4>
+            <ul>
+              <li>
+                <strong>Processo inicial:</strong>
+                <ul>
+                  <li>
+                    Modelar os <strong>processos de negócio</strong> para propor{" "}
+                    <strong>melhorias</strong> que serão automatizadas por um
+                    software. Este é o primeiro passo para construir o{" "}
+                    <strong>software correto</strong>.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>A Importância dos Dados:</strong>
+                <ul>
+                  <li>
+                    O software <strong>processa dados</strong> para gerar
+                    resultados. É crucial entender e modelar bem a entrada, o
+                    armazenamento e o relacionamento dos dados (com entidades e
+                    depósitos).
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Meta da Etapa:</strong>
+                <ul>
+                  <li>
+                    Meta da Etapa: Entender, classificar e descrever os
+                    <strong>Requisitos de Software</strong> para traduzir as
+                    necessidades do cliente em linguagem que possa ser
+                    codificada (linhas de código).
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Engenharia de Requisitos</h4>
+            <ul>
+              <li>
+                <strong>Definição de Requisitos:</strong>
+                <ul>
+                  <li>
+                    O objetivo do software é automatizar processos de negócio.
+                  </li>
+                  <li>
+                    Processos são compostos por funcionalidades com
+                    características e regras.
+                  </li>
+                  <li>
+                    Requisitos são a base para o projeto de software, definindo{" "}
+                    <strong>
+                      o que o usuário precisa e o que o sistema deve fazer
+                    </strong>{" "}
+                    para satisfazê-lo.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Características dos Requisitos:</strong>
+                <ul>
+                  <li>
+                    Geralmente expressos em{" "}
+                    <strong>linguagem natural e escrita</strong>.
+                  </li>
+                  <li>
+                    Devem ser obtidos com os <strong>usuários</strong> que
+                    conhecem o negócio.
+                  </li>
+                  <li>
+                    Devem ser entendidos pela <strong>equipe técnica</strong>.
+                  </li>
+                  <li>
+                    Sua descrição parte do{" "}
+                    <strong>fluxo do processo de negócio</strong>.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>O Processo de Levantamento de Requisitos</h4>
+            <p>
+              A <strong>coleta de requisitos</strong> é fundamental. Se
+              mal-entendida, resulta em um software errado. O processo se
+              organiza em quatro passos principais:
+            </p>
+            <ol>
+              <li>
+                <strong>Estudo de Viabilidade</strong>
+                <ul>
+                  <li>
+                    <strong>Objetivo</strong>
+                    <ul>
+                      <li>
+                        Entender a necessidade e verificar a{" "}
+                        <strong>praticidade</strong>.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Descrição Essencial</strong>
+                    <ul>
+                      <li>
+                        Analisar se o software é <strong>viável</strong> em
+                        termos técnicos, financeiros e de prazo (pode ser
+                        materializado na prática).
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Coleta de Requisitos</strong>
+                <ul>
+                  <li>
+                    <strong>Objetivo</strong>
+                    <ul>
+                      <li>Obter as ideias e necessidades com os usuários.</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Descrição Essencial</strong>
+                    <ul>
+                      <li>
+                        Analistas entrevistam{" "}
+                        <strong>clientes e usuários finais</strong> (todos que
+                        interagem com o processo) para o entendimento completo.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Especificação de Requisitos</strong>
+                <ul>
+                  <li>
+                    <strong>Objetivo</strong>
+                    <ul>
+                      <li>
+                        <strong>Documentar e detalhar</strong> os requisitos.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Descrição Essencial</strong>
+                    <ul>
+                      <li>
+                        Traduzir os requisitos em uma{" "}
+                        <strong>linguagem clara, direta e natural</strong>.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Validação dos Requisitos</strong>
+                <ul>
+                  <li>
+                    <strong>Objetivo</strong>
+                    <ul>
+                      <li>
+                        Garantir o <strong>entendimento correto</strong>.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Descrição Essencial</strong>
+                    <ul>
+                      <li>
+                        <strong>Revisar e validar</strong> o que foi documentado
+                        com os usuários, garantindo que as regras de negócio
+                        estejam perfeitas.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ol>
+            <h4>Ciclo de Vida da Engenharia de Requisitos</h4>
+            <ul>
+              <li>
+                <strong>Ciclo de Vida:</strong>
+                <ul>
+                  <li>
+                    Todo processo é iniciado, tem passos e é concluído. A
+                    Engenharia de Requisitos (ER) segue um ciclo evolutivo e
+                    complementar.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Objetivo:</strong>
+                <ul>
+                  <li>
+                    Detalhar os 4 passos anteriores em uma sequência mais
+                    aprofundada, garantindo clareza e controle.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Os 7 Passos do Ciclo de Vida da ER</h4>
+            <ol>
+              <li>
+                <strong>Concepção</strong>
+                <ul>
+                  <li>
+                    <strong>Meta Principal</strong>
+                    <ul>
+                      <li>Compreender o Problema (Macro)</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Descrição Essencial para Estudo</strong>
+                    <ul>
+                      <li>
+                        Entender o <strong>cenário do cliente</strong> e a{" "}
+                        <strong>necessidade de negócio</strong>. Define a
+                        comunicação e o comprometimento inicial. O fluxo do
+                        processo de negócio serve como base.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Levantamento</strong>
+                <ul>
+                  <li>
+                    <strong>Meta Principal</strong>
+                    <ul>
+                      <li>Coletar Detalhes (Micro)</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Descrição Essencial para Estudo</strong>
+                    <ul>
+                      <li>
+                        Analistas entrevistam usuários para entender{" "}
+                        <strong>em detalhes</strong> como os requisitos devem
+                        funcionar. Evolui o entendimento da Concepção.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Elaboração</strong>
+                <ul>
+                  <li>
+                    <strong>Meta Principal</strong>
+                    <ul>
+                      <li>Refinar o Modelo Técnico</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Descrição Essencial para Estudo</strong>
+                    <ul>
+                      <li>
+                        <strong>Expandir e refinar</strong> as informações
+                        coletadas. Definir um modelo técnico e{" "}
+                        <strong>cenários de uso</strong> (como o usuário
+                        interage), avaliando restrições.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Negociação</strong>
+                <ul>
+                  <li>
+                    <strong>Meta Principal</strong>
+                    <ul>
+                      <li>Validar e Priorizar</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Descrição Essencial para Estudo</strong>
+                    <ul>
+                      <li>
+                        Usuários <strong>validam</strong> os requisitos e podem
+                        pedir alterações. É crucial conciliar{" "}
+                        <strong>custo, prazo e escopo</strong>. Priorizar os
+                        requisitos que geram <strong>mais valor</strong> ao
+                        negócio.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Especificação</strong>
+                <ul>
+                  <li>
+                    <strong>Meta Principal</strong>
+                    <ul>
+                      <li>Projetar a Implementação</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Descrição Essencial para Estudo</strong>
+                    <ul>
+                      <li>
+                        Definidos os requisitos (pós-negociação), inicia-se o
+                        projeto de construção. Define-se as{" "}
+                        <strong>tecnologias, linguagem e banco de dados</strong>{" "}
+                        a serem utilizados.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Validação</strong>
+                <ul>
+                  <li>
+                    <strong>Meta Principal</strong>
+                    <ul>
+                      <li>Garantir a Correção e Viabilidade</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Descrição Essencial para Estudo</strong>
+                    <ul>
+                      <li>
+                        Exame final da especificação. Garante que todos os
+                        requisitos estejam{" "}
+                        <strong>identificados, claros e coerentes</strong>.
+                        Aplica-se revisões técnicas, gerenciais e de negócio.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Gestão de Requisitos</strong>
+                <ul>
+                  <li>
+                    <strong>Meta Principal</strong>
+                    <ul>
+                      <li>Controlar Mudanças Contínuas</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Descrição Essencial para Estudo</strong>
+                    <ul>
+                      <li>
+                        Necessária porque requisitos mudam (negócio, mercado,
+                        etc.). Conjunto de atividades para{" "}
+                        <strong>
+                          identificação, controle, rastreamento e modificação
+                        </strong>{" "}
+                        dos requisitos ao longo do tempo.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ol>
+            <h4>Documentação e Tipos de Requisitos</h4>
+            <p>
+              O sucesso de um software começa no entendimento e no detalhamento
+              dos requisitos.{" "}
+              <strong>A Especificação de Requisitos de Software (DER)</strong> é
+              uma descrição macro das funcionalidades que o sistema deve ter. O
+              objetivo do DER é listar os requisitos que são suficientes e
+              necessários para o desenvolvimento do projeto, garantindo que
+              todos os elementos que farão parte do escopo sejam mapeados. O
+              documento é considerado macro porque ele apenas lista as
+              funcionalidades (como "Cadastro de Produtos" ou "Carrinho de
+              Compra"), mas não detalha como essas funções irão operar.
+            </p>
+            <p>
+              Um <strong>Requisito</strong> é a automação de um processo
+              executado pelo usuário. É uma necessidade do negócio, uma condição
+              necessária que satisfaz um objetivo. Requisitos de software vão
+              além de apenas funções; eles incluem objetivos, propriedades e as
+              restrições que o sistema deve apresentar. Os requisitos de
+              software são classificados em duas categorias principais:
+              Funcionais e Não Funcionais.
+            </p>
+            <p>
+              <strong>Requisitos Funcionais (RF)</strong> definem{" "}
+              <strong>O QUE o software faz</strong>. Eles descrevem as funções e
+              os serviços que o sistema deve fornecer ao cliente. Exemplos de
+              Requisitos Funcionais são: O sistema deve cadastrar médicos. O
+              sistema deve emitir um relatório de clientes. O sistema deve mudar
+              o estado de um cliente de "em consulta" para "consultado".
+            </p>
+            <p>
+              <strong>Requisitos Não Funcionais (RNF)</strong> referem-se a{" "}
+              <strong>COMO o software deve ser</strong>. Eles impõem restrições
+              de qualidade, performance ou implementação aos requisitos
+              funcionais. Os RNFs buscam atender às necessidades dos usuários em
+              termos de características de qualidade ou tempo de resposta.
+              Exemplos de Requisitos Não Funcionais são: O sistema deve imprimir
+              o relatório em até 5 segundos. O sistema deve ser implementado na
+              linguagem Java.
+            </p>
+            <h4>Trabalhando com Casos de Uso</h4>
+            <strong>Casos de Uso e Documentação</strong>
+            <p>
+              Os requisitos precisam ser entendidos e bem documentados para que
+              todos os envolvidos no software opinem sobre a melhor forma de
+              implementar as funcionalidades. Em metodologias tradicionais, os
+              requisitos funcionais do sistema são modelados e detalhados em
+              documentos chamados <strong>Casos de Uso</strong>.
+            </p>
+            <p>
+              Um Caso de Uso documenta as ações necessárias, os comportamentos e
+              a sequência de passos para alcançar um resultado satisfatório.
+              Documentar um Caso de Uso significa descrever como o software vai
+              se comportar, listando os <strong>fluxos de eventos</strong> que
+              levam a um resultado. Um único Caso de Uso pode descrever um ou
+              mais requisitos, como, por exemplo, o Caso de Uso "Cadastrar
+              Cliente", que pode incluir inserir, alterar, consultar e excluir
+              dados. É essencial criar um padrão claro para a documentação de
+              Casos de Uso, pois seu objetivo é detalhar os requisitos de forma
+              que o software seja construído corretamente.
+            </p>
+            <h4>Os Três Tipos de Fluxos de Eventos</h4>
+            <p>
+              Os fluxos de eventos em um Caso de Uso evidenciam o que deve ser
+              executado, baseando-se em três tipos:
+            </p>
+            <ol>
+              <li>
+                <strong>Fluxo Principal (FP) – Caminho Feliz:</strong>
+                <ul>
+                  <li>
+                    É o caminho normal e esperado. Nele, todas as informações
+                    estão corretas e o caso de uso executa seu objetivo
+                    principal passo a passo. Exemplo no caso de "Cadastrar
+                    Cliente": Cliente informa dados $\rightarrow$ Sistema grava
+                    dados $\rightarrow$ Sistema retorna "Cadastro Efetuado com
+                    Sucesso".
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Fluxo Alternativo (FA):</strong>
+                <ul>
+                  <li>
+                    É o tratamento de situações que não são o caminho normal.
+                    Descreve o passo a passo para lidar com informações erradas
+                    ou ações não previstas. Exemplo: O sistema verifica se o CPF
+                    é válido; se for inválido, envia a mensagem "CPF Inválido" e
+                    retorna para a tela.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Fluxo de Exceção (FE):</strong>
+                <ul>
+                  <li>
+                    Considera funções que não fazem parte do objetivo principal
+                    do caso de uso, mas estão disponíveis para o usuário e fazem
+                    parte do processo. Não são obrigatórias. Exemplos comuns:
+                    Alterar senha (enquanto está logando), Help on-line sobre um
+                    produto, ou Histórico de Compras (enquanto está fazendo uma
+                    nova compra).
+                  </li>
+                </ul>
+              </li>
+            </ol>
+            <p>
+              Esta etapa reforçou a importância de requisitos bem entendidos e
+              documentados para o sucesso do software. Construir software não é
+              trivial, sendo necessário um processo gradual: entender as etapas
+              e depois definir a construção. Foi discutido o ciclo de vida da{" "}
+              <strong>
+                Engenharia de Requisitos e a necessidade da Gestão de Requisitos
+              </strong>{" "}
+              para lidar com a evolução das necessidades do usuário e as
+              mudanças no mercado. Por fim, foram compreendidos o Documento de
+              Especificação de Requisitos e a diferença entre Requisitos
+              Funcionais e Não Funcionais.
             </p>
           </div>
         </>
