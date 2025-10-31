@@ -1,18 +1,18 @@
 import { useState } from "react";
 import aula1 from "../assets/audiosM5/aula01.mp3";
-// import aula2 from "../assets/audiosM5/aula02.mp3";
+import aula2 from "../assets/audiosM5/aula02.mp3";
 import aula3 from "../assets/audiosM5/aula03.mp3";
 import aula4 from "../assets/audiosM5/aula04.mp3";
 
-// import aula5 from "../assets/audiosM5/aula05.mp3";
-// import aula6 from "../assets/audiosM5/aula06.mp3";
-// import aula7 from "../assets/audiosM5/aula07.mp3";
-// import aula8 from "../assets/audiosM5/aula08.mp3";
+import aula5 from "../assets/audiosM5/aula05.mp3";
+import aula6 from "../assets/audiosM5/aula06.mp3";
+import aula7 from "../assets/audiosM5/aula07.mp3";
+import aula8 from "../assets/audiosM5/aula08.mp3";
 
-// import aula9 from "../assets/audiosM5/aula09.mp3";
-// import aula10 from "../assets/audiosM5/aula10.mp3";
-// import aula11 from "../assets/audiosM5/aula11.mp3";
-// import aula12 from "../assets/audiosM5/aula12.mp3";
+import aula9 from "../assets/audiosM5/aula09.mp3";
+import aula10 from "../assets/audiosM5/aula10.mp3";
+import aula11 from "../assets/audiosM5/aula11.mp3";
+import aula12 from "../assets/audiosM5/aula12.mp3";
 
 // import aula13 from "../assets/audiosM5/aula13.mp3";
 // import aula14 from "../assets/audiosM5/aula14.mp3";
@@ -52,7 +52,7 @@ const CriacaoWebSite = () => {
             <h3>Introdução à Criação de Projetos Web</h3>
             <div className="audios">
               <audio src={aula1} controls></audio>
-              {/* <audio src={aula2} controls></audio> */}
+              <audio src={aula2} controls></audio>
               <audio src={aula3} controls></audio>
               <audio src={aula4} controls></audio>
             </div>
@@ -426,6 +426,12 @@ const CriacaoWebSite = () => {
           </div>
           <div>
             <h3>Interface</h3>
+            <div className="audios">
+              <audio src={aula5} controls></audio>
+              <audio src={aula6} controls></audio>
+              <audio src={aula7} controls></audio>
+              <audio src={aula8} controls></audio>
+            </div>
             <h4>Introdução ao GIMP</h4>
             <p>
               O GIMP (Gnu Image Manipulation) é um software de edição de imagens
@@ -782,6 +788,12 @@ const CriacaoWebSite = () => {
           </div>
           <div>
             <h3>Roteiro</h3>
+            <div className="audios">
+              <audio src={aula9} controls></audio>
+              <audio src={aula10} controls></audio>
+              <audio src={aula11} controls></audio>
+              <audio src={aula12} controls></audio>
+            </div>
             <h4>Criação de Vídeos (Roteiro)</h4>
             <p>
               A base de qualquer vídeo é o <strong>roteiro</strong>, que é a
