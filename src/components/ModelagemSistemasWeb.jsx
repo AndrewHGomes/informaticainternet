@@ -14,6 +14,11 @@ import aula10 from "../assets/audiosM8/aula10.mp3";
 import aula11 from "../assets/audiosM8/aula11.mp3";
 import aula12 from "../assets/audiosM8/aula12.mp3";
 
+import aula13 from "../assets/audiosM8/aula13.mp3";
+import aula14 from "../assets/audiosM8/aula14.mp3";
+import aula15 from "../assets/audiosM8/aula15.mp3";
+import aula16 from "../assets/audiosM8/aula16.mp3";
+
 const ModelagemSistemasWeb = () => {
   const [abrir, setAbrir] = useState(false);
   const [girarImg, setGirarImg] = useState(false);
@@ -790,6 +795,642 @@ const ModelagemSistemasWeb = () => {
               mudanças no mercado. Por fim, foram compreendidos o Documento de
               Especificação de Requisitos e a diferença entre Requisitos
               Funcionais e Não Funcionais.
+            </p>
+          </div>
+          <div>
+            <h3>Introdução à UML</h3>
+            <div className="audios">
+              <audio src={aula13} controls></audio>
+              <audio src={aula14} controls></audio>
+              <audio src={aula15} controls></audio>
+              <audio src={aula16} controls></audio>
+            </div>
+            <p>
+              A jornada de construção de software começou com a compreensão dos
+              <strong>processos de negócio</strong>, focando em modelá-los
+              (processos AS IS) para identificar melhorias e definir o processo
+              futuro (TO BE), que será detalhado para automação via software. Em
+              seguida, discutiu-se a crucial{" "}
+              <strong>importância dos dados</strong>, incluindo sua entrada,
+              armazenamento, relacionamento com entidades e depósitos,
+              enfatizando que o software processa dados para gerar resultados. O
+              estudo avançou para os <strong>requisitos</strong>, divididos em
+              funcionais e não funcionais, destacando a necessidade de listá-los
+              em um documento de especificação e detalhá-los em{" "}
+              <strong>casos de uso</strong> para garantir um entendimento claro
+              e completo sobre o funcionamento do sistema.
+            </p>
+            <h4>Unified Modeling Language (UML)</h4>
+            <p>
+              A <strong>Unified Modeling Language (UML)</strong> é uma linguagem
+              ou notação gráfica padronizada, usada para especificar, visualizar
+              e documentar projetos de software desenvolvidos sob o paradigma de
+              <strong>orientação por objetos</strong>. É fundamental entender
+              que a UML não é um método de desenvolvimento, ou seja, ela não
+              dita a ordem das etapas, mas sim atua como uma{" "}
+              <strong>ferramenta de visualização e comunicação</strong> do
+              sistema.
+            </p>
+            <p>
+              A UML é controlada pelo{" "}
+              <strong>Object Management Group (OMG)</strong> e é reconhecida
+              mundialmente como a norma da indústria para modelar software
+              graficamente. Sua criação se deu em 1994, impulsionada pela
+              necessidade de padronizar e formalizar o desenvolvimento de
+              softwares cada vez mais complexos, o que também levou à
+              popularização do <strong>Rational Unified Process (RUP)</strong>{" "}
+              como um ciclo de vida de desenvolvimento tradicional.
+            </p>
+            <h4>Modelos e Visões da UML</h4>
+            <p>
+              A UML fornece uma gama de <strong>diagramas visuais</strong> que
+              facilitam a análise e o projeto de sistemas e software, garantindo
+              que todos os envolvidos compartilhem a mesma visão e conhecimento.
+              Os símbolos gráficos utilizados na UML possuem{" "}
+              <strong>semântica bem definida</strong>, tornando-os um padrão que
+              facilita o uso e o entendimento.
+            </p>
+            <p>
+              Um <strong>modelo</strong> em engenharia de software é uma
+              simplificação ou abstração da realidade e das atividades
+              envolvidas no processo de desenvolvimento, criado para melhor
+              compreender o sistema a ser construído e codificado. Os modelos da
+              UML expressam duas visões complementares sobre o software:
+            </p>
+            <ol>
+              <li>
+                <strong>Visão Estrutural:</strong>
+                <ul>
+                  <li>
+                    Captura a <strong>estrutura estática</strong> do sistema, ou
+                    seja, quais elementos o compõem e como eles se relacionam
+                    entre si.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Visão Comportamental:</strong>
+                <ul>
+                  <li>
+                    Captura a <strong>dinâmica</strong> do sistema, ou seja,
+                    como os elementos se comunicam, se comportam e respondem a
+                    diferentes estímulos e interações.
+                  </li>
+                </ul>
+              </li>
+            </ol>
+            <h4>Modelos e Diagramas Principais da UML 2.0</h4>
+            <p>
+              A <strong>UML</strong> é composta por diversos modelos que, em
+              conjunto, fornecem uma visão completa da construção e
+              funcionamento do software. Estes diagramas buscam mostrar
+              visualmente a solução definida, baseada nos requisitos do projeto.
+              A versão atual padrão da linguagem é a <strong>UML 2.0</strong>.
+            </p>
+            <h4>Principais Diagramas da UML</h4>
+            <ol>
+              <li>
+                <strong>Diagrama de Classes:</strong>
+                <ul>
+                  <li>
+                    Objetivo:
+                    <ul>
+                      <li>
+                        Principal diagrama da Análise e Projeto Orientado a
+                        Objetos (OO).
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    Uso:
+                    <ul>
+                      <li>
+                        Mostra as classes do sistema, seus atributos, métodos e
+                        todos os tipos de relacionamento (herança, associação,
+                        composição, agregação).
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Diagrama de Componentes:</strong>
+                <ul>
+                  <li>
+                    Objetivo:
+                    <ul>
+                      <li>
+                        Modela as partes físicas do software no ambiente de
+                        desenvolvimento.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    Uso:
+                    <ul>
+                      <li>
+                        Representa artefatos de software como códigos-fonte,
+                        executáveis, DLLs e bibliotecas.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Diagrama de Implantação:</strong>
+                <ul>
+                  <li>
+                    Objetivo:
+                    <ul>
+                      <li>
+                        Modela o hardware em que o software será executado.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    Uso:
+                    <ul>
+                      <li>
+                        Representa a estrutura de hardware e rede, segregada por
+                        ambientes (desenvolvimento, teste, produção, etc.).
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Diagrama de Casos de Uso:</strong>
+                <ul>
+                  <li>
+                    Objetivo:
+                    <ul>
+                      <li>
+                        Especifica e detalha os requisitos funcionais do
+                        sistema.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    Uso:
+                    <ul>
+                      <li>
+                        Descreve os cenários de interação entre os atores
+                        (usuários/sistemas externos) e o sistema.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Diagrama de Sequência:</strong>
+                <ul>
+                  <li>
+                    Objetivo:
+                    <ul>
+                      <li>
+                        Modela a interação dinâmica entre objetos ao longo do
+                        tempo.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    Uso:
+                    <ul>
+                      <li>
+                        Detalha a ordem e a sequência das chamadas, apoiando a
+                        visão dinâmica do sistema.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Diagrma de Atividades:</strong>
+                <ul>
+                  <li>
+                    Objetivo:
+                    <ul>
+                      <li>
+                        Modela processos de negócio ou a lógica interna (fluxo
+                        de controle e dados).
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    Uso:
+                    <ul>
+                      <li>
+                        Equivalente ao BPMN na UML; usado para descrever o fluxo
+                        de atividades ou detalhar casos de uso.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Diagrama de Estados:</strong>
+                <ul>
+                  <li>
+                    Objetivo:
+                    <ul>
+                      <li>
+                        Modela como eventos externos causam mudanças no estado
+                        de um objeto.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    Uso:
+                    <ul>
+                      <li>
+                        Descreve o ciclo de vida de um objeto e como ele
+                        transiciona entre diferentes estados.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ol>
+            <h4>Uso Estratégico dos Diagramas</h4>
+            <p>
+              Embora existam outros diagramas na UML, a utilização deve ser
+              baseada no princípio de <strong>agregação de valor</strong>.
+            </p>
+            <ul>
+              <li>
+                Não se trata de grau de importância, mas sim de relevância para
+                o projeto.
+              </li>
+              <li>
+                Conforme os conceitos de agilidade, deve-se{" "}
+                <strong>evitar o desperdício</strong>: não gaste tempo criando
+                diagramas desnecessários que não aprimorem a compreensão ou a
+                qualidade do software.
+              </li>
+              <li>
+                A UML agrega valor quando utilizada de maneira{" "}
+                <strong>adequada</strong> para melhorar o entendimento da
+                solução que está sendo definida.
+              </li>
+            </ul>
+            <p>
+              <strong>Atenção:</strong> A UML modela o software seguindo as
+              premissas da <strong>Orientação a Objetos (OO)</strong>.
+            </p>
+            <h4>Conceitos de Orientação a Objetos (OO)</h4>
+            <p>
+              A <strong>Orientação a Objetos (OO)</strong> é um conceito
+              fundamental da engenharia de software e uma forma de construir
+              sistemas, representando os elementos da solução como{" "}
+              <strong>objetos</strong>. Seu uso é difundido porque a modelagem
+              por objetos se aproxima da forma como o cérebro humano percebe e
+              categoriza o mundo, simplificando a compreensão de um software
+              complexo.
+            </p>
+            <p>
+              A OO é um <strong>processo conceitual</strong> (independente de
+              linguagem de programação) que visualiza o domínio do problema como
+              uma coleção de <strong>objetos</strong> e seus métodos associados.
+            </p>
+            <h4>O Objeto</h4>
+            <p>
+              O objeto é a base da Orientação a Objetos. Ele denota uma{" "}
+              <strong>entidade</strong>
+              do mundo real, seja ela:
+            </p>
+            <ul>
+              <li>
+                <strong>Física:</strong>
+                <ul>
+                  <li>Um carro, uma pessoa, um livro.</li>
+                </ul>
+              </li>
+              <li>
+                <strong>Conceitual:</strong>
+                <ul>
+                  <li>Um diagrama de um sistema.</li>
+                </ul>
+              </li>
+              <li>
+                <strong>De Software:</strong>
+                <ul>
+                  <li>Um checkbox em uma página web.</li>
+                </ul>
+              </li>
+            </ul>
+            <p>
+              Para uma boa análise de software, o objeto possui as seguintes
+              características essenciais:
+            </p>
+            <ul>
+              <li>
+                <strong>Identidade:</strong>
+                <ul>
+                  <li>
+                    É o que identifica o objeto de forma{" "}
+                    <strong>unívoca</strong> (única) entre os demais, permitindo
+                    que outros objetos o referenciem.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Características (Atributos):</strong>
+                <ul>
+                  <li>
+                    Descrevem as <strong>propriedades</strong> do objeto, sendo
+                    mutáveis ao longo do tempo.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Comportamento (Métodos):</strong>
+                <ul>
+                  <li>
+                    Determina como o objeto <strong>reage</strong> a estímulos
+                    do mundo real ou de outros objetos (ações que ele pode
+                    realizar).
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Conceitos Fundamentais da OO</h4>
+            <p>
+              A orientação a objetos se apoia em conceitos específicos que
+              facilitam a modelagem e a lógica do sistema:
+            </p>
+            <ol>
+              <li>
+                <strong>Abstração:</strong>
+                <ul>
+                  <li>
+                    Consiste em focar nos{" "}
+                    <strong>aspectos essenciais e relevantes</strong> de uma
+                    entidade para um propósito específico, ignorando suas
+                    propriedades acidentais. É crucial para simplificar
+                    conceitos complexos.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Encapsulamento:</strong>
+                <ul>
+                  <li>
+                    Significa separar o software em partes o mais{" "}
+                    <strong>isoladas</strong> possível.
+                  </li>
+                  <li>
+                    Envolve a separação dos <strong>aspectos externos</strong>{" "}
+                    (a <strong>interface</strong>, que é o que o objeto conhece
+                    e sabe fazer) dos{" "}
+                    <strong>detalhes internos da implementação</strong> (que
+                    ficam ocultos).
+                  </li>
+                  <li>
+                    O objetivo é restringir o acesso ao comportamento interno,
+                    tornando o software mais flexível e fácil de modificar ou
+                    estender. (Exemplo: o motorista só precisa saber como usar a
+                    embreagem e o acelerador, sem precisar entender seu
+                    funcionamento interno).
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Herança:</strong>
+                <ul>
+                  <li>
+                    É o <strong>compartilhamento</strong> de atributos e
+                    operações entre objetos, com base em um{" "}
+                    <strong>relacionamento hierárquico</strong>.
+                  </li>
+                  <li>
+                    Permite que uma estrutura comum seja compartilhada por
+                    diversos objetos relacionados,{" "}
+                    <strong>evitando redundâncias</strong>. Um objeto em um
+                    nível inferior da hierarquia herda as características dos
+                    objetos nos níveis superiores.
+                  </li>
+                </ul>
+              </li>
+            </ol>
+            <h4>Diagrama de Casos de Uso</h4>
+            <p>
+              O <strong>Diagrama de Caso de Uso</strong> é frequentemente o
+              primeiro diagrama da UML a ser construído após o levantamento de
+              requisitos. Ele é essencial para analisar o relacionamento das
+              funcionalidades do sistema entre si e com os usuários que as
+              executam.
+            </p>
+            <h4>Foco e Objetivo</h4>
+            <ul>
+              <li>
+                Seu objetivo principal é modelar o{" "}
+                <strong>comportamento externo</strong> do software.
+              </li>
+              <li>
+                Ele <strong>não se preocupa</strong> com a forma como as funções
+                serão implementadas internamente.
+              </li>
+              <li>
+                É uma ferramenta crucial para a comunicação: permite que os
+                usuários validem se o levantamento de requisitos está completo e
+                se o entendimento sobre o funcionamento do software está
+                correto.
+              </li>
+            </ul>
+            <h4>Elementos do Diagrama</h4>
+            <p>
+              A modelagem começa com a identificação dos <strong>atores</strong>{" "}
+              e dos <strong>casos de uso</strong> do sistema, baseando-se nos
+              requisitos funcionais.
+            </p>
+            <ol>
+              <li>
+                <strong>Atores: </strong>
+                <ul>
+                  <li>
+                    Representam os usuários (humanos ou outros sistemas) que
+                    interagem com o software.
+                    <ul>
+                      <li>
+                        <strong>Representação:</strong> Bonecos.
+                      </li>
+                      <li>
+                        <strong>Posição:</strong> Ficam <strong>fora</strong> do
+                        retângulo que delimita o sistema.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Casos de Uso:</strong>
+                <ul>
+                  <li>
+                    Representam as funcionalidades principais do sistema.
+                    <ul>
+                      <li>
+                        <strong>Representação:</strong> Elipses
+                        (circunferências).
+                      </li>
+                      <li>
+                        <strong>Posição:</strong> Ficam <strong>dentro</strong>{" "}
+                        de um retângulo que define os{" "}
+                        <strong>limites do software</strong> (o escopo total).
+                        Para cada caso de uso, devem ser detalhados os cenários
+                        principais e alternativos.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Relacionamentos:</strong>
+                <ul>
+                  <li>
+                    Representam as interações entre os atores e os casos de uso,
+                    e entre os próprios casos de uso.
+                    <ul>
+                      <li>
+                        <strong>Representação:</strong> Linhas retas ou
+                        pontilhadas.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ol>
+            <h4>Visualização e Escopo</h4>
+            <p>
+              O diagrama de casos de uso mostra visualmente o processo de
+              negócio e como as funcionalidades se relacionam para atender às
+              necessidades dos usuários. O retângulo delimitador é uma boa
+              prática para indicar claramente o <strong>escopo total</strong> do
+              software: tudo o que está dentro faz parte das funcionalidades a
+              serem executadas, e tudo o que está fora são os elementos que
+              interagem com ele.
+            </p>
+            <h4>Componentes do Diagrama de Casos de Uso</h4>
+            <p>
+              Os componentes, ou elementos, de um Diagrama de Caso de Uso são a
+              linguagem visual essencial para compreender a interação e o escopo
+              do sistema.
+            </p>
+            <ol>
+              <li>
+                <strong>Ator (Actor)</strong>
+                <ul>
+                  <li>
+                    <strong>Definição:</strong> Representa o{" "}
+                    <strong>papel</strong> executado por uma entidade que
+                    interage com o sistema.
+                  </li>
+                  <li>
+                    <strong>Função:</strong> Modela algo que está{" "}
+                    <strong>fora da fronteira do sistema</strong>
+                    (indivíduos, outros sistemas) e que precisa trocar
+                    informações com ele.
+                  </li>
+                  <li>
+                    <strong>Observação:</strong> Um único usuário pode exercer o
+                    papel de vários atores, e um único ator pode ser
+                    representado por vários usuários.
+                  </li>
+                  <li>
+                    <strong>Representação:</strong> Um <strong>boneco</strong>{" "}
+                    com um rótulo indicando o nome do ator.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Caso de Uso (Use Case)</strong>
+                <ul>
+                  <li>
+                    <strong>Definição:</strong> Define uma{" "}
+                    <strong>função</strong> ou funcionalidade específica do
+                    sistema.
+                  </li>
+                  <li>
+                    <strong>Modelagem:</strong> A modelagem deve focar primeiro
+                    no <strong>fluxo principal</strong> e, em seguida, nos{" "}
+                    <strong>fluxos alternativos e de exceção</strong> para
+                    garantir a completude do escopo.
+                  </li>
+                  <li>
+                    Representação: Uma elipse (circunferência) contendo o nome
+                    do caso de uso.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Relacionamentos (Relationships)</strong>
+                <ul>
+                  <li>
+                    <strong>Definição:</strong> Mostram a ligação entre atores e
+                    casos de uso, e a ligação entre os próprios casos de uso.
+                  </li>
+                  <li>
+                    <strong>Objetivo:</strong> Ajudam a compreender a dinâmica
+                    de interação e o funcionamento dos processos de negócio no
+                    software.
+                  </li>
+                </ul>
+              </li>
+            </ol>
+            <h4>
+              Tipos Cruciais de Associação (Relacionamentos) entre Casos de Uso
+            </h4>
+            <p>
+              Os relacionamentos são fundamentais para mostrar a dinâmica de
+              interação entre as funcionalidades do software:
+            </p>
+            <ul>
+              <li>
+                <strong>Inclusão (Include):</strong>
+                <ul>
+                  <li>
+                    Indica que um caso de uso secundário (B) é{" "}
+                    <strong>essencial e obrigatório</strong> para o
+                    comportamento de um caso de uso principal (A).
+                  </li>
+                  <li>
+                    Pode ser lido como: "B faz parte de A" (B is_part_of A).
+                  </li>
+                  <li>
+                    Exemplo: Efetuar Saque faz <strong>Include</strong> de
+                    Autenticar Cliente.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Extensão (Extend):</strong>
+                <ul>
+                  <li>
+                    Indica que um caso de uso secundário (B){" "}
+                    <strong>pode ser acrescentado</strong> (é opcional ou
+                    condicional) ao comportamento do caso de uso principal (A).
+                  </li>
+                  <li>
+                    A execução da extensão depende de um ponto de extensão ou de
+                    uma condição específica.
+                  </li>
+                  <li>
+                    Exemplo: Contratar Seguro faz <strong>Extend</strong> de
+                    Efetuar Saque.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Conclusão</h4>
+            <p>
+              Esta etapa cobriu a <strong>UML</strong>, os conceitos de{" "}
+              <strong>Orientação a Objetos</strong> e a fundo o{" "}
+              <strong>Diagrama de Caso de Uso</strong>. A UML oferece um
+              conjunto de diagramas visuais que, juntos, fornecem o entendimento
+              de toda a solução de software projetada. O Diagrama de Caso de
+              Uso, especificamente, tem o objetivo de visualizar o{" "}
+              <strong>escopo do projeto</strong>, as funcionalidades, os atores
+              envolvidos e os relacionamentos entre todos esses elementos,
+              facilitando a compreensão da dinâmica do software.
             </p>
           </div>
         </>
