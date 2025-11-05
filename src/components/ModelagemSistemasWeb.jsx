@@ -19,6 +19,11 @@ import aula14 from "../assets/audiosM8/aula14.mp3";
 import aula15 from "../assets/audiosM8/aula15.mp3";
 import aula16 from "../assets/audiosM8/aula16.mp3";
 
+import aula17 from "../assets/audiosM8/aula17.mp3";
+import aula18 from "../assets/audiosM8/aula18.mp3";
+import aula19 from "../assets/audiosM8/aula19.mp3";
+import aula20 from "../assets/audiosM8/aula20.mp3";
+
 const ModelagemSistemasWeb = () => {
   const [abrir, setAbrir] = useState(false);
   const [girarImg, setGirarImg] = useState(false);
@@ -1431,6 +1436,562 @@ const ModelagemSistemasWeb = () => {
               <strong>escopo do projeto</strong>, as funcionalidades, os atores
               envolvidos e os relacionamentos entre todos esses elementos,
               facilitando a compreensão da dinâmica do software.
+            </p>
+          </div>
+          <div>
+            <h3>Introdução ao Diagrama de Classes</h3>
+            <div className="audios">
+              <audio src={aula17} controls></audio>
+              <audio src={aula18} controls></audio>
+              <audio src={aula19} controls></audio>
+              <audio src={aula20} controls></audio>
+            </div>
+            <p>
+              A construção de software não é trivial, exigindo a tradução de um
+              problema bem compreendido em linhas de código. A base de tudo é a{" "}
+              <strong>Engenharia de Requisitos</strong>, pois a correta análise
+              e projeto da solução são cruciais para que o software atenda às
+              necessidades do cliente. Nesta etapa, o foco é o{" "}
+              <strong>Diagrama de Classes</strong>, uma ferramenta essencial
+              para o projeto de software.
+            </p>
+            <h4>O que é o Diagrama de Classes (UML)</h4>
+            <p>
+              O Diagrama de Classes é fundamental no processo de{" "}
+              <strong>modelagem de objetos</strong> (Orientação a Objetos - OO).
+              Ele exibe:
+            </p>
+            <ul>
+              <li>
+                Todas as <strong>classes</strong> de um sistema.
+              </li>
+              <li>
+                Os <strong>relacionamentos</strong> entre essas classes.
+              </li>
+            </ul>
+            <p>
+              Pode ser usado para modelar um sistema inteiro ou seus
+              componentes, dependendo da complexidade.
+            </p>
+            <h4>O Conceito de Classe e Orientação a Objetos</h4>
+            <ul>
+              <li>
+                <strong>Classe/Objeto:</strong>
+                <ul>
+                  <li>
+                    Em UML, uma classe representa um <strong>objeto</strong> (ou
+                    um conjunto deles) que compartilha{" "}
+                    <strong>estrutura e comportamento</strong> comuns. Um objeto
+                    é uma representação de um elemento do mundo real (ex:
+                    CLIENTE, ALUNO, PRODUTO).
+                  </li>
+                </ul>
+              </li>
+              <li>
+                A modelagem de classes está diretamente ligada à{" "}
+                <strong>Orientação a Objetos (OO)</strong>.
+              </li>
+            </ul>
+            <h4>Principais Conceitos da Orientação a Objetos:</h4>
+            <ol>
+              <li>
+                <strong>Abstração:</strong>
+                <ul>
+                  <li>
+                    Focar apenas nos <strong>aspectos relevantes</strong> para
+                    um propósito específico, ignorando detalhes desnecessários
+                    (ex: ao checar a situação de um ALUNO, foca-se na MATRÍCULA
+                    e ignora-se o ENDEREÇO).
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Encapsulamento:</strong>
+                <ul>
+                  <li>
+                    Separar os aspectos <strong>externos</strong> (acessíveis)
+                    dos detalhes
+                    <strong>internos</strong> da implementação (ocultos). Você
+                    só precisa saber que o método funciona, não{" "}
+                    <strong>como</strong> ele funciona (ex: chama-se o método
+                    CALCULAR_MEDIA, mas não se sabe a lógica interna do
+                    cálculo).
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Herança:</strong>
+                <ul>
+                  <li>
+                    Permite o <strong>compartilhamento</strong> de atributos e
+                    operações entre classes através de um relacionamento
+                    hierárquico, promovendo o <strong>reaproveitamento</strong>{" "}
+                    de código.
+                  </li>
+                </ul>
+              </li>
+            </ol>
+            <h4>Objetivo e Estrutura do Diagrama de Classes</h4>
+            <p>
+              O diagrama modela o <strong>escopo</strong> do software, mostrando
+              as classes envolvidas e como elas se <strong>relacionam</strong>{" "}
+              para cumprir os requisitos do cliente.
+            </p>
+            <strong>Exemplo Prático (Sistema Escolar):</strong>
+            <ul>
+              <li>
+                <strong>Classes Modeladas:</strong>
+                <ul>
+                  <li>ALUNO, TURMA, PROFESSOR.</li>
+                </ul>
+              </li>
+              <li>
+                <strong>Relacionamentos (Exemplo):</strong>
+                <ul>
+                  <li>
+                    Um ALUNO está matriculado em uma TURMA; uma TURMA é formada
+                    por vários ALUNOS; um PROFESSOR ministra aulas em uma ou
+                    mais TURMAS.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <p>
+              O Diagrama de Classes visa modelar a <strong>dinâmica</strong> da
+              realidade (o mundo real, neste caso, a escola) e garantir que o
+              software seja construído para implementar de forma adequada esses
+              relacionamentos e a comunicação entre as informações. Ele é a
+              representação do entendimento dos requisitos e de como o sistema
+              deve funcionar.
+            </p>
+            <h4>Elementos de um Diagrama de Classes</h4>
+            <p>
+              Um Diagrama de Classes é composto por elementos que, juntos,
+              definem a estrutura, o comportamento e a comunicação do software.
+              A modelagem exige um raciocínio lógico sobre os requisitos e o
+              papel de cada classe.
+            </p>
+            <h4>Responsabilidade das Classes</h4>
+            <p>
+              É fundamental que as <strong>ações (métodos)</strong> estejam
+              corretamente alocadas na sua <strong>classe de origem</strong>.
+              Isso facilita o entendimento e a manutenção do software.
+            </p>
+            <ul>
+              <li>
+                <strong>Exemplo:</strong>
+                <ul>
+                  <li>
+                    A ação "Matricular Aluno" deve pertencer à classe ALUNO, que
+                    se relaciona com a classe TURMA para definir o vínculo. Não
+                    faria sentido essa ação pertencer à classe PROFESSOR.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Princípio:</strong>
+                <ul>
+                  <li>
+                    Entender a lógica dos requisitos, as classes envolvidas e a
+                    função específica de cada uma no sistema.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Componentes Principais do Diagrama de Classes</h4>
+            <p>
+              Os elementos-chave para a construção de um Diagrama de Classes
+              são:
+            </p>
+            <ol>
+              <li>
+                <strong>Classes:</strong>
+                <ul>
+                  <li>
+                    Representam os <strong>objetos do mundo real</strong> que
+                    fazem parte do escopo do software.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Atributos:</strong>
+                <ul>
+                  <li>
+                    Representam as{" "}
+                    <strong>características, estados ou propriedades</strong>{" "}
+                    dos objetos de uma classe.
+                  </li>
+                  <li>Ex: Nome, Matrícula, Endereço de um ALUNO.</li>
+                </ul>
+              </li>
+              <li>
+                <strong>Métodos (Operações):</strong>
+                <ul>
+                  <li>
+                    Representam as <strong>ações</strong> que estão sob a
+                    responsabilidade de cada classe.
+                  </li>
+                  <li>
+                    São as funções que a classe executa para implementar sua
+                    parte do escopo (Ex: MatricularAluno, CalcularMedia).
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Relacionamentos:</strong>
+                <ul>
+                  <li>
+                    Definem como as classes <strong>trocam informações</strong>{" "}
+                    e interagem entre si.
+                  </li>
+                  <li>
+                    Existem diferentes tipos de relacionamentos, que serão
+                    abordados na sequência.
+                  </li>
+                </ul>
+              </li>
+            </ol>
+            <h4>Processo de Construção</h4>
+            <p>Para construir um Diagrama de Classes, o fluxo é:</p>
+            <ol>
+              <li>
+                Identificar as <strong>Classes</strong> no contexto do software.
+              </li>
+              <li>
+                Definir os <strong>Atributos</strong> e <strong>Métodos</strong>{" "}
+                necessários para que cada classe cumpra seu papel.
+              </li>
+              <li>
+                Modelar os <strong>Relacionamentos</strong> necessários para
+                mostrar como os objetos interagem.
+              </li>
+            </ol>
+            <h4>Classes, Atributos e Métodos em Detalhe</h4>
+            <p>
+              O Diagrama de Classes modela o escopo do mundo real através de um
+              conjunto de classes e seus relacionamentos.
+            </p>
+            <ol>
+              <li>
+                <strong>Classes</strong>
+                <ul>
+                  <li>
+                    <strong>Conceito:</strong> São a <strong>abstração</strong>{" "}
+                    de um conjunto de "coisas" (objetos) que compartilham{" "}
+                    <strong>características (atributos)</strong> e{" "}
+                    <strong>operações (métodos)</strong> em comum.
+                  </li>
+                  <li>
+                    Boas Práticas: Os nomes das classes devem seguir o
+                    vocabulário padronizado definido no dicionário de dados do
+                    sistema.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Atributos</strong>
+                <ul>
+                  <li>
+                    <strong>Conceito:</strong> Representam as{" "}
+                    <strong>características, estados ou propriedades</strong>{" "}
+                    dos objetos de uma determinada classe.
+                  </li>
+                  <li>
+                    <strong>Exemplo:</strong> Para o objeto "João da Silva" da
+                    classe ALUNO, os atributos são: Nome, Endereço, Matrícula,
+                    CPF, etc.
+                  </li>
+                  <li>
+                    <strong>Tipo de Dados:</strong> Cada atributo deve ter um{" "}
+                    <strong>tipo de dados</strong> definido (ex: "texto",
+                    "inteiro", "data"), que estabelece o intervalo de valores
+                    que a propriedade pode receber.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Métodos (Operações)</strong>
+                <ul>
+                  <li>
+                    <strong>Conceito:</strong> Representam o conjunto de{" "}
+                    <strong>operações ou ações</strong> que a classe é
+                    responsável por executar ou fornecer ao software.
+                  </li>
+                  <li>
+                    <strong>Responsabilidade:</strong> São as funcionalidades
+                    que a classe implementa.
+                  </li>
+                  <li>
+                    <strong>Exemplo:</strong> Para a classe ALUNO, os métodos
+                    podem ser: ConsultarAluno(), AlterarDadosAluno(), etc.
+                  </li>
+                </ul>
+              </li>
+            </ol>
+            <h4>Relacionamentos entre Classes</h4>
+            <p>
+              O objetivo dos relacionamentos é garantir a{" "}
+              <strong>
+                comunicação, colaboração e compartilhamento de informações
+              </strong>{" "}
+              entre as classes, representando visualmente as regras do negócio e
+              a dinâmica do software.
+            </p>
+            <h4>Características dos Relacionamentos</h4>
+            <p>
+              Para definir o comportamento de um relacionamento, são usadas as
+              seguintes características:
+            </p>
+            <ul>
+              <li>
+                <strong>Nome:</strong>
+                <ul>
+                  <li>
+                    É a descrição textual dada ao relacionamento (ex: faz, tem,
+                    possui).
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Sentido de leitura:</strong>
+                <ul>
+                  <li>
+                    Indica qual classe é a origem e qual é a classe de destino
+                    na interação.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Navegabilidade:</strong>
+                <ul>
+                  <li>
+                    Representada por uma seta, ela mostra o sentido em que o
+                    relacionamento será lido ou acessado.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Multiplicidade:</strong>
+                <ul>
+                  <li>
+                    É crucial, pois indica as <strong>regras de negócio</strong>
+                    , definindo quantos objetos de uma classe podem se
+                    relacionar com quantos objetos da outra (Ex: 0…* significa
+                    zero a muitos; 1…3 significa um a três).
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Tipo:</strong>
+                <ul>
+                  <li>
+                    Classifica a natureza do relacionamento (Associação,
+                    Generalização, Dependência).
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Papéis:</strong>
+                <ul>
+                  <li>
+                    Descrevem a função específica que cada classe assume dentro
+                    daquele relacionamento (Ex: Em uma relação, uma classe pode
+                    ter o papel de empregador e a outra de empregado).
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Tipos Principais de Relacionamentos (UML)</h4>
+            <p>Os três tipos principais de relacionamento são:</p>
+            <ol>
+              <li>
+                <strong>Associação:</strong>
+                <ul>
+                  <li>
+                    <strong>Conceito:</strong> Indica que os objetos de uma
+                    classe estão <strong>vinculados</strong> aos objetos de
+                    outra. É o tipo mais comum e apenas conecta as classes.
+                  </li>
+                  <li>
+                    <strong>Representação:</strong> Linha sólida entre as
+                    classes.
+                  </li>
+                  <li>
+                    <strong>Exemplo:</strong> PESSOA trabalha para EMPRESA.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Generalização (Herança):</strong>
+                <ul>
+                  <li>
+                    <strong>Conceito:</strong> Relacionamento entre uma{" "}
+                    <strong>Superclasse (mãe)</strong> e{" "}
+                    <strong>Subclasses (filhas)</strong>. Permite que as
+                    subclasses <strong>herdem</strong> atributos e métodos da
+                    superclasse.
+                  </li>
+                  <li>
+                    <strong>Princípio:</strong> Os objetos da subclasse{" "}
+                    <strong>são um tipo</strong> da superclasse.
+                  </li>
+                  <li>
+                    <strong>Vantagem:</strong> Reutilização de características
+                    comuns. As subclasses podem ter características próprias,
+                    além das herdadas.
+                  </li>
+                  <li>
+                    <strong>Exemplo:</strong> VEÍCULO (Superclasse) se
+                    generaliza em TERRESTRE e AÉREO (Subclasses).
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Dependência:</strong>
+                <ul>
+                  <li>
+                    <strong>Conceito:</strong> Representa que uma classe depende
+                    da outra, de modo que mudanças em uma classe afetam o estado
+                    da outra.
+                  </li>
+                  <li>
+                    <strong>Representação:</strong> Linha tracejada, com uma
+                    seta apontando para a classe <strong>dependente</strong>.
+                  </li>
+                  <li>
+                    <strong>Exemplo:</strong> Se a classe FUNCIONÁRIO é
+                    modificada (desligamento), a classe DEPENDENTES é afetada.
+                  </li>
+                </ul>
+              </li>
+            </ol>
+            <p>
+              O Diagrama de Classes pode ser complexo, mas entender a lógica por
+              trás de sua construção e aplicação das regras de negócio
+              (multiplicidade) é o ponto chave da análise.
+            </p>
+            <h4>Modelando um Diagrama de Classes</h4>
+            <p>
+              Modelar um Diagrama de Classes não é intuitivo; exige um processo
+              estruturado de análise de requisitos.
+            </p>
+            <h4>O Fluxo Completo da Análise de Software</h4>
+            <p>
+              A modelagem do Diagrama de Classes é a culminação de etapas
+              anteriores:
+            </p>
+            <ol>
+              <li>
+                <strong>Entendimento da Necessidade:</strong>
+                <ul>
+                  <li>
+                    Inicia-se com a modelagem do{" "}
+                    <strong>fluxo dos processos de negócio</strong>.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Documentação de Requisitos:</strong>
+                <ul>
+                  <li>
+                    Lista-se os <strong>requisitos</strong> que serão
+                    implementados.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Modelagem de Casos de Uso:</strong>
+                <ul>
+                  <li>
+                    Identifica-se os <strong>atores</strong> e os{" "}
+                    <strong>casos de uso</strong>, modelando suas relações no
+                    Diagrama de Caso de Uso.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Detalhamento dos Requisitos:</strong>
+                <ul>
+                  <li>
+                    Descreve-se os casos de uso, o que ajuda a identificar as
+                    classes envolvidas em cada funcionalidade.
+                  </li>
+                </ul>
+              </li>
+            </ol>
+            <p>
+              Após essas etapas, o analista possui o entendimento necessário do
+              escopo e funcionamento do software para iniciar o projeto físico.
+            </p>
+            <h4>Passo a Passo para Modelar o Diagrama de Classes</h4>
+            <p>O processo de modelagem focado no Diagrama de Classes é:</p>
+            <ol>
+              <li>
+                <strong>Identificação das Classes:</strong>
+                <ul>
+                  <li>
+                    Foca-se em identificar os objetos que implementam o{" "}
+                    <strong>mundo real</strong> relacionado ao escopo do
+                    software.
+                  </li>
+                  <li>
+                    A identificação deve ser <strong>essencial</strong> e
+                    baseada nos requisitos, podendo incluir classes de{" "}
+                    <strong>relacionamento</strong> para otimizar a codificação.
+                  </li>
+                  <li>
+                    Nota: A escolha das classes depende da lógica de
+                    funcionamento pensada para o software e não há uma única
+                    resposta correta.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Definição de Atributos:</strong>
+                <ul>
+                  <li>
+                    Analisa-se quais <strong>informações</strong> são
+                    importantes para cada classe.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Definição de Métodos:</strong>
+                <ul>
+                  <li>
+                    Determina-se as <strong>ações</strong> sob responsabilidade
+                    de cada classe.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Modelagem dos Relacionamentos:</strong>
+                <ul>
+                  <li>
+                    Analisam-se as interações entre as classes com base nos
+                    atributos e métodos definidos.
+                  </li>
+                  <li>
+                    Detalha-se o relacionamento definindo{" "}
+                    <strong>multiplicidade, navegabilidade e nome</strong>,
+                    refletindo as regras de negócio do software.
+                  </li>
+                </ul>
+              </li>
+            </ol>
+            <p>
+              Este passo final reflete a implementação que será dada aos
+              requisitos do cliente.
+            </p>
+            <h4>Conclusão e Importância</h4>
+            <p>
+              O Diagrama de Classes é crucial porque ele é o diagrama que pensa
+              no software como algo <strong>físico</strong> (projeto da
+              implementação), e não apenas lógico (o que o software deve fazer,
+              objetivo do Diagrama de Caso de Uso). Modelar um sistema é um
+              trabalho <strong>contínuo</strong>, onde cada etapa fornece
+              informações essenciais para a próxima, garantindo que o projeto
+              gere uma solução de software eficiente e de valor para o cliente.
             </p>
           </div>
         </>
