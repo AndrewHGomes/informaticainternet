@@ -24,6 +24,11 @@ import aula18 from "../assets/audiosM8/aula18.mp3";
 import aula19 from "../assets/audiosM8/aula19.mp3";
 import aula20 from "../assets/audiosM8/aula20.mp3";
 
+import aula21 from "../assets/audiosM8/aula21.mp3";
+import aula22 from "../assets/audiosM8/aula22.mp3";
+import aula23 from "../assets/audiosM8/aula23.mp3";
+import aula24 from "../assets/audiosM8/aula24.mp3";
+
 const ModelagemSistemasWeb = () => {
   const [abrir, setAbrir] = useState(false);
   const [girarImg, setGirarImg] = useState(false);
@@ -1992,6 +1997,565 @@ const ModelagemSistemasWeb = () => {
               trabalho <strong>contínuo</strong>, onde cada etapa fornece
               informações essenciais para a próxima, garantindo que o projeto
               gere uma solução de software eficiente e de valor para o cliente.
+            </p>
+          </div>
+          <div>
+            <h3>Conhecendo o Diagrama de Estado</h3>
+            <div className="audios">
+              <audio src={aula21} controls></audio>
+              <audio src={aula22} controls></audio>
+              <audio src={aula23} controls></audio>
+              <audio src={aula24} controls></audio>
+            </div>
+            <h4>Contexto e Importância da Modelagem</h4>
+            <p>
+              A criação de software é um processo complexo que exige a{" "}
+              <strong>transformação</strong> da necessidade do cliente em{" "}
+              <strong>requisitos</strong>, e destes em
+              <strong>linguagem técnica</strong> (código). A UML fornece
+              diversos diagramas para criar <strong>múltiplas visões</strong> do
+              sistema, garantindo a melhor solução técnica.
+            </p>
+            <ul>
+              <li>
+                <strong>Diagramas Comuns:</strong>
+                <ul>
+                  <li>
+                    Os diagramas de <strong>Casos de Uso</strong> e de{" "}
+                    <strong>Classes</strong> são amplamente utilizados em
+                    praticamente todos os projetos de software.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Diagramas Complementares:</strong>
+                <ul>
+                  <li>
+                    Os diagramas de <strong>Estado</strong>, de{" "}
+                    <strong>Atividades</strong> e de <strong>Sequência</strong>{" "}
+                    (que será revisado) são opcionais, mas devem ser empregados
+                    quando necessários para modelar partes específicas ou
+                    complexas do software.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Diagrama de Estado (Máquina de Estados)</h4>
+            <p>
+              O Diagrama de Estado é uma representação <strong>dinâmica</strong>{" "}
+              que detalha os <strong>estados</strong> possíveis, as{" "}
+              <strong>mudanças de estado</strong> e os <strong>eventos</strong>{" "}
+              que afetam um objeto ou uma parte do sistema ao longo de sua vida.
+            </p>
+            <ul>
+              <li>
+                <strong>Sinônimos:</strong>
+                <ul>
+                  <li>
+                    Também é chamado de{" "}
+                    <strong>Diagrama de Transição de Estados</strong> ou{" "}
+                    <strong>Diagrama de Máquina de Estados</strong>.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Objetivo:</strong>
+                <ul>
+                  <li>
+                    Mostrar o <strong>comportamento</strong> de um objeto em
+                    resposta a eventos, ilustrando sua{" "}
+                    <strong>evolução de estados</strong> no software.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Base:</strong>
+                <ul>
+                  <li>
+                    Pode basear-se na descrição de um Caso de Uso e apoiar-se no
+                    Diagrama de Classes.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Recomendação de Uso:</strong>
+                <ul>
+                  <li>
+                    Sua construção é recomendada apenas para modelar objetos ou
+                    processos de negócio onde exista um{" "}
+                    <strong>grau de complexidade</strong> na transição de
+                    estados.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Exemplo (Telefone Analógico)</h4>
+            <ul>
+              <li>Objeto: Aparelho telefônico.</li>
+              <li>
+                Estados Possíveis:
+                <ul>
+                  <li>Ocioso: Está no gancho.</li>
+                  <li>Ativo/Ocupado: Está fora do gancho.</li>
+                </ul>
+              </li>
+              <li>
+                Evento de Mudança de Estado (Transição): O ato de{" "}
+                <strong>tirar o telefone do gancho</strong> (ou de recolocá-lo)
+                é o evento que define e altera o estado do objeto.
+              </li>
+            </ul>
+            <h4>Elementos do Diagrama de Estado</h4>
+            <p>
+              O Diagrama de Estado é composto por elementos básicos que definem
+              como um objeto se comporta e evolui ao longo do tempo. Sua
+              aplicação deve ser avaliada pelo{" "}
+              <strong>custo versus benefício</strong>, sendo útil apenas quando
+              a transição de estados do objeto for <strong>complexa</strong>,
+              agregando real entendimento ao sistema.
+            </p>
+            <h4>Elementos Básicos</h4>
+            <ul>
+              <li>
+                <strong>Estado:</strong>
+                <ul>
+                  <li>
+                    A condição de um objeto em um momento específico; o tempo
+                    entre eventos.
+                  </li>
+                  <li>
+                    O telefone está no estado <strong>Ocioso</strong>.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Evento</strong>
+                <ul>
+                  <li>
+                    Uma ocorrência que dispara ou{" "}
+                    <strong>gera uma mudança de estado</strong> no objeto.
+                  </li>
+                  <li>
+                    O evento é o aparelho ser{" "}
+                    <strong>Retirado do Gancho</strong>.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Transição</strong>
+                <ul>
+                  <li>
+                    O relacionamento entre dois estados, indicando que, após um
+                    evento, o objeto passa do estado anterior para o estado
+                    seguinte.
+                  </li>
+                  <li>
+                    A transição do estado "Ocioso" para "Ativo" ocorre com o
+                    evento "Fora do Gancho".
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Objeto</strong>
+                <ul>
+                  <li>
+                    O elemento que sofre a mudança de estado (o foco do
+                    diagrama).
+                  </li>
+                  <li>
+                    O <strong>Aparelho de Telefone</strong>.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Tipos de Eventos</h4>
+            <p>
+              O Evento, que causa a mudança de estado, pode ser classificado em
+              três tipos:
+            </p>
+            <ul>
+              <li>
+                <strong>Evento Externo:</strong>
+                <ul>
+                  <li>
+                    Causado por algo fora do limite do sistema (ex: usuário,
+                    outro sistema).
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Evento Interno:</strong>
+                <ul>
+                  <li>
+                    Causado por algo dentro do limite do sistema (ex: uma
+                    mensagem enviada de um objeto para outro).
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Evento Temporal:</strong>
+                <ul>
+                  <li>
+                    Causado pela ocorrência de uma data/hora específica ou pela
+                    passagem do tempo.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Diagrama de Atividades</h4>
+            <p>
+              O Diagrama de Atividades é usado para descrever a{" "}
+              <strong>lógica</strong> de uma funcionalidade, um{" "}
+              <strong>processo de negócio</strong> ou um{" "}
+              <strong>fluxo de trabalho</strong>. Seu objetivo é mostrar as{" "}
+              <strong>atividades</strong> e as <strong>mudanças</strong> de uma
+              atividade para outra, compreendendo o{" "}
+              <strong>fluxo de controle</strong> do sistema. É a forma da UML de
+              representar os <strong>processos automatizados</strong> por um
+              software, similar em propósito ao BPMN (Business Process Model and
+              Notation).
+            </p>
+            <h4>Elementos Principais</h4>
+            <p>
+              O diagrama decompõe um processo, identificando quais atividades
+              são sequenciais, concorrentes ou paralelas.
+            </p>
+            <ul>
+              <li>
+                <strong>Estado Inicial:</strong>
+                <ul>
+                  <li>
+                    <strong>Representação:</strong>
+                    <ul>
+                      <li>Círculo Preenchido</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Objetivo:</strong>
+                    <ul>
+                      <li>
+                        Indica o <strong>início</strong> do processo. Todo
+                        diagrama deve ter pelo menos um.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Estado Final:</strong>
+                <ul>
+                  <li>
+                    <strong>Representação:</strong>
+                    <ul>
+                      <li>Círculo com outro círculo preenchido dentro.</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Objetivo:</strong>
+                    <ul>
+                      <li>
+                        Indica o <strong>fim</strong> do processo.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Atividade:</strong>
+                <ul>
+                  <li>
+                    <strong>Representação:</strong>
+                    <ul>
+                      <li>Retângulo com bordas arredondadas.</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Objetivo:</strong>
+                    <ul>
+                      <li>
+                        A <strong>ação</strong> que deve ser executada. Ao
+                        finalizar, o fluxo passa para a próxima atividade.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Transição:</strong>
+                <ul>
+                  <li>
+                    <strong>Representação:</strong>
+                    <ul>
+                      <li>Seta contínua.</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Objetivo:</strong>
+                    <ul>
+                      <li>
+                        O <strong>caminho</strong> a ser seguido, representando
+                        a mudança no fluxo de trabalho de uma atividade para
+                        outra.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Decisão:</strong>
+                <ul>
+                  <li>
+                    <strong>Representação:</strong>
+                    <ul>
+                      <li>Losango.</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Objetivo:</strong>
+                    <ul>
+                      <li>
+                        <strong>Controla os desvios</strong> no fluxo. Os
+                        desvios são descritos por expressões lógicas.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Bifurcação (Fork):</strong>
+                <ul>
+                  <li>
+                    <strong>Representação:</strong>
+                    <ul>
+                      <li>Barra sólida.</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Objetivo:</strong>
+                    <ul>
+                      <li>
+                        <strong>Separação</strong> do fluxo de controle,
+                        permitindo que atividades sejam executadas em paralelo.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>União (Join):</strong>
+                <ul>
+                  <li>
+                    <strong>Representação:</strong>
+                    <ul>
+                      <li>Barra sólida.</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Objetivo:</strong>
+                    <ul>
+                      <li>
+                        <strong>Sincroniza ou junta</strong> atividades que
+                        foram executadas em paralelo, retornando-as a um único
+                        fluxo.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <p>
+              <strong>Exemplo:</strong> No exemplo de construção de uma casa, o
+              diagrama mostra a sequência (selecionar local &rArr; contratar
+              arquiteto) e as transições de uma etapa para a próxima até a
+              conclusão (receber chaves), ilustrando o passo a passo do fluxo de
+              trabalho.
+            </p>
+            <h4>Modelando o Diagrama de Sequência</h4>
+            <p>
+              O Diagrama de Sequência é um diagrama dinâmico que ilustra a{" "}
+              <strong>ordem cronológica</strong> (sequência) das{" "}
+              <strong>mensagens trocadas entre objetos</strong> em uma interação
+              ou transação específica. Ele é representado em duas dimensões:
+            </p>
+            <ol>
+              <li>
+                <strong>Horizontal:</strong>
+                <ul>
+                  <li>
+                    Representa o conjunto de <strong>objetos</strong>{" "}
+                    envolvidos.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Vertical:</strong>
+                <ul>
+                  <li>
+                    Representa o <strong>tempo de vida</strong> dos objetos e o
+                    fluxo das mensagens (tempo flui de cima para baixo).
+                  </li>
+                </ul>
+              </li>
+            </ol>
+            <p>
+              Seu principal objetivo é mostrar de forma clara o{" "}
+              <strong>caminho percorrido pela informação</strong> desde seu
+              início até o fim, sendo muito útil em softwares com intensa troca
+              de informações entre objetos. A base para sua construção são os
+              <strong>requisitos</strong> e <strong>casos de uso</strong> bem
+              definidos.
+            </p>
+            <h4>Elementos do Diagrama de Sequência</h4>
+            <ul>
+              <li>
+                <strong>Ator:</strong>
+                <ul>
+                  <li>
+                    <strong>Conceito:</strong>
+                    <ul>
+                      <li>
+                        O usuário, funcionalidade ou componente externo que{" "}
+                        <strong>inicia</strong> a interação e a troca de
+                        mensagens.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Representação Visual:</strong>
+                    <ul>
+                      <li>Normalmente representado no canto esquerdo.</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Objeto:</strong>
+                <ul>
+                  <li>
+                    <strong>Conceito:</strong>
+                    <ul>
+                      <li>
+                        Instância de um componente que participa da interação,
+                        recebendo e enviando mensagens.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Representação Visual:</strong>
+                    <ul>
+                      <li>
+                        Representado por uma caixa (por exemplo, PEDIDO,
+                        ESTOQUE).
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Linha de Vida:</strong>
+                <ul>
+                  <li>
+                    <strong>Conceito:</strong>
+                    <ul>
+                      <li>
+                        Linha pontilhada que se estende verticalmente a partir
+                        do objeto. Marca o <strong>tempo de vida</strong> do
+                        objeto, desde sua criação até sua possível destruição.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Representação Visual:</strong>
+                    <ul>
+                      <li>Linha pontilhada (____).</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Mensagem:</strong>
+                <ul>
+                  <li>
+                    <strong>Conceito:</strong>
+                    <ul>
+                      <li>
+                        A comunicação (chamada de método) que trafega entre as
+                        linhas de vida dos objetos. Segue a direção do fluxo de
+                        interação.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Representação Visual:</strong>
+                    <ul>
+                      <li>Seta contínua (&rarr;)</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Caixa de Ativação:</strong>
+                <ul>
+                  <li>
+                    <strong>Conceito:</strong>
+                    <ul>
+                      <li>
+                        Uma barra vertical fina desenhada sobre a Linha de Vida
+                        do objeto. Indica o período em que o objeto está{" "}
+                        <strong>ativo</strong>
+                        (executando um método ou processando uma mensagem).
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Representação Visual:</strong>
+                    <ul>
+                      <li>Barra vertical sobre a Linha de Vida.</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Fragmento:</strong>
+                <ul>
+                  <li>
+                    <strong>Conceito:</strong>
+                    <ul>
+                      <li>
+                        Retângulo que engloba um trecho do fluxo. Trata
+                        <strong>estruturas de controle</strong> condicionais
+                        (if/else), repetição (for/while) ou tratamento de
+                        exceções.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Representação Visual:</strong>
+                    <ul>
+                      <li>
+                        Retângulo pontilhado ou sólido com rótulo (opt, alt,
+                        loop).
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h4>Conclusão sobre a UML</h4>
+            <p>
+              A <strong>UML</strong> é a linguagem universal de modelagem,
+              fornecendo uma notação precisa para representar vários aspectos do
+              software, independentemente da metodologia (tradicional ou ágil).
+              O papel do <strong>Analista de Sistemas</strong> é definir quais
+              diagramas (como os de Estado, Atividades e Sequência) realmente{" "}
+              <strong>agregam valor</strong> ao entendimento do projeto.
+            </p>
+            <p>
+              <strong>Princípio da Documentação:</strong> A documentação deve
+              ser apenas a <strong>necessária e fundamental</strong> para a
+              construção do software. Qualquer documentação que não tenha esse
+              objetivo é considerada desperdício (conceito alinhado com
+              metodologias ágeis).
             </p>
           </div>
         </>
